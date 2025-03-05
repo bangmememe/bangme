@@ -2,16 +2,16 @@
 
 int main(void)
 {
-    int lenth;
-    int height;
-    int area;
+    double length;
+    double height;
+    double area;
 
     printf("Enter triangle's tength : ");
-    scanf("%d", &length);
-    printf("Enter triangle's heigth : ");
-    scanf("%d", &heigth);
-    area = length * height / 2;
-    printf("triangle's area is : %d\n", area);
-    
+    scanf("%lf", &length);
+    printf("Enter triangle's height : ");
+    scanf("%lf", &height);
+    area = length * height / 2.0;
+    printf("triangle's area is : %2f\n", area);
+
     return 0;
 }
