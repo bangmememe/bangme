@@ -1,11 +1,13 @@
-all : infinit limit
+TARGET = infinit limit celsius2fahr fahr2celsius charNumber triagngle
 
-infinit : infinit.c
-  cc -o infinit infinit.cc
+all : ${TARGET}
 
-limit : $0
-
-celsius2fair : $o
+infinit : $@
+limit : $@
+celsius2fair : $@
+fahr2celsius : $@
+charNumber : $@
+triangle : $@
 
 clean :
-	rm a.out celsius2fair fair2celsius infinit limit
+	rm ${TARGET}
