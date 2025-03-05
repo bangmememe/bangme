@@ -1,9 +1,24 @@
-# bangme
+#include <stdio.h>
 
+int printfhello();
 
----
-## 20205-03-04
----
+int main()
+{
+    int celsius;
+    scanf("%d", &celsius);
+    printf("Input celsius temp: ?");
+    printf("celsius temp : %d \n", celsius);
 
-- 첫 번째 변경 커밋합니다.
-- loacl change second cummit.
+    double fahr;
+    fahr = 9.0 / 5.0 * celsius + 32;
+    printf("fahr temp : %f \n", fahr);
+
+    return 0;
+}
+
+int printhello()
+{
+    printf("hello, world\n");
+    return 0;
+    
+}
