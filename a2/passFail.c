@@ -1,14 +1,26 @@
-// 60 이상이면 합격 을 출력
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdbool.h>
 
-int main(int argc, char *argv[])
+int main(void)
 {
-    if (argc < 2)
+    int year;
+    while(true)
     {
-        printf("인자를 하나 넣어서 실행하세요.\n");
-        return 0;
+        printf("년도를 넣으세요 : ");
+        scanf("%d", &year);
+        //if (year % 4 == 0)
+        //{
+        //    printf("%d 년도는 윤년입니다.\n", year);
+        //} 
+        //else
+        //{
+        //    printf("%d 년도는 평년입니다.\n", year);
+        //}
+        printf("%d 년도는 %s입니다.\n", year, year % 4 ? "평년" : "윤년");
+
+        if(!year)
+            break ;
+        
     }
-    printf("score: %s --- %s\n", argv[1], atoi(argv[1]) >= 60 ? "합격" : "실패");
-    return 0;
+    
 }
