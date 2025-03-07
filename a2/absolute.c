@@ -9,7 +9,6 @@ int main(void)
     printf("숫자를 넣으세요 : ");
     scanf("%d", &num);
     // 절대값 처리
-    true, false;
     if(num < 0)
     {
         state = false;
