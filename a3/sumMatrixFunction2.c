@@ -22,7 +22,7 @@ int sumMatrix(int *pM, int n, int m)
     {
         for (int j = 0; j < m; ++j)
         {
-            sum += *(pM + i + j * n);
+            sum += *(pM + j + i * m);
         }
     }
     return sum;
