@@ -20,7 +20,6 @@ int main(void)
     for (int i = 0; i < 20; ++i)
         printf("%d ", nums[i]);
     printf("\n");
-
     // bubble sorting
     qsort(nums, 20, sizeof(nums[0]), compare);
 

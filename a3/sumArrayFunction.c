@@ -22,6 +22,8 @@ int main(void)
 
 int sumArray(int pArray[], int size)
 {
+    // 20 = sizeof(pArray)/sizeof(int) 이거는 사용이 안됨
+    // 배열을 넘길때 반드시 주소와 사이즈를 같이 넘겨야한다
     int sum = 0;
     for(int i = 0; i < size; ++i)
     {
