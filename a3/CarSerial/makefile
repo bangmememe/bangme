@@ -1,7 +1,14 @@
 TARGET = serial
+
 all : ${TARGET}
 
-serial : $@
+serial : main.o serial.o 
+	cc -o serial main.o serial.o
 
+main.o : main.c 
+	cc -c main.c
+
+serial.o : serial.c 
+	cc -c serial.c
 clean :
 	rm ${TARGET}
