@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "stdio.h": "c"
-    }
+        "*.py": "python",
+        "*.repos": "yaml",
+        "*.world": "xml",
+        "*.xacro": "xml",
+        "stdio.h": "c",
+        "random": "c",
+        "stdbool.h": "c",
+        "string": "c"
+    },
+    "ros.distro": "humble"
 }
