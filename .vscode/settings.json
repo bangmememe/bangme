@@ -9,5 +9,6 @@
         "stdbool.h": "c",
         "string": "c"
     },
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "cmake.sourceDirectory": "/home/bangme/bangme/sqlQurry"
 }
