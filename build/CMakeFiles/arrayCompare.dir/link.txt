@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/arrayCompare.dir/a3/arrayCompare.c.o -o arrayCompare 

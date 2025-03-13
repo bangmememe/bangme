@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/fileDescription.dir/a3/fileDescription.c.o -o fileDescription 

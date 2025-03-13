@@ -1,13 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(a1)
 
-
-#set(CMAKE_C_COMPILER "/usr/bin/gcc")
-
-#set(CMAKE_C_STANDARD 99)
-#set(CMAKE_C_STANDARD_REQUIRED ON)
-
-
 #set(EXECUTABLES
 #    bangme/a1/infinit.c
 #    bangme/a1/limit.c
@@ -25,9 +18,9 @@ project(a1)
 #    bangme/a1/fourBit.c
 #    bangme/a1/fourBit2.c
 #    )
-# file(GLOB EXCUTABLES "bangme/a1/*.c")
+file(GLOB EXCUTABLES "/home/bangme/bangme/a1/*.c")
 
-#foreach(EXECUTABLE ${EXCUTANLES})
-#    get_filename_component(EXE_NAME ${EXECUTABLE} NAME_WE)
-#    add_executable(${EXE_NAME} ${EXECUTABLE})
-#endforeach()
+foreach(EXECUTABLE ${EXCUTABLES})
+    get_filename_component(EXE_NAME ${EXECUTABLE} NAME_WE)
+    add_executable(${EXE_NAME} ${EXECUTABLE})
+endforeach()

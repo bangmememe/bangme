@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/fahr2celsius.dir/a1/fahr2celsius.c.o -o fahr2celsius 

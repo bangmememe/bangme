@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/sumMatrixFunction.dir/a3/sumMatrixFunction.c.o -o sumMatrixFunction 

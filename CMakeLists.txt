@@ -3,4 +3,5 @@ project(MainProject)
 
 # 내부 CMakeLists.txt 포함
 include(sqlQurry/CMakeLists.txt)
-# include(a1/CMakeLists.txt)
+include(a3/CMakeLists.txt)
+include(a1/CMakeLists.txt)

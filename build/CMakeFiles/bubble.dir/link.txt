@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/bubble.dir/a3/bubble.c.o -o bubble 

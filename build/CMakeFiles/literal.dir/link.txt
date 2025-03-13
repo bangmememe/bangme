@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/literal.dir/a1/literal.c.o -o literal 
