@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/pointer2.dir/a3/pointer2.c.o -o pointer2 

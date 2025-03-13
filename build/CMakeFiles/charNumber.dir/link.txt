@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/charNumber.dir/a1/charNumber.c.o -o charNumber 

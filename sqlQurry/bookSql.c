@@ -98,7 +98,7 @@ void add_books(MYSQL *conn)
     scanf("%d", &newbook.bookid);
     printf("도서 명: ");
     scanf("%s", newbook.bookname);
-    printf("출판사 : ");
+    printf("출판사: ");
     scanf("%s", newbook.publisher);
     printf("가격: ");
     scanf("%d", &newbook.price);
@@ -119,17 +119,82 @@ void add_books(MYSQL *conn)
 
 void delete_books(MYSQL *conn)
 {
-    // index 번호 받기 scanf
-    // 지우는 쿼리
+    int bookid;
+    printf("삭제할 도서명: ");
+    scanf("%d", &bookid);
+    char query[255];
+    sprintf(query, "delete from Book where bookid = %d", bookid);
+
+    if(mysql_query(conn, query))
+    {
+        printf("쿼리 실패 : %s", mysql_error(conn));
+    }
+    else
+    {
+        my_ulonglong affected_row =  mysql_affected_rows(conn);
+        printf("삭제 성공 : lu 개", affected_row);
+    }
 }
 void update_books(MYSQL *conn)
 {
-    // 모든 번호 받기 scanf
-    // 변경하는 쿼리
+    printf("--- 도서 변경 ---\n");
+    Book newbook;
+    char query[255];
+    // 정보 입력 scanf
+    printf("변경할 도서 ID: ");
+    scanf("%d", &newbook.bookid);
+    printf("도서 명: ");
+    scanf("%s", newbook.bookname);
+    printf("출판사: ");
+    scanf("%s", newbook.publisher);
+    printf("가격: ");
+    scanf("%d", &newbook.price);
+
+    sprintf(query, "update Book set bookname = '%s', publisher = '%s', price = %d where bookid = %d", newbook.bookname, newbook.publisher, newbook.price, newbook.bookid);
+    // query 요청 mysql_query();
+    if (mysql_query(conn, query))
+    {
+        printf("데이터 변경 실패: %s\n", mysql_error(conn));
+    }
+    else
+    {
+        printf("변경 성공\n");
+    }
+    int temp;
+    getchar();
+    scanf("%d", &temp);
 }
 void query_books(MYSQL *conn)
 {
-
+    MYSQL_RES *res;
+    MYSQL_ROW row;
+    char query[255];
+    printf("실행할 쿼리를 넣어 주세요: ");
+    getchar();
+    fgets(query, sizeof(query), stdin);
+    query[strspn(query, "\n")] = 0;
+    
+    if(mysql_query(conn, query))
+    {
+        printf("쿼리 실패 %s\n", mysql_error(conn));
+        return 0;
+    }
+    res = mysql_store_result(conn);
+    if(res)
+    {
+        while(row = mysql_fetch_row(res))
+        {
+            for(int i = 0; i < mysql_num_fields(res); ++i)
+            {
+                printf("%s\t", row[i]);
+            }
+            printf("\n");
+        }
+    }
+    else
+    {
+        printf("요청한 데이터가 없습니다.\n");
+    }
 }
 void fetch_books(MYSQL *conn)
 {
@@ -161,7 +226,7 @@ void fetch_books(MYSQL *conn)
         strcpy((pBook + i)->publisher, row[2]);
         (pBook + i)->price = atoi(row[3]);
         ++i;
-        pBook = realloc(pBook, 1 + i);
+        pBook = realloc(pBook, sizeof(Book) * (1 + i));
     };
     for (int j = 0; j < i; ++j)
     {
