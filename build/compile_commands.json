@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bangme/bangme/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/sqlQurry/bookSql.c.o -c /home/bangme/bangme/sqlQurry/bookSql.c",
+  "file": "/home/bangme/bangme/sqlQurry/bookSql.c"
+}
+]

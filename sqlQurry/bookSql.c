@@ -14,20 +14,19 @@ typedef struct
     int price;
 } Book;
 
+void fetch_books(MYSQL *conn);
+void add_books(MYSQL *conn);
+
 
 int main(void)
 {
     MYSQL *conn;
-    MYSQL_RES *res;
-    MYSQL_ROW row;
     char *host = "localhost";
     char *user = "bangme";
     char *pass = "djwls123";
-    char *db = "mydb";         // 데이터 영역에 있는 코드
-    char query[255];
+    char *db = "mydb";
     int port = 3306;
-
-    strcpy(query, "select * from Book");
+    int choice;
 
     // 연결
     conn = mysql_init(NULL); // db 연결 요청 준비
@@ -38,13 +37,73 @@ int main(void)
         printf("MYSQL 연결 실패\n");
         return 1;
     }
+    while (true)
+    {
+        printf("1 , 2 번 고르세요!");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+        case 1:
+            fetch_books(conn);
+            break;
+        case 2:
+            add_books(conn);
+            break;
+        }
+    }
+
+    mysql_close(conn);
+
+    return 0;
+}
+void add_books(MYSQL *conn)
+{
+    printf("--- 도서 추가 ---\n");
+    Book newbook;
+    char query[255];
+    // 정보 입력 scanf
+    printf("도서 ID: ");
+    scanf("%d", &newbook.bookid);
+    printf("도서 ID: ");
+    scanf("%s", newbook.bookname);
+    printf("도서 ID: ");
+    scanf("%s", newbook.publisher);
+    printf("도서 ID: ");
+    scanf("%d", &newbook.price);
+    // query 문 작성 strcpy... "insert ....."
+    sprintf(query, "insert into Book values (%d, '%s', '%s', %d)", newbook.bookid, newbook.bookname, newbook.publisher, newbook.price);
+    // query 요청 mysql_query();
+    if (mysql_query(conn, query))
+    {
+        printf("데이터 입력 실패: %s\n", mysql_error(conn));
+    }
+    else
+    {
+        printf("입력 성공\n");
+    }
+
+    return;
+}
+
+void fetch_books(MYSQL *conn)
+{
+    MYSQL_RES *res;
+    MYSQL_ROW row;
+    char query[255];
+    strcpy(query, "select * from Book");
+
     // 쿼리 요청
     if (mysql_query(conn, query))
     {
         printf("쿼리 실패");
-        return 1;
+        return;
     }
     res = mysql_store_result(conn);
+    if (!res)
+    {
+        printf("가져오기 실패!\n");
+        return;
+    }
     Book book[100]; // 동척 할당이 좋지만 임시로 스텍에 만들자. 추후에 동척 할당 배우면 수정할 것
     int i = 0;
     // 데이터 베이스의 정보를 구조체에 저장 - ORM

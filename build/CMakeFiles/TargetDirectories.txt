@@ -1,0 +1,3 @@
+/home/bangme/bangme/build/CMakeFiles/bookSql.dir
+/home/bangme/bangme/build/CMakeFiles/edit_cache.dir
+/home/bangme/bangme/build/CMakeFiles/rebuild_cache.dir

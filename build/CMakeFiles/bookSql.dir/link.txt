@@ -1,0 +1,1 @@
+/usr/bin/c89-gcc -g -rdynamic CMakeFiles/bookSql.dir/sqlQurry/bookSql.c.o -o bookSql   -L/usr/lib/mysql  -Wl,-rpath,/usr/lib/mysql -lmysqlclient 
