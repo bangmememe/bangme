@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/increment.dir/a1/increment.c.o -o increment 

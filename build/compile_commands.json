@@ -83,5 +83,185 @@
   "directory": "/home/bangme/bangme/build/a1",
   "command": "/usr/bin/gcc   -g -o CMakeFiles/triangle.dir/triangle.c.o -c /home/bangme/bangme/a1/triangle.c",
   "file": "/home/bangme/bangme/a1/triangle.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o -c /home/bangme/bangme/a3/arrayAssignement.c",
+  "file": "/home/bangme/bangme/a3/arrayAssignement.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arrayCompare.dir/arrayCompare.c.o -c /home/bangme/bangme/a3/arrayCompare.c",
+  "file": "/home/bangme/bangme/a3/arrayCompare.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arrayPointer.dir/arrayPointer.c.o -c /home/bangme/bangme/a3/arrayPointer.c",
+  "file": "/home/bangme/bangme/a3/arrayPointer.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/bubble.dir/bubble.c.o -c /home/bangme/bangme/a3/bubble.c",
+  "file": "/home/bangme/bangme/a3/bubble.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charAdress.dir/charAdress.c.o -c /home/bangme/bangme/a3/charAdress.c",
+  "file": "/home/bangme/bangme/a3/charAdress.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charPointerOperation.dir/charPointerOperation.c.o -c /home/bangme/bangme/a3/charPointerOperation.c",
+  "file": "/home/bangme/bangme/a3/charPointerOperation.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o -c /home/bangme/bangme/a3/dynamicAllocation.c",
+  "file": "/home/bangme/bangme/a3/dynamicAllocation.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/endian.dir/endian.c.o -c /home/bangme/bangme/a3/endian.c",
+  "file": "/home/bangme/bangme/a3/endian.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/enumExample.dir/enumExample.c.o -c /home/bangme/bangme/a3/enumExample.c",
+  "file": "/home/bangme/bangme/a3/enumExample.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fflushEx.dir/fflushEx.c.o -c /home/bangme/bangme/a3/fflushEx.c",
+  "file": "/home/bangme/bangme/a3/fflushEx.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fileDescription.dir/fileDescription.c.o -c /home/bangme/bangme/a3/fileDescription.c",
+  "file": "/home/bangme/bangme/a3/fileDescription.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/filePointer.dir/filePointer.c.o -c /home/bangme/bangme/a3/filePointer.c",
+  "file": "/home/bangme/bangme/a3/filePointer.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/functionPointer.dir/functionPointer.c.o -c /home/bangme/bangme/a3/functionPointer.c",
+  "file": "/home/bangme/bangme/a3/functionPointer.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/getSeries.dir/getSeries.c.o -c /home/bangme/bangme/a3/getSeries.c",
+  "file": "/home/bangme/bangme/a3/getSeries.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/helloStr.dir/helloStr.c.o -c /home/bangme/bangme/a3/helloStr.c",
+  "file": "/home/bangme/bangme/a3/helloStr.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pointer2.dir/pointer2.c.o -c /home/bangme/bangme/a3/pointer2.c",
+  "file": "/home/bangme/bangme/a3/pointer2.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pointerConcept.dir/pointerConcept.c.o -c /home/bangme/bangme/a3/pointerConcept.c",
+  "file": "/home/bangme/bangme/a3/pointerConcept.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/putSeries.dir/putSeries.c.o -c /home/bangme/bangme/a3/putSeries.c",
+  "file": "/home/bangme/bangme/a3/putSeries.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/qsort.dir/qsort.c.o -c /home/bangme/bangme/a3/qsort.c",
+  "file": "/home/bangme/bangme/a3/qsort.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/selection.dir/selection.c.o -c /home/bangme/bangme/a3/selection.c",
+  "file": "/home/bangme/bangme/a3/selection.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/strcatExample.dir/strcatExample.c.o -c /home/bangme/bangme/a3/strcatExample.c",
+  "file": "/home/bangme/bangme/a3/strcatExample.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o -c /home/bangme/bangme/a3/sumArrayFunction.c",
+  "file": "/home/bangme/bangme/a3/sumArrayFunction.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.o -c /home/bangme/bangme/a3/sumMatrixFunction.c",
+  "file": "/home/bangme/bangme/a3/sumMatrixFunction.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.o -c /home/bangme/bangme/a3/sumMatrixFunction2.c",
+  "file": "/home/bangme/bangme/a3/sumMatrixFunction2.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/swap.dir/swap.c.o -c /home/bangme/bangme/a3/swap.c",
+  "file": "/home/bangme/bangme/a3/swap.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/swapFunction.dir/swapFunction.c.o -c /home/bangme/bangme/a3/swapFunction.c",
+  "file": "/home/bangme/bangme/a3/swapFunction.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/unionExample.dir/unionExample.c.o -c /home/bangme/bangme/a3/unionExample.c",
+  "file": "/home/bangme/bangme/a3/unionExample.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/voidPointer.dir/voidPointer.c.o -c /home/bangme/bangme/a3/voidPointer.c",
+  "file": "/home/bangme/bangme/a3/voidPointer.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/CarSerial",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/CarSeiral.dir/main.c.o -c /home/bangme/bangme/a3/CarSerial/main.c",
+  "file": "/home/bangme/bangme/a3/CarSerial/main.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/CarSerial",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/CarSeiral.dir/serial.c.o -c /home/bangme/bangme/a3/CarSerial/serial.c",
+  "file": "/home/bangme/bangme/a3/CarSerial/serial.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/date",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/date.dir/main.c.o -c /home/bangme/bangme/a3/date/main.c",
+  "file": "/home/bangme/bangme/a3/date/main.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/date",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/date.dir/date.c.o -c /home/bangme/bangme/a3/date/date.c",
+  "file": "/home/bangme/bangme/a3/date/date.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/myRandom",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/myRandom.dir/main.c.o -c /home/bangme/bangme/a3/myRandom/main.c",
+  "file": "/home/bangme/bangme/a3/myRandom/main.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/myRandom",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/bangme/bangme/a3/myRandom/myRandom.c",
+  "file": "/home/bangme/bangme/a3/myRandom/myRandom.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/string",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/string.dir/main.c.o -c /home/bangme/bangme/a3/string/main.c",
+  "file": "/home/bangme/bangme/a3/string/main.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a3/string",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/string.dir/string.c.o -c /home/bangme/bangme/a3/string/string.c",
+  "file": "/home/bangme/bangme/a3/string/string.c"
 }
 ]

@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/randomTwoint.dir/randomTwoint.c.o -o randomTwoint 

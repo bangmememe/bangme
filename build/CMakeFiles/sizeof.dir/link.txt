@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/sizeof.dir/a1/sizeof.c.o -o sizeof 

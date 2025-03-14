@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/ascii.dir/ascii.c.o -o ascii 

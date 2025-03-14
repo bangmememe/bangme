@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/bigLetter2.dir/bigLetter2.c.o -o bigLetter2 

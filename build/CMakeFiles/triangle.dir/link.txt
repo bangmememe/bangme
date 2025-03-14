@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/triangle.dir/a1/triangle.c.o -o triangle 

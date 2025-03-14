@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/posZeroNeg3.dir/posZeroNeg3.c.o -o posZeroNeg3 

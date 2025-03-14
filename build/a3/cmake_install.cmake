@@ -42,3 +42,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/bangme/bangme/build/a3/CarSerial/cmake_install.cmake")
+  include("/home/bangme/bangme/build/a3/date/cmake_install.cmake")
+  include("/home/bangme/bangme/build/a3/myRandom/cmake_install.cmake")
+  include("/home/bangme/bangme/build/a3/string/cmake_install.cmake")
+
+endif()
+

@@ -19,7 +19,8 @@ enum menu
     INSERT,
     DROP,
     ALTER,
-    QUERY
+    QUERY,
+    EXIT
 };
 
 void fetch_books(MYSQL *conn);
@@ -28,7 +29,9 @@ void delete_books(MYSQL *conn);
 void update_books(MYSQL *conn);
 void query_books(MYSQL *conn);
 void print_menu(void);
-
+void waitEnter(void);
+void mysql_close(conn);
+            
 int main(void)
 {
     MYSQL *conn;
@@ -52,7 +55,7 @@ int main(void)
     {
         // printf("1 , 2 번 고르세요!");
         print_menu();
-        scanf("%d", &choice);
+        scanf("%d%*c", &choice);
         switch (choice)
         {
         case SELECT:
@@ -62,13 +65,16 @@ int main(void)
             add_books(conn);
             break;
         case DROP:
-            add_books(conn);
+            delete_books(conn);
             break;
         case ALTER:
-            add_books(conn);
+            update_books(conn);
             break;
         case QUERY:
-            add_books(conn);
+            query_books(conn);
+            break;
+        case EXIT:
+            mysql_close(conn);
             break;
         }
     }
@@ -86,6 +92,8 @@ void print_menu(void)
     printf("2. 도서 삭제\n");
     printf("3. 도서 변경\n");
     printf("4. 쿼리문 입력\n");
+    printf("5. 종료\n");
+    printf("메뉴를 선택하세요: ");
 }
 
 void add_books(MYSQL *conn)
@@ -95,13 +103,13 @@ void add_books(MYSQL *conn)
     char query[255];
     // 정보 입력 scanf
     printf("도서 ID: ");
-    scanf("%d", &newbook.bookid);
+    scanf("%d%*c", &newbook.bookid);
     printf("도서 명: ");
-    scanf("%s", newbook.bookname);
+    scanf("%s%*c", newbook.bookname);
     printf("출판사: ");
-    scanf("%s", newbook.publisher);
+    scanf("%s%*c", newbook.publisher);
     printf("가격: ");
-    scanf("%d", &newbook.price);
+    scanf("%d%*c", &newbook.price);
     // query 문 작성 strcpy... "insert ....."
     sprintf(query, "insert into Book values (%d, '%s', '%s', %d)", newbook.bookid, newbook.bookname, newbook.publisher, newbook.price);
     // query 요청 mysql_query();
@@ -113,7 +121,7 @@ void add_books(MYSQL *conn)
     {
         printf("입력 성공\n");
     }
-
+    waitEnter();
     return;
 }
 
@@ -121,19 +129,20 @@ void delete_books(MYSQL *conn)
 {
     int bookid;
     printf("삭제할 도서명: ");
-    scanf("%d", &bookid);
+    scanf("%d%*c", &bookid);
     char query[255];
     sprintf(query, "delete from Book where bookid = %d", bookid);
 
     if(mysql_query(conn, query))
     {
-        printf("쿼리 실패 : %s", mysql_error(conn));
+        printf("쿼리 실패 : %s\n", mysql_error(conn));
     }
     else
     {
         my_ulonglong affected_row =  mysql_affected_rows(conn);
-        printf("삭제 성공 : lu 개", affected_row);
+        printf("삭제 성공 : %lu 개\n", affected_row);
     }
+    waitEnter();
 }
 void update_books(MYSQL *conn)
 {
@@ -142,13 +151,13 @@ void update_books(MYSQL *conn)
     char query[255];
     // 정보 입력 scanf
     printf("변경할 도서 ID: ");
-    scanf("%d", &newbook.bookid);
+    scanf("%d%*c", &newbook.bookid);
     printf("도서 명: ");
-    scanf("%s", newbook.bookname);
+    scanf("%s%*c", newbook.bookname);
     printf("출판사: ");
-    scanf("%s", newbook.publisher);
+    scanf("%s%*c", newbook.publisher);
     printf("가격: ");
-    scanf("%d", &newbook.price);
+    scanf("%d%*c", &newbook.price);
 
     sprintf(query, "update Book set bookname = '%s', publisher = '%s', price = %d where bookid = %d", newbook.bookname, newbook.publisher, newbook.price, newbook.bookid);
     // query 요청 mysql_query();
@@ -160,24 +169,21 @@ void update_books(MYSQL *conn)
     {
         printf("변경 성공\n");
     }
-    int temp;
-    getchar();
-    scanf("%d", &temp);
+    waitEnter();
 }
 void query_books(MYSQL *conn)
 {
     MYSQL_RES *res;
-    MYSQL_ROW row;
+    char **row; // MYSQL_ROW row;
     char query[255];
     printf("실행할 쿼리를 넣어 주세요: ");
-    getchar();
     fgets(query, sizeof(query), stdin);
     query[strspn(query, "\n")] = 0;
     
     if(mysql_query(conn, query))
     {
         printf("쿼리 실패 %s\n", mysql_error(conn));
-        return 0;
+        return ;
     }
     res = mysql_store_result(conn);
     if(res)
@@ -195,6 +201,7 @@ void query_books(MYSQL *conn)
     {
         printf("요청한 데이터가 없습니다.\n");
     }
+    waitEnter();
 }
 void fetch_books(MYSQL *conn)
 {
@@ -219,7 +226,7 @@ void fetch_books(MYSQL *conn)
     pBook = (Book *)malloc(sizeof(Book));
     int i = 0;
     // 데이터 베이스의 정보를 구조체에 저장 - ORM
-    while(row = mysql_fetch_row(res))
+    while (row = mysql_fetch_row(res))
     {
         (pBook + i)->bookid = atoi(row[0]);
         strcpy((pBook + i)->bookname, row[1]);
@@ -237,7 +244,18 @@ void fetch_books(MYSQL *conn)
             (pBook + j)->price);
     }
     free(pBook);
-    // TOOD : 여기 엔터만 쳐도 넘어가게 변경
-    int temp;
-    scanf("%d", &temp);
+    waitEnter();
+}
+void waitEnter(void)
+{
+    printf("엔터를 쳐 주세요....\n");
+    char temp;
+    while (getchar() != '\n')
+        scanf("%c%*c", &temp);
+}
+void mysql_close(MYSQL *conn)
+{
+    printf("종료 \n");
+    exit(conn);
+    free(conn);
 }

@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/sumArrayFunction.dir/a3/sumArrayFunction.c.o -o sumArrayFunction 

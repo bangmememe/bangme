@@ -337,6 +337,422 @@ triangle/fast:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/build
 .PHONY : triangle/fast
 
+#=============================================================================
+# Target rules for targets named arrayAssignement
+
+# Build rule for target.
+arrayAssignement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayAssignement
+.PHONY : arrayAssignement
+
+# fast build rule for target.
+arrayAssignement/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/build
+.PHONY : arrayAssignement/fast
+
+#=============================================================================
+# Target rules for targets named arrayCompare
+
+# Build rule for target.
+arrayCompare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayCompare
+.PHONY : arrayCompare
+
+# fast build rule for target.
+arrayCompare/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/build
+.PHONY : arrayCompare/fast
+
+#=============================================================================
+# Target rules for targets named arrayPointer
+
+# Build rule for target.
+arrayPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayPointer
+.PHONY : arrayPointer
+
+# fast build rule for target.
+arrayPointer/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/build
+.PHONY : arrayPointer/fast
+
+#=============================================================================
+# Target rules for targets named bubble
+
+# Build rule for target.
+bubble: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubble
+.PHONY : bubble
+
+# fast build rule for target.
+bubble/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/build
+.PHONY : bubble/fast
+
+#=============================================================================
+# Target rules for targets named charAdress
+
+# Build rule for target.
+charAdress: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charAdress
+.PHONY : charAdress
+
+# fast build rule for target.
+charAdress/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/build
+.PHONY : charAdress/fast
+
+#=============================================================================
+# Target rules for targets named charPointerOperation
+
+# Build rule for target.
+charPointerOperation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charPointerOperation
+.PHONY : charPointerOperation
+
+# fast build rule for target.
+charPointerOperation/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/build
+.PHONY : charPointerOperation/fast
+
+#=============================================================================
+# Target rules for targets named dynamicAllocation
+
+# Build rule for target.
+dynamicAllocation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dynamicAllocation
+.PHONY : dynamicAllocation
+
+# fast build rule for target.
+dynamicAllocation/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/build
+.PHONY : dynamicAllocation/fast
+
+#=============================================================================
+# Target rules for targets named endian
+
+# Build rule for target.
+endian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endian
+.PHONY : endian
+
+# fast build rule for target.
+endian/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/build
+.PHONY : endian/fast
+
+#=============================================================================
+# Target rules for targets named enumExample
+
+# Build rule for target.
+enumExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enumExample
+.PHONY : enumExample
+
+# fast build rule for target.
+enumExample/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/build
+.PHONY : enumExample/fast
+
+#=============================================================================
+# Target rules for targets named fflushEx
+
+# Build rule for target.
+fflushEx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fflushEx
+.PHONY : fflushEx
+
+# fast build rule for target.
+fflushEx/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/build
+.PHONY : fflushEx/fast
+
+#=============================================================================
+# Target rules for targets named fileDescription
+
+# Build rule for target.
+fileDescription: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fileDescription
+.PHONY : fileDescription
+
+# fast build rule for target.
+fileDescription/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/build
+.PHONY : fileDescription/fast
+
+#=============================================================================
+# Target rules for targets named filePointer
+
+# Build rule for target.
+filePointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 filePointer
+.PHONY : filePointer
+
+# fast build rule for target.
+filePointer/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/build
+.PHONY : filePointer/fast
+
+#=============================================================================
+# Target rules for targets named functionPointer
+
+# Build rule for target.
+functionPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functionPointer
+.PHONY : functionPointer
+
+# fast build rule for target.
+functionPointer/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/build
+.PHONY : functionPointer/fast
+
+#=============================================================================
+# Target rules for targets named getSeries
+
+# Build rule for target.
+getSeries: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 getSeries
+.PHONY : getSeries
+
+# fast build rule for target.
+getSeries/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/build
+.PHONY : getSeries/fast
+
+#=============================================================================
+# Target rules for targets named helloStr
+
+# Build rule for target.
+helloStr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloStr
+.PHONY : helloStr
+
+# fast build rule for target.
+helloStr/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/build
+.PHONY : helloStr/fast
+
+#=============================================================================
+# Target rules for targets named pointer2
+
+# Build rule for target.
+pointer2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointer2
+.PHONY : pointer2
+
+# fast build rule for target.
+pointer2/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/build
+.PHONY : pointer2/fast
+
+#=============================================================================
+# Target rules for targets named pointerConcept
+
+# Build rule for target.
+pointerConcept: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointerConcept
+.PHONY : pointerConcept
+
+# fast build rule for target.
+pointerConcept/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/build
+.PHONY : pointerConcept/fast
+
+#=============================================================================
+# Target rules for targets named putSeries
+
+# Build rule for target.
+putSeries: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 putSeries
+.PHONY : putSeries
+
+# fast build rule for target.
+putSeries/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/build
+.PHONY : putSeries/fast
+
+#=============================================================================
+# Target rules for targets named qsort
+
+# Build rule for target.
+qsort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qsort
+.PHONY : qsort
+
+# fast build rule for target.
+qsort/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/build
+.PHONY : qsort/fast
+
+#=============================================================================
+# Target rules for targets named selection
+
+# Build rule for target.
+selection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 selection
+.PHONY : selection
+
+# fast build rule for target.
+selection/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/build
+.PHONY : selection/fast
+
+#=============================================================================
+# Target rules for targets named strcatExample
+
+# Build rule for target.
+strcatExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strcatExample
+.PHONY : strcatExample
+
+# fast build rule for target.
+strcatExample/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/build
+.PHONY : strcatExample/fast
+
+#=============================================================================
+# Target rules for targets named sumArrayFunction
+
+# Build rule for target.
+sumArrayFunction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumArrayFunction
+.PHONY : sumArrayFunction
+
+# fast build rule for target.
+sumArrayFunction/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/build
+.PHONY : sumArrayFunction/fast
+
+#=============================================================================
+# Target rules for targets named sumMatrixFunction
+
+# Build rule for target.
+sumMatrixFunction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumMatrixFunction
+.PHONY : sumMatrixFunction
+
+# fast build rule for target.
+sumMatrixFunction/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/build
+.PHONY : sumMatrixFunction/fast
+
+#=============================================================================
+# Target rules for targets named sumMatrixFunction2
+
+# Build rule for target.
+sumMatrixFunction2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumMatrixFunction2
+.PHONY : sumMatrixFunction2
+
+# fast build rule for target.
+sumMatrixFunction2/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/build
+.PHONY : sumMatrixFunction2/fast
+
+#=============================================================================
+# Target rules for targets named swap
+
+# Build rule for target.
+swap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 swap
+.PHONY : swap
+
+# fast build rule for target.
+swap/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/build
+.PHONY : swap/fast
+
+#=============================================================================
+# Target rules for targets named swapFunction
+
+# Build rule for target.
+swapFunction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 swapFunction
+.PHONY : swapFunction
+
+# fast build rule for target.
+swapFunction/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/build
+.PHONY : swapFunction/fast
+
+#=============================================================================
+# Target rules for targets named unionExample
+
+# Build rule for target.
+unionExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionExample
+.PHONY : unionExample
+
+# fast build rule for target.
+unionExample/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/build
+.PHONY : unionExample/fast
+
+#=============================================================================
+# Target rules for targets named voidPointer
+
+# Build rule for target.
+voidPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 voidPointer
+.PHONY : voidPointer
+
+# fast build rule for target.
+voidPointer/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/build
+.PHONY : voidPointer/fast
+
+#=============================================================================
+# Target rules for targets named CarSeiral
+
+# Build rule for target.
+CarSeiral: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CarSeiral
+.PHONY : CarSeiral
+
+# fast build rule for target.
+CarSeiral/fast:
+	$(MAKE) $(MAKESILENT) -f a3/CarSerial/CMakeFiles/CarSeiral.dir/build.make a3/CarSerial/CMakeFiles/CarSeiral.dir/build
+.PHONY : CarSeiral/fast
+
+#=============================================================================
+# Target rules for targets named date
+
+# Build rule for target.
+date: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
+.PHONY : date
+
+# fast build rule for target.
+date/fast:
+	$(MAKE) $(MAKESILENT) -f a3/date/CMakeFiles/date.dir/build.make a3/date/CMakeFiles/date.dir/build
+.PHONY : date/fast
+
+#=============================================================================
+# Target rules for targets named myRandom
+
+# Build rule for target.
+myRandom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRandom
+.PHONY : myRandom
+
+# fast build rule for target.
+myRandom/fast:
+	$(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/build
+.PHONY : myRandom/fast
+
+#=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/build
+.PHONY : string/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -345,23 +761,55 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CarSeiral"
 	@echo "... arithmetics"
+	@echo "... arrayAssignement"
+	@echo "... arrayCompare"
+	@echo "... arrayPointer"
 	@echo "... bookSql"
+	@echo "... bubble"
 	@echo "... celsius2fahr"
+	@echo "... charAdress"
 	@echo "... charNumber"
+	@echo "... charPointerOperation"
 	@echo "... compare"
 	@echo "... compare2"
+	@echo "... date"
+	@echo "... dynamicAllocation"
+	@echo "... endian"
+	@echo "... enumExample"
 	@echo "... fahr2celsius"
+	@echo "... fflushEx"
+	@echo "... fileDescription"
+	@echo "... filePointer"
 	@echo "... fourBit"
 	@echo "... fourBit2"
+	@echo "... functionPointer"
 	@echo "... genderRatio"
+	@echo "... getSeries"
+	@echo "... helloStr"
 	@echo "... increment"
 	@echo "... infinit"
 	@echo "... limit"
 	@echo "... literal"
+	@echo "... myRandom"
 	@echo "... oddeven"
+	@echo "... pointer2"
+	@echo "... pointerConcept"
+	@echo "... putSeries"
+	@echo "... qsort"
+	@echo "... selection"
 	@echo "... sizeof"
+	@echo "... strcatExample"
+	@echo "... string"
+	@echo "... sumArrayFunction"
+	@echo "... sumMatrixFunction"
+	@echo "... sumMatrixFunction2"
+	@echo "... swap"
+	@echo "... swapFunction"
 	@echo "... triangle"
+	@echo "... unionExample"
+	@echo "... voidPointer"
 .PHONY : help
 
 

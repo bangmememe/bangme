@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/compare.dir/a1/compare.c.o -o compare 

@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/dice.dir/dice.c.o -o dice 

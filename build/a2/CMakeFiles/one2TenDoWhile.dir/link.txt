@@ -1,1 +1,0 @@
-/usr/bin/gcc -g CMakeFiles/one2TenDoWhile.dir/one2TenDoWhile.c.o -o one2TenDoWhile 

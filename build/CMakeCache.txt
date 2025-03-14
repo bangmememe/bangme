@@ -209,6 +209,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+CarSeiral_BINARY_DIR:STATIC=/home/bangme/bangme/build/a3/CarSerial
+
+//Value Computed by CMake
+CarSeiral_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+CarSeiral_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/CarSerial
+
+//Value Computed by CMake
 MainProject_BINARY_DIR:STATIC=/home/bangme/bangme/build
 
 //Value Computed by CMake
@@ -243,6 +252,33 @@ bookSql_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 bookSql_SOURCE_DIR:STATIC=/home/bangme/bangme/sqlQurry
+
+//Value Computed by CMake
+date_BINARY_DIR:STATIC=/home/bangme/bangme/build/a3/date
+
+//Value Computed by CMake
+date_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+date_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/date
+
+//Value Computed by CMake
+myRandom_BINARY_DIR:STATIC=/home/bangme/bangme/build/a3/myRandom
+
+//Value Computed by CMake
+myRandom_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+myRandom_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/myRandom
+
+//Value Computed by CMake
+string_BINARY_DIR:STATIC=/home/bangme/bangme/build/a3/string
+
+//Value Computed by CMake
+string_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+string_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/string
 
 
 ########################
@@ -347,7 +383,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

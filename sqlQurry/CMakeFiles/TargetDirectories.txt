@@ -1,0 +1,3 @@
+/home/bangme/bangme/sqlQurry/CMakeFiles/bookSql.dir
+/home/bangme/bangme/sqlQurry/CMakeFiles/edit_cache.dir
+/home/bangme/bangme/sqlQurry/CMakeFiles/rebuild_cache.dir
