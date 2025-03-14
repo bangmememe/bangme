@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/bangme/bangme/build/sqlQurry",
+  "command": "/usr/bin/gcc  -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/bangme/bangme/sqlQurry/bookSql.c",
+  "file": "/home/bangme/bangme/sqlQurry/bookSql.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arithmetics.dir/arithmetics.c.o -c /home/bangme/bangme/a1/arithmetics.c",
+  "file": "/home/bangme/bangme/a1/arithmetics.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/celsius2fahr.dir/celsius2fahr.c.o -c /home/bangme/bangme/a1/celsius2fahr.c",
+  "file": "/home/bangme/bangme/a1/celsius2fahr.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charNumber.dir/charNumber.c.o -c /home/bangme/bangme/a1/charNumber.c",
+  "file": "/home/bangme/bangme/a1/charNumber.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/compare.dir/compare.c.o -c /home/bangme/bangme/a1/compare.c",
+  "file": "/home/bangme/bangme/a1/compare.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/compare2.dir/compare2.c.o -c /home/bangme/bangme/a1/compare2.c",
+  "file": "/home/bangme/bangme/a1/compare2.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -c /home/bangme/bangme/a1/fahr2celsius.c",
+  "file": "/home/bangme/bangme/a1/fahr2celsius.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fourBit.dir/fourBit.c.o -c /home/bangme/bangme/a1/fourBit.c",
+  "file": "/home/bangme/bangme/a1/fourBit.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fourBit2.dir/fourBit2.c.o -c /home/bangme/bangme/a1/fourBit2.c",
+  "file": "/home/bangme/bangme/a1/fourBit2.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/genderRatio.dir/genderRatio.c.o -c /home/bangme/bangme/a1/genderRatio.c",
+  "file": "/home/bangme/bangme/a1/genderRatio.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/increment.dir/increment.c.o -c /home/bangme/bangme/a1/increment.c",
+  "file": "/home/bangme/bangme/a1/increment.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/infinit.dir/infinit.c.o -c /home/bangme/bangme/a1/infinit.c",
+  "file": "/home/bangme/bangme/a1/infinit.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/limit.dir/limit.c.o -c /home/bangme/bangme/a1/limit.c",
+  "file": "/home/bangme/bangme/a1/limit.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/literal.dir/literal.c.o -c /home/bangme/bangme/a1/literal.c",
+  "file": "/home/bangme/bangme/a1/literal.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/oddeven.dir/oddeven.c.o -c /home/bangme/bangme/a1/oddeven.c",
+  "file": "/home/bangme/bangme/a1/oddeven.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sizeof.dir/sizeof.c.o -c /home/bangme/bangme/a1/sizeof.c",
+  "file": "/home/bangme/bangme/a1/sizeof.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/a1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/triangle.dir/triangle.c.o -c /home/bangme/bangme/a1/triangle.c",
+  "file": "/home/bangme/bangme/a1/triangle.c"
+}
+]

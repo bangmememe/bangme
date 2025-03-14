@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/genderRatio.dir/genderRatio.c.o -o genderRatio 

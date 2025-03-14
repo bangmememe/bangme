@@ -1,0 +1,300 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "sqlQurry",
+					"jsonFile" : "directory-sqlQurry-Debug-2d551205ff03decef08d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.00"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "sqlQurry",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "a1",
+					"jsonFile" : "directory-a1-Debug-fea606feb1cdc6c9a762.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "a1",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "a2",
+					"jsonFile" : "directory-a2-Debug-9dd3ee47ed8d0e10ecd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "a2"
+				},
+				{
+					"build" : "a3",
+					"jsonFile" : "directory-a3-Debug-272048145bc8180d189e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "a3"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MainProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "bookSql",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "a1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "a3",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "a3",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "arithmetics::@b672351c5ef0afea5729",
+					"jsonFile" : "target-arithmetics-Debug-d24ec9e15c77a3bc0e39.json",
+					"name" : "arithmetics",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bookSql::@af4330f0fd23bf842756",
+					"jsonFile" : "target-bookSql-Debug-928b69ebf12ae64078a8.json",
+					"name" : "bookSql",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "celsius2fahr::@b672351c5ef0afea5729",
+					"jsonFile" : "target-celsius2fahr-Debug-fc54703c7921321d6c7a.json",
+					"name" : "celsius2fahr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "charNumber::@b672351c5ef0afea5729",
+					"jsonFile" : "target-charNumber-Debug-6a3407e3fec527c4d12a.json",
+					"name" : "charNumber",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "compare::@b672351c5ef0afea5729",
+					"jsonFile" : "target-compare-Debug-5133fce9e5c2e20e663d.json",
+					"name" : "compare",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "compare2::@b672351c5ef0afea5729",
+					"jsonFile" : "target-compare2-Debug-35505daffc43f5ef0d2c.json",
+					"name" : "compare2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fahr2celsius::@b672351c5ef0afea5729",
+					"jsonFile" : "target-fahr2celsius-Debug-823bab8098ef656f76f9.json",
+					"name" : "fahr2celsius",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fourBit::@b672351c5ef0afea5729",
+					"jsonFile" : "target-fourBit-Debug-f27b49f4afe89721c40b.json",
+					"name" : "fourBit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fourBit2::@b672351c5ef0afea5729",
+					"jsonFile" : "target-fourBit2-Debug-4210dc3dc90d32db6d44.json",
+					"name" : "fourBit2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "genderRatio::@b672351c5ef0afea5729",
+					"jsonFile" : "target-genderRatio-Debug-3b8b86083e92caa5a287.json",
+					"name" : "genderRatio",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "increment::@b672351c5ef0afea5729",
+					"jsonFile" : "target-increment-Debug-bbc33ed641ecb420f5d6.json",
+					"name" : "increment",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "infinit::@b672351c5ef0afea5729",
+					"jsonFile" : "target-infinit-Debug-db1e1ccebe3656d2956a.json",
+					"name" : "infinit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "limit::@b672351c5ef0afea5729",
+					"jsonFile" : "target-limit-Debug-12fefe46ab10408a0572.json",
+					"name" : "limit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "literal::@b672351c5ef0afea5729",
+					"jsonFile" : "target-literal-Debug-ec793ae5db6d64ae8d38.json",
+					"name" : "literal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "oddeven::@b672351c5ef0afea5729",
+					"jsonFile" : "target-oddeven-Debug-762fcd8cacba5aef10dc.json",
+					"name" : "oddeven",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sizeof::@b672351c5ef0afea5729",
+					"jsonFile" : "target-sizeof-Debug-49eee79919aec9bd5a74.json",
+					"name" : "sizeof",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "triangle::@b672351c5ef0afea5729",
+					"jsonFile" : "target-triangle-Debug-d09eb59a277a7caf933b.json",
+					"name" : "triangle",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bangme/bangme/build",
+		"source" : "/home/bangme/bangme"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/pointerConcept.dir/a3/pointerConcept.c.o -o pointerConcept 

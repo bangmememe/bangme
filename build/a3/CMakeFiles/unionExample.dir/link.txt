@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/unionExample.dir/unionExample.c.o -o unionExample 

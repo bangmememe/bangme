@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/arrayPointer.dir/a3/arrayPointer.c.o -o arrayPointer 

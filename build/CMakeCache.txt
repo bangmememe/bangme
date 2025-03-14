@@ -52,8 +52,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
-CMAKE_C_COMPILER:STRING=/usr/bin/gcc
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -144,7 +144,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=a3
+CMAKE_PROJECT_NAME:STATIC=MainProject
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -218,22 +218,31 @@ MainProject_IS_TOP_LEVEL:STATIC=ON
 MainProject_SOURCE_DIR:STATIC=/home/bangme/bangme
 
 //Value Computed by CMake
-a3_BINARY_DIR:STATIC=/home/bangme/bangme/build
+a1_BINARY_DIR:STATIC=/home/bangme/bangme/build/a1
 
 //Value Computed by CMake
-a3_IS_TOP_LEVEL:STATIC=ON
+a1_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-a3_SOURCE_DIR:STATIC=/home/bangme/bangme
+a1_SOURCE_DIR:STATIC=/home/bangme/bangme/a1
 
 //Value Computed by CMake
-bookSql_BINARY_DIR:STATIC=/home/bangme/bangme/build
+a3_BINARY_DIR:STATIC=/home/bangme/bangme/build/a3
 
 //Value Computed by CMake
-bookSql_IS_TOP_LEVEL:STATIC=ON
+a3_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-bookSql_SOURCE_DIR:STATIC=/home/bangme/bangme
+a3_SOURCE_DIR:STATIC=/home/bangme/bangme/a3
+
+//Value Computed by CMake
+bookSql_BINARY_DIR:STATIC=/home/bangme/bangme/build/sqlQurry
+
+//Value Computed by CMake
+bookSql_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+bookSql_SOURCE_DIR:STATIC=/home/bangme/bangme/sqlQurry
 
 
 ########################
@@ -338,7 +347,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

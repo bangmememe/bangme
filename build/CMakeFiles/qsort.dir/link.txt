@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/qsort.dir/a3/qsort.c.o -o qsort 

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/selection.dir/selection.c.o -o selection 
