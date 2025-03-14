@@ -130,29 +130,53 @@ bookSql/fast:
 	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/build
 .PHONY : bookSql/fast
 
-bookSql.o: bookSql.c.o
-.PHONY : bookSql.o
+src/bookSql.o: src/bookSql.c.o
+.PHONY : src/bookSql.o
 
 # target to build an object file
-bookSql.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/bookSql.c.o
-.PHONY : bookSql.c.o
+src/bookSql.c.o:
+	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o
+.PHONY : src/bookSql.c.o
 
-bookSql.i: bookSql.c.i
-.PHONY : bookSql.i
+src/bookSql.i: src/bookSql.c.i
+.PHONY : src/bookSql.i
 
 # target to preprocess a source file
-bookSql.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/bookSql.c.i
-.PHONY : bookSql.c.i
+src/bookSql.c.i:
+	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.i
+.PHONY : src/bookSql.c.i
 
-bookSql.s: bookSql.c.s
-.PHONY : bookSql.s
+src/bookSql.s: src/bookSql.c.s
+.PHONY : src/bookSql.s
 
 # target to generate assembly for a file
-bookSql.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/bookSql.c.s
-.PHONY : bookSql.c.s
+src/bookSql.c.s:
+	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.s
+.PHONY : src/bookSql.c.s
+
+src/main.o: src/main.c.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -163,9 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bookSql"
-	@echo "... bookSql.o"
-	@echo "... bookSql.i"
-	@echo "... bookSql.s"
+	@echo "... src/bookSql.o"
+	@echo "... src/bookSql.i"
+	@echo "... src/bookSql.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

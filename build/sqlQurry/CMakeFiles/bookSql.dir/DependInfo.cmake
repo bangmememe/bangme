@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/sqlQurry/bookSql.c" "sqlQurry/CMakeFiles/bookSql.dir/bookSql.c.o" "gcc" "sqlQurry/CMakeFiles/bookSql.dir/bookSql.c.o.d"
+  "/home/bangme/bangme/sqlQurry/src/bookSql.c" "sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o" "gcc" "sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o.d"
+  "/home/bangme/bangme/sqlQurry/src/main.c" "sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o" "gcc" "sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

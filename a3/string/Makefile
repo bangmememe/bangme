@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme/a3
+CMAKE_SOURCE_DIR = /home/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/a3
+CMAKE_BINARY_DIR = /home/bangme/bangme
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bangme/bangme/a3 && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/a3/CMakeFiles /home/bangme/bangme/a3/string//CMakeFiles/progress.marks
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/a3/CMakeFiles 0
+	cd /home/bangme/bangme && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/CMakeFiles /home/bangme/bangme/a3/string//CMakeFiles/progress.marks
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/string/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string/clean
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/string/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string/preinstall
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/string/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string/preinstall
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/string/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bangme/bangme/a3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bangme/bangme && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-string/CMakeFiles/string.dir/rule:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string/CMakeFiles/string.dir/rule
-.PHONY : string/CMakeFiles/string.dir/rule
+a3/string/CMakeFiles/string.dir/rule:
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/string/CMakeFiles/string.dir/rule
+.PHONY : a3/string/CMakeFiles/string.dir/rule
 
 # Convenience name for target.
-string: string/CMakeFiles/string.dir/rule
+string: a3/string/CMakeFiles/string.dir/rule
 .PHONY : string
 
 # fast build rule for target.
 string/fast:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/build
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/build
 .PHONY : string/fast
 
 main.o: main.c.o
@@ -135,7 +135,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/main.c.o
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -143,7 +143,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/main.c.i
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -151,7 +151,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/main.c.s
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/main.c.s
 .PHONY : main.c.s
 
 string.o: string.c.o
@@ -159,7 +159,7 @@ string.o: string.c.o
 
 # target to build an object file
 string.c.o:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/string.c.o
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/string.c.o
 .PHONY : string.c.o
 
 string.i: string.c.i
@@ -167,7 +167,7 @@ string.i: string.c.i
 
 # target to preprocess a source file
 string.c.i:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/string.c.i
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/string.c.i
 .PHONY : string.c.i
 
 string.s: string.c.s
@@ -175,7 +175,7 @@ string.s: string.c.s
 
 # target to generate assembly for a file
 string.c.s:
-	cd /home/bangme/bangme/a3 && $(MAKE) $(MAKESILENT) -f string/CMakeFiles/string.dir/build.make string/CMakeFiles/string.dir/string.c.s
+	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/string.c.s
 .PHONY : string.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bangme/bangme/a3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bangme/bangme && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a3/string/main.c" "string/CMakeFiles/string.dir/main.c.o" "gcc" "string/CMakeFiles/string.dir/main.c.o.d"
-  "/home/bangme/bangme/a3/string/string.c" "string/CMakeFiles/string.dir/string.c.o" "gcc" "string/CMakeFiles/string.dir/string.c.o.d"
+  "/home/bangme/bangme/a3/string/main.c" "a3/string/CMakeFiles/string.dir/main.c.o" "gcc" "a3/string/CMakeFiles/string.dir/main.c.o.d"
+  "/home/bangme/bangme/a3/string/string.c" "a3/string/CMakeFiles/string.dir/string.c.o" "gcc" "a3/string/CMakeFiles/string.dir/string.c.o.d"
   )
 
 # Targets to which this target links.

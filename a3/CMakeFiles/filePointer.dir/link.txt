@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/filePointer.dir/filePointer.c.o -o filePointer 

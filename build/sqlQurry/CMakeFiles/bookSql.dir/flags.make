@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/include/mysql
+C_INCLUDES = -I/home/bangme/bangme/sqlQurry/include -I/usr/include/mysql
 
 C_FLAGS = -g
 

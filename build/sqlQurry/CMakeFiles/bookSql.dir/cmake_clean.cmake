@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bookSql.dir/bookSql.c.o"
-  "CMakeFiles/bookSql.dir/bookSql.c.o.d"
+  "CMakeFiles/bookSql.dir/src/bookSql.c.o"
+  "CMakeFiles/bookSql.dir/src/bookSql.c.o.d"
+  "CMakeFiles/bookSql.dir/src/main.c.o"
+  "CMakeFiles/bookSql.dir/src/main.c.o.d"
   "bookSql"
   "bookSql.pdb"
 )
