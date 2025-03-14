@@ -69,24 +69,10 @@ include sqlQurry/CMakeFiles/bookSql.dir/progress.make
 # Include the compile flags for this target's objects.
 include sqlQurry/CMakeFiles/bookSql.dir/flags.make
 
-sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o: sqlQurry/CMakeFiles/bookSql.dir/flags.make
-sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o: ../sqlQurry/src/main.c
-sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o: sqlQurry/CMakeFiles/bookSql.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o"
-	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o -MF CMakeFiles/bookSql.dir/src/main.c.o.d -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/bangme/bangme/sqlQurry/src/main.c
-
-sqlQurry/CMakeFiles/bookSql.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bookSql.dir/src/main.c.i"
-	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/sqlQurry/src/main.c > CMakeFiles/bookSql.dir/src/main.c.i
-
-sqlQurry/CMakeFiles/bookSql.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/src/main.c.s"
-	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/sqlQurry/src/main.c -o CMakeFiles/bookSql.dir/src/main.c.s
-
 sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o: sqlQurry/CMakeFiles/bookSql.dir/flags.make
 sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o: ../sqlQurry/src/bookSql.c
 sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o: sqlQurry/CMakeFiles/bookSql.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o"
 	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o -MF CMakeFiles/bookSql.dir/src/bookSql.c.o.d -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/bangme/bangme/sqlQurry/src/bookSql.c
 
 sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.i: cmake_force
@@ -97,18 +83,31 @@ sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/src/bookSql.c.s"
 	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/sqlQurry/src/bookSql.c -o CMakeFiles/bookSql.dir/src/bookSql.c.s
 
+sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o: sqlQurry/CMakeFiles/bookSql.dir/flags.make
+sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o: ../sqlQurry/src/main.c
+sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o: sqlQurry/CMakeFiles/bookSql.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o"
+	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o -MF CMakeFiles/bookSql.dir/src/main.c.o.d -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/bangme/bangme/sqlQurry/src/main.c
+
+sqlQurry/CMakeFiles/bookSql.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bookSql.dir/src/main.c.i"
+	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/sqlQurry/src/main.c > CMakeFiles/bookSql.dir/src/main.c.i
+
+sqlQurry/CMakeFiles/bookSql.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/src/main.c.s"
+	cd /home/bangme/bangme/build/sqlQurry && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/sqlQurry/src/main.c -o CMakeFiles/bookSql.dir/src/main.c.s
+
 # Object files for target bookSql
 bookSql_OBJECTS = \
-"CMakeFiles/bookSql.dir/src/main.c.o" \
-"CMakeFiles/bookSql.dir/src/bookSql.c.o"
+"CMakeFiles/bookSql.dir/src/bookSql.c.o" \
+"CMakeFiles/bookSql.dir/src/main.c.o"
 
 # External object files for target bookSql
 bookSql_EXTERNAL_OBJECTS =
 
-sqlQurry/bookSql: sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o
 sqlQurry/bookSql: sqlQurry/CMakeFiles/bookSql.dir/src/bookSql.c.o
+sqlQurry/bookSql: sqlQurry/CMakeFiles/bookSql.dir/src/main.c.o
 sqlQurry/bookSql: sqlQurry/CMakeFiles/bookSql.dir/build.make
-sqlQurry/bookSql: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 sqlQurry/bookSql: sqlQurry/CMakeFiles/bookSql.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bookSql"
 	cd /home/bangme/bangme/build/sqlQurry && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bookSql.dir/link.txt --verbose=$(VERBOSE)

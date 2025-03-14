@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/bangme/bangme/build/sqlQurry",
-  "command": "/usr/bin/gcc  -I/home/bangme/bangme/sqlQurry/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/bangme/bangme/sqlQurry/src/main.c",
-  "file": "/home/bangme/bangme/sqlQurry/src/main.c"
+  "command": "/usr/bin/gcc  -I/home/bangme/bangme/sqlQurry/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/bangme/bangme/sqlQurry/src/bookSql.c",
+  "file": "/home/bangme/bangme/sqlQurry/src/bookSql.c"
 },
 {
   "directory": "/home/bangme/bangme/build/sqlQurry",
-  "command": "/usr/bin/gcc  -I/home/bangme/bangme/sqlQurry/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/bangme/bangme/sqlQurry/src/bookSql.c",
-  "file": "/home/bangme/bangme/sqlQurry/src/bookSql.c"
+  "command": "/usr/bin/gcc  -I/home/bangme/bangme/sqlQurry/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/bangme/bangme/sqlQurry/src/main.c",
+  "file": "/home/bangme/bangme/sqlQurry/src/main.c"
 },
 {
   "directory": "/home/bangme/bangme/build/a1",

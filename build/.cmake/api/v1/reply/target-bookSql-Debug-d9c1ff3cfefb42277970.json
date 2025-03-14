@@ -11,6 +11,8 @@
 		"commands" : 
 		[
 			"add_executable",
+			"target_link_directories",
+			"target_link_libraries",
 			"target_include_directories"
 		],
 		"files" : 
@@ -25,13 +27,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -48,11 +68,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "/home/bangme/bangme/sqlQurry/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 5,
 					"path" : "/usr/include/mysql"
 				}
 			],
@@ -78,6 +98,16 @@
 				"role" : "flags"
 			},
 			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/lib/mysql",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/lib/mysql",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "-lmysqlclient",
 				"role" : "libraries"
 			}
@@ -107,13 +137,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "sqlQurry/src/main.c",
+			"path" : "sqlQurry/src/bookSql.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "sqlQurry/src/bookSql.c",
+			"path" : "sqlQurry/src/main.c",
 			"sourceGroupIndex" : 0
 		}
 	],
