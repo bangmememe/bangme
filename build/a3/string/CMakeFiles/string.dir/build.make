@@ -73,29 +73,29 @@ a3/string/CMakeFiles/string.dir/main.c.o: a3/string/CMakeFiles/string.dir/flags.
 a3/string/CMakeFiles/string.dir/main.c.o: ../a3/string/main.c
 a3/string/CMakeFiles/string.dir/main.c.o: a3/string/CMakeFiles/string.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/string/CMakeFiles/string.dir/main.c.o"
-	cd /home/bangme/bangme/build/a3/string && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/string/CMakeFiles/string.dir/main.c.o -MF CMakeFiles/string.dir/main.c.o.d -o CMakeFiles/string.dir/main.c.o -c /home/bangme/bangme/a3/string/main.c
+	cd /home/bangme/bangme/build/a3/string && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/string/CMakeFiles/string.dir/main.c.o -MF CMakeFiles/string.dir/main.c.o.d -o CMakeFiles/string.dir/main.c.o -c /home/bangme/bangme/a3/string/main.c
 
 a3/string/CMakeFiles/string.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/string.dir/main.c.i"
-	cd /home/bangme/bangme/build/a3/string && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/string/main.c > CMakeFiles/string.dir/main.c.i
+	cd /home/bangme/bangme/build/a3/string && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/string/main.c > CMakeFiles/string.dir/main.c.i
 
 a3/string/CMakeFiles/string.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string.dir/main.c.s"
-	cd /home/bangme/bangme/build/a3/string && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/string/main.c -o CMakeFiles/string.dir/main.c.s
+	cd /home/bangme/bangme/build/a3/string && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/string/main.c -o CMakeFiles/string.dir/main.c.s
 
 a3/string/CMakeFiles/string.dir/string.c.o: a3/string/CMakeFiles/string.dir/flags.make
 a3/string/CMakeFiles/string.dir/string.c.o: ../a3/string/string.c
 a3/string/CMakeFiles/string.dir/string.c.o: a3/string/CMakeFiles/string.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object a3/string/CMakeFiles/string.dir/string.c.o"
-	cd /home/bangme/bangme/build/a3/string && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/string/CMakeFiles/string.dir/string.c.o -MF CMakeFiles/string.dir/string.c.o.d -o CMakeFiles/string.dir/string.c.o -c /home/bangme/bangme/a3/string/string.c
+	cd /home/bangme/bangme/build/a3/string && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/string/CMakeFiles/string.dir/string.c.o -MF CMakeFiles/string.dir/string.c.o.d -o CMakeFiles/string.dir/string.c.o -c /home/bangme/bangme/a3/string/string.c
 
 a3/string/CMakeFiles/string.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/string.dir/string.c.i"
-	cd /home/bangme/bangme/build/a3/string && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/string/string.c > CMakeFiles/string.dir/string.c.i
+	cd /home/bangme/bangme/build/a3/string && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/string/string.c > CMakeFiles/string.dir/string.c.i
 
 a3/string/CMakeFiles/string.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/string.dir/string.c.s"
-	cd /home/bangme/bangme/build/a3/string && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/string/string.c -o CMakeFiles/string.dir/string.c.s
+	cd /home/bangme/bangme/build/a3/string && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/string/string.c -o CMakeFiles/string.dir/string.c.s
 
 # Object files for target string
 string_OBJECTS = \

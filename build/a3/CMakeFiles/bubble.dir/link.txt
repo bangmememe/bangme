@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/bubble.dir/bubble.c.o -o bubble 
+/usr/bin/cc CMakeFiles/bubble.dir/bubble.c.o -o bubble 

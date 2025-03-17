@@ -73,15 +73,15 @@ a3/CMakeFiles/putSeries.dir/putSeries.c.o: a3/CMakeFiles/putSeries.dir/flags.mak
 a3/CMakeFiles/putSeries.dir/putSeries.c.o: ../a3/putSeries.c
 a3/CMakeFiles/putSeries.dir/putSeries.c.o: a3/CMakeFiles/putSeries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/putSeries.dir/putSeries.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/putSeries.dir/putSeries.c.o -MF CMakeFiles/putSeries.dir/putSeries.c.o.d -o CMakeFiles/putSeries.dir/putSeries.c.o -c /home/bangme/bangme/a3/putSeries.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/putSeries.dir/putSeries.c.o -MF CMakeFiles/putSeries.dir/putSeries.c.o.d -o CMakeFiles/putSeries.dir/putSeries.c.o -c /home/bangme/bangme/a3/putSeries.c
 
 a3/CMakeFiles/putSeries.dir/putSeries.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/putSeries.dir/putSeries.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/putSeries.c > CMakeFiles/putSeries.dir/putSeries.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/putSeries.c > CMakeFiles/putSeries.dir/putSeries.c.i
 
 a3/CMakeFiles/putSeries.dir/putSeries.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/putSeries.dir/putSeries.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/putSeries.c -o CMakeFiles/putSeries.dir/putSeries.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/putSeries.c -o CMakeFiles/putSeries.dir/putSeries.c.s
 
 # Object files for target putSeries
 putSeries_OBJECTS = \

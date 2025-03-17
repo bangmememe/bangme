@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/arithmetics.dir/arithmetics.c.o -o arithmetics 
+/usr/bin/cc CMakeFiles/arithmetics.dir/arithmetics.c.o -o arithmetics 

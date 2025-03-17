@@ -73,15 +73,15 @@ a1/CMakeFiles/increment.dir/increment.c.o: a1/CMakeFiles/increment.dir/flags.mak
 a1/CMakeFiles/increment.dir/increment.c.o: ../a1/increment.c
 a1/CMakeFiles/increment.dir/increment.c.o: a1/CMakeFiles/increment.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/increment.dir/increment.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/increment.dir/increment.c.o -MF CMakeFiles/increment.dir/increment.c.o.d -o CMakeFiles/increment.dir/increment.c.o -c /home/bangme/bangme/a1/increment.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/increment.dir/increment.c.o -MF CMakeFiles/increment.dir/increment.c.o.d -o CMakeFiles/increment.dir/increment.c.o -c /home/bangme/bangme/a1/increment.c
 
 a1/CMakeFiles/increment.dir/increment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/increment.dir/increment.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/increment.c > CMakeFiles/increment.dir/increment.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/increment.c > CMakeFiles/increment.dir/increment.c.i
 
 a1/CMakeFiles/increment.dir/increment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/increment.dir/increment.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/increment.c -o CMakeFiles/increment.dir/increment.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/increment.c -o CMakeFiles/increment.dir/increment.c.s
 
 # Object files for target increment
 increment_OBJECTS = \

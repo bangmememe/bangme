@@ -73,15 +73,15 @@ a1/CMakeFiles/literal.dir/literal.c.o: a1/CMakeFiles/literal.dir/flags.make
 a1/CMakeFiles/literal.dir/literal.c.o: ../a1/literal.c
 a1/CMakeFiles/literal.dir/literal.c.o: a1/CMakeFiles/literal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/literal.dir/literal.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/literal.dir/literal.c.o -MF CMakeFiles/literal.dir/literal.c.o.d -o CMakeFiles/literal.dir/literal.c.o -c /home/bangme/bangme/a1/literal.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/literal.dir/literal.c.o -MF CMakeFiles/literal.dir/literal.c.o.d -o CMakeFiles/literal.dir/literal.c.o -c /home/bangme/bangme/a1/literal.c
 
 a1/CMakeFiles/literal.dir/literal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/literal.dir/literal.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/literal.c > CMakeFiles/literal.dir/literal.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/literal.c > CMakeFiles/literal.dir/literal.c.i
 
 a1/CMakeFiles/literal.dir/literal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/literal.dir/literal.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/literal.c -o CMakeFiles/literal.dir/literal.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/literal.c -o CMakeFiles/literal.dir/literal.c.s
 
 # Object files for target literal
 literal_OBJECTS = \

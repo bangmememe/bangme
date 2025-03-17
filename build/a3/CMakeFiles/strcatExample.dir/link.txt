@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/strcatExample.dir/strcatExample.c.o -o strcatExample 
+/usr/bin/cc CMakeFiles/strcatExample.dir/strcatExample.c.o -o strcatExample 

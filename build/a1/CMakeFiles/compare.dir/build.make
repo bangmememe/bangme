@@ -73,15 +73,15 @@ a1/CMakeFiles/compare.dir/compare.c.o: a1/CMakeFiles/compare.dir/flags.make
 a1/CMakeFiles/compare.dir/compare.c.o: ../a1/compare.c
 a1/CMakeFiles/compare.dir/compare.c.o: a1/CMakeFiles/compare.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/compare.dir/compare.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/compare.dir/compare.c.o -MF CMakeFiles/compare.dir/compare.c.o.d -o CMakeFiles/compare.dir/compare.c.o -c /home/bangme/bangme/a1/compare.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/compare.dir/compare.c.o -MF CMakeFiles/compare.dir/compare.c.o.d -o CMakeFiles/compare.dir/compare.c.o -c /home/bangme/bangme/a1/compare.c
 
 a1/CMakeFiles/compare.dir/compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compare.dir/compare.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/compare.c > CMakeFiles/compare.dir/compare.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/compare.c > CMakeFiles/compare.dir/compare.c.i
 
 a1/CMakeFiles/compare.dir/compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compare.dir/compare.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/compare.c -o CMakeFiles/compare.dir/compare.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/compare.c -o CMakeFiles/compare.dir/compare.c.s
 
 # Object files for target compare
 compare_OBJECTS = \

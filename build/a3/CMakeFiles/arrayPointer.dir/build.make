@@ -73,15 +73,15 @@ a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o: a3/CMakeFiles/arrayPointer.dir/
 a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o: ../a3/arrayPointer.c
 a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o: a3/CMakeFiles/arrayPointer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o -MF CMakeFiles/arrayPointer.dir/arrayPointer.c.o.d -o CMakeFiles/arrayPointer.dir/arrayPointer.c.o -c /home/bangme/bangme/a3/arrayPointer.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o -MF CMakeFiles/arrayPointer.dir/arrayPointer.c.o.d -o CMakeFiles/arrayPointer.dir/arrayPointer.c.o -c /home/bangme/bangme/a3/arrayPointer.c
 
 a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arrayPointer.dir/arrayPointer.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/arrayPointer.c > CMakeFiles/arrayPointer.dir/arrayPointer.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/arrayPointer.c > CMakeFiles/arrayPointer.dir/arrayPointer.c.i
 
 a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arrayPointer.dir/arrayPointer.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/arrayPointer.c -o CMakeFiles/arrayPointer.dir/arrayPointer.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/arrayPointer.c -o CMakeFiles/arrayPointer.dir/arrayPointer.c.s
 
 # Object files for target arrayPointer
 arrayPointer_OBJECTS = \

@@ -73,15 +73,15 @@ a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o: a1/CMakeFiles/fahr2celsius.dir/
 a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o: ../a1/fahr2celsius.c
 a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o: a1/CMakeFiles/fahr2celsius.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -MF CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o.d -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -c /home/bangme/bangme/a1/fahr2celsius.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -MF CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o.d -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -c /home/bangme/bangme/a1/fahr2celsius.c
 
 a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fahr2celsius.dir/fahr2celsius.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/fahr2celsius.c > CMakeFiles/fahr2celsius.dir/fahr2celsius.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/fahr2celsius.c > CMakeFiles/fahr2celsius.dir/fahr2celsius.c.i
 
 a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fahr2celsius.dir/fahr2celsius.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/fahr2celsius.c -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/fahr2celsius.c -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.s
 
 # Object files for target fahr2celsius
 fahr2celsius_OBJECTS = \

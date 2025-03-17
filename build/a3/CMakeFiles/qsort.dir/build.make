@@ -73,15 +73,15 @@ a3/CMakeFiles/qsort.dir/qsort.c.o: a3/CMakeFiles/qsort.dir/flags.make
 a3/CMakeFiles/qsort.dir/qsort.c.o: ../a3/qsort.c
 a3/CMakeFiles/qsort.dir/qsort.c.o: a3/CMakeFiles/qsort.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/qsort.dir/qsort.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/qsort.dir/qsort.c.o -MF CMakeFiles/qsort.dir/qsort.c.o.d -o CMakeFiles/qsort.dir/qsort.c.o -c /home/bangme/bangme/a3/qsort.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/qsort.dir/qsort.c.o -MF CMakeFiles/qsort.dir/qsort.c.o.d -o CMakeFiles/qsort.dir/qsort.c.o -c /home/bangme/bangme/a3/qsort.c
 
 a3/CMakeFiles/qsort.dir/qsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qsort.dir/qsort.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/qsort.c > CMakeFiles/qsort.dir/qsort.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/qsort.c > CMakeFiles/qsort.dir/qsort.c.i
 
 a3/CMakeFiles/qsort.dir/qsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qsort.dir/qsort.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/qsort.c -o CMakeFiles/qsort.dir/qsort.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/qsort.c -o CMakeFiles/qsort.dir/qsort.c.s
 
 # Object files for target qsort
 qsort_OBJECTS = \

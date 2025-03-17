@@ -122,45 +122,67 @@ void query_books(MYSQL *conn)
 }
 void fetch_books(MYSQL *conn)
 {
-    MYSQL_RES *res;
-    MYSQL_ROW row;
-    char query[255];
-    strcpy(query, "select * from Book");
+    if (conn == NULL) {
+        printf("데이터베이스 연결이 없습니다.\n");
+        waitEnter();
+        return;
+    }
 
-    // 쿼리 요청
-    if (mysql_query(conn, query))
-    {
-        printf("쿼리 실패");
+    printf("도서 조회를 시작합니다...\n");
+    
+    // 쿼리 실행
+    if (mysql_query(conn, "SELECT * FROM Book")) {
+        printf("쿼리 실행 오류: %s\n", mysql_error(conn));
+        waitEnter();
         return;
     }
-    res = mysql_store_result(conn);
-    if (!res)
-    {
-        printf("가져오기 실패!\n");
+    
+    // 결과 가져오기
+    MYSQL_RES *result = mysql_store_result(conn);
+    if (result == NULL) {
+        printf("결과 저장 오류: %s\n", mysql_error(conn));
+        waitEnter();
         return;
     }
-    Book *pBook;
-    pBook = (Book *)malloc(sizeof(Book));
-    int i = 0;
-    // 데이터 베이스의 정보를 구조체에 저장 - ORM
-    while (row = mysql_fetch_row(res))
-    {
-        (pBook + i)->bookid = atoi(row[0]);
-        strcpy((pBook + i)->bookname, row[1]);
-        strcpy((pBook + i)->publisher, row[2]);
-        (pBook + i)->price = atoi(row[3]);
-        ++i;
-        pBook = realloc(pBook, sizeof(Book) * (1 + i));
-    };
-    for (int j = 0; j < i; ++j)
-    {
-        printf("%d \t%s \t%s \t%d \n",
-            (pBook + j)->bookid,
-            (pBook + j)->bookname,
-            (pBook +j)->publisher,
-            (pBook + j)->price);
+    
+    // 결과 행 수 확인
+    my_ulonglong num_rows = mysql_num_rows(result);
+    printf("조회된 도서 수: %llu\n", num_rows);
+    
+    if (num_rows == 0) {
+        printf("도서가 없습니다.\n");
+        mysql_free_result(result);
+        waitEnter();
+        return;
     }
-    free(pBook);
+    
+    // 필드(열) 정보 가져오기
+    int num_fields = mysql_num_fields(result);
+    MYSQL_FIELD *fields = mysql_fetch_fields(result);
+    
+    // 열 이름 출력
+    for (int i = 0; i < num_fields; i++) {
+        printf("%-15s", fields[i].name);
+    }
+    printf("\n");
+    
+    // 구분선 출력
+    for (int i = 0; i < num_fields; i++) {
+        printf("---------------");
+    }
+    printf("\n");
+    
+    // 데이터 행 출력
+    MYSQL_ROW row;
+    while ((row = mysql_fetch_row(result))) {
+        for (int i = 0; i < num_fields; i++) {
+            printf("%-15s", row[i] ? row[i] : "NULL");
+        }
+        printf("\n");
+    }
+    
+    // 결과 해제
+    mysql_free_result(result);
     waitEnter();
 }
 void waitEnter(void)

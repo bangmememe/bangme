@@ -73,15 +73,15 @@ a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o: a3/CMakeFiles/arrayAssi
 a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o: ../a3/arrayAssignement.c
 a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o: a3/CMakeFiles/arrayAssignement.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o -MF CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o.d -o CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o -c /home/bangme/bangme/a3/arrayAssignement.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o -MF CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o.d -o CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o -c /home/bangme/bangme/a3/arrayAssignement.c
 
 a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arrayAssignement.dir/arrayAssignement.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/arrayAssignement.c > CMakeFiles/arrayAssignement.dir/arrayAssignement.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/arrayAssignement.c > CMakeFiles/arrayAssignement.dir/arrayAssignement.c.i
 
 a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arrayAssignement.dir/arrayAssignement.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/arrayAssignement.c -o CMakeFiles/arrayAssignement.dir/arrayAssignement.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/arrayAssignement.c -o CMakeFiles/arrayAssignement.dir/arrayAssignement.c.s
 
 # Object files for target arrayAssignement
 arrayAssignement_OBJECTS = \

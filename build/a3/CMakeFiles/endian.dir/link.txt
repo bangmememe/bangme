@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/endian.dir/endian.c.o -o endian 
+/usr/bin/cc CMakeFiles/endian.dir/endian.c.o -o endian 

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/getSeries.dir/getSeries.c.o -o getSeries 
+/usr/bin/cc CMakeFiles/getSeries.dir/getSeries.c.o -o getSeries 

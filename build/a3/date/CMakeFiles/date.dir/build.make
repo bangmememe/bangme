@@ -73,29 +73,29 @@ a3/date/CMakeFiles/date.dir/main.c.o: a3/date/CMakeFiles/date.dir/flags.make
 a3/date/CMakeFiles/date.dir/main.c.o: ../a3/date/main.c
 a3/date/CMakeFiles/date.dir/main.c.o: a3/date/CMakeFiles/date.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/date/CMakeFiles/date.dir/main.c.o"
-	cd /home/bangme/bangme/build/a3/date && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/date/CMakeFiles/date.dir/main.c.o -MF CMakeFiles/date.dir/main.c.o.d -o CMakeFiles/date.dir/main.c.o -c /home/bangme/bangme/a3/date/main.c
+	cd /home/bangme/bangme/build/a3/date && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/date/CMakeFiles/date.dir/main.c.o -MF CMakeFiles/date.dir/main.c.o.d -o CMakeFiles/date.dir/main.c.o -c /home/bangme/bangme/a3/date/main.c
 
 a3/date/CMakeFiles/date.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/date.dir/main.c.i"
-	cd /home/bangme/bangme/build/a3/date && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/date/main.c > CMakeFiles/date.dir/main.c.i
+	cd /home/bangme/bangme/build/a3/date && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/date/main.c > CMakeFiles/date.dir/main.c.i
 
 a3/date/CMakeFiles/date.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/date.dir/main.c.s"
-	cd /home/bangme/bangme/build/a3/date && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/date/main.c -o CMakeFiles/date.dir/main.c.s
+	cd /home/bangme/bangme/build/a3/date && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/date/main.c -o CMakeFiles/date.dir/main.c.s
 
 a3/date/CMakeFiles/date.dir/date.c.o: a3/date/CMakeFiles/date.dir/flags.make
 a3/date/CMakeFiles/date.dir/date.c.o: ../a3/date/date.c
 a3/date/CMakeFiles/date.dir/date.c.o: a3/date/CMakeFiles/date.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object a3/date/CMakeFiles/date.dir/date.c.o"
-	cd /home/bangme/bangme/build/a3/date && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/date/CMakeFiles/date.dir/date.c.o -MF CMakeFiles/date.dir/date.c.o.d -o CMakeFiles/date.dir/date.c.o -c /home/bangme/bangme/a3/date/date.c
+	cd /home/bangme/bangme/build/a3/date && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/date/CMakeFiles/date.dir/date.c.o -MF CMakeFiles/date.dir/date.c.o.d -o CMakeFiles/date.dir/date.c.o -c /home/bangme/bangme/a3/date/date.c
 
 a3/date/CMakeFiles/date.dir/date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/date.dir/date.c.i"
-	cd /home/bangme/bangme/build/a3/date && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/date/date.c > CMakeFiles/date.dir/date.c.i
+	cd /home/bangme/bangme/build/a3/date && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/date/date.c > CMakeFiles/date.dir/date.c.i
 
 a3/date/CMakeFiles/date.dir/date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/date.dir/date.c.s"
-	cd /home/bangme/bangme/build/a3/date && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/date/date.c -o CMakeFiles/date.dir/date.c.s
+	cd /home/bangme/bangme/build/a3/date && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/date/date.c -o CMakeFiles/date.dir/date.c.s
 
 # Object files for target date
 date_OBJECTS = \

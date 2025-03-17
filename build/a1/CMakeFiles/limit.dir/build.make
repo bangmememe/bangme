@@ -73,15 +73,15 @@ a1/CMakeFiles/limit.dir/limit.c.o: a1/CMakeFiles/limit.dir/flags.make
 a1/CMakeFiles/limit.dir/limit.c.o: ../a1/limit.c
 a1/CMakeFiles/limit.dir/limit.c.o: a1/CMakeFiles/limit.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/limit.dir/limit.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/limit.dir/limit.c.o -MF CMakeFiles/limit.dir/limit.c.o.d -o CMakeFiles/limit.dir/limit.c.o -c /home/bangme/bangme/a1/limit.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/limit.dir/limit.c.o -MF CMakeFiles/limit.dir/limit.c.o.d -o CMakeFiles/limit.dir/limit.c.o -c /home/bangme/bangme/a1/limit.c
 
 a1/CMakeFiles/limit.dir/limit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/limit.dir/limit.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/limit.c > CMakeFiles/limit.dir/limit.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/limit.c > CMakeFiles/limit.dir/limit.c.i
 
 a1/CMakeFiles/limit.dir/limit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/limit.dir/limit.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/limit.c -o CMakeFiles/limit.dir/limit.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/limit.c -o CMakeFiles/limit.dir/limit.c.s
 
 # Object files for target limit
 limit_OBJECTS = \

@@ -73,15 +73,15 @@ a3/CMakeFiles/selection.dir/selection.c.o: a3/CMakeFiles/selection.dir/flags.mak
 a3/CMakeFiles/selection.dir/selection.c.o: ../a3/selection.c
 a3/CMakeFiles/selection.dir/selection.c.o: a3/CMakeFiles/selection.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/selection.dir/selection.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/selection.dir/selection.c.o -MF CMakeFiles/selection.dir/selection.c.o.d -o CMakeFiles/selection.dir/selection.c.o -c /home/bangme/bangme/a3/selection.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/selection.dir/selection.c.o -MF CMakeFiles/selection.dir/selection.c.o.d -o CMakeFiles/selection.dir/selection.c.o -c /home/bangme/bangme/a3/selection.c
 
 a3/CMakeFiles/selection.dir/selection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/selection.dir/selection.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/selection.c > CMakeFiles/selection.dir/selection.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/selection.c > CMakeFiles/selection.dir/selection.c.i
 
 a3/CMakeFiles/selection.dir/selection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/selection.dir/selection.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/selection.c -o CMakeFiles/selection.dir/selection.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/selection.c -o CMakeFiles/selection.dir/selection.c.s
 
 # Object files for target selection
 selection_OBJECTS = \

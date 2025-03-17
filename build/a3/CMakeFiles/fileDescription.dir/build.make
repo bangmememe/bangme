@@ -73,15 +73,15 @@ a3/CMakeFiles/fileDescription.dir/fileDescription.c.o: a3/CMakeFiles/fileDescrip
 a3/CMakeFiles/fileDescription.dir/fileDescription.c.o: ../a3/fileDescription.c
 a3/CMakeFiles/fileDescription.dir/fileDescription.c.o: a3/CMakeFiles/fileDescription.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/fileDescription.dir/fileDescription.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/fileDescription.dir/fileDescription.c.o -MF CMakeFiles/fileDescription.dir/fileDescription.c.o.d -o CMakeFiles/fileDescription.dir/fileDescription.c.o -c /home/bangme/bangme/a3/fileDescription.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/fileDescription.dir/fileDescription.c.o -MF CMakeFiles/fileDescription.dir/fileDescription.c.o.d -o CMakeFiles/fileDescription.dir/fileDescription.c.o -c /home/bangme/bangme/a3/fileDescription.c
 
 a3/CMakeFiles/fileDescription.dir/fileDescription.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fileDescription.dir/fileDescription.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/fileDescription.c > CMakeFiles/fileDescription.dir/fileDescription.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/fileDescription.c > CMakeFiles/fileDescription.dir/fileDescription.c.i
 
 a3/CMakeFiles/fileDescription.dir/fileDescription.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fileDescription.dir/fileDescription.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/fileDescription.c -o CMakeFiles/fileDescription.dir/fileDescription.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/fileDescription.c -o CMakeFiles/fileDescription.dir/fileDescription.c.s
 
 # Object files for target fileDescription
 fileDescription_OBJECTS = \

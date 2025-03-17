@@ -73,15 +73,15 @@ a3/CMakeFiles/endian.dir/endian.c.o: a3/CMakeFiles/endian.dir/flags.make
 a3/CMakeFiles/endian.dir/endian.c.o: ../a3/endian.c
 a3/CMakeFiles/endian.dir/endian.c.o: a3/CMakeFiles/endian.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/endian.dir/endian.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/endian.dir/endian.c.o -MF CMakeFiles/endian.dir/endian.c.o.d -o CMakeFiles/endian.dir/endian.c.o -c /home/bangme/bangme/a3/endian.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/endian.dir/endian.c.o -MF CMakeFiles/endian.dir/endian.c.o.d -o CMakeFiles/endian.dir/endian.c.o -c /home/bangme/bangme/a3/endian.c
 
 a3/CMakeFiles/endian.dir/endian.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/endian.dir/endian.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/endian.c > CMakeFiles/endian.dir/endian.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/endian.c > CMakeFiles/endian.dir/endian.c.i
 
 a3/CMakeFiles/endian.dir/endian.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/endian.dir/endian.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/endian.c -o CMakeFiles/endian.dir/endian.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/endian.c -o CMakeFiles/endian.dir/endian.c.s
 
 # Object files for target endian
 endian_OBJECTS = \

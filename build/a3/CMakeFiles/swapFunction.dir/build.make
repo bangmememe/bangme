@@ -73,15 +73,15 @@ a3/CMakeFiles/swapFunction.dir/swapFunction.c.o: a3/CMakeFiles/swapFunction.dir/
 a3/CMakeFiles/swapFunction.dir/swapFunction.c.o: ../a3/swapFunction.c
 a3/CMakeFiles/swapFunction.dir/swapFunction.c.o: a3/CMakeFiles/swapFunction.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/swapFunction.dir/swapFunction.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/swapFunction.dir/swapFunction.c.o -MF CMakeFiles/swapFunction.dir/swapFunction.c.o.d -o CMakeFiles/swapFunction.dir/swapFunction.c.o -c /home/bangme/bangme/a3/swapFunction.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/swapFunction.dir/swapFunction.c.o -MF CMakeFiles/swapFunction.dir/swapFunction.c.o.d -o CMakeFiles/swapFunction.dir/swapFunction.c.o -c /home/bangme/bangme/a3/swapFunction.c
 
 a3/CMakeFiles/swapFunction.dir/swapFunction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/swapFunction.dir/swapFunction.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/swapFunction.c > CMakeFiles/swapFunction.dir/swapFunction.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/swapFunction.c > CMakeFiles/swapFunction.dir/swapFunction.c.i
 
 a3/CMakeFiles/swapFunction.dir/swapFunction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/swapFunction.dir/swapFunction.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/swapFunction.c -o CMakeFiles/swapFunction.dir/swapFunction.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/swapFunction.c -o CMakeFiles/swapFunction.dir/swapFunction.c.s
 
 # Object files for target swapFunction
 swapFunction_OBJECTS = \

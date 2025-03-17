@@ -73,15 +73,15 @@ a3/CMakeFiles/filePointer.dir/filePointer.c.o: a3/CMakeFiles/filePointer.dir/fla
 a3/CMakeFiles/filePointer.dir/filePointer.c.o: ../a3/filePointer.c
 a3/CMakeFiles/filePointer.dir/filePointer.c.o: a3/CMakeFiles/filePointer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/filePointer.dir/filePointer.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/filePointer.dir/filePointer.c.o -MF CMakeFiles/filePointer.dir/filePointer.c.o.d -o CMakeFiles/filePointer.dir/filePointer.c.o -c /home/bangme/bangme/a3/filePointer.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/filePointer.dir/filePointer.c.o -MF CMakeFiles/filePointer.dir/filePointer.c.o.d -o CMakeFiles/filePointer.dir/filePointer.c.o -c /home/bangme/bangme/a3/filePointer.c
 
 a3/CMakeFiles/filePointer.dir/filePointer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filePointer.dir/filePointer.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/filePointer.c > CMakeFiles/filePointer.dir/filePointer.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/filePointer.c > CMakeFiles/filePointer.dir/filePointer.c.i
 
 a3/CMakeFiles/filePointer.dir/filePointer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filePointer.dir/filePointer.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/filePointer.c -o CMakeFiles/filePointer.dir/filePointer.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/filePointer.c -o CMakeFiles/filePointer.dir/filePointer.c.s
 
 # Object files for target filePointer
 filePointer_OBJECTS = \

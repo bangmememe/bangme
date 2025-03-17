@@ -73,15 +73,15 @@ a3/CMakeFiles/helloStr.dir/helloStr.c.o: a3/CMakeFiles/helloStr.dir/flags.make
 a3/CMakeFiles/helloStr.dir/helloStr.c.o: ../a3/helloStr.c
 a3/CMakeFiles/helloStr.dir/helloStr.c.o: a3/CMakeFiles/helloStr.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/helloStr.dir/helloStr.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/helloStr.dir/helloStr.c.o -MF CMakeFiles/helloStr.dir/helloStr.c.o.d -o CMakeFiles/helloStr.dir/helloStr.c.o -c /home/bangme/bangme/a3/helloStr.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/helloStr.dir/helloStr.c.o -MF CMakeFiles/helloStr.dir/helloStr.c.o.d -o CMakeFiles/helloStr.dir/helloStr.c.o -c /home/bangme/bangme/a3/helloStr.c
 
 a3/CMakeFiles/helloStr.dir/helloStr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloStr.dir/helloStr.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/helloStr.c > CMakeFiles/helloStr.dir/helloStr.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/helloStr.c > CMakeFiles/helloStr.dir/helloStr.c.i
 
 a3/CMakeFiles/helloStr.dir/helloStr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloStr.dir/helloStr.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/helloStr.c -o CMakeFiles/helloStr.dir/helloStr.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/helloStr.c -o CMakeFiles/helloStr.dir/helloStr.c.s
 
 # Object files for target helloStr
 helloStr_OBJECTS = \

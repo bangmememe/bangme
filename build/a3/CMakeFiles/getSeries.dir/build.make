@@ -73,15 +73,15 @@ a3/CMakeFiles/getSeries.dir/getSeries.c.o: a3/CMakeFiles/getSeries.dir/flags.mak
 a3/CMakeFiles/getSeries.dir/getSeries.c.o: ../a3/getSeries.c
 a3/CMakeFiles/getSeries.dir/getSeries.c.o: a3/CMakeFiles/getSeries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/getSeries.dir/getSeries.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/getSeries.dir/getSeries.c.o -MF CMakeFiles/getSeries.dir/getSeries.c.o.d -o CMakeFiles/getSeries.dir/getSeries.c.o -c /home/bangme/bangme/a3/getSeries.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/getSeries.dir/getSeries.c.o -MF CMakeFiles/getSeries.dir/getSeries.c.o.d -o CMakeFiles/getSeries.dir/getSeries.c.o -c /home/bangme/bangme/a3/getSeries.c
 
 a3/CMakeFiles/getSeries.dir/getSeries.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/getSeries.dir/getSeries.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/getSeries.c > CMakeFiles/getSeries.dir/getSeries.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/getSeries.c > CMakeFiles/getSeries.dir/getSeries.c.i
 
 a3/CMakeFiles/getSeries.dir/getSeries.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/getSeries.dir/getSeries.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/getSeries.c -o CMakeFiles/getSeries.dir/getSeries.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/getSeries.c -o CMakeFiles/getSeries.dir/getSeries.c.s
 
 # Object files for target getSeries
 getSeries_OBJECTS = \

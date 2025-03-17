@@ -73,15 +73,15 @@ a3/CMakeFiles/enumExample.dir/enumExample.c.o: a3/CMakeFiles/enumExample.dir/fla
 a3/CMakeFiles/enumExample.dir/enumExample.c.o: ../a3/enumExample.c
 a3/CMakeFiles/enumExample.dir/enumExample.c.o: a3/CMakeFiles/enumExample.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/enumExample.dir/enumExample.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/enumExample.dir/enumExample.c.o -MF CMakeFiles/enumExample.dir/enumExample.c.o.d -o CMakeFiles/enumExample.dir/enumExample.c.o -c /home/bangme/bangme/a3/enumExample.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/enumExample.dir/enumExample.c.o -MF CMakeFiles/enumExample.dir/enumExample.c.o.d -o CMakeFiles/enumExample.dir/enumExample.c.o -c /home/bangme/bangme/a3/enumExample.c
 
 a3/CMakeFiles/enumExample.dir/enumExample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/enumExample.dir/enumExample.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/enumExample.c > CMakeFiles/enumExample.dir/enumExample.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/enumExample.c > CMakeFiles/enumExample.dir/enumExample.c.i
 
 a3/CMakeFiles/enumExample.dir/enumExample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/enumExample.dir/enumExample.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/enumExample.c -o CMakeFiles/enumExample.dir/enumExample.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/enumExample.c -o CMakeFiles/enumExample.dir/enumExample.c.s
 
 # Object files for target enumExample
 enumExample_OBJECTS = \

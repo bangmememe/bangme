@@ -73,15 +73,15 @@ a1/CMakeFiles/triangle.dir/triangle.c.o: a1/CMakeFiles/triangle.dir/flags.make
 a1/CMakeFiles/triangle.dir/triangle.c.o: ../a1/triangle.c
 a1/CMakeFiles/triangle.dir/triangle.c.o: a1/CMakeFiles/triangle.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/triangle.dir/triangle.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/triangle.dir/triangle.c.o -MF CMakeFiles/triangle.dir/triangle.c.o.d -o CMakeFiles/triangle.dir/triangle.c.o -c /home/bangme/bangme/a1/triangle.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/triangle.dir/triangle.c.o -MF CMakeFiles/triangle.dir/triangle.c.o.d -o CMakeFiles/triangle.dir/triangle.c.o -c /home/bangme/bangme/a1/triangle.c
 
 a1/CMakeFiles/triangle.dir/triangle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/triangle.dir/triangle.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/triangle.c > CMakeFiles/triangle.dir/triangle.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/triangle.c > CMakeFiles/triangle.dir/triangle.c.i
 
 a1/CMakeFiles/triangle.dir/triangle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/triangle.dir/triangle.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/triangle.c -o CMakeFiles/triangle.dir/triangle.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/triangle.c -o CMakeFiles/triangle.dir/triangle.c.s
 
 # Object files for target triangle
 triangle_OBJECTS = \

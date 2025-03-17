@@ -73,29 +73,29 @@ a3/myRandom/CMakeFiles/myRandom.dir/main.c.o: a3/myRandom/CMakeFiles/myRandom.di
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.o: ../a3/myRandom/main.c
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.o: a3/myRandom/CMakeFiles/myRandom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/myRandom/CMakeFiles/myRandom.dir/main.c.o"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/main.c.o -MF CMakeFiles/myRandom.dir/main.c.o.d -o CMakeFiles/myRandom.dir/main.c.o -c /home/bangme/bangme/a3/myRandom/main.c
+	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/main.c.o -MF CMakeFiles/myRandom.dir/main.c.o.d -o CMakeFiles/myRandom.dir/main.c.o -c /home/bangme/bangme/a3/myRandom/main.c
 
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myRandom.dir/main.c.i"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/myRandom/main.c > CMakeFiles/myRandom.dir/main.c.i
+	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/myRandom/main.c > CMakeFiles/myRandom.dir/main.c.i
 
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myRandom.dir/main.c.s"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/myRandom/main.c -o CMakeFiles/myRandom.dir/main.c.s
+	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/myRandom/main.c -o CMakeFiles/myRandom.dir/main.c.s
 
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o: a3/myRandom/CMakeFiles/myRandom.dir/flags.make
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o: ../a3/myRandom/myRandom.c
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o: a3/myRandom/CMakeFiles/myRandom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o -MF CMakeFiles/myRandom.dir/myRandom.c.o.d -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/bangme/bangme/a3/myRandom/myRandom.c
+	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o -MF CMakeFiles/myRandom.dir/myRandom.c.o.d -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/bangme/bangme/a3/myRandom/myRandom.c
 
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myRandom.dir/myRandom.c.i"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/myRandom/myRandom.c > CMakeFiles/myRandom.dir/myRandom.c.i
+	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/myRandom/myRandom.c > CMakeFiles/myRandom.dir/myRandom.c.i
 
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myRandom.dir/myRandom.c.s"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/myRandom/myRandom.c -o CMakeFiles/myRandom.dir/myRandom.c.s
+	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/myRandom/myRandom.c -o CMakeFiles/myRandom.dir/myRandom.c.s
 
 # Object files for target myRandom
 myRandom_OBJECTS = \

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/date.dir/main.c.o CMakeFiles/date.dir/date.c.o -o date 
+/usr/bin/cc CMakeFiles/date.dir/main.c.o CMakeFiles/date.dir/date.c.o -o date 
