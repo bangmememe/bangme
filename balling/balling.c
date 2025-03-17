@@ -1,323 +1,399 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <string.h>
+#include <time.h>
 #include <mysql.h>
 #include "balling.h"
 
-const char* HOST = "localhost";
-const char* USER = "bangme";
-const char* PASSWORD = "djwls123"; 
-const char* DATABASE = "bowling_game";
-#define MAX_QUERY_SIZE 512
-
-MYSQL* connect_to_database() 
-{
-    MYSQL* conn = mysql_init(NULL);
-    
+MYSQL *connect_to_database() {
+    MYSQL *conn = mysql_init(NULL);
     if (conn == NULL) 
     {
-        fprintf(stderr, "mysql_init() failed\n");
+        fprintf(stderr, "MySQL 초기화 실패\n");
         return NULL;
     }
-    
-    if (mysql_real_connect(conn, HOST, USER, PASSWORD, DATABASE, 0, NULL, 0) == NULL) 
+
+    if (mysql_real_connect(conn, "localhost", "bangme", "djwls123", "balling_db", 0, NULL, 0) == NULL) 
     {
-        fprintf(stderr, "mysql_real_connect() failed: %s\n", mysql_error(conn));
+        fprintf(stderr, "데이터베이스 연결 실패: %s\n", mysql_error(conn));
         mysql_close(conn);
         return NULL;
     }
-    
-    printf("MySQL 데이터베이스에 성공적으로 연결되었습니다.\n");
+
     return conn;
 }
 
-void create_tables(MYSQL* conn) 
+void create_tables(MYSQL *conn) 
 {
-    const char* create_scores_table = 
-        "CREATE TABLE IF NOT EXISTS scores ("
-        "id INT AUTO_INCREMENT PRIMARY KEY, "
-        "username VARCHAR(50) NOT NULL, "
-        "score INT NOT NULL, "
-        "date DATETIME NOT NULL)";
-    
-    const char* create_player_stats_table = 
-        "CREATE TABLE IF NOT EXISTS player_stats ("
-        "id INT AUTO_INCREMENT PRIMARY KEY, "
-        "username VARCHAR(50) NOT NULL, "
-        "play_date DATE NOT NULL, "
-        "play_count INT NOT NULL)";
-    
-    if (mysql_query(conn, create_scores_table)) 
+    if (mysql_query(conn, "CREATE DATABASE IF NOT EXISTS balling_db") != 0) 
     {
-        fprintf(stderr, "테이블 생성 실패: %s\n", mysql_error(conn));
-    }
-    else
-    {
-        printf("scores 테이블이 성공적으로 생성되었습니다.\n");
-    }
-    
-    if (mysql_query(conn, create_player_stats_table)) 
-    {
-        fprintf(stderr, "테이블 생성 실패: %s\n", mysql_error(conn));
-    }
-    else
-    {
-        printf("player_stats 테이블이 성공적으로 생성되었습니다.\n");
-    }
-}
-
-void save_score(MYSQL* conn, const char* username, int score) 
-{
-    char query[MAX_QUERY_SIZE];
-    
-    time_t now = time(NULL);
-    struct tm* timeinfo = localtime(&now);
-    char date_str[20];
-    strftime(date_str, sizeof(date_str), "%Y-%m-%d %H:%M:%S", timeinfo);
-    
-    snprintf(query, MAX_QUERY_SIZE, 
-             "INSERT INTO scores (username, score, date) VALUES ('%s', %d, '%s')",
-             username, score, date_str);
-    
-    if (mysql_query(conn, query)) 
-    {
-        fprintf(stderr, "점수 저장 실패: %s\n", mysql_error(conn));
-    }
-    else
-    {
-        printf("%s의 점수 %d가 성공적으로 저장되었습니다.\n", username, score);
-    }
-}
-
-void update_player_stats(MYSQL* conn, const char* username) 
-{
-    char query[MAX_QUERY_SIZE];
-    MYSQL_RES* result;
-    
-    time_t now = time(NULL);
-    struct tm* timeinfo = localtime(&now);
-    char date_str[11];
-    strftime(date_str, sizeof(date_str), "%Y-%m-%d", timeinfo);
-    
-    snprintf(query, MAX_QUERY_SIZE, 
-             "SELECT play_count FROM player_stats WHERE username='%s' AND play_date='%s'",
-             username, date_str);
-    
-    if (mysql_query(conn, query)) 
-    {
-        fprintf(stderr, "쿼리 실패: %s\n", mysql_error(conn));
+        fprintf(stderr, "데이터베이스 생성 실패: %s\n", mysql_error(conn));
         return;
     }
-    
-    result = mysql_store_result(conn);
-    
-    if (result) 
+
+    if (mysql_query(conn, "USE balling_db") != 0) 
     {
-        if (mysql_num_rows(result) > 0) 
-        {
-            MYSQL_ROW row = mysql_fetch_row(result);
-            int play_count = atoi(row[0]) + 1;
-            
-            snprintf(query, MAX_QUERY_SIZE, 
-                     "UPDATE player_stats SET play_count=%d WHERE username='%s' AND play_date='%s'",
-                     play_count, username, date_str);
-            
-            mysql_free_result(result);
-            
-            if (mysql_query(conn, query)) 
-            {
-                fprintf(stderr, "통계 업데이트 실패: %s\n", mysql_error(conn));
-            }
-            else
-            {
-                printf("%s의 플레이 횟수가 %d로 업데이트되었습니다.\n", username, play_count);
-            }
-        } 
-        else 
-        {
-            mysql_free_result(result);
-            
-            snprintf(query, MAX_QUERY_SIZE, 
-                     "INSERT INTO player_stats (username, play_date, play_count) VALUES ('%s', '%s', 1)",
-                     username, date_str);
-            
-            if (mysql_query(conn, query)) 
-            {
-                fprintf(stderr, "통계 추가 실패: %s\n", mysql_error(conn));
-            }
-            else
-            {
-                printf("%s의 첫 플레이가 기록되었습니다.\n", username);
-            }
-        }
+        fprintf(stderr, "데이터베이스 선택 실패: %s\n", mysql_error(conn));
+        return;
+    }
+
+    if (mysql_query(conn, "CREATE TABLE IF NOT EXISTS score_records ("
+                         "id INT AUTO_INCREMENT PRIMARY KEY, "
+                         "username VARCHAR(50) NOT NULL, "
+                         "play_date DATE NOT NULL, "
+                         "score INT NOT NULL)") != 0) 
+    {
+        fprintf(stderr, "score_records 테이블 생성 실패: %s\n", mysql_error(conn));
+        return;
+    }
+
+    if (mysql_query(conn, "CREATE TABLE IF NOT EXISTS user_monthly_stats ("
+                         "id INT AUTO_INCREMENT PRIMARY KEY, "
+                         "username VARCHAR(50) NOT NULL, "
+                         "year INT NOT NULL, "
+                         "month INT NOT NULL, "
+                         "play_count INT NOT NULL DEFAULT 0, "
+                         "UNIQUE KEY unique_user_month (username, year, month))") != 0) 
+    {
+        fprintf(stderr, "user_monthly_stats 테이블 생성 실패: %s\n", mysql_error(conn));
+        return;
+    }
+
+    if (mysql_query(conn, "CREATE TABLE IF NOT EXISTS game_results ("
+                         "id INT AUTO_INCREMENT PRIMARY KEY, "
+                         "game_date DATETIME NOT NULL, "
+                         "player1_name VARCHAR(50) NOT NULL, "
+                         "player1_score INT NOT NULL, "
+                         "player2_name VARCHAR(50) NOT NULL, "
+                         "player2_score INT NOT NULL, "
+                         "winner VARCHAR(50) NOT NULL)") != 0) 
+    {
+        fprintf(stderr, "game_results 테이블 생성 실패: %s\n", mysql_error(conn));
+        return;
     }
 }
 
-int is_strike(Player* player, int frame) 
+void initialize_game(Player players[]) 
 {
-    return player->scores[frame][0] == 10;
-}
-
-int is_spare(Player* player, int frame) 
-{
-    return player->scores[frame][0] + player->scores[frame][1] == 10 && player->scores[frame][0] != 10;
-}
-
-void calculate_frame_score(Player* player, int frame) 
-{
-    int first_roll = player->scores[frame][0];
-    int second_roll = player->scores[frame][1];
-    int third_roll = player->scores[frame][2];
+    printf("볼링 게임을 시작합니다!\n");
     
-    // 스트라이크인 경우
-    if (is_strike(player, frame)) 
+    // 플레이어 이름 입력
+    for (int i = 0; i < MAX_PLAYERS; i++) 
     {
-        player->frame_scores[frame] = 10;
+        printf("플레이어 %d의 이름을 입력하세요: ", i + 1);
+        scanf("%s", players[i].name);
         
-        // 다음 2번의 점수를 가져옴
-        if (frame < MAX_FRAMES - 1) {
-            player->frame_scores[frame] += player->scores[frame + 1][0];
-            if (player->scores[frame + 1][0] == 10) {
-                // 다음 프레임도 스트라이크인 경우, 그 다음 프레임의 첫 번째 점수를 가져옴
-                if (frame < MAX_FRAMES - 2) {
-                    player->frame_scores[frame] += player->scores[frame + 2][0];
+        // 점수 초기화
+        for (int j = 0; j < MAX_FRAMES; j++) 
+        {
+            for (int k = 0; k < 3; k++) 
+            {
+                players[i].scores[j][k] = -1;
+            }
+            players[i].frameScores[j] = 0;
+        }
+        players[i].totalScore = 0;
+    }
+    
+    // 난수 발생기 초기화
+    srand(time(NULL));
+    
+    printf("게임이 초기화되었습니다.\n");
+}
+
+// 볼링 핀을 쓰러뜨리는 함수
+int roll_ball(int pinsLeft) 
+{
+    return rand() % (pinsLeft + 1);
+}
+void play_game(Player players[]) 
+{
+    printf("\n게임을 시작합니다!\n");
+    
+    for (int frame = 0; frame < MAX_FRAMES; frame++) 
+    {
+        printf("\n==== 프레임 %d ====\n", frame + 1);
+        
+        for (int player = 0; player < MAX_PLAYERS; player++) 
+        {
+            printf("\n%s의 차례입니다.\n", players[player].name);
+            
+            int pinsLeft = 10;
+            
+            // 첫 번째 투구
+            printf("첫 번째 투구를 위해 Enter 키를 누르세요...");
+            getchar();
+            int firstRoll = roll_ball(pinsLeft);
+            players[player].scores[frame][0] = firstRoll;
+            pinsLeft -= firstRoll;
+            
+            if (firstRoll == 10) 
+            {
+                printf("스트라이크! 10개의 핀을 모두 쓰러뜨렸습니다!\n");
+                if (frame < 9) 
+                {  
+                    continue;
                 }
-            } else {
-                player->frame_scores[frame] += player->scores[frame + 1][1];
+            } 
+            else 
+            {
+                printf("%d개의 핀을 쓰러뜨렸습니다. 남은 핀: %d\n", firstRoll, pinsLeft);
+            }
+            
+            // 두 번째 투구
+            printf("두 번째 투구를 위해 Enter 키를 누르세요...");
+            getchar();
+            int secondRoll = roll_ball(pinsLeft);
+            players[player].scores[frame][1] = secondRoll;
+            pinsLeft -= secondRoll;
+            
+            if (firstRoll + secondRoll == 10) 
+            {
+                printf("스페어! 남은 핀을 모두 쓰러뜨렸습니다!\n");
+            } 
+            else 
+            {
+                printf("%d개의 핀을 쓰러뜨렸습니다. 총 %d개의 핀을 쓰러뜨렸습니다.\n", 
+                       secondRoll, firstRoll + secondRoll);
+            }
+            
+            // 10프레임에서 스트라이크나 스페어를 친 경우 보너스 투구
+            if (frame == 9 && (firstRoll == 10 || firstRoll + secondRoll == 10)) 
+            {
+                printf("보너스 투구를 위해 Enter 키를 누르세요...");
+                getchar();
+                int bonusRoll = roll_ball(10);
+                players[player].scores[frame][2] = bonusRoll;
+                printf("보너스 투구: %d개의 핀을 쓰러뜨렸습니다!\n", bonusRoll);
             }
         }
-    }
-    // 스페어인 경우
-    else if (is_spare(player, frame)) 
-    {
-        player->frame_scores[frame] = 10 + player->scores[frame + 1][0];
-    }
-    // 일반적인 경우
-    else 
-    {
-        player->frame_scores[frame] = first_roll + second_roll;
-    }
-    
-    // 10프레임 처리
-    if (frame == MAX_FRAMES - 1) 
-    {
-        if (is_strike(player, frame)) 
-        {
-            player->frame_scores[frame] += third_roll;
-        } 
-        else if (is_spare(player, frame)) 
-        {
-            player->frame_scores[frame] += third_roll;
-        }
-    }
-}
-
-void play_frame(Player* player, int frame_index)
-{
-    int pins_left = 10;
-    
-    printf("%s의 차례, 프레임 %d:\n", player->name, frame_index + 1);
-    
-    int first_roll = 0;
-    printf("%s가 첫 번째 투구를 합니다. 몇 개의 핀을 쓰러뜨렸나요? ", player->name);
-    scanf("%d", &first_roll);
-    player->scores[frame_index][0] = first_roll;
-    pins_left -= first_roll;
-    
-    printf("%s가 %d개의 핀을 쓰러뜨렸습니다.\n", player->name, first_roll);
-    
-    if (first_roll < 10) 
-    {
-        int second_roll = 0;
-        printf("%s가 두 번째 투구를 합니다. 몇 개의 핀을 쓰러뜨렸나요? ", player->name);
-        scanf("%d", &second_roll);
-        player->scores[frame_index][1] = second_roll;
-        printf("%s가 %d개의 핀을 쓰러뜨렸습니다.\n", player->name, second_roll);
         
-        // 스페어 확인
-        if (first_roll + second_roll == 10) 
+        // 각 프레임 후 점수 계산 및 표시
+        for (int player = 0; player < MAX_PLAYERS; player++)
         {
-            printf("스페어!\n");
+            calculate_score(&players[player]);
         }
+        display_scorecard(players);
+    }
+    
+    // 최종 점수 표시
+    printf("\n==== 최종 점수 ====\n");
+    for (int player = 0; player < MAX_PLAYERS; player++) 
+    {
+        printf("%s의 최종 점수: %d\n", players[player].name, players[player].totalScore);
+    }
+    
+    // 승자 결정
+    if (players[0].totalScore > players[1].totalScore) 
+    {
+        printf("\n%s가 승리했습니다!\n", players[0].name);
+    } 
+    else if (players[0].totalScore < players[1].totalScore) 
+    {
+        printf("\n%s가 승리했습니다!\n", players[1].name);
     } 
     else 
     {
-        player->scores[frame_index][1] = 0;
-        printf("스트라이크!\n");
-        
-        // 10프레임 처리를 위해 세 번째 투구 기회 부여
-        if (frame_index == MAX_FRAMES - 1) 
-        {
-            int third_roll = 0;
-            printf("%s가 세 번째 투구를 합니다. 몇 개의 핀을 쓰러뜨렸나요? ", player->name);
-            scanf("%d", &third_roll);
-            player->scores[frame_index][2] = third_roll;
-            printf("%s가 %d개의 핀을 쓰러뜨렸습니다.\n", player->name, third_roll);
-        }
+        printf("\n무승부입니다!\n");
     }
-    
-    calculate_frame_score(player, frame_index);
-    player->total_score += player->frame_scores[frame_index];
-}
-void initialize_game(Player players[]) 
-{
-    srand(time(NULL));
-    
-    for (int i = 0; i < MAX_PLAYERS; i++) 
-    {
-        printf("Player %d, 이름을 입력하세요: ", i + 1);
-        scanf("%s", players[i].name);
-        players[i].total_score = 0;
-        
-        for (int j = 0; j < MAX_FRAMES; j++) 
-        {
-            players[i].scores[j][0] = -1;  // -1은 아직 던지지 않았음을 의미
-            players[i].scores[j][1] = -1;
-            players[i].scores[j][2] = -1;
-            players[i].frame_scores[j] = 0;
-        }
-    }
-}
-int roll_ball(int pins) 
-{
-    return rand() % (pins + 1);
 }
 
-void play_game(Player players[], MYSQL* conn) 
+void calculate_score(Player *player) 
 {
+    int totalScore = 0;
+    
     for (int frame = 0; frame < MAX_FRAMES; frame++) 
     {
-        printf("\n===== 프레임 %d =====\n", frame + 1);
+        int frameScore = 0;
+        int firstRoll = player->scores[frame][0];
+        int secondRoll = player->scores[frame][1];
         
-        for (int player_index = 0; player_index < MAX_PLAYERS; player_index++) 
+        if (firstRoll == 10) 
         {
-            play_frame(&players[player_index], frame);
-            printf("%s's current score: %d\n", players[player_index].name, players[player_index].total_score);
+            frameScore = 10;
+            
+            if (frame < 9) 
+            {  
+                if (player->scores[frame + 1][0] == 10) 
+                {  
+                    frameScore += 10;
+                    
+                    if (frame < 8) 
+                    {  
+                        frameScore += player->scores[frame + 2][0];  
+                    } else {  // 9프레임
+                        frameScore += player->scores[frame + 1][1];  
+                    }
+                }
+                else
+                {  // 다음 프레임은 스트라이크가 아님
+                    frameScore += player->scores[frame + 1][0] + player->scores[frame + 1][1];
+                }
+            }
+            else 
+            {
+                frameScore += player->scores[frame][1] + player->scores[frame][2];
+            }
+        } 
+        else if (firstRoll + secondRoll == 10) 
+        { 
+            frameScore = 10;
+            
+          
+            if (frame < 9) 
+            {  
+                frameScore += player->scores[frame + 1][0];
+            } else 
+            { 
+                frameScore += player->scores[frame][2];
+            }
+        } 
+        else 
+        {  
+            frameScore = firstRoll + secondRoll;
         }
+        
+        totalScore += frameScore;
+        player->frameScores[frame] = totalScore;
     }
     
-    printf("\n===== FINAL SCORES =====\n");
+    player->totalScore = totalScore;
+}
+void display_scorecard(Player players[]) 
+{
+    printf("\n==== 현재 점수 ====\n");
+    
+    for (int player = 0; player < MAX_PLAYERS; player++) 
+    {
+        printf("%s의 점수:\n", players[player].name);
+        
+        printf("프레임: ");
+        for (int frame = 0; frame < MAX_FRAMES; frame++) 
+        {
+            printf("%3d ", frame + 1);
+        }
+        printf("\n");
+        
+        printf("투구:   ");
+        for (int frame = 0; frame < MAX_FRAMES; frame++) 
+        {
+            int firstRoll = players[player].scores[frame][0];
+            int secondRoll = players[player].scores[frame][1];
+            
+            if (firstRoll == 10) 
+            {
+                printf("  X ");
+            } else if (firstRoll + secondRoll == 10) 
+            {
+                printf("%d / ", firstRoll);
+            }
+            else 
+            {
+                if (firstRoll == -1) 
+                {
+                    printf("  - ");  
+                }
+                 else if (secondRoll == -1) 
+                {
+                    printf("%d - ", firstRoll);  
+                } else {
+                    printf("%d %d ", firstRoll, secondRoll);
+                }
+            }
+        }
+        printf("\n");
+
+        printf("점수:   ");
+        for (int frame = 0; frame < MAX_FRAMES; frame++) 
+        {
+            if (players[player].frameScores[frame] > 0) 
+            {
+                printf("%3d ", players[player].frameScores[frame]);
+            } 
+            else 
+            {
+                printf("  - ");
+            }
+        }
+        printf("\n\n");
+    }
+}
+
+void save_score(MYSQL *conn, const char *username, int score) 
+{
+    char query[256];
+    sprintf(query, "INSERT INTO score_records (username, play_date, score) VALUES ('%s', CURDATE(), %d)", username, score);
+
+    if (mysql_query(conn, query) != 0) 
+    {
+        fprintf(stderr, "점수 저장 실패: %s\n", mysql_error(conn));
+        return;
+    }
+
+    mysql_commit(conn);
+    printf("%s의 점수 %d가 저장되었습니다.\n", username, score);
+}
+
+void update_user_monthly_stats(MYSQL *conn, const char *username, int year, int month) 
+{
+    char query[256];
+    sprintf(query, "INSERT INTO user_monthly_stats (username, year, month, play_count) VALUES ('%s', %d, %d, 1) "
+                   "ON DUPLICATE KEY UPDATE play_count = play_count + 1", username, year, month);
+
+    if (mysql_query(conn, query) != 0) 
+    {
+        fprintf(stderr, "월간 통계 업데이트 실패: %s\n", mysql_error(conn));
+        return;
+    }
+
+    mysql_commit(conn);
+    printf("%s의 %d년 %d월 월간 통계가 업데이트되었습니다.\n", username, year, month);
+}
+
+void save_game_result(MYSQL *conn, Player players[]) 
+{
+    char query[512];
+    char winner[MAX_NAME_LENGTH];
+    
+    if (players[0].totalScore > players[1].totalScore) 
+    {
+        strcpy(winner, players[0].name);
+    } else if (players[0].totalScore < players[1].totalScore) 
+    {
+        strcpy(winner, players[1].name);
+    } 
+    else 
+    {
+        strcpy(winner, "무승부");
+    }
+    
+    sprintf(query, "INSERT INTO game_results (game_date, player1_name, player1_score, player2_name, player2_score, winner) "
+                   "VALUES (NOW(), '%s', %d, '%s', %d, '%s')", 
+                   players[0].name, players[0].totalScore, 
+                   players[1].name, players[1].totalScore, 
+                   winner);
+
+    if (mysql_query(conn, query) != 0) 
+    {
+        fprintf(stderr, "게임 결과 저장 실패: %s\n", mysql_error(conn));
+        return;
+    }
+
+    mysql_commit(conn);
+    printf("게임 결과가 데이터베이스에 저장되었습니다.\n");
+    
     for (int i = 0; i < MAX_PLAYERS; i++) 
     {
-        printf("%s: %d points\n", players[i].name, players[i].total_score);
+        save_score(conn, players[i].name, players[i].totalScore);
     }
     
-    int winner_index = 0;
-    for (int i = 1; i < MAX_PLAYERS; i++) 
-    {
-        if (players[i].total_score > players[winner_index].total_score) 
-        {
-            winner_index = i;
-        }
-    }
-    
-    printf("\n승자는 %s 그리고 점수는 %d 입니다!\n", 
-           players[winner_index].name, players[winner_index].total_score);
+    time_t now = time(NULL);
+    struct tm *t = localtime(&now);
+    int year = t->tm_year + 1900;
+    int month = t->tm_mon + 1;
     
     for (int i = 0; i < MAX_PLAYERS; i++) 
     {
-        save_score(conn, players[i].name, players[i].total_score);
-        update_player_stats(conn, players[i].name);
+        update_user_monthly_stats(conn, players[i].name, year, month);
     }
 }

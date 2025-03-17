@@ -1,36 +1,19 @@
-# 컴파일러 설정
-CC = gcc
-CFLAGS = -Wall -g
+CC = /usr/bin/gcc
+CFLAGS = -fdiagnostics-color=always -g -I/usr/include/mysql
+LDFLAGS = -lmysqlclient
 
-# MySQL 설정
-MYSQL_CFLAGS = $(shell mysql_config --cflags)
-MYSQL_LIBS = $(shell mysql_config --libs)
+SRC_DIR = /home/bangme/bangme/balling
+BIN_DIR = $(SRC_DIR)
 
-# 타겟 설정
-TARGET = bowling_game
+SRC_FILES = $(SRC_DIR)/main.c $(SRC_DIR)/balling.c
+BIN_FILE = $(BIN_DIR)/balling
 
-# 소스 파일
-SRCS = main.c balling.c
-OBJS = $(SRCS:.c=.o)
+all: $(BIN_FILE)
 
-# 기본 타겟
-all: $(TARGET)
+$(BIN_FILE): $(SRC_FILES)
+	$(CC) $(CFLAGS) $(SRC_FILES) -o $(BIN_FILE) $(LDFLAGS)
 
-# 최종 실행 파일 생성
-$(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) -o $@ $^ $(MYSQL_LIBS)
+.PHONY: clean
 
-# 개별 소스 파일 컴파일
-%.o: %.c balling.h
-	$(CC) $(CFLAGS) $(MYSQL_CFLAGS) -c $< -o $@
-
-# 정리
 clean:
-	rm -f $(OBJS) $(TARGET)
-
-# 실행
-run: $(TARGET)
-	./$(TARGET)
-
-# PHONY 타겟 설정
-.PHONY: all clean run
+	rm -f $(BIN_FILE)
