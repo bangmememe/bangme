@@ -73,15 +73,15 @@ a1/CMakeFiles/compare2.dir/compare2.c.o: a1/CMakeFiles/compare2.dir/flags.make
 a1/CMakeFiles/compare2.dir/compare2.c.o: ../a1/compare2.c
 a1/CMakeFiles/compare2.dir/compare2.c.o: a1/CMakeFiles/compare2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/compare2.dir/compare2.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/compare2.dir/compare2.c.o -MF CMakeFiles/compare2.dir/compare2.c.o.d -o CMakeFiles/compare2.dir/compare2.c.o -c /home/bangme/bangme/a1/compare2.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/compare2.dir/compare2.c.o -MF CMakeFiles/compare2.dir/compare2.c.o.d -o CMakeFiles/compare2.dir/compare2.c.o -c /home/bangme/bangme/a1/compare2.c
 
 a1/CMakeFiles/compare2.dir/compare2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compare2.dir/compare2.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/compare2.c > CMakeFiles/compare2.dir/compare2.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/compare2.c > CMakeFiles/compare2.dir/compare2.c.i
 
 a1/CMakeFiles/compare2.dir/compare2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compare2.dir/compare2.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/compare2.c -o CMakeFiles/compare2.dir/compare2.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/compare2.c -o CMakeFiles/compare2.dir/compare2.c.s
 
 # Object files for target compare2
 compare2_OBJECTS = \

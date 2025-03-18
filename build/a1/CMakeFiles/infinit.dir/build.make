@@ -73,15 +73,15 @@ a1/CMakeFiles/infinit.dir/infinit.c.o: a1/CMakeFiles/infinit.dir/flags.make
 a1/CMakeFiles/infinit.dir/infinit.c.o: ../a1/infinit.c
 a1/CMakeFiles/infinit.dir/infinit.c.o: a1/CMakeFiles/infinit.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/infinit.dir/infinit.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/infinit.dir/infinit.c.o -MF CMakeFiles/infinit.dir/infinit.c.o.d -o CMakeFiles/infinit.dir/infinit.c.o -c /home/bangme/bangme/a1/infinit.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/infinit.dir/infinit.c.o -MF CMakeFiles/infinit.dir/infinit.c.o.d -o CMakeFiles/infinit.dir/infinit.c.o -c /home/bangme/bangme/a1/infinit.c
 
 a1/CMakeFiles/infinit.dir/infinit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/infinit.dir/infinit.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/infinit.c > CMakeFiles/infinit.dir/infinit.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/infinit.c > CMakeFiles/infinit.dir/infinit.c.i
 
 a1/CMakeFiles/infinit.dir/infinit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/infinit.dir/infinit.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/infinit.c -o CMakeFiles/infinit.dir/infinit.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/infinit.c -o CMakeFiles/infinit.dir/infinit.c.s
 
 # Object files for target infinit
 infinit_OBJECTS = \

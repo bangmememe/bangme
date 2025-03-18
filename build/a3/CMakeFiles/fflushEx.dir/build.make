@@ -73,15 +73,15 @@ a3/CMakeFiles/fflushEx.dir/fflushEx.c.o: a3/CMakeFiles/fflushEx.dir/flags.make
 a3/CMakeFiles/fflushEx.dir/fflushEx.c.o: ../a3/fflushEx.c
 a3/CMakeFiles/fflushEx.dir/fflushEx.c.o: a3/CMakeFiles/fflushEx.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/fflushEx.dir/fflushEx.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/fflushEx.dir/fflushEx.c.o -MF CMakeFiles/fflushEx.dir/fflushEx.c.o.d -o CMakeFiles/fflushEx.dir/fflushEx.c.o -c /home/bangme/bangme/a3/fflushEx.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/fflushEx.dir/fflushEx.c.o -MF CMakeFiles/fflushEx.dir/fflushEx.c.o.d -o CMakeFiles/fflushEx.dir/fflushEx.c.o -c /home/bangme/bangme/a3/fflushEx.c
 
 a3/CMakeFiles/fflushEx.dir/fflushEx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fflushEx.dir/fflushEx.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/fflushEx.c > CMakeFiles/fflushEx.dir/fflushEx.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/fflushEx.c > CMakeFiles/fflushEx.dir/fflushEx.c.i
 
 a3/CMakeFiles/fflushEx.dir/fflushEx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fflushEx.dir/fflushEx.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/fflushEx.c -o CMakeFiles/fflushEx.dir/fflushEx.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/fflushEx.c -o CMakeFiles/fflushEx.dir/fflushEx.c.s
 
 # Object files for target fflushEx
 fflushEx_OBJECTS = \

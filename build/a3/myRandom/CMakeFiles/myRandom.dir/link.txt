@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/myRandom.dir/main.c.o CMakeFiles/myRandom.dir/myRandom.c.o -o myRandom 
+/usr/bin/gcc -g CMakeFiles/myRandom.dir/main.c.o CMakeFiles/myRandom.dir/myRandom.c.o -o myRandom 

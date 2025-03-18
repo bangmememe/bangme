@@ -73,29 +73,29 @@ a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.o: a3/CarSerial/CMakeFiles/CarSeira
 a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.o: ../a3/CarSerial/main.c
 a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.o: a3/CarSerial/CMakeFiles/CarSeiral.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.o"
-	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.o -MF CMakeFiles/CarSeiral.dir/main.c.o.d -o CMakeFiles/CarSeiral.dir/main.c.o -c /home/bangme/bangme/a3/CarSerial/main.c
+	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.o -MF CMakeFiles/CarSeiral.dir/main.c.o.d -o CMakeFiles/CarSeiral.dir/main.c.o -c /home/bangme/bangme/a3/CarSerial/main.c
 
 a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CarSeiral.dir/main.c.i"
-	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/CarSerial/main.c > CMakeFiles/CarSeiral.dir/main.c.i
+	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/CarSerial/main.c > CMakeFiles/CarSeiral.dir/main.c.i
 
 a3/CarSerial/CMakeFiles/CarSeiral.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CarSeiral.dir/main.c.s"
-	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/CarSerial/main.c -o CMakeFiles/CarSeiral.dir/main.c.s
+	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/CarSerial/main.c -o CMakeFiles/CarSeiral.dir/main.c.s
 
 a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.o: a3/CarSerial/CMakeFiles/CarSeiral.dir/flags.make
 a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.o: ../a3/CarSerial/serial.c
 a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.o: a3/CarSerial/CMakeFiles/CarSeiral.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.o"
-	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.o -MF CMakeFiles/CarSeiral.dir/serial.c.o.d -o CMakeFiles/CarSeiral.dir/serial.c.o -c /home/bangme/bangme/a3/CarSerial/serial.c
+	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.o -MF CMakeFiles/CarSeiral.dir/serial.c.o.d -o CMakeFiles/CarSeiral.dir/serial.c.o -c /home/bangme/bangme/a3/CarSerial/serial.c
 
 a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CarSeiral.dir/serial.c.i"
-	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/CarSerial/serial.c > CMakeFiles/CarSeiral.dir/serial.c.i
+	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/CarSerial/serial.c > CMakeFiles/CarSeiral.dir/serial.c.i
 
 a3/CarSerial/CMakeFiles/CarSeiral.dir/serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CarSeiral.dir/serial.c.s"
-	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/CarSerial/serial.c -o CMakeFiles/CarSeiral.dir/serial.c.s
+	cd /home/bangme/bangme/build/a3/CarSerial && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/CarSerial/serial.c -o CMakeFiles/CarSeiral.dir/serial.c.s
 
 # Object files for target CarSeiral
 CarSeiral_OBJECTS = \

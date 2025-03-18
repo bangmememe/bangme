@@ -73,15 +73,15 @@ a3/CMakeFiles/voidPointer.dir/voidPointer.c.o: a3/CMakeFiles/voidPointer.dir/fla
 a3/CMakeFiles/voidPointer.dir/voidPointer.c.o: ../a3/voidPointer.c
 a3/CMakeFiles/voidPointer.dir/voidPointer.c.o: a3/CMakeFiles/voidPointer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/voidPointer.dir/voidPointer.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/voidPointer.dir/voidPointer.c.o -MF CMakeFiles/voidPointer.dir/voidPointer.c.o.d -o CMakeFiles/voidPointer.dir/voidPointer.c.o -c /home/bangme/bangme/a3/voidPointer.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/voidPointer.dir/voidPointer.c.o -MF CMakeFiles/voidPointer.dir/voidPointer.c.o.d -o CMakeFiles/voidPointer.dir/voidPointer.c.o -c /home/bangme/bangme/a3/voidPointer.c
 
 a3/CMakeFiles/voidPointer.dir/voidPointer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/voidPointer.dir/voidPointer.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/voidPointer.c > CMakeFiles/voidPointer.dir/voidPointer.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/voidPointer.c > CMakeFiles/voidPointer.dir/voidPointer.c.i
 
 a3/CMakeFiles/voidPointer.dir/voidPointer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/voidPointer.dir/voidPointer.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/voidPointer.c -o CMakeFiles/voidPointer.dir/voidPointer.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/voidPointer.c -o CMakeFiles/voidPointer.dir/voidPointer.c.s
 
 # Object files for target voidPointer
 voidPointer_OBJECTS = \

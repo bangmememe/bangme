@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/voidPointer.dir/voidPointer.c.o -o voidPointer 
+/usr/bin/gcc -g CMakeFiles/voidPointer.dir/voidPointer.c.o -o voidPointer 

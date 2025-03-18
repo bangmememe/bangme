@@ -73,15 +73,15 @@ a1/CMakeFiles/genderRatio.dir/genderRatio.c.o: a1/CMakeFiles/genderRatio.dir/fla
 a1/CMakeFiles/genderRatio.dir/genderRatio.c.o: ../a1/genderRatio.c
 a1/CMakeFiles/genderRatio.dir/genderRatio.c.o: a1/CMakeFiles/genderRatio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/genderRatio.dir/genderRatio.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/genderRatio.dir/genderRatio.c.o -MF CMakeFiles/genderRatio.dir/genderRatio.c.o.d -o CMakeFiles/genderRatio.dir/genderRatio.c.o -c /home/bangme/bangme/a1/genderRatio.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/genderRatio.dir/genderRatio.c.o -MF CMakeFiles/genderRatio.dir/genderRatio.c.o.d -o CMakeFiles/genderRatio.dir/genderRatio.c.o -c /home/bangme/bangme/a1/genderRatio.c
 
 a1/CMakeFiles/genderRatio.dir/genderRatio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/genderRatio.dir/genderRatio.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/genderRatio.c > CMakeFiles/genderRatio.dir/genderRatio.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/genderRatio.c > CMakeFiles/genderRatio.dir/genderRatio.c.i
 
 a1/CMakeFiles/genderRatio.dir/genderRatio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/genderRatio.dir/genderRatio.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/genderRatio.c -o CMakeFiles/genderRatio.dir/genderRatio.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/genderRatio.c -o CMakeFiles/genderRatio.dir/genderRatio.c.s
 
 # Object files for target genderRatio
 genderRatio_OBJECTS = \

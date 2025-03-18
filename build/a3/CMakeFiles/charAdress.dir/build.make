@@ -73,15 +73,15 @@ a3/CMakeFiles/charAdress.dir/charAdress.c.o: a3/CMakeFiles/charAdress.dir/flags.
 a3/CMakeFiles/charAdress.dir/charAdress.c.o: ../a3/charAdress.c
 a3/CMakeFiles/charAdress.dir/charAdress.c.o: a3/CMakeFiles/charAdress.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/charAdress.dir/charAdress.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/charAdress.dir/charAdress.c.o -MF CMakeFiles/charAdress.dir/charAdress.c.o.d -o CMakeFiles/charAdress.dir/charAdress.c.o -c /home/bangme/bangme/a3/charAdress.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/charAdress.dir/charAdress.c.o -MF CMakeFiles/charAdress.dir/charAdress.c.o.d -o CMakeFiles/charAdress.dir/charAdress.c.o -c /home/bangme/bangme/a3/charAdress.c
 
 a3/CMakeFiles/charAdress.dir/charAdress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/charAdress.dir/charAdress.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/charAdress.c > CMakeFiles/charAdress.dir/charAdress.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/charAdress.c > CMakeFiles/charAdress.dir/charAdress.c.i
 
 a3/CMakeFiles/charAdress.dir/charAdress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/charAdress.dir/charAdress.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/charAdress.c -o CMakeFiles/charAdress.dir/charAdress.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/charAdress.c -o CMakeFiles/charAdress.dir/charAdress.c.s
 
 # Object files for target charAdress
 charAdress_OBJECTS = \

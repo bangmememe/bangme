@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/limit.dir/limit.c.o -o limit 
+/usr/bin/gcc -g CMakeFiles/limit.dir/limit.c.o -o limit 

@@ -73,15 +73,15 @@ a3/CMakeFiles/strcatExample.dir/strcatExample.c.o: a3/CMakeFiles/strcatExample.d
 a3/CMakeFiles/strcatExample.dir/strcatExample.c.o: ../a3/strcatExample.c
 a3/CMakeFiles/strcatExample.dir/strcatExample.c.o: a3/CMakeFiles/strcatExample.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/strcatExample.dir/strcatExample.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/strcatExample.dir/strcatExample.c.o -MF CMakeFiles/strcatExample.dir/strcatExample.c.o.d -o CMakeFiles/strcatExample.dir/strcatExample.c.o -c /home/bangme/bangme/a3/strcatExample.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/strcatExample.dir/strcatExample.c.o -MF CMakeFiles/strcatExample.dir/strcatExample.c.o.d -o CMakeFiles/strcatExample.dir/strcatExample.c.o -c /home/bangme/bangme/a3/strcatExample.c
 
 a3/CMakeFiles/strcatExample.dir/strcatExample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strcatExample.dir/strcatExample.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/strcatExample.c > CMakeFiles/strcatExample.dir/strcatExample.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/strcatExample.c > CMakeFiles/strcatExample.dir/strcatExample.c.i
 
 a3/CMakeFiles/strcatExample.dir/strcatExample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strcatExample.dir/strcatExample.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/strcatExample.c -o CMakeFiles/strcatExample.dir/strcatExample.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/strcatExample.c -o CMakeFiles/strcatExample.dir/strcatExample.c.s
 
 # Object files for target strcatExample
 strcatExample_OBJECTS = \

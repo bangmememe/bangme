@@ -73,15 +73,15 @@ a1/CMakeFiles/fourBit.dir/fourBit.c.o: a1/CMakeFiles/fourBit.dir/flags.make
 a1/CMakeFiles/fourBit.dir/fourBit.c.o: ../a1/fourBit.c
 a1/CMakeFiles/fourBit.dir/fourBit.c.o: a1/CMakeFiles/fourBit.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/fourBit.dir/fourBit.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/fourBit.dir/fourBit.c.o -MF CMakeFiles/fourBit.dir/fourBit.c.o.d -o CMakeFiles/fourBit.dir/fourBit.c.o -c /home/bangme/bangme/a1/fourBit.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/fourBit.dir/fourBit.c.o -MF CMakeFiles/fourBit.dir/fourBit.c.o.d -o CMakeFiles/fourBit.dir/fourBit.c.o -c /home/bangme/bangme/a1/fourBit.c
 
 a1/CMakeFiles/fourBit.dir/fourBit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fourBit.dir/fourBit.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/fourBit.c > CMakeFiles/fourBit.dir/fourBit.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/fourBit.c > CMakeFiles/fourBit.dir/fourBit.c.i
 
 a1/CMakeFiles/fourBit.dir/fourBit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fourBit.dir/fourBit.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/fourBit.c -o CMakeFiles/fourBit.dir/fourBit.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/fourBit.c -o CMakeFiles/fourBit.dir/fourBit.c.s
 
 # Object files for target fourBit
 fourBit_OBJECTS = \

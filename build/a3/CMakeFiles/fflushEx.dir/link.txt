@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/fflushEx.dir/fflushEx.c.o -o fflushEx 
+/usr/bin/gcc -g CMakeFiles/fflushEx.dir/fflushEx.c.o -o fflushEx 

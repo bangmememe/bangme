@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/arrayPointer.dir/arrayPointer.c.o -o arrayPointer 
+/usr/bin/gcc -g CMakeFiles/arrayPointer.dir/arrayPointer.c.o -o arrayPointer 

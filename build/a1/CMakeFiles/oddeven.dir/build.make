@@ -73,15 +73,15 @@ a1/CMakeFiles/oddeven.dir/oddeven.c.o: a1/CMakeFiles/oddeven.dir/flags.make
 a1/CMakeFiles/oddeven.dir/oddeven.c.o: ../a1/oddeven.c
 a1/CMakeFiles/oddeven.dir/oddeven.c.o: a1/CMakeFiles/oddeven.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a1/CMakeFiles/oddeven.dir/oddeven.c.o"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/oddeven.dir/oddeven.c.o -MF CMakeFiles/oddeven.dir/oddeven.c.o.d -o CMakeFiles/oddeven.dir/oddeven.c.o -c /home/bangme/bangme/a1/oddeven.c
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a1/CMakeFiles/oddeven.dir/oddeven.c.o -MF CMakeFiles/oddeven.dir/oddeven.c.o.d -o CMakeFiles/oddeven.dir/oddeven.c.o -c /home/bangme/bangme/a1/oddeven.c
 
 a1/CMakeFiles/oddeven.dir/oddeven.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oddeven.dir/oddeven.c.i"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/oddeven.c > CMakeFiles/oddeven.dir/oddeven.c.i
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a1/oddeven.c > CMakeFiles/oddeven.dir/oddeven.c.i
 
 a1/CMakeFiles/oddeven.dir/oddeven.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oddeven.dir/oddeven.c.s"
-	cd /home/bangme/bangme/build/a1 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/oddeven.c -o CMakeFiles/oddeven.dir/oddeven.c.s
+	cd /home/bangme/bangme/build/a1 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a1/oddeven.c -o CMakeFiles/oddeven.dir/oddeven.c.s
 
 # Object files for target oddeven
 oddeven_OBJECTS = \

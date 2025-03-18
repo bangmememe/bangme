@@ -9,8 +9,8 @@
 
 typedef struct {
     char name[MAX_NAME_LENGTH];
-    int scores[MAX_FRAMES][3];  // 각 프레임별 최대 3번의 투구 (10프레임은 최대 3번)
-    int frameScores[MAX_FRAMES]; // 각 프레임의 누적 점수
+    int scores[MAX_FRAMES][3];
+    int frameScores[MAX_FRAMES];
     int totalScore;
 } Player;
 

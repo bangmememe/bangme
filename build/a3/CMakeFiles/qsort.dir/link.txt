@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/qsort.dir/qsort.c.o -o qsort 
+/usr/bin/gcc -g CMakeFiles/qsort.dir/qsort.c.o -o qsort 

@@ -73,15 +73,15 @@ a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o: a3/CMakeFiles/arrayCompare.dir/
 a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o: ../a3/arrayCompare.c
 a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o: a3/CMakeFiles/arrayCompare.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o -MF CMakeFiles/arrayCompare.dir/arrayCompare.c.o.d -o CMakeFiles/arrayCompare.dir/arrayCompare.c.o -c /home/bangme/bangme/a3/arrayCompare.c
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o -MF CMakeFiles/arrayCompare.dir/arrayCompare.c.o.d -o CMakeFiles/arrayCompare.dir/arrayCompare.c.o -c /home/bangme/bangme/a3/arrayCompare.c
 
 a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arrayCompare.dir/arrayCompare.c.i"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/arrayCompare.c > CMakeFiles/arrayCompare.dir/arrayCompare.c.i
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/arrayCompare.c > CMakeFiles/arrayCompare.dir/arrayCompare.c.i
 
 a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arrayCompare.dir/arrayCompare.c.s"
-	cd /home/bangme/bangme/build/a3 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/arrayCompare.c -o CMakeFiles/arrayCompare.dir/arrayCompare.c.s
+	cd /home/bangme/bangme/build/a3 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/arrayCompare.c -o CMakeFiles/arrayCompare.dir/arrayCompare.c.s
 
 # Object files for target arrayCompare
 arrayCompare_OBJECTS = \
