@@ -9,6 +9,7 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/bangme/bangme/src",
+                "/home/bangme/bangme/lib/uart0",
                 "/home/bangme/bangme/lib/lcd",
                 ""
             ],
@@ -16,6 +17,7 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/bangme/bangme/src",
+                    "/home/bangme/bangme/lib/uart0",
                     "/home/bangme/bangme/lib/lcd",
                     ""
                 ]
