@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/fourBit.dir/fourBit.c.o -o fourBit 

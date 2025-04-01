@@ -1,0 +1,46 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/bangme/bangme/src",
+                "/home/bangme/bangme/lib/uart0",
+                "/home/bangme/bangme/lib/lcd",
+                "/home/bangme/bangme/lib/at25",
+                "/home/bangme/bangme/lib/sht20",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/bangme/bangme/src",
+                    "/home/bangme/bangme/lib/uart0",
+                    "/home/bangme/bangme/lib/lcd",
+                    "/home/bangme/bangme/lib/at25",
+                    "/home/bangme/bangme/lib/sht20",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_ATmega128",
+                "__AVR_ATmega128__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/bangme/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega128",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

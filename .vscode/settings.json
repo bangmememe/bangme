@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "*.repos": "yaml",
+        "*.world": "xml",
+        "*.xacro": "xml",
+        "stdio.h": "c",
+        "random": "c",
+        "stdbool.h": "c",
+        "string": "c",
+        "delay.h": "c",
+        "uart0.h": "c",
+        "io.h": "c",
+        "interrupt.h": "c"
+    },
+    "ros.distro": "humble"
+}

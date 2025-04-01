@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/string.dir/main.c.o CMakeFiles/string.dir/string.c.o -o string 

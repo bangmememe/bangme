@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+project(a3)
+
+file(GLOB EXECUTABLES "${CMAKE_CURRENT_SOURCE_DIR}/*.c")
+if(NOT EXECUTABLES)
+    message(WARNING "No .c files found in ${CMAKE_CURRENT_SOURCE_DIR}")
+endif()
+foreach(EXECUTABLE ${EXECUTABLES})
+    get_filename_component(EXE_NAME ${EXECUTABLE} NAME_WE)
+    add_executable(${EXE_NAME} ${EXECUTABLE})
+    message(STATUS "Added executable: ${EXE_NAME}")
+endforeach()
+
+add_subdirectory(CarSerial)
+add_subdirectory(date)
+add_subdirectory(myRandom)
+add_subdirectory(string)
