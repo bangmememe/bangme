@@ -144,6 +144,9 @@
 		},
 		{
 			"path" : "a3/string/CMakeLists.txt"
+		},
+		{
+			"path" : "project/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

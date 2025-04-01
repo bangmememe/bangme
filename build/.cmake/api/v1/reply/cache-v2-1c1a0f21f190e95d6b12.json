@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1158,6 +1158,30 @@
 			"value" : "/home/bangme/bangme/a3/CarSerial"
 		},
 		{
+			"name" : "MYSQL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include/mysql"
+		},
+		{
+			"name" : "MYSQL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libmysqlclient.so"
+		},
+		{
 			"name" : "MainProject_BINARY_DIR",
 			"properties" : 
 			[
@@ -1192,6 +1216,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/bangme/bangme"
+		},
+		{
+			"name" : "MySQL_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for MySQL."
+				}
+			],
+			"type" : "PATH",
+			"value" : "MySQL_DIR-NOTFOUND"
 		},
 		{
 			"name" : "a1_BINARY_DIR",
@@ -1374,6 +1410,42 @@
 			"value" : "/home/bangme/bangme/a3/myRandom"
 		},
 		{
+			"name" : "project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bangme/bangme/build/project"
+		},
+		{
+			"name" : "project_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bangme/bangme/project"
+		},
+		{
 			"name" : "string_BINARY_DIR",
 			"properties" : 
 			[
@@ -1408,6 +1480,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/bangme/bangme/a3/string"
+		},
+		{
+			"name" : "user_input_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bangme/bangme/build/project"
+		},
+		{
+			"name" : "user_input_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "user_input_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bangme/bangme/project"
 		}
 	],
 	"kind" : "cache",

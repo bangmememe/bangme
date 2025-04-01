@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						9
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -62,8 +63,8 @@
 						29,
 						30,
 						32,
-						38,
-						46
+						39,
+						47
 					]
 				},
 				{
@@ -113,17 +114,17 @@
 						26,
 						33,
 						34,
-						35,
 						36,
 						37,
-						39,
-						41,
+						38,
+						40,
 						42,
 						43,
 						44,
 						45,
-						47,
-						48
+						46,
+						48,
+						49
 					]
 				},
 				{
@@ -183,7 +184,22 @@
 					"source" : "a3/string",
 					"targetIndexes" : 
 					[
-						40
+						41
+					]
+				},
+				{
+					"build" : "project",
+					"jsonFile" : "directory-project-Debug-357bc229ad25d66d3f3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "project",
+					"targetIndexes" : 
+					[
+						35
 					]
 				}
 			],
@@ -196,7 +212,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						9
 					],
 					"directoryIndexes" : 
 					[
@@ -239,8 +256,8 @@
 						29,
 						30,
 						32,
-						38,
-						46
+						39,
+						47
 					]
 				},
 				{
@@ -284,17 +301,17 @@
 						26,
 						33,
 						34,
-						35,
 						36,
 						37,
-						39,
-						41,
+						38,
+						40,
 						42,
 						43,
 						44,
 						45,
-						47,
-						48
+						46,
+						48,
+						49
 					]
 				},
 				{
@@ -342,7 +359,19 @@
 					"parentIndex" : 4,
 					"targetIndexes" : 
 					[
-						40
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
 					]
 				}
 			],
@@ -592,6 +621,13 @@
 					"jsonFile" : "target-pointerConcept-Debug-6e8c6405bf76d890e106.json",
 					"name" : "pointerConcept",
 					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "project::@1ff0e79755c878899e1a",
+					"jsonFile" : "target-project-Debug-78335fda8984fc8e4202.json",
+					"name" : "project",
+					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 4,

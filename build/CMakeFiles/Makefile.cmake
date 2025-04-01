@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "../project/CMakeLists.txt"
   "../sqlQurry/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "a3/date/CMakeFiles/CMakeDirectoryInformation.cmake"
   "a3/myRandom/CMakeFiles/CMakeDirectoryInformation.cmake"
   "a3/string/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "project/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -108,4 +110,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "a3/date/CMakeFiles/date.dir/DependInfo.cmake"
   "a3/myRandom/CMakeFiles/myRandom.dir/DependInfo.cmake"
   "a3/string/CMakeFiles/string.dir/DependInfo.cmake"
+  "project/CMakeFiles/project.dir/DependInfo.cmake"
   )

@@ -9,16 +9,20 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/bangme/bangme/src",
-                "/home/bangme/bangme/lib/lcd",
                 "/home/bangme/bangme/lib/uart0",
+                "/home/bangme/bangme/lib/lcd",
+                "/home/bangme/bangme/lib/at25",
+                "/home/bangme/bangme/lib/sht20",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/bangme/bangme/src",
-                    "/home/bangme/bangme/lib/lcd",
                     "/home/bangme/bangme/lib/uart0",
+                    "/home/bangme/bangme/lib/lcd",
+                    "/home/bangme/bangme/lib/at25",
+                    "/home/bangme/bangme/lib/sht20",
                     ""
                 ]
             },

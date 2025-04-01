@@ -48,6 +48,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/bangme/bangme/build/a1/cmake_install.cmake")
   include("/home/bangme/bangme/build/a2/cmake_install.cmake")
   include("/home/bangme/bangme/build/a3/cmake_install.cmake")
+  include("/home/bangme/bangme/build/project/cmake_install.cmake")
 
 endif()
 
