@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme/rasberryPi/module/module.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/bangme/bangme/rasberryPi/module/module.ko /home/bangme/bangme/rasberryPi/module/module.o /home/bangme/bangme/rasberryPi/module/module.mod.o;  true

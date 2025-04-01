@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme/rasberryPi/module/module.mod := printf '%s\n'   module.o | awk '!x[$$0]++ { print("/home/bangme/bangme/rasberryPi/module/"$$0) }' > /home/bangme/bangme/rasberryPi/module/module.mod
