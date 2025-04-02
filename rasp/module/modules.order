@@ -1,1 +1,1 @@
-/home/bangme/bangme/rasberryPi/module/module.o
+/home/bangme/bangme2/bangme/rasp/module/module.o

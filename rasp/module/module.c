@@ -1,3 +1,5 @@
+// sudo apt install raspberrypi-kernel-headers
+
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/module.h>

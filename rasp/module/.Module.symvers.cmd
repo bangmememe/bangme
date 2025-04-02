@@ -1,1 +1,1 @@
-savedcmd_/home/bangme/bangme/rasberryPi/module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/bangme/bangme/rasberryPi/module/Module.symvers -T /home/bangme/bangme/rasberryPi/module/modules.order -i Module.symvers -e 
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/bangme/bangme2/bangme/rasp/module/Module.symvers -T /home/bangme/bangme2/bangme/rasp/module/modules.order -i Module.symvers -e 
