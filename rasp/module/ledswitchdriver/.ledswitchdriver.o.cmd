@@ -882,13 +882,114 @@ deps_/home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/ledswitchdriver.o :
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/gpio/consumer.h \
     $(wildcard include/config/ACPI) \
     $(wildcard include/config/GPIO_SYSFS) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/irqreturn.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/hardirq.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/hardirq.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/irq.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/irq.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/kvm_arm.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/esr.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/hardirq.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/irq.h \
+    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
+    $(wildcard include/config/GENERIC_IRQ_IPI) \
+    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
+    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
+    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
+    $(wildcard include/config/GENERIC_PENDING_IRQ) \
+    $(wildcard include/config/HARDIRQS_SW_RESEND) \
+    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
+    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/irqhandler.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/io.h \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
+    $(wildcard include/config/PCI) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/io.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/pgtable.h \
+    $(wildcard include/config/HIGHPTE) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
+    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
+    $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
+    $(wildcard include/config/HAVE_ARCH_TRANSPARENT_HUGEPAGE_PUD) \
+    $(wildcard include/config/HAVE_ARCH_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
+    $(wildcard include/config/X86_ESPFIX64) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/pgtable.h \
+    $(wildcard include/config/PAGE_TABLE_CHECK) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/proc-fns.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/pgtable-prot.h \
+    $(wildcard include/config/ARM64_BTI_KERNEL) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/tlbflush.h \
+    $(wildcard include/config/ARM64_WORKAROUND_REPEAT_TLBI) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/mmu_notifier.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/mmap_lock.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/tracepoint-defs.h \
+    $(wildcard include/config/TRACEPOINTS) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/interval_tree.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/fixmap.h \
+    $(wildcard include/config/ACPI_APEI_GHES) \
+    $(wildcard include/config/ARM_SDE_INTERFACE) \
+    $(wildcard include/config/UNMAP_KERNEL_AT_EL0) \
+    $(wildcard include/config/RELOCATABLE) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/fixmap.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/page_table_check.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/pgtable_uffd.h \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
+  arch/arm64/include/generated/asm/early_ioremap.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/fwnode.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/vmalloc.h \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/vmalloc.h \
+    $(wildcard include/config/PTDUMP_DEBUGFS) \
+  arch/arm64/include/generated/asm/irq_regs.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/irq_regs.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/irqdesc.h \
+    $(wildcard include/config/PM_SLEEP) \
+    $(wildcard include/config/GENERIC_IRQ_DEBUGFS) \
+    $(wildcard include/config/SPARSE_IRQ) \
+    $(wildcard include/config/IRQ_DOMAIN) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/sysfs.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/idr.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/kobject_ns.h \
+  arch/arm64/include/generated/asm/hw_irq.h \
+  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/hw_irq.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/module.h \
     $(wildcard include/config/MODULES_TREE_LOOKUP) \
     $(wildcard include/config/STACKTRACE_BUILD_ID) \
     $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
     $(wildcard include/config/MODULE_SIG) \
     $(wildcard include/config/KALLSYMS) \
-    $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
     $(wildcard include/config/KPROBES) \
@@ -908,14 +1009,6 @@ deps_/home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/ledswitchdriver.o :
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/user.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/uapi/linux/elf.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/uapi/linux/elf-em.h \
-  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
-  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/sysfs.h \
-  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/idr.h \
-  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/kobject_ns.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/moduleparam.h \
     $(wildcard include/config/ALPHA) \
     $(wildcard include/config/IA64) \
@@ -923,7 +1016,6 @@ deps_/home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/ledswitchdriver.o :
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/rbtree_latch.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/error-injection.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/asm-generic/error-injection.h \
-  /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/tracepoint-defs.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/include/linux/dynamic_debug.h \
   /usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include/asm/module.h \
     $(wildcard include/config/DYNAMIC_FTRACE) \

@@ -38,15 +38,17 @@ __used __section("__versions") = {
 	{ 0x122c3a7e, "_printk" },
 	{ 0xfe990052, "gpio_free" },
 	{ 0x47229b5c, "gpio_request" },
+	{ 0xb0d2a97, "gpio_to_desc" },
+	{ 0x2fb63741, "gpiod_to_irq" },
+	{ 0x92d5838e, "request_threaded_irq" },
 	{ 0xde81aa90, "__register_chrdev" },
 	{ 0x6bc3fbc0, "__unregister_chrdev" },
 	{ 0x12a4e128, "__arch_copy_from_user" },
-	{ 0xb0d2a97, "gpio_to_desc" },
 	{ 0xb161b235, "gpiod_direction_output_raw" },
 	{ 0xdcb764ad, "memset" },
 	{ 0x7682ba4e, "__copy_overflow" },
 	{ 0xf0fdf6cb, "__stack_chk_fail" },
-	{ 0xcfeba4de, "gpiod_get_raw_value" },
+	{ 0x3524cbe9, "gpiod_set_raw_value" },
 	{ 0x6cbbfc54, "__arch_copy_to_user" },
 	{ 0x67a35d9, "module_layout" },
 };
@@ -54,4 +56,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "99BCB6145E2A4803DED069B");
+MODULE_INFO(srcversion, "C965AC0D8C44704E5F54F57");
