@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/exportsymbol/exportsymbol_c.mod := printf '%s\n'   exportsymbol_c.o | awk '!x[$$0]++ { print("/home/bangme/bangme2/bangme/rasp/module/exportsymbol/"$$0) }' > /home/bangme/bangme2/bangme/rasp/module/exportsymbol/exportsymbol_c.mod

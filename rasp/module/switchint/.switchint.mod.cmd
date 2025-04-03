@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/switchint/switchint.mod := printf '%s\n'   switchint.o | awk '!x[$$0]++ { print("/home/bangme/bangme2/bangme/rasp/module/switchint/"$$0) }' > /home/bangme/bangme2/bangme/rasp/module/switchint/switchint.mod

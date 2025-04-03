@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/exportsymbol/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/bangme/bangme2/bangme/rasp/module/exportsymbol/Module.symvers -T /home/bangme/bangme2/bangme/rasp/module/exportsymbol/modules.order -i Module.symvers -e 

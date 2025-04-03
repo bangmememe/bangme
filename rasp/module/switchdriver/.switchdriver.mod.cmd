@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/switchdriver/switchdriver.mod := printf '%s\n'   switchdriver.o | awk '!x[$$0]++ { print("/home/bangme/bangme2/bangme/rasp/module/switchdriver/"$$0) }' > /home/bangme/bangme2/bangme/rasp/module/switchdriver/switchdriver.mod

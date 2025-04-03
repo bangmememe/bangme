@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/driverexam/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/bangme/bangme2/bangme/rasp/module/driverexam/Module.symvers -T /home/bangme/bangme2/bangme/rasp/module/driverexam/modules.order -i Module.symvers -e 

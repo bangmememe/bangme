@@ -1,1 +1,0 @@
-savedcmd_/home/bangme/bangme2/bangme/rasp/module/module.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/bangme/bangme2/bangme/rasp/module/module.ko /home/bangme/bangme2/bangme/rasp/module/module.o /home/bangme/bangme2/bangme/rasp/module/module.mod.o;  true

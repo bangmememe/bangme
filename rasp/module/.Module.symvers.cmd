@@ -1,1 +1,0 @@
-savedcmd_/home/bangme/bangme2/bangme/rasp/module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/bangme/bangme2/bangme/rasp/module/Module.symvers -T /home/bangme/bangme2/bangme/rasp/module/modules.order -i Module.symvers -e 
