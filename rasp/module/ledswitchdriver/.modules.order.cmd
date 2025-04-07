@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/modules.order := {   echo /home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/ledswitchdriver.o; :; } > /home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/modules.order

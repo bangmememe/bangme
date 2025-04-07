@@ -8,17 +8,33 @@
         {
             "name": "PlatformIO",
             "includePath": [
+<<<<<<< HEAD
                 "/home/bangme/bangme/bangme/src",
                 "/home/bangme/bangme/bangme/lib/lcd",
                 "/home/bangme/bangme/bangme/lib/uart0",
+=======
+                "/home/bangme/bangme/src",
+                "/home/bangme/bangme/lib/uart0",
+                "/home/bangme/bangme/lib/lcd",
+                "/home/bangme/bangme/lib/at25",
+                "/home/bangme/bangme/lib/sht20",
+>>>>>>> a2b8e349defe1a3dde451458d50f413ac793ad97
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
+<<<<<<< HEAD
                     "/home/bangme/bangme/bangme/src",
                     "/home/bangme/bangme/bangme/lib/lcd",
                     "/home/bangme/bangme/bangme/lib/uart0",
+=======
+                    "/home/bangme/bangme/src",
+                    "/home/bangme/bangme/lib/uart0",
+                    "/home/bangme/bangme/lib/lcd",
+                    "/home/bangme/bangme/lib/at25",
+                    "/home/bangme/bangme/lib/sht20",
+>>>>>>> a2b8e349defe1a3dde451458d50f413ac793ad97
                     ""
                 ]
             },

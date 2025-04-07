@@ -217,6 +217,12 @@ CarSeiral_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 CarSeiral_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/CarSerial
 
+//Path to a file.
+MYSQL_INCLUDE_DIR:PATH=/usr/include/mysql
+
+//Path to a library.
+MYSQL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libmysqlclient.so
+
 //Value Computed by CMake
 MainProject_BINARY_DIR:STATIC=/home/bangme/bangme/build
 
@@ -225,6 +231,9 @@ MainProject_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 MainProject_SOURCE_DIR:STATIC=/home/bangme/bangme
+
+//The directory containing a CMake configuration file for MySQL.
+MySQL_DIR:PATH=MySQL_DIR-NOTFOUND
 
 //Value Computed by CMake
 a1_BINARY_DIR:STATIC=/home/bangme/bangme/build/a1
@@ -272,6 +281,15 @@ myRandom_IS_TOP_LEVEL:STATIC=OFF
 myRandom_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/myRandom
 
 //Value Computed by CMake
+project_BINARY_DIR:STATIC=/home/bangme/bangme/build/project
+
+//Value Computed by CMake
+project_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+project_SOURCE_DIR:STATIC=/home/bangme/bangme/project
+
+//Value Computed by CMake
 string_BINARY_DIR:STATIC=/home/bangme/bangme/build/a3/string
 
 //Value Computed by CMake
@@ -279,6 +297,15 @@ string_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 string_SOURCE_DIR:STATIC=/home/bangme/bangme/a3/string
+
+//Value Computed by CMake
+user_input_BINARY_DIR:STATIC=/home/bangme/bangme/build/project
+
+//Value Computed by CMake
+user_input_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+user_input_SOURCE_DIR:STATIC=/home/bangme/bangme/project
 
 
 ########################
@@ -385,7 +412,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

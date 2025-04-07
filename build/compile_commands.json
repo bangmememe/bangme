@@ -268,5 +268,15 @@
   "directory": "/home/bangme/bangme/build/a3/string",
   "command": "/usr/bin/gcc   -g -o CMakeFiles/string.dir/string.c.o -c /home/bangme/bangme/a3/string/string.c",
   "file": "/home/bangme/bangme/a3/string/string.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/project",
+  "command": "/usr/bin/gcc  -I/usr/include/mysql -I/home/bangme/bangme/project/include -g -o CMakeFiles/project.dir/src/database.c.o -c /home/bangme/bangme/project/src/database.c",
+  "file": "/home/bangme/bangme/project/src/database.c"
+},
+{
+  "directory": "/home/bangme/bangme/build/project",
+  "command": "/usr/bin/gcc  -I/usr/include/mysql -I/home/bangme/bangme/project/include -g -o CMakeFiles/project.dir/src/main.c.o -c /home/bangme/bangme/project/src/main.c",
+  "file": "/home/bangme/bangme/project/src/main.c"
 }
 ]

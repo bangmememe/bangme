@@ -11,7 +11,11 @@
         "delay.h": "c",
         "uart0.h": "c",
         "io.h": "c",
-        "interrupt.h": "c"
+        "interrupt.h": "c",
+        "gpio.h": "c",
+        "fcntl.h": "c",
+        "kernel.h": "c",
+        "fs.h": "c"
     },
     "ros.distro": "humble"
 }

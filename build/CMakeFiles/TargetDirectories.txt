@@ -65,3 +65,6 @@
 /home/bangme/bangme/build/a3/string/CMakeFiles/string.dir
 /home/bangme/bangme/build/a3/string/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/build/a3/string/CMakeFiles/rebuild_cache.dir
+/home/bangme/bangme/build/project/CMakeFiles/project.dir
+/home/bangme/bangme/build/project/CMakeFiles/edit_cache.dir
+/home/bangme/bangme/build/project/CMakeFiles/rebuild_cache.dir

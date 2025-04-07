@@ -753,6 +753,19 @@ string/fast:
 	$(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/build
 .PHONY : string/fast
 
+#=============================================================================
+# Target rules for targets named project
+
+# Build rule for target.
+project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project
+.PHONY : project
+
+# fast build rule for target.
+project/fast:
+	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
+.PHONY : project/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -796,6 +809,7 @@ help:
 	@echo "... oddeven"
 	@echo "... pointer2"
 	@echo "... pointerConcept"
+	@echo "... project"
 	@echo "... putSeries"
 	@echo "... qsort"
 	@echo "... selection"

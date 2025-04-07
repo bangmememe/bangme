@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/switchint/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/bangme/bangme2/bangme/rasp/module/switchint/Module.symvers -T /home/bangme/bangme2/bangme/rasp/module/switchint/modules.order -i Module.symvers -e 

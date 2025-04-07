@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/ledswitchdriver.mod := printf '%s\n'   ledswitchdriver.o | awk '!x[$$0]++ { print("/home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/"$$0) }' > /home/bangme/bangme2/bangme/rasp/module/ledswitchdriver/ledswitchdriver.mod

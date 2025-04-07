@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/led/ledmodule.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/bangme/bangme2/bangme/rasp/module/led/ledmodule.ko /home/bangme/bangme2/bangme/rasp/module/led/ledmodule.o /home/bangme/bangme2/bangme/rasp/module/led/ledmodule.mod.o;  true

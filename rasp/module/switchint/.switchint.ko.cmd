@@ -1,0 +1,1 @@
+savedcmd_/home/bangme/bangme2/bangme/rasp/module/switchint/switchint.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/bangme/bangme2/bangme/rasp/module/switchint/switchint.ko /home/bangme/bangme2/bangme/rasp/module/switchint/switchint.o /home/bangme/bangme2/bangme/rasp/module/switchint/switchint.mod.o;  true
