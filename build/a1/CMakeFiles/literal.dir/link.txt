@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/literal.dir/literal.c.o -o literal 
+/usr/bin/cc -g CMakeFiles/literal.dir/literal.c.o -o literal 

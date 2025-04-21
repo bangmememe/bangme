@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/project/src/database.c" "project/CMakeFiles/project.dir/src/database.c.o" "gcc" "project/CMakeFiles/project.dir/src/database.c.o.d"
-  "/home/bangme/bangme/project/src/main.c" "project/CMakeFiles/project.dir/src/main.c.o" "gcc" "project/CMakeFiles/project.dir/src/main.c.o.d"
+  "/home/bangme/bangme/bangme/project/src/database.c" "project/CMakeFiles/project.dir/src/database.c.o" "gcc" "project/CMakeFiles/project.dir/src/database.c.o.d"
+  "/home/bangme/bangme/bangme/project/src/main.c" "project/CMakeFiles/project.dir/src/main.c.o" "gcc" "project/CMakeFiles/project.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

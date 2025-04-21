@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a1/oddeven.c" "a1/CMakeFiles/oddeven.dir/oddeven.c.o" "gcc" "a1/CMakeFiles/oddeven.dir/oddeven.c.o.d"
+  "/home/bangme/bangme/bangme/a1/oddeven.c" "a1/CMakeFiles/oddeven.dir/oddeven.c.o" "gcc" "a1/CMakeFiles/oddeven.dir/oddeven.c.o.d"
   )
 
 # Targets to which this target links.

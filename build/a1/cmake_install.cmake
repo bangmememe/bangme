@@ -1,4 +1,4 @@
-# Install script for directory: /home/bangme/bangme/a1
+# Install script for directory: /home/bangme/bangme/bangme/a1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

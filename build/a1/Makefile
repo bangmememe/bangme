@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme
+CMAKE_SOURCE_DIR = /home/bangme/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/build
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles /home/bangme/bangme/build/a1//CMakeFiles/progress.marks
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles 0
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles /home/bangme/bangme/bangme/build/a1//CMakeFiles/progress.marks
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/clean
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/preinstall
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/preinstall
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 a1/CMakeFiles/arithmetics.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/arithmetics.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/arithmetics.dir/rule
 .PHONY : a1/CMakeFiles/arithmetics.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ arithmetics: a1/CMakeFiles/arithmetics.dir/rule
 
 # fast build rule for target.
 arithmetics/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/build
 .PHONY : arithmetics/fast
 
 # Convenience name for target.
 a1/CMakeFiles/celsius2fahr.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/celsius2fahr.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/celsius2fahr.dir/rule
 .PHONY : a1/CMakeFiles/celsius2fahr.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ celsius2fahr: a1/CMakeFiles/celsius2fahr.dir/rule
 
 # fast build rule for target.
 celsius2fahr/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/build
 .PHONY : celsius2fahr/fast
 
 # Convenience name for target.
 a1/CMakeFiles/charNumber.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/charNumber.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/charNumber.dir/rule
 .PHONY : a1/CMakeFiles/charNumber.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ charNumber: a1/CMakeFiles/charNumber.dir/rule
 
 # fast build rule for target.
 charNumber/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/build
 .PHONY : charNumber/fast
 
 # Convenience name for target.
 a1/CMakeFiles/compare.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/compare.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/compare.dir/rule
 .PHONY : a1/CMakeFiles/compare.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ compare: a1/CMakeFiles/compare.dir/rule
 
 # fast build rule for target.
 compare/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/build
 .PHONY : compare/fast
 
 # Convenience name for target.
 a1/CMakeFiles/compare2.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/compare2.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/compare2.dir/rule
 .PHONY : a1/CMakeFiles/compare2.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ compare2: a1/CMakeFiles/compare2.dir/rule
 
 # fast build rule for target.
 compare2/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/build
 .PHONY : compare2/fast
 
 # Convenience name for target.
 a1/CMakeFiles/fahr2celsius.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fahr2celsius.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fahr2celsius.dir/rule
 .PHONY : a1/CMakeFiles/fahr2celsius.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ fahr2celsius: a1/CMakeFiles/fahr2celsius.dir/rule
 
 # fast build rule for target.
 fahr2celsius/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/build
 .PHONY : fahr2celsius/fast
 
 # Convenience name for target.
 a1/CMakeFiles/fourBit.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fourBit.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fourBit.dir/rule
 .PHONY : a1/CMakeFiles/fourBit.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ fourBit: a1/CMakeFiles/fourBit.dir/rule
 
 # fast build rule for target.
 fourBit/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/build
 .PHONY : fourBit/fast
 
 # Convenience name for target.
 a1/CMakeFiles/fourBit2.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fourBit2.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fourBit2.dir/rule
 .PHONY : a1/CMakeFiles/fourBit2.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ fourBit2: a1/CMakeFiles/fourBit2.dir/rule
 
 # fast build rule for target.
 fourBit2/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/build
 .PHONY : fourBit2/fast
 
 # Convenience name for target.
 a1/CMakeFiles/genderRatio.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/genderRatio.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/genderRatio.dir/rule
 .PHONY : a1/CMakeFiles/genderRatio.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ genderRatio: a1/CMakeFiles/genderRatio.dir/rule
 
 # fast build rule for target.
 genderRatio/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/build
 .PHONY : genderRatio/fast
 
 # Convenience name for target.
 a1/CMakeFiles/increment.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/increment.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/increment.dir/rule
 .PHONY : a1/CMakeFiles/increment.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ increment: a1/CMakeFiles/increment.dir/rule
 
 # fast build rule for target.
 increment/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/build
 .PHONY : increment/fast
 
 # Convenience name for target.
 a1/CMakeFiles/infinit.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/infinit.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/infinit.dir/rule
 .PHONY : a1/CMakeFiles/infinit.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ infinit: a1/CMakeFiles/infinit.dir/rule
 
 # fast build rule for target.
 infinit/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/build
 .PHONY : infinit/fast
 
 # Convenience name for target.
 a1/CMakeFiles/limit.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/limit.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/limit.dir/rule
 .PHONY : a1/CMakeFiles/limit.dir/rule
 
 # Convenience name for target.
@@ -281,12 +281,12 @@ limit: a1/CMakeFiles/limit.dir/rule
 
 # fast build rule for target.
 limit/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/build
 .PHONY : limit/fast
 
 # Convenience name for target.
 a1/CMakeFiles/literal.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/literal.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/literal.dir/rule
 .PHONY : a1/CMakeFiles/literal.dir/rule
 
 # Convenience name for target.
@@ -295,12 +295,12 @@ literal: a1/CMakeFiles/literal.dir/rule
 
 # fast build rule for target.
 literal/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/build
 .PHONY : literal/fast
 
 # Convenience name for target.
 a1/CMakeFiles/oddeven.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/oddeven.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/oddeven.dir/rule
 .PHONY : a1/CMakeFiles/oddeven.dir/rule
 
 # Convenience name for target.
@@ -309,12 +309,12 @@ oddeven: a1/CMakeFiles/oddeven.dir/rule
 
 # fast build rule for target.
 oddeven/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/build
 .PHONY : oddeven/fast
 
 # Convenience name for target.
 a1/CMakeFiles/sizeof.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/sizeof.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/sizeof.dir/rule
 .PHONY : a1/CMakeFiles/sizeof.dir/rule
 
 # Convenience name for target.
@@ -323,12 +323,12 @@ sizeof: a1/CMakeFiles/sizeof.dir/rule
 
 # fast build rule for target.
 sizeof/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/build
 .PHONY : sizeof/fast
 
 # Convenience name for target.
 a1/CMakeFiles/triangle.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/triangle.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/triangle.dir/rule
 .PHONY : a1/CMakeFiles/triangle.dir/rule
 
 # Convenience name for target.
@@ -337,7 +337,7 @@ triangle: a1/CMakeFiles/triangle.dir/rule
 
 # fast build rule for target.
 triangle/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/build
 .PHONY : triangle/fast
 
 arithmetics.o: arithmetics.c.o
@@ -345,7 +345,7 @@ arithmetics.o: arithmetics.c.o
 
 # target to build an object file
 arithmetics.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/arithmetics.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/arithmetics.c.o
 .PHONY : arithmetics.c.o
 
 arithmetics.i: arithmetics.c.i
@@ -353,7 +353,7 @@ arithmetics.i: arithmetics.c.i
 
 # target to preprocess a source file
 arithmetics.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/arithmetics.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/arithmetics.c.i
 .PHONY : arithmetics.c.i
 
 arithmetics.s: arithmetics.c.s
@@ -361,7 +361,7 @@ arithmetics.s: arithmetics.c.s
 
 # target to generate assembly for a file
 arithmetics.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/arithmetics.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/arithmetics.c.s
 .PHONY : arithmetics.c.s
 
 celsius2fahr.o: celsius2fahr.c.o
@@ -369,7 +369,7 @@ celsius2fahr.o: celsius2fahr.c.o
 
 # target to build an object file
 celsius2fahr.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/celsius2fahr.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/celsius2fahr.c.o
 .PHONY : celsius2fahr.c.o
 
 celsius2fahr.i: celsius2fahr.c.i
@@ -377,7 +377,7 @@ celsius2fahr.i: celsius2fahr.c.i
 
 # target to preprocess a source file
 celsius2fahr.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/celsius2fahr.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/celsius2fahr.c.i
 .PHONY : celsius2fahr.c.i
 
 celsius2fahr.s: celsius2fahr.c.s
@@ -385,7 +385,7 @@ celsius2fahr.s: celsius2fahr.c.s
 
 # target to generate assembly for a file
 celsius2fahr.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/celsius2fahr.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/celsius2fahr.c.s
 .PHONY : celsius2fahr.c.s
 
 charNumber.o: charNumber.c.o
@@ -393,7 +393,7 @@ charNumber.o: charNumber.c.o
 
 # target to build an object file
 charNumber.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/charNumber.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/charNumber.c.o
 .PHONY : charNumber.c.o
 
 charNumber.i: charNumber.c.i
@@ -401,7 +401,7 @@ charNumber.i: charNumber.c.i
 
 # target to preprocess a source file
 charNumber.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/charNumber.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/charNumber.c.i
 .PHONY : charNumber.c.i
 
 charNumber.s: charNumber.c.s
@@ -409,7 +409,7 @@ charNumber.s: charNumber.c.s
 
 # target to generate assembly for a file
 charNumber.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/charNumber.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/charNumber.c.s
 .PHONY : charNumber.c.s
 
 compare.o: compare.c.o
@@ -417,7 +417,7 @@ compare.o: compare.c.o
 
 # target to build an object file
 compare.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/compare.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/compare.c.o
 .PHONY : compare.c.o
 
 compare.i: compare.c.i
@@ -425,7 +425,7 @@ compare.i: compare.c.i
 
 # target to preprocess a source file
 compare.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/compare.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/compare.c.i
 .PHONY : compare.c.i
 
 compare.s: compare.c.s
@@ -433,7 +433,7 @@ compare.s: compare.c.s
 
 # target to generate assembly for a file
 compare.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/compare.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/compare.c.s
 .PHONY : compare.c.s
 
 compare2.o: compare2.c.o
@@ -441,7 +441,7 @@ compare2.o: compare2.c.o
 
 # target to build an object file
 compare2.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/compare2.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/compare2.c.o
 .PHONY : compare2.c.o
 
 compare2.i: compare2.c.i
@@ -449,7 +449,7 @@ compare2.i: compare2.c.i
 
 # target to preprocess a source file
 compare2.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/compare2.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/compare2.c.i
 .PHONY : compare2.c.i
 
 compare2.s: compare2.c.s
@@ -457,7 +457,7 @@ compare2.s: compare2.c.s
 
 # target to generate assembly for a file
 compare2.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/compare2.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/compare2.c.s
 .PHONY : compare2.c.s
 
 fahr2celsius.o: fahr2celsius.c.o
@@ -465,7 +465,7 @@ fahr2celsius.o: fahr2celsius.c.o
 
 # target to build an object file
 fahr2celsius.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o
 .PHONY : fahr2celsius.c.o
 
 fahr2celsius.i: fahr2celsius.c.i
@@ -473,7 +473,7 @@ fahr2celsius.i: fahr2celsius.c.i
 
 # target to preprocess a source file
 fahr2celsius.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.i
 .PHONY : fahr2celsius.c.i
 
 fahr2celsius.s: fahr2celsius.c.s
@@ -481,7 +481,7 @@ fahr2celsius.s: fahr2celsius.c.s
 
 # target to generate assembly for a file
 fahr2celsius.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.s
 .PHONY : fahr2celsius.c.s
 
 fourBit.o: fourBit.c.o
@@ -489,7 +489,7 @@ fourBit.o: fourBit.c.o
 
 # target to build an object file
 fourBit.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/fourBit.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/fourBit.c.o
 .PHONY : fourBit.c.o
 
 fourBit.i: fourBit.c.i
@@ -497,7 +497,7 @@ fourBit.i: fourBit.c.i
 
 # target to preprocess a source file
 fourBit.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/fourBit.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/fourBit.c.i
 .PHONY : fourBit.c.i
 
 fourBit.s: fourBit.c.s
@@ -505,7 +505,7 @@ fourBit.s: fourBit.c.s
 
 # target to generate assembly for a file
 fourBit.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/fourBit.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/fourBit.c.s
 .PHONY : fourBit.c.s
 
 fourBit2.o: fourBit2.c.o
@@ -513,7 +513,7 @@ fourBit2.o: fourBit2.c.o
 
 # target to build an object file
 fourBit2.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/fourBit2.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/fourBit2.c.o
 .PHONY : fourBit2.c.o
 
 fourBit2.i: fourBit2.c.i
@@ -521,7 +521,7 @@ fourBit2.i: fourBit2.c.i
 
 # target to preprocess a source file
 fourBit2.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/fourBit2.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/fourBit2.c.i
 .PHONY : fourBit2.c.i
 
 fourBit2.s: fourBit2.c.s
@@ -529,7 +529,7 @@ fourBit2.s: fourBit2.c.s
 
 # target to generate assembly for a file
 fourBit2.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/fourBit2.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/fourBit2.c.s
 .PHONY : fourBit2.c.s
 
 genderRatio.o: genderRatio.c.o
@@ -537,7 +537,7 @@ genderRatio.o: genderRatio.c.o
 
 # target to build an object file
 genderRatio.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/genderRatio.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/genderRatio.c.o
 .PHONY : genderRatio.c.o
 
 genderRatio.i: genderRatio.c.i
@@ -545,7 +545,7 @@ genderRatio.i: genderRatio.c.i
 
 # target to preprocess a source file
 genderRatio.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/genderRatio.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/genderRatio.c.i
 .PHONY : genderRatio.c.i
 
 genderRatio.s: genderRatio.c.s
@@ -553,7 +553,7 @@ genderRatio.s: genderRatio.c.s
 
 # target to generate assembly for a file
 genderRatio.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/genderRatio.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/genderRatio.c.s
 .PHONY : genderRatio.c.s
 
 increment.o: increment.c.o
@@ -561,7 +561,7 @@ increment.o: increment.c.o
 
 # target to build an object file
 increment.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/increment.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/increment.c.o
 .PHONY : increment.c.o
 
 increment.i: increment.c.i
@@ -569,7 +569,7 @@ increment.i: increment.c.i
 
 # target to preprocess a source file
 increment.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/increment.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/increment.c.i
 .PHONY : increment.c.i
 
 increment.s: increment.c.s
@@ -577,7 +577,7 @@ increment.s: increment.c.s
 
 # target to generate assembly for a file
 increment.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/increment.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/increment.c.s
 .PHONY : increment.c.s
 
 infinit.o: infinit.c.o
@@ -585,7 +585,7 @@ infinit.o: infinit.c.o
 
 # target to build an object file
 infinit.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/infinit.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/infinit.c.o
 .PHONY : infinit.c.o
 
 infinit.i: infinit.c.i
@@ -593,7 +593,7 @@ infinit.i: infinit.c.i
 
 # target to preprocess a source file
 infinit.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/infinit.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/infinit.c.i
 .PHONY : infinit.c.i
 
 infinit.s: infinit.c.s
@@ -601,7 +601,7 @@ infinit.s: infinit.c.s
 
 # target to generate assembly for a file
 infinit.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/infinit.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/infinit.c.s
 .PHONY : infinit.c.s
 
 limit.o: limit.c.o
@@ -609,7 +609,7 @@ limit.o: limit.c.o
 
 # target to build an object file
 limit.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/limit.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/limit.c.o
 .PHONY : limit.c.o
 
 limit.i: limit.c.i
@@ -617,7 +617,7 @@ limit.i: limit.c.i
 
 # target to preprocess a source file
 limit.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/limit.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/limit.c.i
 .PHONY : limit.c.i
 
 limit.s: limit.c.s
@@ -625,7 +625,7 @@ limit.s: limit.c.s
 
 # target to generate assembly for a file
 limit.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/limit.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/limit.c.s
 .PHONY : limit.c.s
 
 literal.o: literal.c.o
@@ -633,7 +633,7 @@ literal.o: literal.c.o
 
 # target to build an object file
 literal.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/literal.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/literal.c.o
 .PHONY : literal.c.o
 
 literal.i: literal.c.i
@@ -641,7 +641,7 @@ literal.i: literal.c.i
 
 # target to preprocess a source file
 literal.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/literal.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/literal.c.i
 .PHONY : literal.c.i
 
 literal.s: literal.c.s
@@ -649,7 +649,7 @@ literal.s: literal.c.s
 
 # target to generate assembly for a file
 literal.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/literal.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/literal.c.s
 .PHONY : literal.c.s
 
 oddeven.o: oddeven.c.o
@@ -657,7 +657,7 @@ oddeven.o: oddeven.c.o
 
 # target to build an object file
 oddeven.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/oddeven.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/oddeven.c.o
 .PHONY : oddeven.c.o
 
 oddeven.i: oddeven.c.i
@@ -665,7 +665,7 @@ oddeven.i: oddeven.c.i
 
 # target to preprocess a source file
 oddeven.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/oddeven.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/oddeven.c.i
 .PHONY : oddeven.c.i
 
 oddeven.s: oddeven.c.s
@@ -673,7 +673,7 @@ oddeven.s: oddeven.c.s
 
 # target to generate assembly for a file
 oddeven.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/oddeven.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/oddeven.c.s
 .PHONY : oddeven.c.s
 
 sizeof.o: sizeof.c.o
@@ -681,7 +681,7 @@ sizeof.o: sizeof.c.o
 
 # target to build an object file
 sizeof.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/sizeof.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/sizeof.c.o
 .PHONY : sizeof.c.o
 
 sizeof.i: sizeof.c.i
@@ -689,7 +689,7 @@ sizeof.i: sizeof.c.i
 
 # target to preprocess a source file
 sizeof.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/sizeof.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/sizeof.c.i
 .PHONY : sizeof.c.i
 
 sizeof.s: sizeof.c.s
@@ -697,7 +697,7 @@ sizeof.s: sizeof.c.s
 
 # target to generate assembly for a file
 sizeof.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/sizeof.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/sizeof.c.s
 .PHONY : sizeof.c.s
 
 triangle.o: triangle.c.o
@@ -705,7 +705,7 @@ triangle.o: triangle.c.o
 
 # target to build an object file
 triangle.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/triangle.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/triangle.c.o
 .PHONY : triangle.c.o
 
 triangle.i: triangle.c.i
@@ -713,7 +713,7 @@ triangle.i: triangle.c.i
 
 # target to preprocess a source file
 triangle.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/triangle.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/triangle.c.i
 .PHONY : triangle.c.i
 
 triangle.s: triangle.c.s
@@ -721,7 +721,7 @@ triangle.s: triangle.c.s
 
 # target to generate assembly for a file
 triangle.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/triangle.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/triangle.c.s
 .PHONY : triangle.c.s
 
 # Help Target
@@ -807,6 +807,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

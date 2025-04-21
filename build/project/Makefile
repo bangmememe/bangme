@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme
+CMAKE_SOURCE_DIR = /home/bangme/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/build
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles /home/bangme/bangme/build/project//CMakeFiles/progress.marks
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles 0
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles /home/bangme/bangme/bangme/build/project//CMakeFiles/progress.marks
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/clean
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/preinstall
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/preinstall
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 project/CMakeFiles/project.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/CMakeFiles/project.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/CMakeFiles/project.dir/rule
 .PHONY : project/CMakeFiles/project.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ project: project/CMakeFiles/project.dir/rule
 
 # fast build rule for target.
 project/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
 .PHONY : project/fast
 
 src/database.o: src/database.c.o
@@ -135,7 +135,7 @@ src/database.o: src/database.c.o
 
 # target to build an object file
 src/database.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/database.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/database.c.o
 .PHONY : src/database.c.o
 
 src/database.i: src/database.c.i
@@ -143,7 +143,7 @@ src/database.i: src/database.c.i
 
 # target to preprocess a source file
 src/database.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/database.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/database.c.i
 .PHONY : src/database.c.i
 
 src/database.s: src/database.c.s
@@ -151,7 +151,7 @@ src/database.s: src/database.c.s
 
 # target to generate assembly for a file
 src/database.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/database.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/database.c.s
 .PHONY : src/database.c.s
 
 src/main.o: src/main.c.o
@@ -159,7 +159,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/main.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -167,7 +167,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/main.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -175,7 +175,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/main.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bangme/bangme
+# Install script for directory: /home/bangme/bangme/bangme
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/bangme/bangme/build/sqlQurry/cmake_install.cmake")
-  include("/home/bangme/bangme/build/a1/cmake_install.cmake")
-  include("/home/bangme/bangme/build/a2/cmake_install.cmake")
-  include("/home/bangme/bangme/build/a3/cmake_install.cmake")
-  include("/home/bangme/bangme/build/project/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a1/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a2/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a3/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/project/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/stl/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bangme/bangme/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bangme/bangme/bangme/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

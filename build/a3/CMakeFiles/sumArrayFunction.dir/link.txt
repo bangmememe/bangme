@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o -o sumArrayFunction 
+/usr/bin/cc -g CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o -o sumArrayFunction 

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/CarSeiral.dir/main.c.o CMakeFiles/CarSeiral.dir/serial.c.o -o CarSeiral 
+/usr/bin/cc -g CMakeFiles/CarSeiral.dir/main.c.o CMakeFiles/CarSeiral.dir/serial.c.o -o CarSeiral 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a3/strcatExample.c" "a3/CMakeFiles/strcatExample.dir/strcatExample.c.o" "gcc" "a3/CMakeFiles/strcatExample.dir/strcatExample.c.o.d"
+  "/home/bangme/bangme/bangme/a3/strcatExample.c" "a3/CMakeFiles/strcatExample.dir/strcatExample.c.o" "gcc" "a3/CMakeFiles/strcatExample.dir/strcatExample.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/fourBit2.dir/fourBit2.c.o -o fourBit2 
+/usr/bin/cc -g CMakeFiles/fourBit2.dir/fourBit2.c.o -o fourBit2 

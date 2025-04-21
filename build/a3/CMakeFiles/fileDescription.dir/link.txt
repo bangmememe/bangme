@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/fileDescription.dir/fileDescription.c.o -o fileDescription 
+/usr/bin/cc -g CMakeFiles/fileDescription.dir/fileDescription.c.o -o fileDescription 

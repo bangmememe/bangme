@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a3/pointer2.c" "a3/CMakeFiles/pointer2.dir/pointer2.c.o" "gcc" "a3/CMakeFiles/pointer2.dir/pointer2.c.o.d"
+  "/home/bangme/bangme/bangme/a3/pointer2.c" "a3/CMakeFiles/pointer2.dir/pointer2.c.o" "gcc" "a3/CMakeFiles/pointer2.dir/pointer2.c.o.d"
   )
 
 # Targets to which this target links.

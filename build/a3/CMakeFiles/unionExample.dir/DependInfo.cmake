@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a3/unionExample.c" "a3/CMakeFiles/unionExample.dir/unionExample.c.o" "gcc" "a3/CMakeFiles/unionExample.dir/unionExample.c.o.d"
+  "/home/bangme/bangme/bangme/a3/unionExample.c" "a3/CMakeFiles/unionExample.dir/unionExample.c.o" "gcc" "a3/CMakeFiles/unionExample.dir/unionExample.c.o.d"
   )
 
 # Targets to which this target links.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a1/fahr2celsius.c" "a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o" "gcc" "a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o.d"
+  "/home/bangme/bangme/bangme/a1/fahr2celsius.c" "a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o" "gcc" "a1/CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o.d"
   )
 
 # Targets to which this target links.

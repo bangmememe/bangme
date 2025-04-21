@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme
+CMAKE_SOURCE_DIR = /home/bangme/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/build
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 
 # Include any dependencies generated for this target.
 include a3/myRandom/CMakeFiles/myRandom.dir/depend.make
@@ -72,30 +72,30 @@ include a3/myRandom/CMakeFiles/myRandom.dir/flags.make
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.o: a3/myRandom/CMakeFiles/myRandom.dir/flags.make
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.o: ../a3/myRandom/main.c
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.o: a3/myRandom/CMakeFiles/myRandom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/myRandom/CMakeFiles/myRandom.dir/main.c.o"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/main.c.o -MF CMakeFiles/myRandom.dir/main.c.o.d -o CMakeFiles/myRandom.dir/main.c.o -c /home/bangme/bangme/a3/myRandom/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object a3/myRandom/CMakeFiles/myRandom.dir/main.c.o"
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/main.c.o -MF CMakeFiles/myRandom.dir/main.c.o.d -o CMakeFiles/myRandom.dir/main.c.o -c /home/bangme/bangme/bangme/a3/myRandom/main.c
 
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myRandom.dir/main.c.i"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/myRandom/main.c > CMakeFiles/myRandom.dir/main.c.i
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/bangme/a3/myRandom/main.c > CMakeFiles/myRandom.dir/main.c.i
 
 a3/myRandom/CMakeFiles/myRandom.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myRandom.dir/main.c.s"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/myRandom/main.c -o CMakeFiles/myRandom.dir/main.c.s
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/bangme/a3/myRandom/main.c -o CMakeFiles/myRandom.dir/main.c.s
 
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o: a3/myRandom/CMakeFiles/myRandom.dir/flags.make
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o: ../a3/myRandom/myRandom.c
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o: a3/myRandom/CMakeFiles/myRandom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o -MF CMakeFiles/myRandom.dir/myRandom.c.o.d -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/bangme/bangme/a3/myRandom/myRandom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o"
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o -MF CMakeFiles/myRandom.dir/myRandom.c.o.d -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/bangme/bangme/bangme/a3/myRandom/myRandom.c
 
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myRandom.dir/myRandom.c.i"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/a3/myRandom/myRandom.c > CMakeFiles/myRandom.dir/myRandom.c.i
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/bangme/a3/myRandom/myRandom.c > CMakeFiles/myRandom.dir/myRandom.c.i
 
 a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myRandom.dir/myRandom.c.s"
-	cd /home/bangme/bangme/build/a3/myRandom && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/a3/myRandom/myRandom.c -o CMakeFiles/myRandom.dir/myRandom.c.s
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/bangme/a3/myRandom/myRandom.c -o CMakeFiles/myRandom.dir/myRandom.c.s
 
 # Object files for target myRandom
 myRandom_OBJECTS = \
@@ -109,18 +109,18 @@ a3/myRandom/myRandom: a3/myRandom/CMakeFiles/myRandom.dir/main.c.o
 a3/myRandom/myRandom: a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o
 a3/myRandom/myRandom: a3/myRandom/CMakeFiles/myRandom.dir/build.make
 a3/myRandom/myRandom: a3/myRandom/CMakeFiles/myRandom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable myRandom"
-	cd /home/bangme/bangme/build/a3/myRandom && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myRandom.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable myRandom"
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myRandom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 a3/myRandom/CMakeFiles/myRandom.dir/build: a3/myRandom/myRandom
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/build
 
 a3/myRandom/CMakeFiles/myRandom.dir/clean:
-	cd /home/bangme/bangme/build/a3/myRandom && $(CMAKE_COMMAND) -P CMakeFiles/myRandom.dir/cmake_clean.cmake
+	cd /home/bangme/bangme/bangme/build/a3/myRandom && $(CMAKE_COMMAND) -P CMakeFiles/myRandom.dir/cmake_clean.cmake
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/clean
 
 a3/myRandom/CMakeFiles/myRandom.dir/depend:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bangme/bangme /home/bangme/bangme/a3/myRandom /home/bangme/bangme/build /home/bangme/bangme/build/a3/myRandom /home/bangme/bangme/build/a3/myRandom/CMakeFiles/myRandom.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bangme/bangme/bangme /home/bangme/bangme/bangme/a3/myRandom /home/bangme/bangme/bangme/build /home/bangme/bangme/bangme/build/a3/myRandom /home/bangme/bangme/bangme/build/a3/myRandom/CMakeFiles/myRandom.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/depend
 

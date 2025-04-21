@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a1/compare2.c" "a1/CMakeFiles/compare2.dir/compare2.c.o" "gcc" "a1/CMakeFiles/compare2.dir/compare2.c.o.d"
+  "/home/bangme/bangme/bangme/a1/compare2.c" "a1/CMakeFiles/compare2.dir/compare2.c.o" "gcc" "a1/CMakeFiles/compare2.dir/compare2.c.o.d"
   )
 
 # Targets to which this target links.

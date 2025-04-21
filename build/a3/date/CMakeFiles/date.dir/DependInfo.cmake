@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bangme/bangme/a3/date/date.c" "a3/date/CMakeFiles/date.dir/date.c.o" "gcc" "a3/date/CMakeFiles/date.dir/date.c.o.d"
-  "/home/bangme/bangme/a3/date/main.c" "a3/date/CMakeFiles/date.dir/main.c.o" "gcc" "a3/date/CMakeFiles/date.dir/main.c.o.d"
+  "/home/bangme/bangme/bangme/a3/date/date.c" "a3/date/CMakeFiles/date.dir/date.c.o" "gcc" "a3/date/CMakeFiles/date.dir/date.c.o.d"
+  "/home/bangme/bangme/bangme/a3/date/main.c" "a3/date/CMakeFiles/date.dir/main.c.o" "gcc" "a3/date/CMakeFiles/date.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

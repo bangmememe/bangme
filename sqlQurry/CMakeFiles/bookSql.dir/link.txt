@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/bookSql.dir/src/bookSql.c.o CMakeFiles/bookSql.dir/src/main.c.o -o bookSql   -L/usr/lib/mysql  -Wl,-rpath,/usr/lib/mysql -lmysqlclient 

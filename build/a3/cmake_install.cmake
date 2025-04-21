@@ -1,4 +1,4 @@
-# Install script for directory: /home/bangme/bangme/a3
+# Install script for directory: /home/bangme/bangme/bangme/a3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/bangme/bangme/build/a3/CarSerial/cmake_install.cmake")
-  include("/home/bangme/bangme/build/a3/date/cmake_install.cmake")
-  include("/home/bangme/bangme/build/a3/myRandom/cmake_install.cmake")
-  include("/home/bangme/bangme/build/a3/string/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a3/CarSerial/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a3/date/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a3/myRandom/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/a3/string/cmake_install.cmake")
 
 endif()
 

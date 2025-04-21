@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme
+CMAKE_SOURCE_DIR = /home/bangme/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/build
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles /home/bangme/bangme/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles /home/bangme/bangme/bangme/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,19 +115,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named bookSql
-
-# Build rule for target.
-bookSql: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bookSql
-.PHONY : bookSql
-
-# fast build rule for target.
-bookSql/fast:
-	$(MAKE) $(MAKESILENT) -f sqlQurry/CMakeFiles/bookSql.dir/build.make sqlQurry/CMakeFiles/bookSql.dir/build
-.PHONY : bookSql/fast
 
 #=============================================================================
 # Target rules for targets named arithmetics
@@ -766,6 +753,32 @@ project/fast:
 	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
 .PHONY : project/fast
 
+#=============================================================================
+# Target rules for targets named ex1_vector
+
+# Build rule for target.
+ex1_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_vector
+.PHONY : ex1_vector
+
+# fast build rule for target.
+ex1_vector/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex1_vector.dir/build.make stl/CMakeFiles/ex1_vector.dir/build
+.PHONY : ex1_vector/fast
+
+#=============================================================================
+# Target rules for targets named ex2_string_vector
+
+# Build rule for target.
+ex2_string_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_string_vector
+.PHONY : ex2_string_vector
+
+# fast build rule for target.
+ex2_string_vector/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
+.PHONY : ex2_string_vector/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -779,7 +792,6 @@ help:
 	@echo "... arrayAssignement"
 	@echo "... arrayCompare"
 	@echo "... arrayPointer"
-	@echo "... bookSql"
 	@echo "... bubble"
 	@echo "... celsius2fahr"
 	@echo "... charAdress"
@@ -791,6 +803,8 @@ help:
 	@echo "... dynamicAllocation"
 	@echo "... endian"
 	@echo "... enumExample"
+	@echo "... ex1_vector"
+	@echo "... ex2_string_vector"
 	@echo "... fahr2celsius"
 	@echo "... fflushEx"
 	@echo "... fileDescription"

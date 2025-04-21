@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme
+CMAKE_SOURCE_DIR = /home/bangme/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/build
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles /home/bangme/bangme/build/a3/myRandom//CMakeFiles/progress.marks
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/build/CMakeFiles 0
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles /home/bangme/bangme/bangme/build/a3/myRandom//CMakeFiles/progress.marks
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/clean
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/preinstall
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/preinstall
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 a3/myRandom/CMakeFiles/myRandom.dir/rule:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/CMakeFiles/myRandom.dir/rule
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/CMakeFiles/myRandom.dir/rule
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ myRandom: a3/myRandom/CMakeFiles/myRandom.dir/rule
 
 # fast build rule for target.
 myRandom/fast:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/build
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/build
 .PHONY : myRandom/fast
 
 main.o: main.c.o
@@ -135,7 +135,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/main.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -143,7 +143,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/main.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -151,7 +151,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/main.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/main.c.s
 .PHONY : main.c.s
 
 myRandom.o: myRandom.c.o
@@ -159,7 +159,7 @@ myRandom.o: myRandom.c.o
 
 # target to build an object file
 myRandom.c.o:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o
 .PHONY : myRandom.c.o
 
 myRandom.i: myRandom.c.i
@@ -167,7 +167,7 @@ myRandom.i: myRandom.c.i
 
 # target to preprocess a source file
 myRandom.c.i:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.i
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.i
 .PHONY : myRandom.c.i
 
 myRandom.s: myRandom.c.s
@@ -175,7 +175,7 @@ myRandom.s: myRandom.c.s
 
 # target to generate assembly for a file
 myRandom.c.s:
-	cd /home/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.s
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.s
 .PHONY : myRandom.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

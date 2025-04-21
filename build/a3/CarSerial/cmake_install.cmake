@@ -1,4 +1,4 @@
-# Install script for directory: /home/bangme/bangme/a3/CarSerial
+# Install script for directory: /home/bangme/bangme/bangme/a3/CarSerial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o -o dynamicAllocation 
+/usr/bin/cc -g CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o -o dynamicAllocation 

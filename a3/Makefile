@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bangme/bangme && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/CMakeFiles /home/bangme/bangme/a3//CMakeFiles/progress.marks
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/CMakeFiles 0
+	cd /home/bangme/bangme/bangme && $(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/CMakeFiles /home/bangme/bangme/bangme/a3//CMakeFiles/progress.marks
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/clean
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/preinstall
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/preinstall
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bangme/bangme && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bangme/bangme/bangme && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 a3/CMakeFiles/arrayAssignement.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayAssignement.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayAssignement.dir/rule
 .PHONY : a3/CMakeFiles/arrayAssignement.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ arrayAssignement: a3/CMakeFiles/arrayAssignement.dir/rule
 
 # fast build rule for target.
 arrayAssignement/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/build
 .PHONY : arrayAssignement/fast
 
 # Convenience name for target.
 a3/CMakeFiles/arrayCompare.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayCompare.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayCompare.dir/rule
 .PHONY : a3/CMakeFiles/arrayCompare.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ arrayCompare: a3/CMakeFiles/arrayCompare.dir/rule
 
 # fast build rule for target.
 arrayCompare/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/build
 .PHONY : arrayCompare/fast
 
 # Convenience name for target.
 a3/CMakeFiles/arrayPointer.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayPointer.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayPointer.dir/rule
 .PHONY : a3/CMakeFiles/arrayPointer.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ arrayPointer: a3/CMakeFiles/arrayPointer.dir/rule
 
 # fast build rule for target.
 arrayPointer/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/build
 .PHONY : arrayPointer/fast
 
 # Convenience name for target.
 a3/CMakeFiles/bubble.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/bubble.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/bubble.dir/rule
 .PHONY : a3/CMakeFiles/bubble.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ bubble: a3/CMakeFiles/bubble.dir/rule
 
 # fast build rule for target.
 bubble/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/build
 .PHONY : bubble/fast
 
 # Convenience name for target.
 a3/CMakeFiles/charAdress.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/charAdress.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/charAdress.dir/rule
 .PHONY : a3/CMakeFiles/charAdress.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ charAdress: a3/CMakeFiles/charAdress.dir/rule
 
 # fast build rule for target.
 charAdress/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/build
 .PHONY : charAdress/fast
 
 # Convenience name for target.
 a3/CMakeFiles/charPointerOperation.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/charPointerOperation.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/charPointerOperation.dir/rule
 .PHONY : a3/CMakeFiles/charPointerOperation.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ charPointerOperation: a3/CMakeFiles/charPointerOperation.dir/rule
 
 # fast build rule for target.
 charPointerOperation/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/build
 .PHONY : charPointerOperation/fast
 
 # Convenience name for target.
 a3/CMakeFiles/dynamicAllocation.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/dynamicAllocation.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/dynamicAllocation.dir/rule
 .PHONY : a3/CMakeFiles/dynamicAllocation.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ dynamicAllocation: a3/CMakeFiles/dynamicAllocation.dir/rule
 
 # fast build rule for target.
 dynamicAllocation/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/build
 .PHONY : dynamicAllocation/fast
 
 # Convenience name for target.
 a3/CMakeFiles/endian.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/endian.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/endian.dir/rule
 .PHONY : a3/CMakeFiles/endian.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ endian: a3/CMakeFiles/endian.dir/rule
 
 # fast build rule for target.
 endian/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/build
 .PHONY : endian/fast
 
 # Convenience name for target.
 a3/CMakeFiles/enumExample.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/enumExample.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/enumExample.dir/rule
 .PHONY : a3/CMakeFiles/enumExample.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ enumExample: a3/CMakeFiles/enumExample.dir/rule
 
 # fast build rule for target.
 enumExample/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/build
 .PHONY : enumExample/fast
 
 # Convenience name for target.
 a3/CMakeFiles/fflushEx.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/fflushEx.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/fflushEx.dir/rule
 .PHONY : a3/CMakeFiles/fflushEx.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ fflushEx: a3/CMakeFiles/fflushEx.dir/rule
 
 # fast build rule for target.
 fflushEx/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/build
 .PHONY : fflushEx/fast
 
 # Convenience name for target.
 a3/CMakeFiles/fileDescription.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/fileDescription.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/fileDescription.dir/rule
 .PHONY : a3/CMakeFiles/fileDescription.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ fileDescription: a3/CMakeFiles/fileDescription.dir/rule
 
 # fast build rule for target.
 fileDescription/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/build
 .PHONY : fileDescription/fast
 
 # Convenience name for target.
 a3/CMakeFiles/filePointer.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/filePointer.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/filePointer.dir/rule
 .PHONY : a3/CMakeFiles/filePointer.dir/rule
 
 # Convenience name for target.
@@ -281,12 +281,12 @@ filePointer: a3/CMakeFiles/filePointer.dir/rule
 
 # fast build rule for target.
 filePointer/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/build
 .PHONY : filePointer/fast
 
 # Convenience name for target.
 a3/CMakeFiles/functionPointer.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/functionPointer.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/functionPointer.dir/rule
 .PHONY : a3/CMakeFiles/functionPointer.dir/rule
 
 # Convenience name for target.
@@ -295,12 +295,12 @@ functionPointer: a3/CMakeFiles/functionPointer.dir/rule
 
 # fast build rule for target.
 functionPointer/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/build
 .PHONY : functionPointer/fast
 
 # Convenience name for target.
 a3/CMakeFiles/getSeries.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/getSeries.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/getSeries.dir/rule
 .PHONY : a3/CMakeFiles/getSeries.dir/rule
 
 # Convenience name for target.
@@ -309,12 +309,12 @@ getSeries: a3/CMakeFiles/getSeries.dir/rule
 
 # fast build rule for target.
 getSeries/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/build
 .PHONY : getSeries/fast
 
 # Convenience name for target.
 a3/CMakeFiles/helloStr.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/helloStr.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/helloStr.dir/rule
 .PHONY : a3/CMakeFiles/helloStr.dir/rule
 
 # Convenience name for target.
@@ -323,12 +323,12 @@ helloStr: a3/CMakeFiles/helloStr.dir/rule
 
 # fast build rule for target.
 helloStr/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/build
 .PHONY : helloStr/fast
 
 # Convenience name for target.
 a3/CMakeFiles/pointer2.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/pointer2.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/pointer2.dir/rule
 .PHONY : a3/CMakeFiles/pointer2.dir/rule
 
 # Convenience name for target.
@@ -337,12 +337,12 @@ pointer2: a3/CMakeFiles/pointer2.dir/rule
 
 # fast build rule for target.
 pointer2/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/build
 .PHONY : pointer2/fast
 
 # Convenience name for target.
 a3/CMakeFiles/pointerConcept.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/pointerConcept.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/pointerConcept.dir/rule
 .PHONY : a3/CMakeFiles/pointerConcept.dir/rule
 
 # Convenience name for target.
@@ -351,12 +351,12 @@ pointerConcept: a3/CMakeFiles/pointerConcept.dir/rule
 
 # fast build rule for target.
 pointerConcept/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/build
 .PHONY : pointerConcept/fast
 
 # Convenience name for target.
 a3/CMakeFiles/putSeries.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/putSeries.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/putSeries.dir/rule
 .PHONY : a3/CMakeFiles/putSeries.dir/rule
 
 # Convenience name for target.
@@ -365,12 +365,12 @@ putSeries: a3/CMakeFiles/putSeries.dir/rule
 
 # fast build rule for target.
 putSeries/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/build
 .PHONY : putSeries/fast
 
 # Convenience name for target.
 a3/CMakeFiles/qsort.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/qsort.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/qsort.dir/rule
 .PHONY : a3/CMakeFiles/qsort.dir/rule
 
 # Convenience name for target.
@@ -379,12 +379,12 @@ qsort: a3/CMakeFiles/qsort.dir/rule
 
 # fast build rule for target.
 qsort/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/build
 .PHONY : qsort/fast
 
 # Convenience name for target.
 a3/CMakeFiles/selection.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/selection.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/selection.dir/rule
 .PHONY : a3/CMakeFiles/selection.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ selection: a3/CMakeFiles/selection.dir/rule
 
 # fast build rule for target.
 selection/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/build
 .PHONY : selection/fast
 
 # Convenience name for target.
 a3/CMakeFiles/strcatExample.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/strcatExample.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/strcatExample.dir/rule
 .PHONY : a3/CMakeFiles/strcatExample.dir/rule
 
 # Convenience name for target.
@@ -407,12 +407,12 @@ strcatExample: a3/CMakeFiles/strcatExample.dir/rule
 
 # fast build rule for target.
 strcatExample/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/build
 .PHONY : strcatExample/fast
 
 # Convenience name for target.
 a3/CMakeFiles/sumArrayFunction.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/sumArrayFunction.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/sumArrayFunction.dir/rule
 .PHONY : a3/CMakeFiles/sumArrayFunction.dir/rule
 
 # Convenience name for target.
@@ -421,12 +421,12 @@ sumArrayFunction: a3/CMakeFiles/sumArrayFunction.dir/rule
 
 # fast build rule for target.
 sumArrayFunction/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/build
 .PHONY : sumArrayFunction/fast
 
 # Convenience name for target.
 a3/CMakeFiles/sumMatrixFunction.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/sumMatrixFunction.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/sumMatrixFunction.dir/rule
 .PHONY : a3/CMakeFiles/sumMatrixFunction.dir/rule
 
 # Convenience name for target.
@@ -435,12 +435,12 @@ sumMatrixFunction: a3/CMakeFiles/sumMatrixFunction.dir/rule
 
 # fast build rule for target.
 sumMatrixFunction/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/build
 .PHONY : sumMatrixFunction/fast
 
 # Convenience name for target.
 a3/CMakeFiles/sumMatrixFunction2.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/sumMatrixFunction2.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/sumMatrixFunction2.dir/rule
 .PHONY : a3/CMakeFiles/sumMatrixFunction2.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ sumMatrixFunction2: a3/CMakeFiles/sumMatrixFunction2.dir/rule
 
 # fast build rule for target.
 sumMatrixFunction2/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/build
 .PHONY : sumMatrixFunction2/fast
 
 # Convenience name for target.
 a3/CMakeFiles/swap.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/swap.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/swap.dir/rule
 .PHONY : a3/CMakeFiles/swap.dir/rule
 
 # Convenience name for target.
@@ -463,12 +463,12 @@ swap: a3/CMakeFiles/swap.dir/rule
 
 # fast build rule for target.
 swap/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/build
 .PHONY : swap/fast
 
 # Convenience name for target.
 a3/CMakeFiles/swapFunction.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/swapFunction.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/swapFunction.dir/rule
 .PHONY : a3/CMakeFiles/swapFunction.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ swapFunction: a3/CMakeFiles/swapFunction.dir/rule
 
 # fast build rule for target.
 swapFunction/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/build
 .PHONY : swapFunction/fast
 
 # Convenience name for target.
 a3/CMakeFiles/unionExample.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/unionExample.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/unionExample.dir/rule
 .PHONY : a3/CMakeFiles/unionExample.dir/rule
 
 # Convenience name for target.
@@ -491,12 +491,12 @@ unionExample: a3/CMakeFiles/unionExample.dir/rule
 
 # fast build rule for target.
 unionExample/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/build
 .PHONY : unionExample/fast
 
 # Convenience name for target.
 a3/CMakeFiles/voidPointer.dir/rule:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/voidPointer.dir/rule
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/voidPointer.dir/rule
 .PHONY : a3/CMakeFiles/voidPointer.dir/rule
 
 # Convenience name for target.
@@ -505,7 +505,7 @@ voidPointer: a3/CMakeFiles/voidPointer.dir/rule
 
 # fast build rule for target.
 voidPointer/fast:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/build
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/build
 .PHONY : voidPointer/fast
 
 arrayAssignement.o: arrayAssignement.c.o
@@ -513,7 +513,7 @@ arrayAssignement.o: arrayAssignement.c.o
 
 # target to build an object file
 arrayAssignement.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o
 .PHONY : arrayAssignement.c.o
 
 arrayAssignement.i: arrayAssignement.c.i
@@ -521,7 +521,7 @@ arrayAssignement.i: arrayAssignement.c.i
 
 # target to preprocess a source file
 arrayAssignement.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.i
 .PHONY : arrayAssignement.c.i
 
 arrayAssignement.s: arrayAssignement.c.s
@@ -529,7 +529,7 @@ arrayAssignement.s: arrayAssignement.c.s
 
 # target to generate assembly for a file
 arrayAssignement.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/arrayAssignement.c.s
 .PHONY : arrayAssignement.c.s
 
 arrayCompare.o: arrayCompare.c.o
@@ -537,7 +537,7 @@ arrayCompare.o: arrayCompare.c.o
 
 # target to build an object file
 arrayCompare.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.o
 .PHONY : arrayCompare.c.o
 
 arrayCompare.i: arrayCompare.c.i
@@ -545,7 +545,7 @@ arrayCompare.i: arrayCompare.c.i
 
 # target to preprocess a source file
 arrayCompare.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.i
 .PHONY : arrayCompare.c.i
 
 arrayCompare.s: arrayCompare.c.s
@@ -553,7 +553,7 @@ arrayCompare.s: arrayCompare.c.s
 
 # target to generate assembly for a file
 arrayCompare.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/arrayCompare.c.s
 .PHONY : arrayCompare.c.s
 
 arrayPointer.o: arrayPointer.c.o
@@ -561,7 +561,7 @@ arrayPointer.o: arrayPointer.c.o
 
 # target to build an object file
 arrayPointer.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.o
 .PHONY : arrayPointer.c.o
 
 arrayPointer.i: arrayPointer.c.i
@@ -569,7 +569,7 @@ arrayPointer.i: arrayPointer.c.i
 
 # target to preprocess a source file
 arrayPointer.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.i
 .PHONY : arrayPointer.c.i
 
 arrayPointer.s: arrayPointer.c.s
@@ -577,7 +577,7 @@ arrayPointer.s: arrayPointer.c.s
 
 # target to generate assembly for a file
 arrayPointer.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/arrayPointer.c.s
 .PHONY : arrayPointer.c.s
 
 bubble.o: bubble.c.o
@@ -585,7 +585,7 @@ bubble.o: bubble.c.o
 
 # target to build an object file
 bubble.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/bubble.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/bubble.c.o
 .PHONY : bubble.c.o
 
 bubble.i: bubble.c.i
@@ -593,7 +593,7 @@ bubble.i: bubble.c.i
 
 # target to preprocess a source file
 bubble.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/bubble.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/bubble.c.i
 .PHONY : bubble.c.i
 
 bubble.s: bubble.c.s
@@ -601,7 +601,7 @@ bubble.s: bubble.c.s
 
 # target to generate assembly for a file
 bubble.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/bubble.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/bubble.c.s
 .PHONY : bubble.c.s
 
 charAdress.o: charAdress.c.o
@@ -609,7 +609,7 @@ charAdress.o: charAdress.c.o
 
 # target to build an object file
 charAdress.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/charAdress.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/charAdress.c.o
 .PHONY : charAdress.c.o
 
 charAdress.i: charAdress.c.i
@@ -617,7 +617,7 @@ charAdress.i: charAdress.c.i
 
 # target to preprocess a source file
 charAdress.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/charAdress.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/charAdress.c.i
 .PHONY : charAdress.c.i
 
 charAdress.s: charAdress.c.s
@@ -625,7 +625,7 @@ charAdress.s: charAdress.c.s
 
 # target to generate assembly for a file
 charAdress.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/charAdress.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/charAdress.c.s
 .PHONY : charAdress.c.s
 
 charPointerOperation.o: charPointerOperation.c.o
@@ -633,7 +633,7 @@ charPointerOperation.o: charPointerOperation.c.o
 
 # target to build an object file
 charPointerOperation.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/charPointerOperation.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/charPointerOperation.c.o
 .PHONY : charPointerOperation.c.o
 
 charPointerOperation.i: charPointerOperation.c.i
@@ -641,7 +641,7 @@ charPointerOperation.i: charPointerOperation.c.i
 
 # target to preprocess a source file
 charPointerOperation.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/charPointerOperation.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/charPointerOperation.c.i
 .PHONY : charPointerOperation.c.i
 
 charPointerOperation.s: charPointerOperation.c.s
@@ -649,7 +649,7 @@ charPointerOperation.s: charPointerOperation.c.s
 
 # target to generate assembly for a file
 charPointerOperation.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/charPointerOperation.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/charPointerOperation.c.s
 .PHONY : charPointerOperation.c.s
 
 dynamicAllocation.o: dynamicAllocation.c.o
@@ -657,7 +657,7 @@ dynamicAllocation.o: dynamicAllocation.c.o
 
 # target to build an object file
 dynamicAllocation.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o
 .PHONY : dynamicAllocation.c.o
 
 dynamicAllocation.i: dynamicAllocation.c.i
@@ -665,7 +665,7 @@ dynamicAllocation.i: dynamicAllocation.c.i
 
 # target to preprocess a source file
 dynamicAllocation.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.i
 .PHONY : dynamicAllocation.c.i
 
 dynamicAllocation.s: dynamicAllocation.c.s
@@ -673,7 +673,7 @@ dynamicAllocation.s: dynamicAllocation.c.s
 
 # target to generate assembly for a file
 dynamicAllocation.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.s
 .PHONY : dynamicAllocation.c.s
 
 endian.o: endian.c.o
@@ -681,7 +681,7 @@ endian.o: endian.c.o
 
 # target to build an object file
 endian.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/endian.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/endian.c.o
 .PHONY : endian.c.o
 
 endian.i: endian.c.i
@@ -689,7 +689,7 @@ endian.i: endian.c.i
 
 # target to preprocess a source file
 endian.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/endian.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/endian.c.i
 .PHONY : endian.c.i
 
 endian.s: endian.c.s
@@ -697,7 +697,7 @@ endian.s: endian.c.s
 
 # target to generate assembly for a file
 endian.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/endian.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/endian.c.s
 .PHONY : endian.c.s
 
 enumExample.o: enumExample.c.o
@@ -705,7 +705,7 @@ enumExample.o: enumExample.c.o
 
 # target to build an object file
 enumExample.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/enumExample.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/enumExample.c.o
 .PHONY : enumExample.c.o
 
 enumExample.i: enumExample.c.i
@@ -713,7 +713,7 @@ enumExample.i: enumExample.c.i
 
 # target to preprocess a source file
 enumExample.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/enumExample.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/enumExample.c.i
 .PHONY : enumExample.c.i
 
 enumExample.s: enumExample.c.s
@@ -721,7 +721,7 @@ enumExample.s: enumExample.c.s
 
 # target to generate assembly for a file
 enumExample.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/enumExample.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/enumExample.c.s
 .PHONY : enumExample.c.s
 
 fflushEx.o: fflushEx.c.o
@@ -729,7 +729,7 @@ fflushEx.o: fflushEx.c.o
 
 # target to build an object file
 fflushEx.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/fflushEx.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/fflushEx.c.o
 .PHONY : fflushEx.c.o
 
 fflushEx.i: fflushEx.c.i
@@ -737,7 +737,7 @@ fflushEx.i: fflushEx.c.i
 
 # target to preprocess a source file
 fflushEx.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/fflushEx.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/fflushEx.c.i
 .PHONY : fflushEx.c.i
 
 fflushEx.s: fflushEx.c.s
@@ -745,7 +745,7 @@ fflushEx.s: fflushEx.c.s
 
 # target to generate assembly for a file
 fflushEx.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/fflushEx.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/fflushEx.c.s
 .PHONY : fflushEx.c.s
 
 fileDescription.o: fileDescription.c.o
@@ -753,7 +753,7 @@ fileDescription.o: fileDescription.c.o
 
 # target to build an object file
 fileDescription.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/fileDescription.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/fileDescription.c.o
 .PHONY : fileDescription.c.o
 
 fileDescription.i: fileDescription.c.i
@@ -761,7 +761,7 @@ fileDescription.i: fileDescription.c.i
 
 # target to preprocess a source file
 fileDescription.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/fileDescription.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/fileDescription.c.i
 .PHONY : fileDescription.c.i
 
 fileDescription.s: fileDescription.c.s
@@ -769,7 +769,7 @@ fileDescription.s: fileDescription.c.s
 
 # target to generate assembly for a file
 fileDescription.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/fileDescription.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/fileDescription.c.s
 .PHONY : fileDescription.c.s
 
 filePointer.o: filePointer.c.o
@@ -777,7 +777,7 @@ filePointer.o: filePointer.c.o
 
 # target to build an object file
 filePointer.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/filePointer.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/filePointer.c.o
 .PHONY : filePointer.c.o
 
 filePointer.i: filePointer.c.i
@@ -785,7 +785,7 @@ filePointer.i: filePointer.c.i
 
 # target to preprocess a source file
 filePointer.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/filePointer.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/filePointer.c.i
 .PHONY : filePointer.c.i
 
 filePointer.s: filePointer.c.s
@@ -793,7 +793,7 @@ filePointer.s: filePointer.c.s
 
 # target to generate assembly for a file
 filePointer.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/filePointer.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/filePointer.c.s
 .PHONY : filePointer.c.s
 
 functionPointer.o: functionPointer.c.o
@@ -801,7 +801,7 @@ functionPointer.o: functionPointer.c.o
 
 # target to build an object file
 functionPointer.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/functionPointer.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/functionPointer.c.o
 .PHONY : functionPointer.c.o
 
 functionPointer.i: functionPointer.c.i
@@ -809,7 +809,7 @@ functionPointer.i: functionPointer.c.i
 
 # target to preprocess a source file
 functionPointer.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/functionPointer.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/functionPointer.c.i
 .PHONY : functionPointer.c.i
 
 functionPointer.s: functionPointer.c.s
@@ -817,7 +817,7 @@ functionPointer.s: functionPointer.c.s
 
 # target to generate assembly for a file
 functionPointer.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/functionPointer.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/functionPointer.c.s
 .PHONY : functionPointer.c.s
 
 getSeries.o: getSeries.c.o
@@ -825,7 +825,7 @@ getSeries.o: getSeries.c.o
 
 # target to build an object file
 getSeries.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/getSeries.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/getSeries.c.o
 .PHONY : getSeries.c.o
 
 getSeries.i: getSeries.c.i
@@ -833,7 +833,7 @@ getSeries.i: getSeries.c.i
 
 # target to preprocess a source file
 getSeries.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/getSeries.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/getSeries.c.i
 .PHONY : getSeries.c.i
 
 getSeries.s: getSeries.c.s
@@ -841,7 +841,7 @@ getSeries.s: getSeries.c.s
 
 # target to generate assembly for a file
 getSeries.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/getSeries.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/getSeries.c.s
 .PHONY : getSeries.c.s
 
 helloStr.o: helloStr.c.o
@@ -849,7 +849,7 @@ helloStr.o: helloStr.c.o
 
 # target to build an object file
 helloStr.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/helloStr.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/helloStr.c.o
 .PHONY : helloStr.c.o
 
 helloStr.i: helloStr.c.i
@@ -857,7 +857,7 @@ helloStr.i: helloStr.c.i
 
 # target to preprocess a source file
 helloStr.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/helloStr.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/helloStr.c.i
 .PHONY : helloStr.c.i
 
 helloStr.s: helloStr.c.s
@@ -865,7 +865,7 @@ helloStr.s: helloStr.c.s
 
 # target to generate assembly for a file
 helloStr.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/helloStr.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/helloStr.c.s
 .PHONY : helloStr.c.s
 
 pointer2.o: pointer2.c.o
@@ -873,7 +873,7 @@ pointer2.o: pointer2.c.o
 
 # target to build an object file
 pointer2.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/pointer2.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/pointer2.c.o
 .PHONY : pointer2.c.o
 
 pointer2.i: pointer2.c.i
@@ -881,7 +881,7 @@ pointer2.i: pointer2.c.i
 
 # target to preprocess a source file
 pointer2.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/pointer2.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/pointer2.c.i
 .PHONY : pointer2.c.i
 
 pointer2.s: pointer2.c.s
@@ -889,7 +889,7 @@ pointer2.s: pointer2.c.s
 
 # target to generate assembly for a file
 pointer2.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/pointer2.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/pointer2.c.s
 .PHONY : pointer2.c.s
 
 pointerConcept.o: pointerConcept.c.o
@@ -897,7 +897,7 @@ pointerConcept.o: pointerConcept.c.o
 
 # target to build an object file
 pointerConcept.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/pointerConcept.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/pointerConcept.c.o
 .PHONY : pointerConcept.c.o
 
 pointerConcept.i: pointerConcept.c.i
@@ -905,7 +905,7 @@ pointerConcept.i: pointerConcept.c.i
 
 # target to preprocess a source file
 pointerConcept.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/pointerConcept.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/pointerConcept.c.i
 .PHONY : pointerConcept.c.i
 
 pointerConcept.s: pointerConcept.c.s
@@ -913,7 +913,7 @@ pointerConcept.s: pointerConcept.c.s
 
 # target to generate assembly for a file
 pointerConcept.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/pointerConcept.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/pointerConcept.c.s
 .PHONY : pointerConcept.c.s
 
 putSeries.o: putSeries.c.o
@@ -921,7 +921,7 @@ putSeries.o: putSeries.c.o
 
 # target to build an object file
 putSeries.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/putSeries.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/putSeries.c.o
 .PHONY : putSeries.c.o
 
 putSeries.i: putSeries.c.i
@@ -929,7 +929,7 @@ putSeries.i: putSeries.c.i
 
 # target to preprocess a source file
 putSeries.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/putSeries.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/putSeries.c.i
 .PHONY : putSeries.c.i
 
 putSeries.s: putSeries.c.s
@@ -937,7 +937,7 @@ putSeries.s: putSeries.c.s
 
 # target to generate assembly for a file
 putSeries.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/putSeries.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/putSeries.c.s
 .PHONY : putSeries.c.s
 
 qsort.o: qsort.c.o
@@ -945,7 +945,7 @@ qsort.o: qsort.c.o
 
 # target to build an object file
 qsort.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/qsort.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/qsort.c.o
 .PHONY : qsort.c.o
 
 qsort.i: qsort.c.i
@@ -953,7 +953,7 @@ qsort.i: qsort.c.i
 
 # target to preprocess a source file
 qsort.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/qsort.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/qsort.c.i
 .PHONY : qsort.c.i
 
 qsort.s: qsort.c.s
@@ -961,7 +961,7 @@ qsort.s: qsort.c.s
 
 # target to generate assembly for a file
 qsort.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/qsort.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/qsort.c.s
 .PHONY : qsort.c.s
 
 selection.o: selection.c.o
@@ -969,7 +969,7 @@ selection.o: selection.c.o
 
 # target to build an object file
 selection.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/selection.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/selection.c.o
 .PHONY : selection.c.o
 
 selection.i: selection.c.i
@@ -977,7 +977,7 @@ selection.i: selection.c.i
 
 # target to preprocess a source file
 selection.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/selection.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/selection.c.i
 .PHONY : selection.c.i
 
 selection.s: selection.c.s
@@ -985,7 +985,7 @@ selection.s: selection.c.s
 
 # target to generate assembly for a file
 selection.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/selection.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/selection.c.s
 .PHONY : selection.c.s
 
 strcatExample.o: strcatExample.c.o
@@ -993,7 +993,7 @@ strcatExample.o: strcatExample.c.o
 
 # target to build an object file
 strcatExample.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/strcatExample.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/strcatExample.c.o
 .PHONY : strcatExample.c.o
 
 strcatExample.i: strcatExample.c.i
@@ -1001,7 +1001,7 @@ strcatExample.i: strcatExample.c.i
 
 # target to preprocess a source file
 strcatExample.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/strcatExample.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/strcatExample.c.i
 .PHONY : strcatExample.c.i
 
 strcatExample.s: strcatExample.c.s
@@ -1009,7 +1009,7 @@ strcatExample.s: strcatExample.c.s
 
 # target to generate assembly for a file
 strcatExample.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/strcatExample.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/strcatExample.c.s
 .PHONY : strcatExample.c.s
 
 sumArrayFunction.o: sumArrayFunction.c.o
@@ -1017,7 +1017,7 @@ sumArrayFunction.o: sumArrayFunction.c.o
 
 # target to build an object file
 sumArrayFunction.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o
 .PHONY : sumArrayFunction.c.o
 
 sumArrayFunction.i: sumArrayFunction.c.i
@@ -1025,7 +1025,7 @@ sumArrayFunction.i: sumArrayFunction.c.i
 
 # target to preprocess a source file
 sumArrayFunction.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.i
 .PHONY : sumArrayFunction.c.i
 
 sumArrayFunction.s: sumArrayFunction.c.s
@@ -1033,7 +1033,7 @@ sumArrayFunction.s: sumArrayFunction.c.s
 
 # target to generate assembly for a file
 sumArrayFunction.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.s
 .PHONY : sumArrayFunction.c.s
 
 sumMatrixFunction.o: sumMatrixFunction.c.o
@@ -1041,7 +1041,7 @@ sumMatrixFunction.o: sumMatrixFunction.c.o
 
 # target to build an object file
 sumMatrixFunction.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.o
 .PHONY : sumMatrixFunction.c.o
 
 sumMatrixFunction.i: sumMatrixFunction.c.i
@@ -1049,7 +1049,7 @@ sumMatrixFunction.i: sumMatrixFunction.c.i
 
 # target to preprocess a source file
 sumMatrixFunction.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.i
 .PHONY : sumMatrixFunction.c.i
 
 sumMatrixFunction.s: sumMatrixFunction.c.s
@@ -1057,7 +1057,7 @@ sumMatrixFunction.s: sumMatrixFunction.c.s
 
 # target to generate assembly for a file
 sumMatrixFunction.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.s
 .PHONY : sumMatrixFunction.c.s
 
 sumMatrixFunction2.o: sumMatrixFunction2.c.o
@@ -1065,7 +1065,7 @@ sumMatrixFunction2.o: sumMatrixFunction2.c.o
 
 # target to build an object file
 sumMatrixFunction2.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.o
 .PHONY : sumMatrixFunction2.c.o
 
 sumMatrixFunction2.i: sumMatrixFunction2.c.i
@@ -1073,7 +1073,7 @@ sumMatrixFunction2.i: sumMatrixFunction2.c.i
 
 # target to preprocess a source file
 sumMatrixFunction2.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.i
 .PHONY : sumMatrixFunction2.c.i
 
 sumMatrixFunction2.s: sumMatrixFunction2.c.s
@@ -1081,7 +1081,7 @@ sumMatrixFunction2.s: sumMatrixFunction2.c.s
 
 # target to generate assembly for a file
 sumMatrixFunction2.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.s
 .PHONY : sumMatrixFunction2.c.s
 
 swap.o: swap.c.o
@@ -1089,7 +1089,7 @@ swap.o: swap.c.o
 
 # target to build an object file
 swap.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/swap.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/swap.c.o
 .PHONY : swap.c.o
 
 swap.i: swap.c.i
@@ -1097,7 +1097,7 @@ swap.i: swap.c.i
 
 # target to preprocess a source file
 swap.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/swap.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/swap.c.i
 .PHONY : swap.c.i
 
 swap.s: swap.c.s
@@ -1105,7 +1105,7 @@ swap.s: swap.c.s
 
 # target to generate assembly for a file
 swap.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/swap.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/swap.c.s
 .PHONY : swap.c.s
 
 swapFunction.o: swapFunction.c.o
@@ -1113,7 +1113,7 @@ swapFunction.o: swapFunction.c.o
 
 # target to build an object file
 swapFunction.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/swapFunction.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/swapFunction.c.o
 .PHONY : swapFunction.c.o
 
 swapFunction.i: swapFunction.c.i
@@ -1121,7 +1121,7 @@ swapFunction.i: swapFunction.c.i
 
 # target to preprocess a source file
 swapFunction.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/swapFunction.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/swapFunction.c.i
 .PHONY : swapFunction.c.i
 
 swapFunction.s: swapFunction.c.s
@@ -1129,7 +1129,7 @@ swapFunction.s: swapFunction.c.s
 
 # target to generate assembly for a file
 swapFunction.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/swapFunction.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/swapFunction.c.s
 .PHONY : swapFunction.c.s
 
 unionExample.o: unionExample.c.o
@@ -1137,7 +1137,7 @@ unionExample.o: unionExample.c.o
 
 # target to build an object file
 unionExample.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/unionExample.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/unionExample.c.o
 .PHONY : unionExample.c.o
 
 unionExample.i: unionExample.c.i
@@ -1145,7 +1145,7 @@ unionExample.i: unionExample.c.i
 
 # target to preprocess a source file
 unionExample.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/unionExample.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/unionExample.c.i
 .PHONY : unionExample.c.i
 
 unionExample.s: unionExample.c.s
@@ -1153,7 +1153,7 @@ unionExample.s: unionExample.c.s
 
 # target to generate assembly for a file
 unionExample.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/unionExample.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/unionExample.c.s
 .PHONY : unionExample.c.s
 
 voidPointer.o: voidPointer.c.o
@@ -1161,7 +1161,7 @@ voidPointer.o: voidPointer.c.o
 
 # target to build an object file
 voidPointer.c.o:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/voidPointer.c.o
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/voidPointer.c.o
 .PHONY : voidPointer.c.o
 
 voidPointer.i: voidPointer.c.i
@@ -1169,7 +1169,7 @@ voidPointer.i: voidPointer.c.i
 
 # target to preprocess a source file
 voidPointer.c.i:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/voidPointer.c.i
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/voidPointer.c.i
 .PHONY : voidPointer.c.i
 
 voidPointer.s: voidPointer.c.s
@@ -1177,7 +1177,7 @@ voidPointer.s: voidPointer.c.s
 
 # target to generate assembly for a file
 voidPointer.c.s:
-	cd /home/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/voidPointer.c.s
+	cd /home/bangme/bangme/bangme && $(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/voidPointer.c.s
 .PHONY : voidPointer.c.s
 
 # Help Target
@@ -1311,6 +1311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bangme/bangme && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bangme/bangme/bangme && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

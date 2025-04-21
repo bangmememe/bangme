@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bangme/bangme
+CMAKE_SOURCE_DIR = /home/bangme/bangme/bangme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bangme/bangme/build
+CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 
 # Include any dependencies generated for this target.
 include project/CMakeFiles/project.dir/depend.make
@@ -72,30 +72,30 @@ include project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/src/database.c.o: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/src/database.c.o: ../project/src/database.c
 project/CMakeFiles/project.dir/src/database.c.o: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object project/CMakeFiles/project.dir/src/database.c.o"
-	cd /home/bangme/bangme/build/project && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/src/database.c.o -MF CMakeFiles/project.dir/src/database.c.o.d -o CMakeFiles/project.dir/src/database.c.o -c /home/bangme/bangme/project/src/database.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object project/CMakeFiles/project.dir/src/database.c.o"
+	cd /home/bangme/bangme/bangme/build/project && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/src/database.c.o -MF CMakeFiles/project.dir/src/database.c.o.d -o CMakeFiles/project.dir/src/database.c.o -c /home/bangme/bangme/bangme/project/src/database.c
 
 project/CMakeFiles/project.dir/src/database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/database.c.i"
-	cd /home/bangme/bangme/build/project && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/project/src/database.c > CMakeFiles/project.dir/src/database.c.i
+	cd /home/bangme/bangme/bangme/build/project && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/bangme/project/src/database.c > CMakeFiles/project.dir/src/database.c.i
 
 project/CMakeFiles/project.dir/src/database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/database.c.s"
-	cd /home/bangme/bangme/build/project && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/project/src/database.c -o CMakeFiles/project.dir/src/database.c.s
+	cd /home/bangme/bangme/bangme/build/project && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/bangme/project/src/database.c -o CMakeFiles/project.dir/src/database.c.s
 
 project/CMakeFiles/project.dir/src/main.c.o: project/CMakeFiles/project.dir/flags.make
 project/CMakeFiles/project.dir/src/main.c.o: ../project/src/main.c
 project/CMakeFiles/project.dir/src/main.c.o: project/CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object project/CMakeFiles/project.dir/src/main.c.o"
-	cd /home/bangme/bangme/build/project && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/src/main.c.o -MF CMakeFiles/project.dir/src/main.c.o.d -o CMakeFiles/project.dir/src/main.c.o -c /home/bangme/bangme/project/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object project/CMakeFiles/project.dir/src/main.c.o"
+	cd /home/bangme/bangme/bangme/build/project && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/project.dir/src/main.c.o -MF CMakeFiles/project.dir/src/main.c.o.d -o CMakeFiles/project.dir/src/main.c.o -c /home/bangme/bangme/bangme/project/src/main.c
 
 project/CMakeFiles/project.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/main.c.i"
-	cd /home/bangme/bangme/build/project && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/project/src/main.c > CMakeFiles/project.dir/src/main.c.i
+	cd /home/bangme/bangme/bangme/build/project && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bangme/bangme/bangme/project/src/main.c > CMakeFiles/project.dir/src/main.c.i
 
 project/CMakeFiles/project.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/main.c.s"
-	cd /home/bangme/bangme/build/project && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/project/src/main.c -o CMakeFiles/project.dir/src/main.c.s
+	cd /home/bangme/bangme/bangme/build/project && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bangme/bangme/bangme/project/src/main.c -o CMakeFiles/project.dir/src/main.c.s
 
 # Object files for target project
 project_OBJECTS = \
@@ -110,18 +110,18 @@ project/project: project/CMakeFiles/project.dir/src/main.c.o
 project/project: project/CMakeFiles/project.dir/build.make
 project/project: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 project/project: project/CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable project"
-	cd /home/bangme/bangme/build/project && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable project"
+	cd /home/bangme/bangme/bangme/build/project && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 project/CMakeFiles/project.dir/build: project/project
 .PHONY : project/CMakeFiles/project.dir/build
 
 project/CMakeFiles/project.dir/clean:
-	cd /home/bangme/bangme/build/project && $(CMAKE_COMMAND) -P CMakeFiles/project.dir/cmake_clean.cmake
+	cd /home/bangme/bangme/bangme/build/project && $(CMAKE_COMMAND) -P CMakeFiles/project.dir/cmake_clean.cmake
 .PHONY : project/CMakeFiles/project.dir/clean
 
 project/CMakeFiles/project.dir/depend:
-	cd /home/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bangme/bangme /home/bangme/bangme/project /home/bangme/bangme/build /home/bangme/bangme/build/project /home/bangme/bangme/build/project/CMakeFiles/project.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bangme/bangme/bangme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bangme/bangme/bangme /home/bangme/bangme/bangme/project /home/bangme/bangme/bangme/build /home/bangme/bangme/bangme/build/project /home/bangme/bangme/bangme/build/project/CMakeFiles/project.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/CMakeFiles/project.dir/depend
 
