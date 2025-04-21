@@ -187,4 +187,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "project/CMakeFiles/project.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex1_vector.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex2_string_vector.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex3_longest.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex4_string.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex5_string_find.dir/DependInfo.cmake"
   )

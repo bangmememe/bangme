@@ -278,5 +278,20 @@
   "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex2_string_vector.dir/ex2_string_vector.cpp.o -c /home/bangme/bangme/bangme/stl/ex2_string_vector.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex2_string_vector.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex3_longest.dir/ex3_longest.cpp.o -c /home/bangme/bangme/bangme/stl/ex3_longest.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex3_longest.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex4_string.dir/ex4_string.cpp.o -c /home/bangme/bangme/bangme/stl/ex4_string.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex4_string.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.o -c /home/bangme/bangme/bangme/stl/ex5_string_find.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex5_string_find.cpp"
 }
 ]

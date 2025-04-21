@@ -144,6 +144,48 @@ ex2_string_vector/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
 .PHONY : ex2_string_vector/fast
 
+# Convenience name for target.
+stl/CMakeFiles/ex3_longest.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex3_longest.dir/rule
+.PHONY : stl/CMakeFiles/ex3_longest.dir/rule
+
+# Convenience name for target.
+ex3_longest: stl/CMakeFiles/ex3_longest.dir/rule
+.PHONY : ex3_longest
+
+# fast build rule for target.
+ex3_longest/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/build
+.PHONY : ex3_longest/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex4_string.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex4_string.dir/rule
+.PHONY : stl/CMakeFiles/ex4_string.dir/rule
+
+# Convenience name for target.
+ex4_string: stl/CMakeFiles/ex4_string.dir/rule
+.PHONY : ex4_string
+
+# fast build rule for target.
+ex4_string/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/build
+.PHONY : ex4_string/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex5_string_find.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex5_string_find.dir/rule
+.PHONY : stl/CMakeFiles/ex5_string_find.dir/rule
+
+# Convenience name for target.
+ex5_string_find: stl/CMakeFiles/ex5_string_find.dir/rule
+.PHONY : ex5_string_find
+
+# fast build rule for target.
+ex5_string_find/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
+.PHONY : ex5_string_find/fast
+
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
 
@@ -192,6 +234,78 @@ ex2_string_vector.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/ex2_string_vector.cpp.s
 .PHONY : ex2_string_vector.cpp.s
 
+ex3_longest.o: ex3_longest.cpp.o
+.PHONY : ex3_longest.o
+
+# target to build an object file
+ex3_longest.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/ex3_longest.cpp.o
+.PHONY : ex3_longest.cpp.o
+
+ex3_longest.i: ex3_longest.cpp.i
+.PHONY : ex3_longest.i
+
+# target to preprocess a source file
+ex3_longest.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/ex3_longest.cpp.i
+.PHONY : ex3_longest.cpp.i
+
+ex3_longest.s: ex3_longest.cpp.s
+.PHONY : ex3_longest.s
+
+# target to generate assembly for a file
+ex3_longest.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/ex3_longest.cpp.s
+.PHONY : ex3_longest.cpp.s
+
+ex4_string.o: ex4_string.cpp.o
+.PHONY : ex4_string.o
+
+# target to build an object file
+ex4_string.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/ex4_string.cpp.o
+.PHONY : ex4_string.cpp.o
+
+ex4_string.i: ex4_string.cpp.i
+.PHONY : ex4_string.i
+
+# target to preprocess a source file
+ex4_string.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/ex4_string.cpp.i
+.PHONY : ex4_string.cpp.i
+
+ex4_string.s: ex4_string.cpp.s
+.PHONY : ex4_string.s
+
+# target to generate assembly for a file
+ex4_string.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/ex4_string.cpp.s
+.PHONY : ex4_string.cpp.s
+
+ex5_string_find.o: ex5_string_find.cpp.o
+.PHONY : ex5_string_find.o
+
+# target to build an object file
+ex5_string_find.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.o
+.PHONY : ex5_string_find.cpp.o
+
+ex5_string_find.i: ex5_string_find.cpp.i
+.PHONY : ex5_string_find.i
+
+# target to preprocess a source file
+ex5_string_find.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.i
+.PHONY : ex5_string_find.cpp.i
+
+ex5_string_find.s: ex5_string_find.cpp.s
+.PHONY : ex5_string_find.s
+
+# target to generate assembly for a file
+ex5_string_find.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.s
+.PHONY : ex5_string_find.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,12 +316,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
+	@echo "... ex3_longest"
+	@echo "... ex4_string"
+	@echo "... ex5_string_find"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"
 	@echo "... ex2_string_vector.o"
 	@echo "... ex2_string_vector.i"
 	@echo "... ex2_string_vector.s"
+	@echo "... ex3_longest.o"
+	@echo "... ex3_longest.i"
+	@echo "... ex3_longest.s"
+	@echo "... ex4_string.o"
+	@echo "... ex4_string.i"
+	@echo "... ex4_string.s"
+	@echo "... ex5_string_find.o"
+	@echo "... ex5_string_find.i"
+	@echo "... ex5_string_find.s"
 .PHONY : help
 
 

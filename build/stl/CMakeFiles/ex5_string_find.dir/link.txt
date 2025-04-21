@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.o -o ex5_string_find 

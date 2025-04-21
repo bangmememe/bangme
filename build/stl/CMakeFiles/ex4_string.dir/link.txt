@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex4_string.dir/ex4_string.cpp.o -o ex4_string 

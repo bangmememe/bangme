@@ -15,7 +15,9 @@
         "gpio.h": "c",
         "fcntl.h": "c",
         "kernel.h": "c",
-        "fs.h": "c"
+        "fs.h": "c",
+        "iostream": "cpp",
+        "ostream": "cpp"
     },
     "ros.distro": "humble"
 }
