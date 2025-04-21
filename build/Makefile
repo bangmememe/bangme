@@ -818,6 +818,19 @@ ex5_string_find/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
 .PHONY : ex5_string_find/fast
 
+#=============================================================================
+# Target rules for targets named ex6_iterator
+
+# Build rule for target.
+ex6_iterator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_iterator
+.PHONY : ex6_iterator
+
+# fast build rule for target.
+ex6_iterator/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
+.PHONY : ex6_iterator/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -847,6 +860,7 @@ help:
 	@echo "... ex3_longest"
 	@echo "... ex4_string"
 	@echo "... ex5_string_find"
+	@echo "... ex6_iterator"
 	@echo "... fahr2celsius"
 	@echo "... fflushEx"
 	@echo "... fileDescription"

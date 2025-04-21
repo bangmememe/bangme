@@ -70,5 +70,6 @@
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex3_longest.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex4_string.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex5_string_find.dir
+/home/bangme/bangme/bangme/build/stl/CMakeFiles/ex6_iterator.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/rebuild_cache.dir

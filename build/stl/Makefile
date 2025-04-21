@@ -186,6 +186,20 @@ ex5_string_find/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
 .PHONY : ex5_string_find/fast
 
+# Convenience name for target.
+stl/CMakeFiles/ex6_iterator.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex6_iterator.dir/rule
+.PHONY : stl/CMakeFiles/ex6_iterator.dir/rule
+
+# Convenience name for target.
+ex6_iterator: stl/CMakeFiles/ex6_iterator.dir/rule
+.PHONY : ex6_iterator
+
+# fast build rule for target.
+ex6_iterator/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
+.PHONY : ex6_iterator/fast
+
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
 
@@ -306,6 +320,30 @@ ex5_string_find.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.s
 .PHONY : ex5_string_find.cpp.s
 
+ex6_iterator.o: ex6_iterator.cpp.o
+.PHONY : ex6_iterator.o
+
+# target to build an object file
+ex6_iterator.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.o
+.PHONY : ex6_iterator.cpp.o
+
+ex6_iterator.i: ex6_iterator.cpp.i
+.PHONY : ex6_iterator.i
+
+# target to preprocess a source file
+ex6_iterator.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.i
+.PHONY : ex6_iterator.cpp.i
+
+ex6_iterator.s: ex6_iterator.cpp.s
+.PHONY : ex6_iterator.s
+
+# target to generate assembly for a file
+ex6_iterator.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.s
+.PHONY : ex6_iterator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -319,6 +357,7 @@ help:
 	@echo "... ex3_longest"
 	@echo "... ex4_string"
 	@echo "... ex5_string_find"
+	@echo "... ex6_iterator"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"
@@ -334,6 +373,9 @@ help:
 	@echo "... ex5_string_find.o"
 	@echo "... ex5_string_find.i"
 	@echo "... ex5_string_find.s"
+	@echo "... ex6_iterator.o"
+	@echo "... ex6_iterator.i"
+	@echo "... ex6_iterator.s"
 .PHONY : help
 
 
