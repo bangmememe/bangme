@@ -303,5 +303,30 @@
   "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex7_map.dir/ex7_map.cpp.o -c /home/bangme/bangme/bangme/stl/ex7_map.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex7_map.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex8_vector_list.dir/ex8_vector_list.cpp.o -c /home/bangme/bangme/bangme/stl/ex8_vector_list.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex8_vector_list.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex8_vector_list2.dir/ex8_vector_list2.cpp.o -c /home/bangme/bangme/bangme/stl/ex8_vector_list2.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex8_vector_list2.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.o -c /home/bangme/bangme/bangme/stl/ex9_lambda.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex9_lambda.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/data_process.dir/data_process/data_process.cpp.o -c /home/bangme/bangme/bangme/stl/data_process/data_process.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/data_process/data_process.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/data_process.dir/data_process/main.cpp.o -c /home/bangme/bangme/bangme/stl/data_process/main.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/data_process/main.cpp"
 }
 ]

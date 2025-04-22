@@ -117,4 +117,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "stl/CMakeFiles/ex5_string_find.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex6_iterator.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex7_map.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex8_vector_list.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex8_vector_list2.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex9_lambda.dir/DependInfo.cmake"
+  "stl/CMakeFiles/data_process.dir/DependInfo.cmake"
   )

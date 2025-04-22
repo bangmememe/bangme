@@ -9,6 +9,8 @@ int main()
     dic.insert(make_pair("love", "사랑"));
     dic["cherry"] = "체리";
 
+    dic.erase("love");  // map 원소 지우기
+
     cout << "저장된 단어의 갯수 : " << dic.size() << endl;
     string eng;
     while (true)

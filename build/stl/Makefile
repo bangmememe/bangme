@@ -214,6 +214,110 @@ ex7_map/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
 .PHONY : ex7_map/fast
 
+# Convenience name for target.
+stl/CMakeFiles/ex8_vector_list.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex8_vector_list.dir/rule
+.PHONY : stl/CMakeFiles/ex8_vector_list.dir/rule
+
+# Convenience name for target.
+ex8_vector_list: stl/CMakeFiles/ex8_vector_list.dir/rule
+.PHONY : ex8_vector_list
+
+# fast build rule for target.
+ex8_vector_list/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/build
+.PHONY : ex8_vector_list/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex8_vector_list2.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex8_vector_list2.dir/rule
+.PHONY : stl/CMakeFiles/ex8_vector_list2.dir/rule
+
+# Convenience name for target.
+ex8_vector_list2: stl/CMakeFiles/ex8_vector_list2.dir/rule
+.PHONY : ex8_vector_list2
+
+# fast build rule for target.
+ex8_vector_list2/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/build
+.PHONY : ex8_vector_list2/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex9_lambda.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex9_lambda.dir/rule
+.PHONY : stl/CMakeFiles/ex9_lambda.dir/rule
+
+# Convenience name for target.
+ex9_lambda: stl/CMakeFiles/ex9_lambda.dir/rule
+.PHONY : ex9_lambda
+
+# fast build rule for target.
+ex9_lambda/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
+.PHONY : ex9_lambda/fast
+
+# Convenience name for target.
+stl/CMakeFiles/data_process.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/data_process.dir/rule
+.PHONY : stl/CMakeFiles/data_process.dir/rule
+
+# Convenience name for target.
+data_process: stl/CMakeFiles/data_process.dir/rule
+.PHONY : data_process
+
+# fast build rule for target.
+data_process/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
+.PHONY : data_process/fast
+
+data_process/data_process.o: data_process/data_process.cpp.o
+.PHONY : data_process/data_process.o
+
+# target to build an object file
+data_process/data_process.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/data_process.cpp.o
+.PHONY : data_process/data_process.cpp.o
+
+data_process/data_process.i: data_process/data_process.cpp.i
+.PHONY : data_process/data_process.i
+
+# target to preprocess a source file
+data_process/data_process.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/data_process.cpp.i
+.PHONY : data_process/data_process.cpp.i
+
+data_process/data_process.s: data_process/data_process.cpp.s
+.PHONY : data_process/data_process.s
+
+# target to generate assembly for a file
+data_process/data_process.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/data_process.cpp.s
+.PHONY : data_process/data_process.cpp.s
+
+data_process/main.o: data_process/main.cpp.o
+.PHONY : data_process/main.o
+
+# target to build an object file
+data_process/main.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/main.cpp.o
+.PHONY : data_process/main.cpp.o
+
+data_process/main.i: data_process/main.cpp.i
+.PHONY : data_process/main.i
+
+# target to preprocess a source file
+data_process/main.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/main.cpp.i
+.PHONY : data_process/main.cpp.i
+
+data_process/main.s: data_process/main.cpp.s
+.PHONY : data_process/main.s
+
+# target to generate assembly for a file
+data_process/main.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/main.cpp.s
+.PHONY : data_process/main.cpp.s
+
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
 
@@ -382,6 +486,78 @@ ex7_map.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/ex7_map.cpp.s
 .PHONY : ex7_map.cpp.s
 
+ex8_vector_list.o: ex8_vector_list.cpp.o
+.PHONY : ex8_vector_list.o
+
+# target to build an object file
+ex8_vector_list.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/ex8_vector_list.cpp.o
+.PHONY : ex8_vector_list.cpp.o
+
+ex8_vector_list.i: ex8_vector_list.cpp.i
+.PHONY : ex8_vector_list.i
+
+# target to preprocess a source file
+ex8_vector_list.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/ex8_vector_list.cpp.i
+.PHONY : ex8_vector_list.cpp.i
+
+ex8_vector_list.s: ex8_vector_list.cpp.s
+.PHONY : ex8_vector_list.s
+
+# target to generate assembly for a file
+ex8_vector_list.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/ex8_vector_list.cpp.s
+.PHONY : ex8_vector_list.cpp.s
+
+ex8_vector_list2.o: ex8_vector_list2.cpp.o
+.PHONY : ex8_vector_list2.o
+
+# target to build an object file
+ex8_vector_list2.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/ex8_vector_list2.cpp.o
+.PHONY : ex8_vector_list2.cpp.o
+
+ex8_vector_list2.i: ex8_vector_list2.cpp.i
+.PHONY : ex8_vector_list2.i
+
+# target to preprocess a source file
+ex8_vector_list2.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/ex8_vector_list2.cpp.i
+.PHONY : ex8_vector_list2.cpp.i
+
+ex8_vector_list2.s: ex8_vector_list2.cpp.s
+.PHONY : ex8_vector_list2.s
+
+# target to generate assembly for a file
+ex8_vector_list2.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/ex8_vector_list2.cpp.s
+.PHONY : ex8_vector_list2.cpp.s
+
+ex9_lambda.o: ex9_lambda.cpp.o
+.PHONY : ex9_lambda.o
+
+# target to build an object file
+ex9_lambda.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.o
+.PHONY : ex9_lambda.cpp.o
+
+ex9_lambda.i: ex9_lambda.cpp.i
+.PHONY : ex9_lambda.i
+
+# target to preprocess a source file
+ex9_lambda.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.i
+.PHONY : ex9_lambda.cpp.i
+
+ex9_lambda.s: ex9_lambda.cpp.s
+.PHONY : ex9_lambda.s
+
+# target to generate assembly for a file
+ex9_lambda.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.s
+.PHONY : ex9_lambda.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -390,6 +566,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... data_process"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
@@ -397,6 +574,15 @@ help:
 	@echo "... ex5_string_find"
 	@echo "... ex6_iterator"
 	@echo "... ex7_map"
+	@echo "... ex8_vector_list"
+	@echo "... ex8_vector_list2"
+	@echo "... ex9_lambda"
+	@echo "... data_process/data_process.o"
+	@echo "... data_process/data_process.i"
+	@echo "... data_process/data_process.s"
+	@echo "... data_process/main.o"
+	@echo "... data_process/main.i"
+	@echo "... data_process/main.s"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"
@@ -418,6 +604,15 @@ help:
 	@echo "... ex7_map.o"
 	@echo "... ex7_map.i"
 	@echo "... ex7_map.s"
+	@echo "... ex8_vector_list.o"
+	@echo "... ex8_vector_list.i"
+	@echo "... ex8_vector_list.s"
+	@echo "... ex8_vector_list2.o"
+	@echo "... ex8_vector_list2.i"
+	@echo "... ex8_vector_list2.s"
+	@echo "... ex9_lambda.o"
+	@echo "... ex9_lambda.i"
+	@echo "... ex9_lambda.s"
 .PHONY : help
 
 
