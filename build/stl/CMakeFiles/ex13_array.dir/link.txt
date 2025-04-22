@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex13_array.dir/ex13_array.cpp.o -o ex13_array 

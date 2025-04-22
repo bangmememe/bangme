@@ -767,6 +767,45 @@ ex10_forClass/fast:
 .PHONY : ex10_forClass/fast
 
 #=============================================================================
+# Target rules for targets named ex11_Nullptr
+
+# Build rule for target.
+ex11_Nullptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_Nullptr
+.PHONY : ex11_Nullptr
+
+# fast build rule for target.
+ex11_Nullptr/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/build
+.PHONY : ex11_Nullptr/fast
+
+#=============================================================================
+# Target rules for targets named ex12_constexprestion
+
+# Build rule for target.
+ex12_constexprestion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_constexprestion
+.PHONY : ex12_constexprestion
+
+# fast build rule for target.
+ex12_constexprestion/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/build
+.PHONY : ex12_constexprestion/fast
+
+#=============================================================================
+# Target rules for targets named ex13_array
+
+# Build rule for target.
+ex13_array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex13_array
+.PHONY : ex13_array
+
+# fast build rule for target.
+ex13_array/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/build
+.PHONY : ex13_array/fast
+
+#=============================================================================
 # Target rules for targets named ex1_vector
 
 # Build rule for target.
@@ -909,6 +948,19 @@ data_process/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
 .PHONY : data_process/fast
 
+#=============================================================================
+# Target rules for targets named range_example
+
+# Build rule for target.
+range_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 range_example
+.PHONY : range_example
+
+# fast build rule for target.
+range_example/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
+.PHONY : range_example/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -935,6 +987,9 @@ help:
 	@echo "... endian"
 	@echo "... enumExample"
 	@echo "... ex10_forClass"
+	@echo "... ex11_Nullptr"
+	@echo "... ex12_constexprestion"
+	@echo "... ex13_array"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
@@ -966,6 +1021,7 @@ help:
 	@echo "... project"
 	@echo "... putSeries"
 	@echo "... qsort"
+	@echo "... range_example"
 	@echo "... selection"
 	@echo "... sizeof"
 	@echo "... strcatExample"

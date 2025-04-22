@@ -131,6 +131,48 @@ ex10_forClass/fast:
 .PHONY : ex10_forClass/fast
 
 # Convenience name for target.
+stl/CMakeFiles/ex11_Nullptr.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex11_Nullptr.dir/rule
+.PHONY : stl/CMakeFiles/ex11_Nullptr.dir/rule
+
+# Convenience name for target.
+ex11_Nullptr: stl/CMakeFiles/ex11_Nullptr.dir/rule
+.PHONY : ex11_Nullptr
+
+# fast build rule for target.
+ex11_Nullptr/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/build
+.PHONY : ex11_Nullptr/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex12_constexprestion.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex12_constexprestion.dir/rule
+.PHONY : stl/CMakeFiles/ex12_constexprestion.dir/rule
+
+# Convenience name for target.
+ex12_constexprestion: stl/CMakeFiles/ex12_constexprestion.dir/rule
+.PHONY : ex12_constexprestion
+
+# fast build rule for target.
+ex12_constexprestion/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/build
+.PHONY : ex12_constexprestion/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex13_array.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex13_array.dir/rule
+.PHONY : stl/CMakeFiles/ex13_array.dir/rule
+
+# Convenience name for target.
+ex13_array: stl/CMakeFiles/ex13_array.dir/rule
+.PHONY : ex13_array
+
+# fast build rule for target.
+ex13_array/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/build
+.PHONY : ex13_array/fast
+
+# Convenience name for target.
 stl/CMakeFiles/ex1_vector.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex1_vector.dir/rule
 .PHONY : stl/CMakeFiles/ex1_vector.dir/rule
@@ -284,6 +326,20 @@ data_process/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
 .PHONY : data_process/fast
 
+# Convenience name for target.
+stl/CMakeFiles/range_example.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/range_example.dir/rule
+.PHONY : stl/CMakeFiles/range_example.dir/rule
+
+# Convenience name for target.
+range_example: stl/CMakeFiles/range_example.dir/rule
+.PHONY : range_example
+
+# fast build rule for target.
+range_example/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
+.PHONY : range_example/fast
+
 data_process/data_process.o: data_process/data_process.cpp.o
 .PHONY : data_process/data_process.o
 
@@ -355,6 +411,78 @@ ex10_forClass.s: ex10_forClass.cpp.s
 ex10_forClass.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.s
 .PHONY : ex10_forClass.cpp.s
+
+ex11_Nullptr.o: ex11_Nullptr.cpp.o
+.PHONY : ex11_Nullptr.o
+
+# target to build an object file
+ex11_Nullptr.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/ex11_Nullptr.cpp.o
+.PHONY : ex11_Nullptr.cpp.o
+
+ex11_Nullptr.i: ex11_Nullptr.cpp.i
+.PHONY : ex11_Nullptr.i
+
+# target to preprocess a source file
+ex11_Nullptr.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/ex11_Nullptr.cpp.i
+.PHONY : ex11_Nullptr.cpp.i
+
+ex11_Nullptr.s: ex11_Nullptr.cpp.s
+.PHONY : ex11_Nullptr.s
+
+# target to generate assembly for a file
+ex11_Nullptr.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/ex11_Nullptr.cpp.s
+.PHONY : ex11_Nullptr.cpp.s
+
+ex12_constexprestion.o: ex12_constexprestion.cpp.o
+.PHONY : ex12_constexprestion.o
+
+# target to build an object file
+ex12_constexprestion.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.o
+.PHONY : ex12_constexprestion.cpp.o
+
+ex12_constexprestion.i: ex12_constexprestion.cpp.i
+.PHONY : ex12_constexprestion.i
+
+# target to preprocess a source file
+ex12_constexprestion.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.i
+.PHONY : ex12_constexprestion.cpp.i
+
+ex12_constexprestion.s: ex12_constexprestion.cpp.s
+.PHONY : ex12_constexprestion.s
+
+# target to generate assembly for a file
+ex12_constexprestion.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.s
+.PHONY : ex12_constexprestion.cpp.s
+
+ex13_array.o: ex13_array.cpp.o
+.PHONY : ex13_array.o
+
+# target to build an object file
+ex13_array.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/ex13_array.cpp.o
+.PHONY : ex13_array.cpp.o
+
+ex13_array.i: ex13_array.cpp.i
+.PHONY : ex13_array.i
+
+# target to preprocess a source file
+ex13_array.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/ex13_array.cpp.i
+.PHONY : ex13_array.cpp.i
+
+ex13_array.s: ex13_array.cpp.s
+.PHONY : ex13_array.s
+
+# target to generate assembly for a file
+ex13_array.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/ex13_array.cpp.s
+.PHONY : ex13_array.cpp.s
 
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
@@ -596,6 +724,54 @@ ex9_lambda.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.s
 .PHONY : ex9_lambda.cpp.s
 
+range_example/main.o: range_example/main.cpp.o
+.PHONY : range_example/main.o
+
+# target to build an object file
+range_example/main.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/main.cpp.o
+.PHONY : range_example/main.cpp.o
+
+range_example/main.i: range_example/main.cpp.i
+.PHONY : range_example/main.i
+
+# target to preprocess a source file
+range_example/main.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/main.cpp.i
+.PHONY : range_example/main.cpp.i
+
+range_example/main.s: range_example/main.cpp.s
+.PHONY : range_example/main.s
+
+# target to generate assembly for a file
+range_example/main.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/main.cpp.s
+.PHONY : range_example/main.cpp.s
+
+range_example/processor.o: range_example/processor.cpp.o
+.PHONY : range_example/processor.o
+
+# target to build an object file
+range_example/processor.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/processor.cpp.o
+.PHONY : range_example/processor.cpp.o
+
+range_example/processor.i: range_example/processor.cpp.i
+.PHONY : range_example/processor.i
+
+# target to preprocess a source file
+range_example/processor.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/processor.cpp.i
+.PHONY : range_example/processor.cpp.i
+
+range_example/processor.s: range_example/processor.cpp.s
+.PHONY : range_example/processor.s
+
+# target to generate assembly for a file
+range_example/processor.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/processor.cpp.s
+.PHONY : range_example/processor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -606,6 +782,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... data_process"
 	@echo "... ex10_forClass"
+	@echo "... ex11_Nullptr"
+	@echo "... ex12_constexprestion"
+	@echo "... ex13_array"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
@@ -616,6 +795,7 @@ help:
 	@echo "... ex8_vector_list"
 	@echo "... ex8_vector_list2"
 	@echo "... ex9_lambda"
+	@echo "... range_example"
 	@echo "... data_process/data_process.o"
 	@echo "... data_process/data_process.i"
 	@echo "... data_process/data_process.s"
@@ -625,6 +805,15 @@ help:
 	@echo "... ex10_forClass.o"
 	@echo "... ex10_forClass.i"
 	@echo "... ex10_forClass.s"
+	@echo "... ex11_Nullptr.o"
+	@echo "... ex11_Nullptr.i"
+	@echo "... ex11_Nullptr.s"
+	@echo "... ex12_constexprestion.o"
+	@echo "... ex12_constexprestion.i"
+	@echo "... ex12_constexprestion.s"
+	@echo "... ex13_array.o"
+	@echo "... ex13_array.i"
+	@echo "... ex13_array.s"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"
@@ -655,6 +844,12 @@ help:
 	@echo "... ex9_lambda.o"
 	@echo "... ex9_lambda.i"
 	@echo "... ex9_lambda.s"
+	@echo "... range_example/main.o"
+	@echo "... range_example/main.i"
+	@echo "... range_example/main.s"
+	@echo "... range_example/processor.o"
+	@echo "... range_example/processor.i"
+	@echo "... range_example/processor.s"
 .PHONY : help
 
 

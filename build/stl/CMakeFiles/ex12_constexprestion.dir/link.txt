@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.o -o ex12_constexprestion 

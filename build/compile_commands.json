@@ -276,6 +276,21 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex11_Nullptr.dir/ex11_Nullptr.cpp.o -c /home/bangme/bangme/bangme/stl/ex11_Nullptr.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex11_Nullptr.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.o -c /home/bangme/bangme/bangme/stl/ex12_constexprestion.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex12_constexprestion.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex13_array.dir/ex13_array.cpp.o -c /home/bangme/bangme/bangme/stl/ex13_array.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex13_array.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/bangme/bangme/bangme/stl/ex1_vector.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex1_vector.cpp"
 },
@@ -333,5 +348,15 @@
   "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/data_process.dir/data_process/main.cpp.o -c /home/bangme/bangme/bangme/stl/data_process/main.cpp",
   "file": "/home/bangme/bangme/bangme/stl/data_process/main.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/range_example.dir/range_example/main.cpp.o -c /home/bangme/bangme/bangme/stl/range_example/main.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/range_example/main.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/range_example.dir/range_example/processor.cpp.o -c /home/bangme/bangme/bangme/stl/range_example/processor.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/range_example/processor.cpp"
 }
 ]

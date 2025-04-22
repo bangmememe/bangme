@@ -66,6 +66,9 @@
 /home/bangme/bangme/bangme/build/project/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/project/CMakeFiles/rebuild_cache.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex10_forClass.dir
+/home/bangme/bangme/bangme/build/stl/CMakeFiles/ex11_Nullptr.dir
+/home/bangme/bangme/bangme/build/stl/CMakeFiles/ex12_constexprestion.dir
+/home/bangme/bangme/bangme/build/stl/CMakeFiles/ex13_array.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex1_vector.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex2_string_vector.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex3_longest.dir
@@ -77,5 +80,6 @@
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex8_vector_list2.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/ex9_lambda.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/data_process.dir
+/home/bangme/bangme/bangme/build/stl/CMakeFiles/range_example.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/rebuild_cache.dir
