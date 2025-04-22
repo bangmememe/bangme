@@ -754,6 +754,19 @@ project/fast:
 .PHONY : project/fast
 
 #=============================================================================
+# Target rules for targets named ex10_forClass
+
+# Build rule for target.
+ex10_forClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_forClass
+.PHONY : ex10_forClass
+
+# fast build rule for target.
+ex10_forClass/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/build
+.PHONY : ex10_forClass/fast
+
+#=============================================================================
 # Target rules for targets named ex1_vector
 
 # Build rule for target.
@@ -921,6 +934,7 @@ help:
 	@echo "... dynamicAllocation"
 	@echo "... endian"
 	@echo "... enumExample"
+	@echo "... ex10_forClass"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.o -o ex10_forClass 

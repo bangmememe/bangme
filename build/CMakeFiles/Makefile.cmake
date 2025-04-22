@@ -110,6 +110,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "a3/myRandom/CMakeFiles/myRandom.dir/DependInfo.cmake"
   "a3/string/CMakeFiles/string.dir/DependInfo.cmake"
   "project/CMakeFiles/project.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex10_forClass.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex1_vector.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex2_string_vector.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex3_longest.dir/DependInfo.cmake"

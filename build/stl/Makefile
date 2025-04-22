@@ -117,6 +117,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+stl/CMakeFiles/ex10_forClass.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex10_forClass.dir/rule
+.PHONY : stl/CMakeFiles/ex10_forClass.dir/rule
+
+# Convenience name for target.
+ex10_forClass: stl/CMakeFiles/ex10_forClass.dir/rule
+.PHONY : ex10_forClass
+
+# fast build rule for target.
+ex10_forClass/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/build
+.PHONY : ex10_forClass/fast
+
+# Convenience name for target.
 stl/CMakeFiles/ex1_vector.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex1_vector.dir/rule
 .PHONY : stl/CMakeFiles/ex1_vector.dir/rule
@@ -317,6 +331,30 @@ data_process/main.s: data_process/main.cpp.s
 data_process/main.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/data_process/main.cpp.s
 .PHONY : data_process/main.cpp.s
+
+ex10_forClass.o: ex10_forClass.cpp.o
+.PHONY : ex10_forClass.o
+
+# target to build an object file
+ex10_forClass.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.o
+.PHONY : ex10_forClass.cpp.o
+
+ex10_forClass.i: ex10_forClass.cpp.i
+.PHONY : ex10_forClass.i
+
+# target to preprocess a source file
+ex10_forClass.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.i
+.PHONY : ex10_forClass.cpp.i
+
+ex10_forClass.s: ex10_forClass.cpp.s
+.PHONY : ex10_forClass.s
+
+# target to generate assembly for a file
+ex10_forClass.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.s
+.PHONY : ex10_forClass.cpp.s
 
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
@@ -567,6 +605,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... data_process"
+	@echo "... ex10_forClass"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
@@ -583,6 +622,9 @@ help:
 	@echo "... data_process/main.o"
 	@echo "... data_process/main.i"
 	@echo "... data_process/main.s"
+	@echo "... ex10_forClass.o"
+	@echo "... ex10_forClass.i"
+	@echo "... ex10_forClass.s"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"

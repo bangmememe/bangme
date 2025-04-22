@@ -271,6 +271,11 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.o -c /home/bangme/bangme/bangme/stl/ex10_forClass.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex10_forClass.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/bangme/bangme/bangme/stl/ex1_vector.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex1_vector.cpp"
 },
