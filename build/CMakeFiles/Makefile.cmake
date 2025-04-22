@@ -116,4 +116,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "stl/CMakeFiles/ex4_string.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex5_string_find.dir/DependInfo.cmake"
   "stl/CMakeFiles/ex6_iterator.dir/DependInfo.cmake"
+  "stl/CMakeFiles/ex7_map.dir/DependInfo.cmake"
   )

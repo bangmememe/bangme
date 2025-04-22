@@ -298,5 +298,10 @@
   "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.o -c /home/bangme/bangme/bangme/stl/ex6_iterator.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex6_iterator.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex7_map.dir/ex7_map.cpp.o -c /home/bangme/bangme/bangme/stl/ex7_map.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex7_map.cpp"
 }
 ]

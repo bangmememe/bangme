@@ -200,6 +200,20 @@ ex6_iterator/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
 .PHONY : ex6_iterator/fast
 
+# Convenience name for target.
+stl/CMakeFiles/ex7_map.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex7_map.dir/rule
+.PHONY : stl/CMakeFiles/ex7_map.dir/rule
+
+# Convenience name for target.
+ex7_map: stl/CMakeFiles/ex7_map.dir/rule
+.PHONY : ex7_map
+
+# fast build rule for target.
+ex7_map/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
+.PHONY : ex7_map/fast
+
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
 
@@ -344,6 +358,30 @@ ex6_iterator.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.s
 .PHONY : ex6_iterator.cpp.s
 
+ex7_map.o: ex7_map.cpp.o
+.PHONY : ex7_map.o
+
+# target to build an object file
+ex7_map.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/ex7_map.cpp.o
+.PHONY : ex7_map.cpp.o
+
+ex7_map.i: ex7_map.cpp.i
+.PHONY : ex7_map.i
+
+# target to preprocess a source file
+ex7_map.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/ex7_map.cpp.i
+.PHONY : ex7_map.cpp.i
+
+ex7_map.s: ex7_map.cpp.s
+.PHONY : ex7_map.s
+
+# target to generate assembly for a file
+ex7_map.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/ex7_map.cpp.s
+.PHONY : ex7_map.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -358,6 +396,7 @@ help:
 	@echo "... ex4_string"
 	@echo "... ex5_string_find"
 	@echo "... ex6_iterator"
+	@echo "... ex7_map"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"
@@ -376,6 +415,9 @@ help:
 	@echo "... ex6_iterator.o"
 	@echo "... ex6_iterator.i"
 	@echo "... ex6_iterator.s"
+	@echo "... ex7_map.o"
+	@echo "... ex7_map.i"
+	@echo "... ex7_map.s"
 .PHONY : help
 
 
