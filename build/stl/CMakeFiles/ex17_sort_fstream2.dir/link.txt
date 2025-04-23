@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.o -o ex17_sort_fstream2 

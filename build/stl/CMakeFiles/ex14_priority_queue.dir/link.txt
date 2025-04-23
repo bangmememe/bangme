@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex14_priority_queue.dir/ex14_priority_queue.cpp.o -o ex14_priority_queue 

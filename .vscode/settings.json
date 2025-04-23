@@ -17,7 +17,8 @@
         "kernel.h": "c",
         "fs.h": "c",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "chrono": "cpp"
     },
     "ros.distro": "humble"
 }

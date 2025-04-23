@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/student_example.dir/student_example.cpp.o -o student_example 

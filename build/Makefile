@@ -806,6 +806,84 @@ ex13_array/fast:
 .PHONY : ex13_array/fast
 
 #=============================================================================
+# Target rules for targets named ex14_priority_queue
+
+# Build rule for target.
+ex14_priority_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_priority_queue
+.PHONY : ex14_priority_queue
+
+# fast build rule for target.
+ex14_priority_queue/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/build
+.PHONY : ex14_priority_queue/fast
+
+#=============================================================================
+# Target rules for targets named ex15_unordered_map
+
+# Build rule for target.
+ex15_unordered_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex15_unordered_map
+.PHONY : ex15_unordered_map
+
+# fast build rule for target.
+ex15_unordered_map/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/build
+.PHONY : ex15_unordered_map/fast
+
+#=============================================================================
+# Target rules for targets named ex16_transform
+
+# Build rule for target.
+ex16_transform: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex16_transform
+.PHONY : ex16_transform
+
+# fast build rule for target.
+ex16_transform/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/build
+.PHONY : ex16_transform/fast
+
+#=============================================================================
+# Target rules for targets named ex17_sort_fstream
+
+# Build rule for target.
+ex17_sort_fstream: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex17_sort_fstream
+.PHONY : ex17_sort_fstream
+
+# fast build rule for target.
+ex17_sort_fstream/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream.dir/build.make stl/CMakeFiles/ex17_sort_fstream.dir/build
+.PHONY : ex17_sort_fstream/fast
+
+#=============================================================================
+# Target rules for targets named ex17_sort_fstream2
+
+# Build rule for target.
+ex17_sort_fstream2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex17_sort_fstream2
+.PHONY : ex17_sort_fstream2
+
+# fast build rule for target.
+ex17_sort_fstream2/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/build
+.PHONY : ex17_sort_fstream2/fast
+
+#=============================================================================
+# Target rules for targets named ex18_excution
+
+# Build rule for target.
+ex18_excution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex18_excution
+.PHONY : ex18_excution
+
+# fast build rule for target.
+ex18_excution/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/build
+.PHONY : ex18_excution/fast
+
+#=============================================================================
 # Target rules for targets named ex1_vector
 
 # Build rule for target.
@@ -936,6 +1014,19 @@ ex9_lambda/fast:
 .PHONY : ex9_lambda/fast
 
 #=============================================================================
+# Target rules for targets named student_example
+
+# Build rule for target.
+student_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 student_example
+.PHONY : student_example
+
+# fast build rule for target.
+student_example/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/build
+.PHONY : student_example/fast
+
+#=============================================================================
 # Target rules for targets named data_process
 
 # Build rule for target.
@@ -990,6 +1081,12 @@ help:
 	@echo "... ex11_Nullptr"
 	@echo "... ex12_constexprestion"
 	@echo "... ex13_array"
+	@echo "... ex14_priority_queue"
+	@echo "... ex15_unordered_map"
+	@echo "... ex16_transform"
+	@echo "... ex17_sort_fstream"
+	@echo "... ex17_sort_fstream2"
+	@echo "... ex18_excution"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
@@ -1026,6 +1123,7 @@ help:
 	@echo "... sizeof"
 	@echo "... strcatExample"
 	@echo "... string"
+	@echo "... student_example"
 	@echo "... sumArrayFunction"
 	@echo "... sumMatrixFunction"
 	@echo "... sumMatrixFunction2"

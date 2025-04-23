@@ -173,6 +173,90 @@ ex13_array/fast:
 .PHONY : ex13_array/fast
 
 # Convenience name for target.
+stl/CMakeFiles/ex14_priority_queue.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex14_priority_queue.dir/rule
+.PHONY : stl/CMakeFiles/ex14_priority_queue.dir/rule
+
+# Convenience name for target.
+ex14_priority_queue: stl/CMakeFiles/ex14_priority_queue.dir/rule
+.PHONY : ex14_priority_queue
+
+# fast build rule for target.
+ex14_priority_queue/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/build
+.PHONY : ex14_priority_queue/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex15_unordered_map.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex15_unordered_map.dir/rule
+.PHONY : stl/CMakeFiles/ex15_unordered_map.dir/rule
+
+# Convenience name for target.
+ex15_unordered_map: stl/CMakeFiles/ex15_unordered_map.dir/rule
+.PHONY : ex15_unordered_map
+
+# fast build rule for target.
+ex15_unordered_map/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/build
+.PHONY : ex15_unordered_map/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex16_transform.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex16_transform.dir/rule
+.PHONY : stl/CMakeFiles/ex16_transform.dir/rule
+
+# Convenience name for target.
+ex16_transform: stl/CMakeFiles/ex16_transform.dir/rule
+.PHONY : ex16_transform
+
+# fast build rule for target.
+ex16_transform/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/build
+.PHONY : ex16_transform/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex17_sort_fstream.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex17_sort_fstream.dir/rule
+.PHONY : stl/CMakeFiles/ex17_sort_fstream.dir/rule
+
+# Convenience name for target.
+ex17_sort_fstream: stl/CMakeFiles/ex17_sort_fstream.dir/rule
+.PHONY : ex17_sort_fstream
+
+# fast build rule for target.
+ex17_sort_fstream/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream.dir/build.make stl/CMakeFiles/ex17_sort_fstream.dir/build
+.PHONY : ex17_sort_fstream/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex17_sort_fstream2.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex17_sort_fstream2.dir/rule
+.PHONY : stl/CMakeFiles/ex17_sort_fstream2.dir/rule
+
+# Convenience name for target.
+ex17_sort_fstream2: stl/CMakeFiles/ex17_sort_fstream2.dir/rule
+.PHONY : ex17_sort_fstream2
+
+# fast build rule for target.
+ex17_sort_fstream2/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/build
+.PHONY : ex17_sort_fstream2/fast
+
+# Convenience name for target.
+stl/CMakeFiles/ex18_excution.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex18_excution.dir/rule
+.PHONY : stl/CMakeFiles/ex18_excution.dir/rule
+
+# Convenience name for target.
+ex18_excution: stl/CMakeFiles/ex18_excution.dir/rule
+.PHONY : ex18_excution
+
+# fast build rule for target.
+ex18_excution/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/build
+.PHONY : ex18_excution/fast
+
+# Convenience name for target.
 stl/CMakeFiles/ex1_vector.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex1_vector.dir/rule
 .PHONY : stl/CMakeFiles/ex1_vector.dir/rule
@@ -311,6 +395,20 @@ ex9_lambda: stl/CMakeFiles/ex9_lambda.dir/rule
 ex9_lambda/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
 .PHONY : ex9_lambda/fast
+
+# Convenience name for target.
+stl/CMakeFiles/student_example.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/student_example.dir/rule
+.PHONY : stl/CMakeFiles/student_example.dir/rule
+
+# Convenience name for target.
+student_example: stl/CMakeFiles/student_example.dir/rule
+.PHONY : student_example
+
+# fast build rule for target.
+student_example/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/build
+.PHONY : student_example/fast
 
 # Convenience name for target.
 stl/CMakeFiles/data_process.dir/rule:
@@ -483,6 +581,150 @@ ex13_array.s: ex13_array.cpp.s
 ex13_array.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/ex13_array.cpp.s
 .PHONY : ex13_array.cpp.s
+
+ex14_priority_queue.o: ex14_priority_queue.cpp.o
+.PHONY : ex14_priority_queue.o
+
+# target to build an object file
+ex14_priority_queue.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/ex14_priority_queue.cpp.o
+.PHONY : ex14_priority_queue.cpp.o
+
+ex14_priority_queue.i: ex14_priority_queue.cpp.i
+.PHONY : ex14_priority_queue.i
+
+# target to preprocess a source file
+ex14_priority_queue.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/ex14_priority_queue.cpp.i
+.PHONY : ex14_priority_queue.cpp.i
+
+ex14_priority_queue.s: ex14_priority_queue.cpp.s
+.PHONY : ex14_priority_queue.s
+
+# target to generate assembly for a file
+ex14_priority_queue.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/ex14_priority_queue.cpp.s
+.PHONY : ex14_priority_queue.cpp.s
+
+ex15_unordered_map.o: ex15_unordered_map.cpp.o
+.PHONY : ex15_unordered_map.o
+
+# target to build an object file
+ex15_unordered_map.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/ex15_unordered_map.cpp.o
+.PHONY : ex15_unordered_map.cpp.o
+
+ex15_unordered_map.i: ex15_unordered_map.cpp.i
+.PHONY : ex15_unordered_map.i
+
+# target to preprocess a source file
+ex15_unordered_map.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/ex15_unordered_map.cpp.i
+.PHONY : ex15_unordered_map.cpp.i
+
+ex15_unordered_map.s: ex15_unordered_map.cpp.s
+.PHONY : ex15_unordered_map.s
+
+# target to generate assembly for a file
+ex15_unordered_map.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/ex15_unordered_map.cpp.s
+.PHONY : ex15_unordered_map.cpp.s
+
+ex16_transform.o: ex16_transform.cpp.o
+.PHONY : ex16_transform.o
+
+# target to build an object file
+ex16_transform.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/ex16_transform.cpp.o
+.PHONY : ex16_transform.cpp.o
+
+ex16_transform.i: ex16_transform.cpp.i
+.PHONY : ex16_transform.i
+
+# target to preprocess a source file
+ex16_transform.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/ex16_transform.cpp.i
+.PHONY : ex16_transform.cpp.i
+
+ex16_transform.s: ex16_transform.cpp.s
+.PHONY : ex16_transform.s
+
+# target to generate assembly for a file
+ex16_transform.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/ex16_transform.cpp.s
+.PHONY : ex16_transform.cpp.s
+
+ex17_sort_fstream.o: ex17_sort_fstream.cpp.o
+.PHONY : ex17_sort_fstream.o
+
+# target to build an object file
+ex17_sort_fstream.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream.dir/build.make stl/CMakeFiles/ex17_sort_fstream.dir/ex17_sort_fstream.cpp.o
+.PHONY : ex17_sort_fstream.cpp.o
+
+ex17_sort_fstream.i: ex17_sort_fstream.cpp.i
+.PHONY : ex17_sort_fstream.i
+
+# target to preprocess a source file
+ex17_sort_fstream.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream.dir/build.make stl/CMakeFiles/ex17_sort_fstream.dir/ex17_sort_fstream.cpp.i
+.PHONY : ex17_sort_fstream.cpp.i
+
+ex17_sort_fstream.s: ex17_sort_fstream.cpp.s
+.PHONY : ex17_sort_fstream.s
+
+# target to generate assembly for a file
+ex17_sort_fstream.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream.dir/build.make stl/CMakeFiles/ex17_sort_fstream.dir/ex17_sort_fstream.cpp.s
+.PHONY : ex17_sort_fstream.cpp.s
+
+ex17_sort_fstream2.o: ex17_sort_fstream2.cpp.o
+.PHONY : ex17_sort_fstream2.o
+
+# target to build an object file
+ex17_sort_fstream2.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.o
+.PHONY : ex17_sort_fstream2.cpp.o
+
+ex17_sort_fstream2.i: ex17_sort_fstream2.cpp.i
+.PHONY : ex17_sort_fstream2.i
+
+# target to preprocess a source file
+ex17_sort_fstream2.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.i
+.PHONY : ex17_sort_fstream2.cpp.i
+
+ex17_sort_fstream2.s: ex17_sort_fstream2.cpp.s
+.PHONY : ex17_sort_fstream2.s
+
+# target to generate assembly for a file
+ex17_sort_fstream2.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.s
+.PHONY : ex17_sort_fstream2.cpp.s
+
+ex18_excution.o: ex18_excution.cpp.o
+.PHONY : ex18_excution.o
+
+# target to build an object file
+ex18_excution.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/ex18_excution.cpp.o
+.PHONY : ex18_excution.cpp.o
+
+ex18_excution.i: ex18_excution.cpp.i
+.PHONY : ex18_excution.i
+
+# target to preprocess a source file
+ex18_excution.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/ex18_excution.cpp.i
+.PHONY : ex18_excution.cpp.i
+
+ex18_excution.s: ex18_excution.cpp.s
+.PHONY : ex18_excution.s
+
+# target to generate assembly for a file
+ex18_excution.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/ex18_excution.cpp.s
+.PHONY : ex18_excution.cpp.s
 
 ex1_vector.o: ex1_vector.cpp.o
 .PHONY : ex1_vector.o
@@ -772,6 +1014,30 @@ range_example/processor.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/range_example/processor.cpp.s
 .PHONY : range_example/processor.cpp.s
 
+student_example.o: student_example.cpp.o
+.PHONY : student_example.o
+
+# target to build an object file
+student_example.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/student_example.cpp.o
+.PHONY : student_example.cpp.o
+
+student_example.i: student_example.cpp.i
+.PHONY : student_example.i
+
+# target to preprocess a source file
+student_example.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/student_example.cpp.i
+.PHONY : student_example.cpp.i
+
+student_example.s: student_example.cpp.s
+.PHONY : student_example.s
+
+# target to generate assembly for a file
+student_example.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/student_example.cpp.s
+.PHONY : student_example.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -785,6 +1051,12 @@ help:
 	@echo "... ex11_Nullptr"
 	@echo "... ex12_constexprestion"
 	@echo "... ex13_array"
+	@echo "... ex14_priority_queue"
+	@echo "... ex15_unordered_map"
+	@echo "... ex16_transform"
+	@echo "... ex17_sort_fstream"
+	@echo "... ex17_sort_fstream2"
+	@echo "... ex18_excution"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
@@ -796,6 +1068,7 @@ help:
 	@echo "... ex8_vector_list2"
 	@echo "... ex9_lambda"
 	@echo "... range_example"
+	@echo "... student_example"
 	@echo "... data_process/data_process.o"
 	@echo "... data_process/data_process.i"
 	@echo "... data_process/data_process.s"
@@ -814,6 +1087,24 @@ help:
 	@echo "... ex13_array.o"
 	@echo "... ex13_array.i"
 	@echo "... ex13_array.s"
+	@echo "... ex14_priority_queue.o"
+	@echo "... ex14_priority_queue.i"
+	@echo "... ex14_priority_queue.s"
+	@echo "... ex15_unordered_map.o"
+	@echo "... ex15_unordered_map.i"
+	@echo "... ex15_unordered_map.s"
+	@echo "... ex16_transform.o"
+	@echo "... ex16_transform.i"
+	@echo "... ex16_transform.s"
+	@echo "... ex17_sort_fstream.o"
+	@echo "... ex17_sort_fstream.i"
+	@echo "... ex17_sort_fstream.s"
+	@echo "... ex17_sort_fstream2.o"
+	@echo "... ex17_sort_fstream2.i"
+	@echo "... ex17_sort_fstream2.s"
+	@echo "... ex18_excution.o"
+	@echo "... ex18_excution.i"
+	@echo "... ex18_excution.s"
 	@echo "... ex1_vector.o"
 	@echo "... ex1_vector.i"
 	@echo "... ex1_vector.s"
@@ -850,6 +1141,9 @@ help:
 	@echo "... range_example/processor.o"
 	@echo "... range_example/processor.i"
 	@echo "... range_example/processor.s"
+	@echo "... student_example.o"
+	@echo "... student_example.i"
+	@echo "... student_example.s"
 .PHONY : help
 
 

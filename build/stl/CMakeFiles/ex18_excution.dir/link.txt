@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex18_excution.dir/ex18_excution.cpp.o -o ex18_excution 

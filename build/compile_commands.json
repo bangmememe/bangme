@@ -291,6 +291,36 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex14_priority_queue.dir/ex14_priority_queue.cpp.o -c /home/bangme/bangme/bangme/stl/ex14_priority_queue.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex14_priority_queue.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex15_unordered_map.dir/ex15_unordered_map.cpp.o -c /home/bangme/bangme/bangme/stl/ex15_unordered_map.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex15_unordered_map.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex16_transform.dir/ex16_transform.cpp.o -c /home/bangme/bangme/bangme/stl/ex16_transform.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex16_transform.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex17_sort_fstream.dir/ex17_sort_fstream.cpp.o -c /home/bangme/bangme/bangme/stl/ex17_sort_fstream.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex17_sort_fstream.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.o -c /home/bangme/bangme/bangme/stl/ex17_sort_fstream2.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex17_sort_fstream2.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex18_excution.dir/ex18_excution.cpp.o -c /home/bangme/bangme/bangme/stl/ex18_excution.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/ex18_excution.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/bangme/bangme/bangme/stl/ex1_vector.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex1_vector.cpp"
 },
@@ -338,6 +368,11 @@
   "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.o -c /home/bangme/bangme/bangme/stl/ex9_lambda.cpp",
   "file": "/home/bangme/bangme/bangme/stl/ex9_lambda.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/stl",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/student_example.dir/student_example.cpp.o -c /home/bangme/bangme/bangme/stl/student_example.cpp",
+  "file": "/home/bangme/bangme/bangme/stl/student_example.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/stl",

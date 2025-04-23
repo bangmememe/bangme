@@ -39,17 +39,17 @@
 						8,
 						10,
 						11,
-						31,
-						35,
-						36,
-						38,
+						37,
 						41,
 						42,
-						43,
 						44,
-						46,
-						54,
-						62
+						47,
+						48,
+						49,
+						50,
+						52,
+						60,
+						69
 					]
 				},
 				{
@@ -91,25 +91,25 @@
 						14,
 						15,
 						16,
-						32,
-						33,
-						34,
-						37,
+						38,
 						39,
 						40,
-						47,
-						48,
-						50,
-						51,
+						43,
+						45,
+						46,
 						53,
-						55,
+						54,
+						56,
 						57,
-						58,
 						59,
-						60,
 						61,
-						63,
-						64
+						64,
+						65,
+						66,
+						67,
+						68,
+						70,
+						71
 					]
 				},
 				{
@@ -154,7 +154,7 @@
 					"source" : "a3/myRandom",
 					"targetIndexes" : 
 					[
-						45
+						51
 					]
 				},
 				{
@@ -169,7 +169,7 @@
 					"source" : "a3/string",
 					"targetIndexes" : 
 					[
-						56
+						62
 					]
 				},
 				{
@@ -184,7 +184,7 @@
 					"source" : "project",
 					"targetIndexes" : 
 					[
-						49
+						55
 					]
 				},
 				{
@@ -214,7 +214,14 @@
 						28,
 						29,
 						30,
-						52
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						58,
+						63
 					]
 				}
 			],
@@ -250,17 +257,17 @@
 						8,
 						10,
 						11,
-						31,
-						35,
-						36,
-						38,
+						37,
 						41,
 						42,
-						43,
 						44,
-						46,
-						54,
-						62
+						47,
+						48,
+						49,
+						50,
+						52,
+						60,
+						69
 					]
 				},
 				{
@@ -296,25 +303,25 @@
 						14,
 						15,
 						16,
-						32,
-						33,
-						34,
-						37,
+						38,
 						39,
 						40,
-						47,
-						48,
-						50,
-						51,
+						43,
+						45,
+						46,
 						53,
-						55,
+						54,
+						56,
 						57,
-						58,
 						59,
-						60,
 						61,
-						63,
-						64
+						64,
+						65,
+						66,
+						67,
+						68,
+						70,
+						71
 					]
 				},
 				{
@@ -350,7 +357,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						45
+						51
 					]
 				},
 				{
@@ -362,7 +369,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						56
+						62
 					]
 				},
 				{
@@ -374,7 +381,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						49
+						55
 					]
 				},
 				{
@@ -401,7 +408,14 @@
 						28,
 						29,
 						30,
-						52
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						58,
+						63
 					]
 				}
 			],
@@ -552,6 +566,48 @@
 					"id" : "ex13_array::@2f0c3ea9eb2cc145e9d7",
 					"jsonFile" : "target-ex13_array-Debug-b18faf0d24a77f307127.json",
 					"name" : "ex13_array",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ex14_priority_queue::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-ex14_priority_queue-Debug-911f23872abf8221b94f.json",
+					"name" : "ex14_priority_queue",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ex15_unordered_map::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-ex15_unordered_map-Debug-46c10f9c03fc684b8601.json",
+					"name" : "ex15_unordered_map",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ex16_transform::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-ex16_transform-Debug-6077b09c8b188cade1af.json",
+					"name" : "ex16_transform",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ex17_sort_fstream::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-ex17_sort_fstream-Debug-521b8926a658d0775f45.json",
+					"name" : "ex17_sort_fstream",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ex17_sort_fstream2::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-ex17_sort_fstream2-Debug-53dee7df9f477944515b.json",
+					"name" : "ex17_sort_fstream2",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ex18_excution::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-ex18_excution-Debug-f5fb24b6c1ca9c7b77fc.json",
+					"name" : "ex18_excution",
 					"projectIndex" : 9
 				},
 				{
@@ -805,6 +861,13 @@
 					"jsonFile" : "target-string-Debug-266e009392dee588eb6d.json",
 					"name" : "string",
 					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "student_example::@2f0c3ea9eb2cc145e9d7",
+					"jsonFile" : "target-student_example-Debug-5a83f96c3f8030f0e397.json",
+					"name" : "student_example",
+					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 3,
