@@ -147,6 +147,9 @@
 		},
 		{
 			"path" : "stl/CMakeLists.txt"
+		},
+		{
+			"path" : "smartpoint/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

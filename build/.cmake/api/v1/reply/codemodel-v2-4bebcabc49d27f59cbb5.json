@@ -12,7 +12,8 @@
 						2,
 						3,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -39,17 +40,17 @@
 						8,
 						10,
 						11,
-						37,
-						41,
-						42,
+						39,
+						43,
 						44,
-						47,
-						48,
+						46,
 						49,
 						50,
+						51,
 						52,
-						60,
-						69
+						54,
+						62,
+						71
 					]
 				},
 				{
@@ -91,25 +92,25 @@
 						14,
 						15,
 						16,
-						38,
-						39,
 						40,
-						43,
+						41,
+						42,
 						45,
-						46,
-						53,
-						54,
+						47,
+						48,
+						55,
 						56,
-						57,
+						58,
 						59,
 						61,
-						64,
-						65,
+						63,
 						66,
 						67,
 						68,
+						69,
 						70,
-						71
+						72,
+						73
 					]
 				},
 				{
@@ -154,7 +155,7 @@
 					"source" : "a3/myRandom",
 					"targetIndexes" : 
 					[
-						51
+						53
 					]
 				},
 				{
@@ -169,7 +170,7 @@
 					"source" : "a3/string",
 					"targetIndexes" : 
 					[
-						62
+						64
 					]
 				},
 				{
@@ -184,7 +185,7 @@
 					"source" : "project",
 					"targetIndexes" : 
 					[
-						55
+						57
 					]
 				},
 				{
@@ -210,9 +211,7 @@
 						24,
 						25,
 						26,
-						27,
 						28,
-						29,
 						30,
 						31,
 						32,
@@ -220,8 +219,26 @@
 						34,
 						35,
 						36,
-						58,
-						63
+						37,
+						38,
+						60,
+						65
+					]
+				},
+				{
+					"build" : "smartpoint",
+					"jsonFile" : "directory-smartpoint-Debug-26efe220f79d9459f655.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "smartpoint",
+					"targetIndexes" : 
+					[
+						27,
+						29
 					]
 				}
 			],
@@ -235,7 +252,8 @@
 						2,
 						3,
 						8,
-						9
+						9,
+						10
 					],
 					"directoryIndexes" : 
 					[
@@ -257,17 +275,17 @@
 						8,
 						10,
 						11,
-						37,
-						41,
-						42,
+						39,
+						43,
 						44,
-						47,
-						48,
+						46,
 						49,
 						50,
+						51,
 						52,
-						60,
-						69
+						54,
+						62,
+						71
 					]
 				},
 				{
@@ -303,25 +321,25 @@
 						14,
 						15,
 						16,
-						38,
-						39,
 						40,
-						43,
+						41,
+						42,
 						45,
-						46,
-						53,
-						54,
+						47,
+						48,
+						55,
 						56,
-						57,
+						58,
 						59,
 						61,
-						64,
-						65,
+						63,
 						66,
 						67,
 						68,
+						69,
 						70,
-						71
+						72,
+						73
 					]
 				},
 				{
@@ -357,7 +375,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						51
+						53
 					]
 				},
 				{
@@ -369,7 +387,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						62
+						64
 					]
 				},
 				{
@@ -381,7 +399,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						55
+						57
 					]
 				},
 				{
@@ -404,9 +422,7 @@
 						24,
 						25,
 						26,
-						27,
 						28,
-						29,
 						30,
 						31,
 						32,
@@ -414,8 +430,23 @@
 						34,
 						35,
 						36,
-						58,
-						63
+						37,
+						38,
+						60,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "stl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						29
 					]
 				}
 			],
@@ -611,11 +642,25 @@
 					"projectIndex" : 9
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "ex1_unique_point::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex1_unique_point-Debug-72a5cfaebcf8b54841d0.json",
+					"name" : "ex1_unique_point",
+					"projectIndex" : 10
+				},
+				{
 					"directoryIndex" : 9,
 					"id" : "ex1_vector::@2f0c3ea9eb2cc145e9d7",
 					"jsonFile" : "target-ex1_vector-Debug-980b4d9b2f26dcc92424.json",
 					"name" : "ex1_vector",
 					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ex2_moveOperator::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex2_moveOperator-Debug-47ebfaa2cec4299399c6.json",
+					"name" : "ex2_moveOperator",
+					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 9,

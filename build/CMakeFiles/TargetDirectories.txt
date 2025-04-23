@@ -90,3 +90,7 @@
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/range_example.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/rebuild_cache.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex1_unique_point.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex2_moveOperator.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/edit_cache.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/rebuild_cache.dir

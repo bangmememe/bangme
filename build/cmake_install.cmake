@@ -49,6 +49,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/bangme/bangme/bangme/build/a3/cmake_install.cmake")
   include("/home/bangme/bangme/bangme/build/project/cmake_install.cmake")
   include("/home/bangme/bangme/bangme/build/stl/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/smartpoint/cmake_install.cmake")
 
 endif()
 

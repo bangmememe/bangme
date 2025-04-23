@@ -19,6 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../project/CMakeLists.txt"
+  "../smartpoint/CMakeLists.txt"
   "../stl/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "a3/string/CMakeFiles/CMakeDirectoryInformation.cmake"
   "project/CMakeFiles/CMakeDirectoryInformation.cmake"
   "stl/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "smartpoint/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -133,4 +135,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "stl/CMakeFiles/student_example.dir/DependInfo.cmake"
   "stl/CMakeFiles/data_process.dir/DependInfo.cmake"
   "stl/CMakeFiles/range_example.dir/DependInfo.cmake"
+  "smartpoint/CMakeFiles/ex1_unique_point.dir/DependInfo.cmake"
+  "smartpoint/CMakeFiles/ex2_moveOperator.dir/DependInfo.cmake"
   )

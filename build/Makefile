@@ -1052,6 +1052,32 @@ range_example/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
 .PHONY : range_example/fast
 
+#=============================================================================
+# Target rules for targets named ex1_unique_point
+
+# Build rule for target.
+ex1_unique_point: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_unique_point
+.PHONY : ex1_unique_point
+
+# fast build rule for target.
+ex1_unique_point/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex1_unique_point.dir/build.make smartpoint/CMakeFiles/ex1_unique_point.dir/build
+.PHONY : ex1_unique_point/fast
+
+#=============================================================================
+# Target rules for targets named ex2_moveOperator
+
+# Build rule for target.
+ex2_moveOperator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_moveOperator
+.PHONY : ex2_moveOperator
+
+# fast build rule for target.
+ex2_moveOperator/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/build
+.PHONY : ex2_moveOperator/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1087,7 +1113,9 @@ help:
 	@echo "... ex17_sort_fstream"
 	@echo "... ex17_sort_fstream2"
 	@echo "... ex18_excution"
+	@echo "... ex1_unique_point"
 	@echo "... ex1_vector"
+	@echo "... ex2_moveOperator"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
 	@echo "... ex4_string"

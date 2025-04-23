@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "10"
+			"value" : "11"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bangme/bangme/bangme/build/stl"
+			"value" : "/home/bangme/bangme/bangme/build/smartpoint"
 		},
 		{
 			"name" : "stl_IS_TOP_LEVEL",
@@ -1427,7 +1427,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bangme/bangme/bangme/stl"
+			"value" : "/home/bangme/bangme/bangme/smartpoint"
 		},
 		{
 			"name" : "string_BINARY_DIR",

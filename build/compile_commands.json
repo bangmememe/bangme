@@ -393,5 +393,15 @@
   "directory": "/home/bangme/bangme/bangme/build/stl",
   "command": "/usr/bin/c++   -g -o CMakeFiles/range_example.dir/range_example/processor.cpp.o -c /home/bangme/bangme/bangme/stl/range_example/processor.cpp",
   "file": "/home/bangme/bangme/bangme/stl/range_example/processor.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_unique_point.dir/ex1_unique_point.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp"
 }
 ]
