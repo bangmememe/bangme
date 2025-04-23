@@ -40,17 +40,17 @@
 						8,
 						10,
 						11,
-						39,
 						43,
-						44,
-						46,
-						49,
+						47,
+						48,
 						50,
-						51,
-						52,
+						53,
 						54,
-						62,
-						71
+						55,
+						56,
+						58,
+						66,
+						75
 					]
 				},
 				{
@@ -92,25 +92,25 @@
 						14,
 						15,
 						16,
-						40,
-						41,
-						42,
+						44,
 						45,
-						47,
-						48,
-						55,
-						56,
-						58,
+						46,
+						49,
+						51,
+						52,
 						59,
-						61,
+						60,
+						62,
 						63,
-						66,
+						65,
 						67,
-						68,
-						69,
 						70,
+						71,
 						72,
-						73
+						73,
+						74,
+						76,
+						77
 					]
 				},
 				{
@@ -155,7 +155,7 @@
 					"source" : "a3/myRandom",
 					"targetIndexes" : 
 					[
-						53
+						57
 					]
 				},
 				{
@@ -170,7 +170,7 @@
 					"source" : "a3/string",
 					"targetIndexes" : 
 					[
-						64
+						68
 					]
 				},
 				{
@@ -185,7 +185,7 @@
 					"source" : "project",
 					"targetIndexes" : 
 					[
-						57
+						61
 					]
 				},
 				{
@@ -213,16 +213,16 @@
 						26,
 						28,
 						30,
-						31,
 						32,
-						33,
 						34,
-						35,
 						36,
 						37,
-						38,
-						60,
-						65
+						39,
+						40,
+						41,
+						42,
+						64,
+						69
 					]
 				},
 				{
@@ -238,7 +238,11 @@
 					"targetIndexes" : 
 					[
 						27,
-						29
+						29,
+						31,
+						33,
+						35,
+						38
 					]
 				}
 			],
@@ -275,17 +279,17 @@
 						8,
 						10,
 						11,
-						39,
 						43,
-						44,
-						46,
-						49,
+						47,
+						48,
 						50,
-						51,
-						52,
+						53,
 						54,
-						62,
-						71
+						55,
+						56,
+						58,
+						66,
+						75
 					]
 				},
 				{
@@ -321,25 +325,25 @@
 						14,
 						15,
 						16,
-						40,
-						41,
-						42,
+						44,
 						45,
-						47,
-						48,
-						55,
-						56,
-						58,
+						46,
+						49,
+						51,
+						52,
 						59,
-						61,
+						60,
+						62,
 						63,
-						66,
+						65,
 						67,
-						68,
-						69,
 						70,
+						71,
 						72,
-						73
+						73,
+						74,
+						76,
+						77
 					]
 				},
 				{
@@ -375,7 +379,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						53
+						57
 					]
 				},
 				{
@@ -387,7 +391,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						64
+						68
 					]
 				},
 				{
@@ -399,7 +403,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						57
+						61
 					]
 				},
 				{
@@ -424,16 +428,16 @@
 						26,
 						28,
 						30,
-						31,
 						32,
-						33,
 						34,
-						35,
 						36,
 						37,
-						38,
-						60,
-						65
+						39,
+						40,
+						41,
+						42,
+						64,
+						69
 					]
 				},
 				{
@@ -446,7 +450,11 @@
 					"targetIndexes" : 
 					[
 						27,
-						29
+						29,
+						31,
+						33,
+						35,
+						38
 					]
 				}
 			],
@@ -670,6 +678,13 @@
 					"projectIndex" : 9
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "ex3_deleter::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex3_deleter-Debug-41d0836861dad45923fb.json",
+					"name" : "ex3_deleter",
+					"projectIndex" : 10
+				},
+				{
 					"directoryIndex" : 9,
 					"id" : "ex3_longest::@2f0c3ea9eb2cc145e9d7",
 					"jsonFile" : "target-ex3_longest-Debug-9fdabd9a2b6250855c18.json",
@@ -677,11 +692,25 @@
 					"projectIndex" : 9
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "ex4_shared_ptr::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex4_shared_ptr-Debug-76d025736ddf3a9312d7.json",
+					"name" : "ex4_shared_ptr",
+					"projectIndex" : 10
+				},
+				{
 					"directoryIndex" : 9,
 					"id" : "ex4_string::@2f0c3ea9eb2cc145e9d7",
 					"jsonFile" : "target-ex4_string-Debug-5e26c793784e9c1b4b5b.json",
 					"name" : "ex4_string",
 					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ex5_memoryleak::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex5_memoryleak-Debug-37c63492650e53a1afe6.json",
+					"name" : "ex5_memoryleak",
+					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 9,
@@ -696,6 +725,13 @@
 					"jsonFile" : "target-ex6_iterator-Debug-3a9c9ac630be5141706f.json",
 					"name" : "ex6_iterator",
 					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ex6_weakedPtr::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex6_weakedPtr-Debug-08babb936cae70a430d8.json",
+					"name" : "ex6_weakedPtr",
+					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 9,

@@ -137,4 +137,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "stl/CMakeFiles/range_example.dir/DependInfo.cmake"
   "smartpoint/CMakeFiles/ex1_unique_point.dir/DependInfo.cmake"
   "smartpoint/CMakeFiles/ex2_moveOperator.dir/DependInfo.cmake"
+  "smartpoint/CMakeFiles/ex3_deleter.dir/DependInfo.cmake"
+  "smartpoint/CMakeFiles/ex4_shared_ptr.dir/DependInfo.cmake"
+  "smartpoint/CMakeFiles/ex5_memoryleak.dir/DependInfo.cmake"
+  "smartpoint/CMakeFiles/ex6_weakedPtr.dir/DependInfo.cmake"
   )

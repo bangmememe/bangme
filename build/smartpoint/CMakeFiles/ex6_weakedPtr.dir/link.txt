@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -o ex6_weakedPtr 

@@ -1078,6 +1078,58 @@ ex2_moveOperator/fast:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/build
 .PHONY : ex2_moveOperator/fast
 
+#=============================================================================
+# Target rules for targets named ex3_deleter
+
+# Build rule for target.
+ex3_deleter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_deleter
+.PHONY : ex3_deleter
+
+# fast build rule for target.
+ex3_deleter/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
+.PHONY : ex3_deleter/fast
+
+#=============================================================================
+# Target rules for targets named ex4_shared_ptr
+
+# Build rule for target.
+ex4_shared_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_shared_ptr
+.PHONY : ex4_shared_ptr
+
+# fast build rule for target.
+ex4_shared_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
+.PHONY : ex4_shared_ptr/fast
+
+#=============================================================================
+# Target rules for targets named ex5_memoryleak
+
+# Build rule for target.
+ex5_memoryleak: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_memoryleak
+.PHONY : ex5_memoryleak
+
+# fast build rule for target.
+ex5_memoryleak/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/build
+.PHONY : ex5_memoryleak/fast
+
+#=============================================================================
+# Target rules for targets named ex6_weakedPtr
+
+# Build rule for target.
+ex6_weakedPtr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_weakedPtr
+.PHONY : ex6_weakedPtr
+
+# fast build rule for target.
+ex6_weakedPtr/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
+.PHONY : ex6_weakedPtr/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1117,10 +1169,14 @@ help:
 	@echo "... ex1_vector"
 	@echo "... ex2_moveOperator"
 	@echo "... ex2_string_vector"
+	@echo "... ex3_deleter"
 	@echo "... ex3_longest"
+	@echo "... ex4_shared_ptr"
 	@echo "... ex4_string"
+	@echo "... ex5_memoryleak"
 	@echo "... ex5_string_find"
 	@echo "... ex6_iterator"
+	@echo "... ex6_weakedPtr"
 	@echo "... ex7_map"
 	@echo "... ex8_vector_list"
 	@echo "... ex8_vector_list2"

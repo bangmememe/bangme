@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.o -o ex5_memoryleak 

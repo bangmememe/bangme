@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o -o ex4_shared_ptr 

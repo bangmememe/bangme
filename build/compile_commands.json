@@ -403,5 +403,25 @@
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp"
 }
 ]

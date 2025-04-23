@@ -144,6 +144,62 @@ ex2_moveOperator/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/build
 .PHONY : ex2_moveOperator/fast
 
+# Convenience name for target.
+smartpoint/CMakeFiles/ex3_deleter.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex3_deleter.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex3_deleter.dir/rule
+
+# Convenience name for target.
+ex3_deleter: smartpoint/CMakeFiles/ex3_deleter.dir/rule
+.PHONY : ex3_deleter
+
+# fast build rule for target.
+ex3_deleter/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
+.PHONY : ex3_deleter/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex4_shared_ptr.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex4_shared_ptr.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex4_shared_ptr.dir/rule
+
+# Convenience name for target.
+ex4_shared_ptr: smartpoint/CMakeFiles/ex4_shared_ptr.dir/rule
+.PHONY : ex4_shared_ptr
+
+# fast build rule for target.
+ex4_shared_ptr/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
+.PHONY : ex4_shared_ptr/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex5_memoryleak.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex5_memoryleak.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex5_memoryleak.dir/rule
+
+# Convenience name for target.
+ex5_memoryleak: smartpoint/CMakeFiles/ex5_memoryleak.dir/rule
+.PHONY : ex5_memoryleak
+
+# fast build rule for target.
+ex5_memoryleak/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/build
+.PHONY : ex5_memoryleak/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule
+
+# Convenience name for target.
+ex6_weakedPtr: smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule
+.PHONY : ex6_weakedPtr
+
+# fast build rule for target.
+ex6_weakedPtr/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
+.PHONY : ex6_weakedPtr/fast
+
 ex1_unique_point.o: ex1_unique_point.cpp.o
 .PHONY : ex1_unique_point.o
 
@@ -192,6 +248,102 @@ ex2_moveOperator.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.s
 .PHONY : ex2_moveOperator.cpp.s
 
+ex3_deleter.o: ex3_deleter.cpp.o
+.PHONY : ex3_deleter.o
+
+# target to build an object file
+ex3_deleter.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.o
+.PHONY : ex3_deleter.cpp.o
+
+ex3_deleter.i: ex3_deleter.cpp.i
+.PHONY : ex3_deleter.i
+
+# target to preprocess a source file
+ex3_deleter.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.i
+.PHONY : ex3_deleter.cpp.i
+
+ex3_deleter.s: ex3_deleter.cpp.s
+.PHONY : ex3_deleter.s
+
+# target to generate assembly for a file
+ex3_deleter.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.s
+.PHONY : ex3_deleter.cpp.s
+
+ex4_shared_ptr.o: ex4_shared_ptr.cpp.o
+.PHONY : ex4_shared_ptr.o
+
+# target to build an object file
+ex4_shared_ptr.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o
+.PHONY : ex4_shared_ptr.cpp.o
+
+ex4_shared_ptr.i: ex4_shared_ptr.cpp.i
+.PHONY : ex4_shared_ptr.i
+
+# target to preprocess a source file
+ex4_shared_ptr.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.i
+.PHONY : ex4_shared_ptr.cpp.i
+
+ex4_shared_ptr.s: ex4_shared_ptr.cpp.s
+.PHONY : ex4_shared_ptr.s
+
+# target to generate assembly for a file
+ex4_shared_ptr.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.s
+.PHONY : ex4_shared_ptr.cpp.s
+
+ex5_memoryleak.o: ex5_memoryleak.cpp.o
+.PHONY : ex5_memoryleak.o
+
+# target to build an object file
+ex5_memoryleak.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.o
+.PHONY : ex5_memoryleak.cpp.o
+
+ex5_memoryleak.i: ex5_memoryleak.cpp.i
+.PHONY : ex5_memoryleak.i
+
+# target to preprocess a source file
+ex5_memoryleak.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.i
+.PHONY : ex5_memoryleak.cpp.i
+
+ex5_memoryleak.s: ex5_memoryleak.cpp.s
+.PHONY : ex5_memoryleak.s
+
+# target to generate assembly for a file
+ex5_memoryleak.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.s
+.PHONY : ex5_memoryleak.cpp.s
+
+ex6_weakedPtr.o: ex6_weakedPtr.cpp.o
+.PHONY : ex6_weakedPtr.o
+
+# target to build an object file
+ex6_weakedPtr.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o
+.PHONY : ex6_weakedPtr.cpp.o
+
+ex6_weakedPtr.i: ex6_weakedPtr.cpp.i
+.PHONY : ex6_weakedPtr.i
+
+# target to preprocess a source file
+ex6_weakedPtr.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.i
+.PHONY : ex6_weakedPtr.cpp.i
+
+ex6_weakedPtr.s: ex6_weakedPtr.cpp.s
+.PHONY : ex6_weakedPtr.s
+
+# target to generate assembly for a file
+ex6_weakedPtr.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.s
+.PHONY : ex6_weakedPtr.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,12 +354,28 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex1_unique_point"
 	@echo "... ex2_moveOperator"
+	@echo "... ex3_deleter"
+	@echo "... ex4_shared_ptr"
+	@echo "... ex5_memoryleak"
+	@echo "... ex6_weakedPtr"
 	@echo "... ex1_unique_point.o"
 	@echo "... ex1_unique_point.i"
 	@echo "... ex1_unique_point.s"
 	@echo "... ex2_moveOperator.o"
 	@echo "... ex2_moveOperator.i"
 	@echo "... ex2_moveOperator.s"
+	@echo "... ex3_deleter.o"
+	@echo "... ex3_deleter.i"
+	@echo "... ex3_deleter.s"
+	@echo "... ex4_shared_ptr.o"
+	@echo "... ex4_shared_ptr.i"
+	@echo "... ex4_shared_ptr.s"
+	@echo "... ex5_memoryleak.o"
+	@echo "... ex5_memoryleak.i"
+	@echo "... ex5_memoryleak.s"
+	@echo "... ex6_weakedPtr.o"
+	@echo "... ex6_weakedPtr.i"
+	@echo "... ex6_weakedPtr.s"
 .PHONY : help
 
 
