@@ -40,17 +40,17 @@
 						8,
 						10,
 						11,
-						43,
 						47,
-						48,
-						50,
-						53,
+						51,
+						52,
 						54,
-						55,
-						56,
+						57,
 						58,
-						66,
-						75
+						59,
+						60,
+						62,
+						70,
+						79
 					]
 				},
 				{
@@ -92,25 +92,25 @@
 						14,
 						15,
 						16,
-						44,
-						45,
-						46,
+						48,
 						49,
-						51,
-						52,
-						59,
-						60,
-						62,
+						50,
+						53,
+						55,
+						56,
 						63,
-						65,
+						64,
+						66,
 						67,
-						70,
+						69,
 						71,
-						72,
-						73,
 						74,
+						75,
 						76,
-						77
+						77,
+						78,
+						80,
+						81
 					]
 				},
 				{
@@ -155,7 +155,7 @@
 					"source" : "a3/myRandom",
 					"targetIndexes" : 
 					[
-						57
+						61
 					]
 				},
 				{
@@ -170,7 +170,7 @@
 					"source" : "a3/string",
 					"targetIndexes" : 
 					[
-						68
+						72
 					]
 				},
 				{
@@ -185,7 +185,7 @@
 					"source" : "project",
 					"targetIndexes" : 
 					[
-						61
+						65
 					]
 				},
 				{
@@ -202,7 +202,6 @@
 					[
 						12,
 						17,
-						18,
 						19,
 						20,
 						21,
@@ -211,18 +210,19 @@
 						24,
 						25,
 						26,
-						28,
-						30,
-						32,
-						34,
-						36,
+						27,
+						29,
+						31,
+						33,
+						35,
 						37,
-						39,
+						38,
 						40,
-						41,
-						42,
-						64,
-						69
+						43,
+						44,
+						46,
+						68,
+						73
 					]
 				},
 				{
@@ -237,12 +237,16 @@
 					"source" : "smartpoint",
 					"targetIndexes" : 
 					[
-						27,
-						29,
-						31,
-						33,
-						35,
-						38
+						18,
+						28,
+						30,
+						32,
+						34,
+						36,
+						39,
+						41,
+						42,
+						45
 					]
 				}
 			],
@@ -279,17 +283,17 @@
 						8,
 						10,
 						11,
-						43,
 						47,
-						48,
-						50,
-						53,
+						51,
+						52,
 						54,
-						55,
-						56,
+						57,
 						58,
-						66,
-						75
+						59,
+						60,
+						62,
+						70,
+						79
 					]
 				},
 				{
@@ -325,25 +329,25 @@
 						14,
 						15,
 						16,
-						44,
-						45,
-						46,
+						48,
 						49,
-						51,
-						52,
-						59,
-						60,
-						62,
+						50,
+						53,
+						55,
+						56,
 						63,
-						65,
+						64,
+						66,
 						67,
-						70,
+						69,
 						71,
-						72,
-						73,
 						74,
+						75,
 						76,
-						77
+						77,
+						78,
+						80,
+						81
 					]
 				},
 				{
@@ -379,7 +383,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						57
+						61
 					]
 				},
 				{
@@ -391,7 +395,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						68
+						72
 					]
 				},
 				{
@@ -403,7 +407,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						61
+						65
 					]
 				},
 				{
@@ -417,7 +421,6 @@
 					[
 						12,
 						17,
-						18,
 						19,
 						20,
 						21,
@@ -426,18 +429,19 @@
 						24,
 						25,
 						26,
-						28,
-						30,
-						32,
-						34,
-						36,
+						27,
+						29,
+						31,
+						33,
+						35,
 						37,
-						39,
+						38,
 						40,
-						41,
-						42,
-						64,
-						69
+						43,
+						44,
+						46,
+						68,
+						73
 					]
 				},
 				{
@@ -449,12 +453,16 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						27,
-						29,
-						31,
-						33,
-						35,
-						38
+						18,
+						28,
+						30,
+						32,
+						34,
+						36,
+						39,
+						41,
+						42,
+						45
 					]
 				}
 			],
@@ -585,6 +593,13 @@
 					"jsonFile" : "target-ex10_forClass-Debug-1426e655abc1eee75088.json",
 					"name" : "ex10_forClass",
 					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ex10_moveVector::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex10_moveVector-Debug-d72fa5591746946f1072.json",
+					"name" : "ex10_moveVector",
+					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 9,
@@ -741,6 +756,20 @@
 					"projectIndex" : 9
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "ex7_vectorSmart::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex7_vectorSmart-Debug-9bec0faaa3c8d0514a1e.json",
+					"name" : "ex7_vectorSmart",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ex8_treeSmart::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex8_treeSmart-Debug-e1daf5b4f0f422f8038b.json",
+					"name" : "ex8_treeSmart",
+					"projectIndex" : 10
+				},
+				{
 					"directoryIndex" : 9,
 					"id" : "ex8_vector_list::@2f0c3ea9eb2cc145e9d7",
 					"jsonFile" : "target-ex8_vector_list-Debug-63579ebe1085b6e1a3cd.json",
@@ -753,6 +782,13 @@
 					"jsonFile" : "target-ex8_vector_list2-Debug-503ca78bcf1a83254f67.json",
 					"name" : "ex8_vector_list2",
 					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ex9_forward::@584ec64e26f78d9230a3",
+					"jsonFile" : "target-ex9_forward-Debug-58d257386126d3fb3264.json",
+					"name" : "ex9_forward",
+					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 9,

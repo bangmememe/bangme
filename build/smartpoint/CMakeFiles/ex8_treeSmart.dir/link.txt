@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o -o ex8_treeSmart 

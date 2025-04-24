@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o -o ex10_moveVector 

@@ -117,6 +117,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+smartpoint/CMakeFiles/ex10_moveVector.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex10_moveVector.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex10_moveVector.dir/rule
+
+# Convenience name for target.
+ex10_moveVector: smartpoint/CMakeFiles/ex10_moveVector.dir/rule
+.PHONY : ex10_moveVector
+
+# fast build rule for target.
+ex10_moveVector/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/build
+.PHONY : ex10_moveVector/fast
+
+# Convenience name for target.
 smartpoint/CMakeFiles/ex1_unique_point.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex1_unique_point.dir/rule
 .PHONY : smartpoint/CMakeFiles/ex1_unique_point.dir/rule
@@ -199,6 +213,72 @@ ex6_weakedPtr: smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule
 ex6_weakedPtr/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
 .PHONY : ex6_weakedPtr/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex7_vectorSmart.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex7_vectorSmart.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex7_vectorSmart.dir/rule
+
+# Convenience name for target.
+ex7_vectorSmart: smartpoint/CMakeFiles/ex7_vectorSmart.dir/rule
+.PHONY : ex7_vectorSmart
+
+# fast build rule for target.
+ex7_vectorSmart/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/build
+.PHONY : ex7_vectorSmart/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex8_treeSmart.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex8_treeSmart.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex8_treeSmart.dir/rule
+
+# Convenience name for target.
+ex8_treeSmart: smartpoint/CMakeFiles/ex8_treeSmart.dir/rule
+.PHONY : ex8_treeSmart
+
+# fast build rule for target.
+ex8_treeSmart/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/build
+.PHONY : ex8_treeSmart/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex9_forward.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex9_forward.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex9_forward.dir/rule
+
+# Convenience name for target.
+ex9_forward: smartpoint/CMakeFiles/ex9_forward.dir/rule
+.PHONY : ex9_forward
+
+# fast build rule for target.
+ex9_forward/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/build
+.PHONY : ex9_forward/fast
+
+ex10_moveVector.o: ex10_moveVector.cpp.o
+.PHONY : ex10_moveVector.o
+
+# target to build an object file
+ex10_moveVector.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o
+.PHONY : ex10_moveVector.cpp.o
+
+ex10_moveVector.i: ex10_moveVector.cpp.i
+.PHONY : ex10_moveVector.i
+
+# target to preprocess a source file
+ex10_moveVector.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.i
+.PHONY : ex10_moveVector.cpp.i
+
+ex10_moveVector.s: ex10_moveVector.cpp.s
+.PHONY : ex10_moveVector.s
+
+# target to generate assembly for a file
+ex10_moveVector.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.s
+.PHONY : ex10_moveVector.cpp.s
 
 ex1_unique_point.o: ex1_unique_point.cpp.o
 .PHONY : ex1_unique_point.o
@@ -344,6 +424,78 @@ ex6_weakedPtr.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.s
 .PHONY : ex6_weakedPtr.cpp.s
 
+ex7_vectorSmart.o: ex7_vectorSmart.cpp.o
+.PHONY : ex7_vectorSmart.o
+
+# target to build an object file
+ex7_vectorSmart.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.o
+.PHONY : ex7_vectorSmart.cpp.o
+
+ex7_vectorSmart.i: ex7_vectorSmart.cpp.i
+.PHONY : ex7_vectorSmart.i
+
+# target to preprocess a source file
+ex7_vectorSmart.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.i
+.PHONY : ex7_vectorSmart.cpp.i
+
+ex7_vectorSmart.s: ex7_vectorSmart.cpp.s
+.PHONY : ex7_vectorSmart.s
+
+# target to generate assembly for a file
+ex7_vectorSmart.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.s
+.PHONY : ex7_vectorSmart.cpp.s
+
+ex8_treeSmart.o: ex8_treeSmart.cpp.o
+.PHONY : ex8_treeSmart.o
+
+# target to build an object file
+ex8_treeSmart.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o
+.PHONY : ex8_treeSmart.cpp.o
+
+ex8_treeSmart.i: ex8_treeSmart.cpp.i
+.PHONY : ex8_treeSmart.i
+
+# target to preprocess a source file
+ex8_treeSmart.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.i
+.PHONY : ex8_treeSmart.cpp.i
+
+ex8_treeSmart.s: ex8_treeSmart.cpp.s
+.PHONY : ex8_treeSmart.s
+
+# target to generate assembly for a file
+ex8_treeSmart.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.s
+.PHONY : ex8_treeSmart.cpp.s
+
+ex9_forward.o: ex9_forward.cpp.o
+.PHONY : ex9_forward.o
+
+# target to build an object file
+ex9_forward.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o
+.PHONY : ex9_forward.cpp.o
+
+ex9_forward.i: ex9_forward.cpp.i
+.PHONY : ex9_forward.i
+
+# target to preprocess a source file
+ex9_forward.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/ex9_forward.cpp.i
+.PHONY : ex9_forward.cpp.i
+
+ex9_forward.s: ex9_forward.cpp.s
+.PHONY : ex9_forward.s
+
+# target to generate assembly for a file
+ex9_forward.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/ex9_forward.cpp.s
+.PHONY : ex9_forward.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -352,12 +504,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex10_moveVector"
 	@echo "... ex1_unique_point"
 	@echo "... ex2_moveOperator"
 	@echo "... ex3_deleter"
 	@echo "... ex4_shared_ptr"
 	@echo "... ex5_memoryleak"
 	@echo "... ex6_weakedPtr"
+	@echo "... ex7_vectorSmart"
+	@echo "... ex8_treeSmart"
+	@echo "... ex9_forward"
+	@echo "... ex10_moveVector.o"
+	@echo "... ex10_moveVector.i"
+	@echo "... ex10_moveVector.s"
 	@echo "... ex1_unique_point.o"
 	@echo "... ex1_unique_point.i"
 	@echo "... ex1_unique_point.s"
@@ -376,6 +535,15 @@ help:
 	@echo "... ex6_weakedPtr.o"
 	@echo "... ex6_weakedPtr.i"
 	@echo "... ex6_weakedPtr.s"
+	@echo "... ex7_vectorSmart.o"
+	@echo "... ex7_vectorSmart.i"
+	@echo "... ex7_vectorSmart.s"
+	@echo "... ex8_treeSmart.o"
+	@echo "... ex8_treeSmart.i"
+	@echo "... ex8_treeSmart.s"
+	@echo "... ex9_forward.o"
+	@echo "... ex9_forward.i"
+	@echo "... ex9_forward.s"
 .PHONY : help
 
 

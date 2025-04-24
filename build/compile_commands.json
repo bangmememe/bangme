@@ -396,6 +396,11 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_unique_point.dir/ex1_unique_point.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp"
 },
@@ -423,5 +428,20 @@
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
   "command": "/usr/bin/c++   -g -o CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp"
 }
 ]

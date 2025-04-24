@@ -90,11 +90,15 @@
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/range_example.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/rebuild_cache.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex10_moveVector.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex1_unique_point.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex2_moveOperator.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex3_deleter.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex4_shared_ptr.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex5_memoryleak.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex6_weakedPtr.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex7_vectorSmart.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex8_treeSmart.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex9_forward.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/rebuild_cache.dir
