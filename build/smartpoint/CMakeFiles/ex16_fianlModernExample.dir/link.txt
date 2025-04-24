@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex16_fianlModernExample.dir/ex16_fianlModernExample.cpp.o -o ex16_fianlModernExample 

@@ -131,6 +131,90 @@ ex10_moveVector/fast:
 .PHONY : ex10_moveVector/fast
 
 # Convenience name for target.
+smartpoint/CMakeFiles/ex11_moveClass.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex11_moveClass.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex11_moveClass.dir/rule
+
+# Convenience name for target.
+ex11_moveClass: smartpoint/CMakeFiles/ex11_moveClass.dir/rule
+.PHONY : ex11_moveClass
+
+# fast build rule for target.
+ex11_moveClass/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/build
+.PHONY : ex11_moveClass/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex12_vriantOptional.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex12_vriantOptional.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex12_vriantOptional.dir/rule
+
+# Convenience name for target.
+ex12_vriantOptional: smartpoint/CMakeFiles/ex12_vriantOptional.dir/rule
+.PHONY : ex12_vriantOptional
+
+# fast build rule for target.
+ex12_vriantOptional/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/build
+.PHONY : ex12_vriantOptional/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex13_thread.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex13_thread.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex13_thread.dir/rule
+
+# Convenience name for target.
+ex13_thread: smartpoint/CMakeFiles/ex13_thread.dir/rule
+.PHONY : ex13_thread
+
+# fast build rule for target.
+ex13_thread/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/build
+.PHONY : ex13_thread/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex14_anyncFuture.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex14_anyncFuture.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex14_anyncFuture.dir/rule
+
+# Convenience name for target.
+ex14_anyncFuture: smartpoint/CMakeFiles/ex14_anyncFuture.dir/rule
+.PHONY : ex14_anyncFuture
+
+# fast build rule for target.
+ex14_anyncFuture/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/build
+.PHONY : ex14_anyncFuture/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex15_multyThreadTask.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex15_multyThreadTask.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex15_multyThreadTask.dir/rule
+
+# Convenience name for target.
+ex15_multyThreadTask: smartpoint/CMakeFiles/ex15_multyThreadTask.dir/rule
+.PHONY : ex15_multyThreadTask
+
+# fast build rule for target.
+ex15_multyThreadTask/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build
+.PHONY : ex15_multyThreadTask/fast
+
+# Convenience name for target.
+smartpoint/CMakeFiles/ex16_fianlModernExample.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex16_fianlModernExample.dir/rule
+.PHONY : smartpoint/CMakeFiles/ex16_fianlModernExample.dir/rule
+
+# Convenience name for target.
+ex16_fianlModernExample: smartpoint/CMakeFiles/ex16_fianlModernExample.dir/rule
+.PHONY : ex16_fianlModernExample
+
+# fast build rule for target.
+ex16_fianlModernExample/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build
+.PHONY : ex16_fianlModernExample/fast
+
+# Convenience name for target.
 smartpoint/CMakeFiles/ex1_unique_point.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex1_unique_point.dir/rule
 .PHONY : smartpoint/CMakeFiles/ex1_unique_point.dir/rule
@@ -279,6 +363,150 @@ ex10_moveVector.s: ex10_moveVector.cpp.s
 ex10_moveVector.cpp.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.s
 .PHONY : ex10_moveVector.cpp.s
+
+ex11_moveClass.o: ex11_moveClass.cpp.o
+.PHONY : ex11_moveClass.o
+
+# target to build an object file
+ex11_moveClass.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/ex11_moveClass.cpp.o
+.PHONY : ex11_moveClass.cpp.o
+
+ex11_moveClass.i: ex11_moveClass.cpp.i
+.PHONY : ex11_moveClass.i
+
+# target to preprocess a source file
+ex11_moveClass.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/ex11_moveClass.cpp.i
+.PHONY : ex11_moveClass.cpp.i
+
+ex11_moveClass.s: ex11_moveClass.cpp.s
+.PHONY : ex11_moveClass.s
+
+# target to generate assembly for a file
+ex11_moveClass.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/ex11_moveClass.cpp.s
+.PHONY : ex11_moveClass.cpp.s
+
+ex12_vriantOptional.o: ex12_vriantOptional.cpp.o
+.PHONY : ex12_vriantOptional.o
+
+# target to build an object file
+ex12_vriantOptional.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.o
+.PHONY : ex12_vriantOptional.cpp.o
+
+ex12_vriantOptional.i: ex12_vriantOptional.cpp.i
+.PHONY : ex12_vriantOptional.i
+
+# target to preprocess a source file
+ex12_vriantOptional.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.i
+.PHONY : ex12_vriantOptional.cpp.i
+
+ex12_vriantOptional.s: ex12_vriantOptional.cpp.s
+.PHONY : ex12_vriantOptional.s
+
+# target to generate assembly for a file
+ex12_vriantOptional.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.s
+.PHONY : ex12_vriantOptional.cpp.s
+
+ex13_thread.o: ex13_thread.cpp.o
+.PHONY : ex13_thread.o
+
+# target to build an object file
+ex13_thread.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/ex13_thread.cpp.o
+.PHONY : ex13_thread.cpp.o
+
+ex13_thread.i: ex13_thread.cpp.i
+.PHONY : ex13_thread.i
+
+# target to preprocess a source file
+ex13_thread.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/ex13_thread.cpp.i
+.PHONY : ex13_thread.cpp.i
+
+ex13_thread.s: ex13_thread.cpp.s
+.PHONY : ex13_thread.s
+
+# target to generate assembly for a file
+ex13_thread.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/ex13_thread.cpp.s
+.PHONY : ex13_thread.cpp.s
+
+ex14_anyncFuture.o: ex14_anyncFuture.cpp.o
+.PHONY : ex14_anyncFuture.o
+
+# target to build an object file
+ex14_anyncFuture.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/ex14_anyncFuture.cpp.o
+.PHONY : ex14_anyncFuture.cpp.o
+
+ex14_anyncFuture.i: ex14_anyncFuture.cpp.i
+.PHONY : ex14_anyncFuture.i
+
+# target to preprocess a source file
+ex14_anyncFuture.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/ex14_anyncFuture.cpp.i
+.PHONY : ex14_anyncFuture.cpp.i
+
+ex14_anyncFuture.s: ex14_anyncFuture.cpp.s
+.PHONY : ex14_anyncFuture.s
+
+# target to generate assembly for a file
+ex14_anyncFuture.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/ex14_anyncFuture.cpp.s
+.PHONY : ex14_anyncFuture.cpp.s
+
+ex15_multyThreadTask.o: ex15_multyThreadTask.cpp.o
+.PHONY : ex15_multyThreadTask.o
+
+# target to build an object file
+ex15_multyThreadTask.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/ex15_multyThreadTask.cpp.o
+.PHONY : ex15_multyThreadTask.cpp.o
+
+ex15_multyThreadTask.i: ex15_multyThreadTask.cpp.i
+.PHONY : ex15_multyThreadTask.i
+
+# target to preprocess a source file
+ex15_multyThreadTask.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/ex15_multyThreadTask.cpp.i
+.PHONY : ex15_multyThreadTask.cpp.i
+
+ex15_multyThreadTask.s: ex15_multyThreadTask.cpp.s
+.PHONY : ex15_multyThreadTask.s
+
+# target to generate assembly for a file
+ex15_multyThreadTask.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/ex15_multyThreadTask.cpp.s
+.PHONY : ex15_multyThreadTask.cpp.s
+
+ex16_fianlModernExample.o: ex16_fianlModernExample.cpp.o
+.PHONY : ex16_fianlModernExample.o
+
+# target to build an object file
+ex16_fianlModernExample.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/ex16_fianlModernExample.cpp.o
+.PHONY : ex16_fianlModernExample.cpp.o
+
+ex16_fianlModernExample.i: ex16_fianlModernExample.cpp.i
+.PHONY : ex16_fianlModernExample.i
+
+# target to preprocess a source file
+ex16_fianlModernExample.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/ex16_fianlModernExample.cpp.i
+.PHONY : ex16_fianlModernExample.cpp.i
+
+ex16_fianlModernExample.s: ex16_fianlModernExample.cpp.s
+.PHONY : ex16_fianlModernExample.s
+
+# target to generate assembly for a file
+ex16_fianlModernExample.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/ex16_fianlModernExample.cpp.s
+.PHONY : ex16_fianlModernExample.cpp.s
 
 ex1_unique_point.o: ex1_unique_point.cpp.o
 .PHONY : ex1_unique_point.o
@@ -505,6 +733,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex10_moveVector"
+	@echo "... ex11_moveClass"
+	@echo "... ex12_vriantOptional"
+	@echo "... ex13_thread"
+	@echo "... ex14_anyncFuture"
+	@echo "... ex15_multyThreadTask"
+	@echo "... ex16_fianlModernExample"
 	@echo "... ex1_unique_point"
 	@echo "... ex2_moveOperator"
 	@echo "... ex3_deleter"
@@ -517,6 +751,24 @@ help:
 	@echo "... ex10_moveVector.o"
 	@echo "... ex10_moveVector.i"
 	@echo "... ex10_moveVector.s"
+	@echo "... ex11_moveClass.o"
+	@echo "... ex11_moveClass.i"
+	@echo "... ex11_moveClass.s"
+	@echo "... ex12_vriantOptional.o"
+	@echo "... ex12_vriantOptional.i"
+	@echo "... ex12_vriantOptional.s"
+	@echo "... ex13_thread.o"
+	@echo "... ex13_thread.i"
+	@echo "... ex13_thread.s"
+	@echo "... ex14_anyncFuture.o"
+	@echo "... ex14_anyncFuture.i"
+	@echo "... ex14_anyncFuture.s"
+	@echo "... ex15_multyThreadTask.o"
+	@echo "... ex15_multyThreadTask.i"
+	@echo "... ex15_multyThreadTask.s"
+	@echo "... ex16_fianlModernExample.o"
+	@echo "... ex16_fianlModernExample.i"
+	@echo "... ex16_fianlModernExample.s"
 	@echo "... ex1_unique_point.o"
 	@echo "... ex1_unique_point.i"
 	@echo "... ex1_unique_point.s"

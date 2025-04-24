@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex15_multyThreadTask.dir/ex15_multyThreadTask.cpp.o -o ex15_multyThreadTask 

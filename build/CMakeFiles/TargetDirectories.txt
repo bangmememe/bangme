@@ -91,6 +91,12 @@
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/stl/CMakeFiles/rebuild_cache.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex10_moveVector.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex11_moveClass.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex12_vriantOptional.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex13_thread.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex14_anyncFuture.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex15_multyThreadTask.dir
+/home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex16_fianlModernExample.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex1_unique_point.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex2_moveOperator.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex3_deleter.dir

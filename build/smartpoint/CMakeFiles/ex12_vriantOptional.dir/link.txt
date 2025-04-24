@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.o -o ex12_vriantOptional 

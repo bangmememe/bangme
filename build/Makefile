@@ -1066,6 +1066,84 @@ ex10_moveVector/fast:
 .PHONY : ex10_moveVector/fast
 
 #=============================================================================
+# Target rules for targets named ex11_moveClass
+
+# Build rule for target.
+ex11_moveClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_moveClass
+.PHONY : ex11_moveClass
+
+# fast build rule for target.
+ex11_moveClass/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/build
+.PHONY : ex11_moveClass/fast
+
+#=============================================================================
+# Target rules for targets named ex12_vriantOptional
+
+# Build rule for target.
+ex12_vriantOptional: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_vriantOptional
+.PHONY : ex12_vriantOptional
+
+# fast build rule for target.
+ex12_vriantOptional/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/build
+.PHONY : ex12_vriantOptional/fast
+
+#=============================================================================
+# Target rules for targets named ex13_thread
+
+# Build rule for target.
+ex13_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex13_thread
+.PHONY : ex13_thread
+
+# fast build rule for target.
+ex13_thread/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/build
+.PHONY : ex13_thread/fast
+
+#=============================================================================
+# Target rules for targets named ex14_anyncFuture
+
+# Build rule for target.
+ex14_anyncFuture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_anyncFuture
+.PHONY : ex14_anyncFuture
+
+# fast build rule for target.
+ex14_anyncFuture/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/build
+.PHONY : ex14_anyncFuture/fast
+
+#=============================================================================
+# Target rules for targets named ex15_multyThreadTask
+
+# Build rule for target.
+ex15_multyThreadTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex15_multyThreadTask
+.PHONY : ex15_multyThreadTask
+
+# fast build rule for target.
+ex15_multyThreadTask/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build
+.PHONY : ex15_multyThreadTask/fast
+
+#=============================================================================
+# Target rules for targets named ex16_fianlModernExample
+
+# Build rule for target.
+ex16_fianlModernExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex16_fianlModernExample
+.PHONY : ex16_fianlModernExample
+
+# fast build rule for target.
+ex16_fianlModernExample/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build
+.PHONY : ex16_fianlModernExample/fast
+
+#=============================================================================
 # Target rules for targets named ex1_unique_point
 
 # Build rule for target.
@@ -1210,10 +1288,16 @@ help:
 	@echo "... ex10_forClass"
 	@echo "... ex10_moveVector"
 	@echo "... ex11_Nullptr"
+	@echo "... ex11_moveClass"
 	@echo "... ex12_constexprestion"
+	@echo "... ex12_vriantOptional"
 	@echo "... ex13_array"
+	@echo "... ex13_thread"
+	@echo "... ex14_anyncFuture"
 	@echo "... ex14_priority_queue"
+	@echo "... ex15_multyThreadTask"
 	@echo "... ex15_unordered_map"
+	@echo "... ex16_fianlModernExample"
 	@echo "... ex16_transform"
 	@echo "... ex17_sort_fstream"
 	@echo "... ex17_sort_fstream2"

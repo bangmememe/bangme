@@ -396,52 +396,82 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_unique_point.dir/ex1_unique_point.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex11_moveClass.dir/ex11_moveClass.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex11_moveClass.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex11_moveClass.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex12_vriantOptional.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex12_vriantOptional.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex13_thread.dir/ex13_thread.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex13_thread.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex13_thread.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex14_anyncFuture.dir/ex14_anyncFuture.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex14_anyncFuture.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex14_anyncFuture.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex15_multyThreadTask.dir/ex15_multyThreadTask.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex15_multyThreadTask.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex15_multyThreadTask.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex16_fianlModernExample.dir/ex16_fianlModernExample.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex16_fianlModernExample.cpp",
+  "file": "/home/bangme/bangme/bangme/smartpoint/ex16_fianlModernExample.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex1_unique_point.dir/ex1_unique_point.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp",
+  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp"
 }
 ]
