@@ -117,6 +117,48 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+network/CMakeFiles/endian_conv.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/endian_conv.dir/rule
+.PHONY : network/CMakeFiles/endian_conv.dir/rule
+
+# Convenience name for target.
+endian_conv: network/CMakeFiles/endian_conv.dir/rule
+.PHONY : endian_conv
+
+# fast build rule for target.
+endian_conv/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/build
+.PHONY : endian_conv/fast
+
+# Convenience name for target.
+network/CMakeFiles/hello_clinet.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/hello_clinet.dir/rule
+.PHONY : network/CMakeFiles/hello_clinet.dir/rule
+
+# Convenience name for target.
+hello_clinet: network/CMakeFiles/hello_clinet.dir/rule
+.PHONY : hello_clinet
+
+# fast build rule for target.
+hello_clinet/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/build
+.PHONY : hello_clinet/fast
+
+# Convenience name for target.
+network/CMakeFiles/hello_server.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/hello_server.dir/rule
+.PHONY : network/CMakeFiles/hello_server.dir/rule
+
+# Convenience name for target.
+hello_server: network/CMakeFiles/hello_server.dir/rule
+.PHONY : hello_server
+
+# fast build rule for target.
+hello_server/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/build
+.PHONY : hello_server/fast
+
+# Convenience name for target.
 network/CMakeFiles/mq_client.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/mq_client.dir/rule
 .PHONY : network/CMakeFiles/mq_client.dir/rule
@@ -269,6 +311,78 @@ shm_test2: network/CMakeFiles/shm_test2.dir/rule
 shm_test2/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/build
 .PHONY : shm_test2/fast
+
+endian_conv.o: endian_conv.c.o
+.PHONY : endian_conv.o
+
+# target to build an object file
+endian_conv.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/endian_conv.c.o
+.PHONY : endian_conv.c.o
+
+endian_conv.i: endian_conv.c.i
+.PHONY : endian_conv.i
+
+# target to preprocess a source file
+endian_conv.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/endian_conv.c.i
+.PHONY : endian_conv.c.i
+
+endian_conv.s: endian_conv.c.s
+.PHONY : endian_conv.s
+
+# target to generate assembly for a file
+endian_conv.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/endian_conv.c.s
+.PHONY : endian_conv.c.s
+
+hello_clinet.o: hello_clinet.c.o
+.PHONY : hello_clinet.o
+
+# target to build an object file
+hello_clinet.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/hello_clinet.c.o
+.PHONY : hello_clinet.c.o
+
+hello_clinet.i: hello_clinet.c.i
+.PHONY : hello_clinet.i
+
+# target to preprocess a source file
+hello_clinet.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/hello_clinet.c.i
+.PHONY : hello_clinet.c.i
+
+hello_clinet.s: hello_clinet.c.s
+.PHONY : hello_clinet.s
+
+# target to generate assembly for a file
+hello_clinet.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/hello_clinet.c.s
+.PHONY : hello_clinet.c.s
+
+hello_server.o: hello_server.c.o
+.PHONY : hello_server.o
+
+# target to build an object file
+hello_server.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/hello_server.c.o
+.PHONY : hello_server.c.o
+
+hello_server.i: hello_server.c.i
+.PHONY : hello_server.i
+
+# target to preprocess a source file
+hello_server.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/hello_server.c.i
+.PHONY : hello_server.c.i
+
+hello_server.s: hello_server.c.s
+.PHONY : hello_server.s
+
+# target to generate assembly for a file
+hello_server.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/hello_server.c.s
+.PHONY : hello_server.c.s
 
 mq_client.o: mq_client.c.o
 .PHONY : mq_client.o
@@ -542,6 +656,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... endian_conv"
+	@echo "... hello_clinet"
+	@echo "... hello_server"
 	@echo "... mq_client"
 	@echo "... mq_server"
 	@echo "... pipe"
@@ -553,6 +670,15 @@ help:
 	@echo "... shm_server"
 	@echo "... shm_test"
 	@echo "... shm_test2"
+	@echo "... endian_conv.o"
+	@echo "... endian_conv.i"
+	@echo "... endian_conv.s"
+	@echo "... hello_clinet.o"
+	@echo "... hello_clinet.i"
+	@echo "... hello_clinet.s"
+	@echo "... hello_server.o"
+	@echo "... hello_server.i"
+	@echo "... hello_server.s"
 	@echo "... mq_client.o"
 	@echo "... mq_client.i"
 	@echo "... mq_client.s"

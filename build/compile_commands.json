@@ -476,6 +476,21 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/endian_conv.dir/endian_conv.c.o -c /home/bangme/bangme/bangme/network/endian_conv.c",
+  "file": "/home/bangme/bangme/bangme/network/endian_conv.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_clinet.dir/hello_clinet.c.o -c /home/bangme/bangme/bangme/network/hello_clinet.c",
+  "file": "/home/bangme/bangme/bangme/network/hello_clinet.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_server.dir/hello_server.c.o -c /home/bangme/bangme/bangme/network/hello_server.c",
+  "file": "/home/bangme/bangme/bangme/network/hello_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
   "command": "/usr/bin/cc   -g -o CMakeFiles/mq_client.dir/mq_client.c.o -c /home/bangme/bangme/bangme/network/mq_client.c",
   "file": "/home/bangme/bangme/bangme/network/mq_client.c"
 },

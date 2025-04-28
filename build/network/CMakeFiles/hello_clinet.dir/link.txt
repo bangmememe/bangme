@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/hello_clinet.dir/hello_clinet.c.o -o hello_clinet 

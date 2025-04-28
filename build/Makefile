@@ -1261,6 +1261,45 @@ ex9_forward/fast:
 .PHONY : ex9_forward/fast
 
 #=============================================================================
+# Target rules for targets named endian_conv
+
+# Build rule for target.
+endian_conv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endian_conv
+.PHONY : endian_conv
+
+# fast build rule for target.
+endian_conv/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/build
+.PHONY : endian_conv/fast
+
+#=============================================================================
+# Target rules for targets named hello_clinet
+
+# Build rule for target.
+hello_clinet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_clinet
+.PHONY : hello_clinet
+
+# fast build rule for target.
+hello_clinet/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/build
+.PHONY : hello_clinet/fast
+
+#=============================================================================
+# Target rules for targets named hello_server
+
+# Build rule for target.
+hello_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_server
+.PHONY : hello_server
+
+# fast build rule for target.
+hello_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/build
+.PHONY : hello_server/fast
+
+#=============================================================================
 # Target rules for targets named mq_client
 
 # Build rule for target.
@@ -1427,6 +1466,7 @@ help:
 	@echo "... date"
 	@echo "... dynamicAllocation"
 	@echo "... endian"
+	@echo "... endian_conv"
 	@echo "... enumExample"
 	@echo "... ex10_forClass"
 	@echo "... ex10_moveVector"
@@ -1474,6 +1514,8 @@ help:
 	@echo "... genderRatio"
 	@echo "... getSeries"
 	@echo "... helloStr"
+	@echo "... hello_clinet"
+	@echo "... hello_server"
 	@echo "... increment"
 	@echo "... infinit"
 	@echo "... limit"
