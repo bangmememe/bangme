@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "11"
+			"value" : "12"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1356,6 +1356,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/bangme/bangme/bangme/a3/myRandom"
+		},
+		{
+			"name" : "network_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bangme/bangme/bangme/build/network"
+		},
+		{
+			"name" : "network_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "network_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bangme/bangme/bangme/network"
 		},
 		{
 			"name" : "project_BINARY_DIR",

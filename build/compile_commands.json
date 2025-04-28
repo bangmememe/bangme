@@ -473,5 +473,10 @@
   "directory": "/home/bangme/bangme/bangme/build/smartpoint",
   "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp",
   "file": "/home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test.dir/shm_test.c.o -c /home/bangme/bangme/bangme/network/shm_test.c",
+  "file": "/home/bangme/bangme/bangme/network/shm_test.c"
 }
 ]

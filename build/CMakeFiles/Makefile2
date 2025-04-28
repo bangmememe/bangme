@@ -69,6 +69,7 @@ all: a3/all
 all: project/all
 all: stl/all
 all: smartpoint/all
+all: network/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ preinstall: a3/preinstall
 preinstall: project/preinstall
 preinstall: stl/preinstall
 preinstall: smartpoint/preinstall
+preinstall: network/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -87,6 +89,7 @@ clean: a3/clean
 clean: project/clean
 clean: stl/clean
 clean: smartpoint/clean
+clean: network/clean
 .PHONY : clean
 
 #=============================================================================
@@ -288,6 +291,21 @@ a3/string/preinstall:
 # Recursive "clean" directory target.
 a3/string/clean: a3/string/CMakeFiles/string.dir/clean
 .PHONY : a3/string/clean
+
+#=============================================================================
+# Directory level rules for directory network
+
+# Recursive "all" directory target.
+network/all: network/CMakeFiles/shm_test.dir/all
+.PHONY : network/all
+
+# Recursive "preinstall" directory target.
+network/preinstall:
+.PHONY : network/preinstall
+
+# Recursive "clean" directory target.
+network/clean: network/CMakeFiles/shm_test.dir/clean
+.PHONY : network/clean
 
 #=============================================================================
 # Directory level rules for directory project
@@ -545,12 +563,12 @@ a1/CMakeFiles/compare2.dir/clean:
 a1/CMakeFiles/fahr2celsius.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=60 "Built target fahr2celsius"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=59,60 "Built target fahr2celsius"
 .PHONY : a1/CMakeFiles/fahr2celsius.dir/all
 
 # Build rule for subdir invocation for target.
 a1/CMakeFiles/fahr2celsius.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fahr2celsius.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a1/CMakeFiles/fahr2celsius.dir/rule
@@ -571,12 +589,12 @@ a1/CMakeFiles/fahr2celsius.dir/clean:
 a1/CMakeFiles/fourBit.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=64,65 "Built target fourBit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=64 "Built target fourBit"
 .PHONY : a1/CMakeFiles/fourBit.dir/all
 
 # Build rule for subdir invocation for target.
 a1/CMakeFiles/fourBit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/fourBit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a1/CMakeFiles/fourBit.dir/rule
@@ -597,7 +615,7 @@ a1/CMakeFiles/fourBit.dir/clean:
 a1/CMakeFiles/fourBit2.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=66 "Built target fourBit2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=65 "Built target fourBit2"
 .PHONY : a1/CMakeFiles/fourBit2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -623,7 +641,7 @@ a1/CMakeFiles/fourBit2.dir/clean:
 a1/CMakeFiles/genderRatio.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=68 "Built target genderRatio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=67 "Built target genderRatio"
 .PHONY : a1/CMakeFiles/genderRatio.dir/all
 
 # Build rule for subdir invocation for target.
@@ -649,7 +667,7 @@ a1/CMakeFiles/genderRatio.dir/clean:
 a1/CMakeFiles/increment.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=71 "Built target increment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=70 "Built target increment"
 .PHONY : a1/CMakeFiles/increment.dir/all
 
 # Build rule for subdir invocation for target.
@@ -675,7 +693,7 @@ a1/CMakeFiles/increment.dir/clean:
 a1/CMakeFiles/infinit.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=72 "Built target infinit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=71 "Built target infinit"
 .PHONY : a1/CMakeFiles/infinit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -701,7 +719,7 @@ a1/CMakeFiles/infinit.dir/clean:
 a1/CMakeFiles/limit.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=73 "Built target limit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=72 "Built target limit"
 .PHONY : a1/CMakeFiles/limit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -727,12 +745,12 @@ a1/CMakeFiles/limit.dir/clean:
 a1/CMakeFiles/literal.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=74 "Built target literal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=73,74 "Built target literal"
 .PHONY : a1/CMakeFiles/literal.dir/all
 
 # Build rule for subdir invocation for target.
 a1/CMakeFiles/literal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a1/CMakeFiles/literal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a1/CMakeFiles/literal.dir/rule
@@ -753,7 +771,7 @@ a1/CMakeFiles/literal.dir/clean:
 a1/CMakeFiles/oddeven.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=77 "Built target oddeven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=76 "Built target oddeven"
 .PHONY : a1/CMakeFiles/oddeven.dir/all
 
 # Build rule for subdir invocation for target.
@@ -883,12 +901,12 @@ a3/CMakeFiles/arrayCompare.dir/clean:
 a3/CMakeFiles/arrayPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=5,6 "Built target arrayPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=5 "Built target arrayPointer"
 .PHONY : a3/CMakeFiles/arrayPointer.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/arrayPointer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayPointer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/arrayPointer.dir/rule
@@ -909,12 +927,12 @@ a3/CMakeFiles/arrayPointer.dir/clean:
 a3/CMakeFiles/bubble.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=7 "Built target bubble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=6,7 "Built target bubble"
 .PHONY : a3/CMakeFiles/bubble.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/bubble.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/bubble.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/bubble.dir/rule
@@ -987,12 +1005,12 @@ a3/CMakeFiles/charPointerOperation.dir/clean:
 a3/CMakeFiles/dynamicAllocation.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=17,18 "Built target dynamicAllocation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=17 "Built target dynamicAllocation"
 .PHONY : a3/CMakeFiles/dynamicAllocation.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/dynamicAllocation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/dynamicAllocation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/dynamicAllocation.dir/rule
@@ -1013,7 +1031,7 @@ a3/CMakeFiles/dynamicAllocation.dir/clean:
 a3/CMakeFiles/endian.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=19 "Built target endian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=18 "Built target endian"
 .PHONY : a3/CMakeFiles/endian.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1039,12 +1057,12 @@ a3/CMakeFiles/endian.dir/clean:
 a3/CMakeFiles/enumExample.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=20 "Built target enumExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=19,20 "Built target enumExample"
 .PHONY : a3/CMakeFiles/enumExample.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/enumExample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/enumExample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/enumExample.dir/rule
@@ -1143,7 +1161,7 @@ a3/CMakeFiles/filePointer.dir/clean:
 a3/CMakeFiles/functionPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=67 "Built target functionPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=66 "Built target functionPointer"
 .PHONY : a3/CMakeFiles/functionPointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1169,7 +1187,7 @@ a3/CMakeFiles/functionPointer.dir/clean:
 a3/CMakeFiles/getSeries.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=69 "Built target getSeries"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=68 "Built target getSeries"
 .PHONY : a3/CMakeFiles/getSeries.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1195,7 +1213,7 @@ a3/CMakeFiles/getSeries.dir/clean:
 a3/CMakeFiles/helloStr.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=70 "Built target helloStr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=69 "Built target helloStr"
 .PHONY : a3/CMakeFiles/helloStr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1221,7 +1239,7 @@ a3/CMakeFiles/helloStr.dir/clean:
 a3/CMakeFiles/pointer2.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=78 "Built target pointer2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=77 "Built target pointer2"
 .PHONY : a3/CMakeFiles/pointer2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1247,7 +1265,7 @@ a3/CMakeFiles/pointer2.dir/clean:
 a3/CMakeFiles/pointerConcept.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=79 "Built target pointerConcept"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=78 "Built target pointerConcept"
 .PHONY : a3/CMakeFiles/pointerConcept.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1273,7 +1291,7 @@ a3/CMakeFiles/pointerConcept.dir/clean:
 a3/CMakeFiles/putSeries.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=82 "Built target putSeries"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=81 "Built target putSeries"
 .PHONY : a3/CMakeFiles/putSeries.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1299,7 +1317,7 @@ a3/CMakeFiles/putSeries.dir/clean:
 a3/CMakeFiles/qsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=83 "Built target qsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=82 "Built target qsort"
 .PHONY : a3/CMakeFiles/qsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1325,7 +1343,7 @@ a3/CMakeFiles/qsort.dir/clean:
 a3/CMakeFiles/selection.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=86 "Built target selection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=85 "Built target selection"
 .PHONY : a3/CMakeFiles/selection.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1611,12 +1629,12 @@ a3/date/CMakeFiles/date.dir/clean:
 a3/myRandom/CMakeFiles/myRandom.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=75,76 "Built target myRandom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=75 "Built target myRandom"
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/all
 
 # Build rule for subdir invocation for target.
 a3/myRandom/CMakeFiles/myRandom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/CMakeFiles/myRandom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/rule
@@ -1663,7 +1681,7 @@ a3/string/CMakeFiles/string.dir/clean:
 project/CMakeFiles/project.dir/all:
 	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/depend
 	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=80,81 "Built target project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=79,80 "Built target project"
 .PHONY : project/CMakeFiles/project.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1793,7 +1811,7 @@ stl/CMakeFiles/ex13_array.dir/clean:
 stl/CMakeFiles/ex14_priority_queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=31 "Built target ex14_priority_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=30 "Built target ex14_priority_queue"
 .PHONY : stl/CMakeFiles/ex14_priority_queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1819,7 +1837,7 @@ stl/CMakeFiles/ex14_priority_queue.dir/clean:
 stl/CMakeFiles/ex15_unordered_map.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=33 "Built target ex15_unordered_map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=32 "Built target ex15_unordered_map"
 .PHONY : stl/CMakeFiles/ex15_unordered_map.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1975,7 +1993,7 @@ stl/CMakeFiles/ex1_vector.dir/clean:
 stl/CMakeFiles/ex2_string_vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=43 "Built target ex2_string_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=42 "Built target ex2_string_vector"
 .PHONY : stl/CMakeFiles/ex2_string_vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2001,7 +2019,7 @@ stl/CMakeFiles/ex2_string_vector.dir/clean:
 stl/CMakeFiles/ex3_longest.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=45 "Built target ex3_longest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=44 "Built target ex3_longest"
 .PHONY : stl/CMakeFiles/ex3_longest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2027,12 +2045,12 @@ stl/CMakeFiles/ex3_longest.dir/clean:
 stl/CMakeFiles/ex4_string.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=47 "Built target ex4_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=46,47 "Built target ex4_string"
 .PHONY : stl/CMakeFiles/ex4_string.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex4_string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex4_string.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex4_string.dir/rule
@@ -2105,12 +2123,12 @@ stl/CMakeFiles/ex6_iterator.dir/clean:
 stl/CMakeFiles/ex7_map.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=52,53 "Built target ex7_map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=52 "Built target ex7_map"
 .PHONY : stl/CMakeFiles/ex7_map.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex7_map.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex7_map.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex7_map.dir/rule
@@ -2131,7 +2149,7 @@ stl/CMakeFiles/ex7_map.dir/clean:
 stl/CMakeFiles/ex8_vector_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=56 "Built target ex8_vector_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=55 "Built target ex8_vector_list"
 .PHONY : stl/CMakeFiles/ex8_vector_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2157,7 +2175,7 @@ stl/CMakeFiles/ex8_vector_list.dir/clean:
 stl/CMakeFiles/ex8_vector_list2.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=57 "Built target ex8_vector_list2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=56 "Built target ex8_vector_list2"
 .PHONY : stl/CMakeFiles/ex8_vector_list2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2183,7 +2201,7 @@ stl/CMakeFiles/ex8_vector_list2.dir/clean:
 stl/CMakeFiles/ex9_lambda.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=59 "Built target ex9_lambda"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=58 "Built target ex9_lambda"
 .PHONY : stl/CMakeFiles/ex9_lambda.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2261,7 +2279,7 @@ stl/CMakeFiles/data_process.dir/clean:
 stl/CMakeFiles/range_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=84,85 "Built target range_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=83,84 "Built target range_example"
 .PHONY : stl/CMakeFiles/range_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2391,12 +2409,12 @@ smartpoint/CMakeFiles/ex13_thread.dir/clean:
 smartpoint/CMakeFiles/ex14_anyncFuture.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=29,30 "Built target ex14_anyncFuture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=29 "Built target ex14_anyncFuture"
 .PHONY : smartpoint/CMakeFiles/ex14_anyncFuture.dir/all
 
 # Build rule for subdir invocation for target.
 smartpoint/CMakeFiles/ex14_anyncFuture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex14_anyncFuture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : smartpoint/CMakeFiles/ex14_anyncFuture.dir/rule
@@ -2417,7 +2435,7 @@ smartpoint/CMakeFiles/ex14_anyncFuture.dir/clean:
 smartpoint/CMakeFiles/ex15_multyThreadTask.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=32 "Built target ex15_multyThreadTask"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=31 "Built target ex15_multyThreadTask"
 .PHONY : smartpoint/CMakeFiles/ex15_multyThreadTask.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2443,12 +2461,12 @@ smartpoint/CMakeFiles/ex15_multyThreadTask.dir/clean:
 smartpoint/CMakeFiles/ex16_fianlModernExample.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=34 "Built target ex16_fianlModernExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=33,34 "Built target ex16_fianlModernExample"
 .PHONY : smartpoint/CMakeFiles/ex16_fianlModernExample.dir/all
 
 # Build rule for subdir invocation for target.
 smartpoint/CMakeFiles/ex16_fianlModernExample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex16_fianlModernExample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : smartpoint/CMakeFiles/ex16_fianlModernExample.dir/rule
@@ -2495,12 +2513,12 @@ smartpoint/CMakeFiles/ex1_unique_point.dir/clean:
 smartpoint/CMakeFiles/ex2_moveOperator.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=41,42 "Built target ex2_moveOperator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=41 "Built target ex2_moveOperator"
 .PHONY : smartpoint/CMakeFiles/ex2_moveOperator.dir/all
 
 # Build rule for subdir invocation for target.
 smartpoint/CMakeFiles/ex2_moveOperator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex2_moveOperator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : smartpoint/CMakeFiles/ex2_moveOperator.dir/rule
@@ -2521,7 +2539,7 @@ smartpoint/CMakeFiles/ex2_moveOperator.dir/clean:
 smartpoint/CMakeFiles/ex3_deleter.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=44 "Built target ex3_deleter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=43 "Built target ex3_deleter"
 .PHONY : smartpoint/CMakeFiles/ex3_deleter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2547,7 +2565,7 @@ smartpoint/CMakeFiles/ex3_deleter.dir/clean:
 smartpoint/CMakeFiles/ex4_shared_ptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=46 "Built target ex4_shared_ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=45 "Built target ex4_shared_ptr"
 .PHONY : smartpoint/CMakeFiles/ex4_shared_ptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2625,7 +2643,7 @@ smartpoint/CMakeFiles/ex6_weakedPtr.dir/clean:
 smartpoint/CMakeFiles/ex7_vectorSmart.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=54 "Built target ex7_vectorSmart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=53 "Built target ex7_vectorSmart"
 .PHONY : smartpoint/CMakeFiles/ex7_vectorSmart.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2651,7 +2669,7 @@ smartpoint/CMakeFiles/ex7_vectorSmart.dir/clean:
 smartpoint/CMakeFiles/ex8_treeSmart.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=55 "Built target ex8_treeSmart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=54 "Built target ex8_treeSmart"
 .PHONY : smartpoint/CMakeFiles/ex8_treeSmart.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2677,7 +2695,7 @@ smartpoint/CMakeFiles/ex8_treeSmart.dir/clean:
 smartpoint/CMakeFiles/ex9_forward.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=58 "Built target ex9_forward"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=57 "Built target ex9_forward"
 .PHONY : smartpoint/CMakeFiles/ex9_forward.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2695,6 +2713,32 @@ ex9_forward: smartpoint/CMakeFiles/ex9_forward.dir/rule
 smartpoint/CMakeFiles/ex9_forward.dir/clean:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/clean
 .PHONY : smartpoint/CMakeFiles/ex9_forward.dir/clean
+
+#=============================================================================
+# Target rules for target network/CMakeFiles/shm_test.dir
+
+# All Build rule for target.
+network/CMakeFiles/shm_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=86 "Built target shm_test"
+.PHONY : network/CMakeFiles/shm_test.dir/all
+
+# Build rule for subdir invocation for target.
+network/CMakeFiles/shm_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/CMakeFiles/shm_test.dir/rule
+
+# Convenience name for target.
+shm_test: network/CMakeFiles/shm_test.dir/rule
+.PHONY : shm_test
+
+# clean rule for target.
+network/CMakeFiles/shm_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/clean
+.PHONY : network/CMakeFiles/shm_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

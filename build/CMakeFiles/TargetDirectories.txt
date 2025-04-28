@@ -108,3 +108,6 @@
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex9_forward.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/rebuild_cache.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/shm_test.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/edit_cache.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/rebuild_cache.dir
