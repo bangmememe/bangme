@@ -1261,6 +1261,71 @@ ex9_forward/fast:
 .PHONY : ex9_forward/fast
 
 #=============================================================================
+# Target rules for targets named pipe
+
+# Build rule for target.
+pipe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe
+.PHONY : pipe
+
+# fast build rule for target.
+pipe/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/build
+.PHONY : pipe/fast
+
+#=============================================================================
+# Target rules for targets named shm_client
+
+# Build rule for target.
+shm_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_client
+.PHONY : shm_client
+
+# fast build rule for target.
+shm_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/build
+.PHONY : shm_client/fast
+
+#=============================================================================
+# Target rules for targets named shm_semaphore
+
+# Build rule for target.
+shm_semaphore: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_semaphore
+.PHONY : shm_semaphore
+
+# fast build rule for target.
+shm_semaphore/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/build
+.PHONY : shm_semaphore/fast
+
+#=============================================================================
+# Target rules for targets named shm_semaphore2
+
+# Build rule for target.
+shm_semaphore2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_semaphore2
+.PHONY : shm_semaphore2
+
+# fast build rule for target.
+shm_semaphore2/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/build
+.PHONY : shm_semaphore2/fast
+
+#=============================================================================
+# Target rules for targets named shm_server
+
+# Build rule for target.
+shm_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_server
+.PHONY : shm_server
+
+# fast build rule for target.
+shm_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/build
+.PHONY : shm_server/fast
+
+#=============================================================================
 # Target rules for targets named shm_test
 
 # Build rule for target.
@@ -1272,6 +1337,19 @@ shm_test: cmake_check_build_system
 shm_test/fast:
 	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/build
 .PHONY : shm_test/fast
+
+#=============================================================================
+# Target rules for targets named shm_test2
+
+# Build rule for target.
+shm_test2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_test2
+.PHONY : shm_test2
+
+# fast build rule for target.
+shm_test2/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/build
+.PHONY : shm_test2/fast
 
 # Help Target
 help:
@@ -1350,6 +1428,7 @@ help:
 	@echo "... literal"
 	@echo "... myRandom"
 	@echo "... oddeven"
+	@echo "... pipe"
 	@echo "... pointer2"
 	@echo "... pointerConcept"
 	@echo "... project"
@@ -1357,7 +1436,12 @@ help:
 	@echo "... qsort"
 	@echo "... range_example"
 	@echo "... selection"
+	@echo "... shm_client"
+	@echo "... shm_semaphore"
+	@echo "... shm_semaphore2"
+	@echo "... shm_server"
 	@echo "... shm_test"
+	@echo "... shm_test2"
 	@echo "... sizeof"
 	@echo "... strcatExample"
 	@echo "... string"

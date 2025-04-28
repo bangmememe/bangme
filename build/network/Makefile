@@ -117,6 +117,76 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+network/CMakeFiles/pipe.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe.dir/rule
+.PHONY : network/CMakeFiles/pipe.dir/rule
+
+# Convenience name for target.
+pipe: network/CMakeFiles/pipe.dir/rule
+.PHONY : pipe
+
+# fast build rule for target.
+pipe/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/build
+.PHONY : pipe/fast
+
+# Convenience name for target.
+network/CMakeFiles/shm_client.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_client.dir/rule
+.PHONY : network/CMakeFiles/shm_client.dir/rule
+
+# Convenience name for target.
+shm_client: network/CMakeFiles/shm_client.dir/rule
+.PHONY : shm_client
+
+# fast build rule for target.
+shm_client/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/build
+.PHONY : shm_client/fast
+
+# Convenience name for target.
+network/CMakeFiles/shm_semaphore.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_semaphore.dir/rule
+.PHONY : network/CMakeFiles/shm_semaphore.dir/rule
+
+# Convenience name for target.
+shm_semaphore: network/CMakeFiles/shm_semaphore.dir/rule
+.PHONY : shm_semaphore
+
+# fast build rule for target.
+shm_semaphore/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/build
+.PHONY : shm_semaphore/fast
+
+# Convenience name for target.
+network/CMakeFiles/shm_semaphore2.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_semaphore2.dir/rule
+.PHONY : network/CMakeFiles/shm_semaphore2.dir/rule
+
+# Convenience name for target.
+shm_semaphore2: network/CMakeFiles/shm_semaphore2.dir/rule
+.PHONY : shm_semaphore2
+
+# fast build rule for target.
+shm_semaphore2/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/build
+.PHONY : shm_semaphore2/fast
+
+# Convenience name for target.
+network/CMakeFiles/shm_server.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_server.dir/rule
+.PHONY : network/CMakeFiles/shm_server.dir/rule
+
+# Convenience name for target.
+shm_server: network/CMakeFiles/shm_server.dir/rule
+.PHONY : shm_server
+
+# fast build rule for target.
+shm_server/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/build
+.PHONY : shm_server/fast
+
+# Convenience name for target.
 network/CMakeFiles/shm_test.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_test.dir/rule
 .PHONY : network/CMakeFiles/shm_test.dir/rule
@@ -129,6 +199,140 @@ shm_test: network/CMakeFiles/shm_test.dir/rule
 shm_test/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/build
 .PHONY : shm_test/fast
+
+# Convenience name for target.
+network/CMakeFiles/shm_test2.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_test2.dir/rule
+.PHONY : network/CMakeFiles/shm_test2.dir/rule
+
+# Convenience name for target.
+shm_test2: network/CMakeFiles/shm_test2.dir/rule
+.PHONY : shm_test2
+
+# fast build rule for target.
+shm_test2/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/build
+.PHONY : shm_test2/fast
+
+pipe.o: pipe.c.o
+.PHONY : pipe.o
+
+# target to build an object file
+pipe.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/pipe.c.o
+.PHONY : pipe.c.o
+
+pipe.i: pipe.c.i
+.PHONY : pipe.i
+
+# target to preprocess a source file
+pipe.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/pipe.c.i
+.PHONY : pipe.c.i
+
+pipe.s: pipe.c.s
+.PHONY : pipe.s
+
+# target to generate assembly for a file
+pipe.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/pipe.c.s
+.PHONY : pipe.c.s
+
+shm_client.o: shm_client.c.o
+.PHONY : shm_client.o
+
+# target to build an object file
+shm_client.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/shm_client.c.o
+.PHONY : shm_client.c.o
+
+shm_client.i: shm_client.c.i
+.PHONY : shm_client.i
+
+# target to preprocess a source file
+shm_client.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/shm_client.c.i
+.PHONY : shm_client.c.i
+
+shm_client.s: shm_client.c.s
+.PHONY : shm_client.s
+
+# target to generate assembly for a file
+shm_client.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/shm_client.c.s
+.PHONY : shm_client.c.s
+
+shm_semaphore.o: shm_semaphore.c.o
+.PHONY : shm_semaphore.o
+
+# target to build an object file
+shm_semaphore.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o
+.PHONY : shm_semaphore.c.o
+
+shm_semaphore.i: shm_semaphore.c.i
+.PHONY : shm_semaphore.i
+
+# target to preprocess a source file
+shm_semaphore.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/shm_semaphore.c.i
+.PHONY : shm_semaphore.c.i
+
+shm_semaphore.s: shm_semaphore.c.s
+.PHONY : shm_semaphore.s
+
+# target to generate assembly for a file
+shm_semaphore.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/shm_semaphore.c.s
+.PHONY : shm_semaphore.c.s
+
+shm_semaphore2.o: shm_semaphore2.c.o
+.PHONY : shm_semaphore2.o
+
+# target to build an object file
+shm_semaphore2.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o
+.PHONY : shm_semaphore2.c.o
+
+shm_semaphore2.i: shm_semaphore2.c.i
+.PHONY : shm_semaphore2.i
+
+# target to preprocess a source file
+shm_semaphore2.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.i
+.PHONY : shm_semaphore2.c.i
+
+shm_semaphore2.s: shm_semaphore2.c.s
+.PHONY : shm_semaphore2.s
+
+# target to generate assembly for a file
+shm_semaphore2.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.s
+.PHONY : shm_semaphore2.c.s
+
+shm_server.o: shm_server.c.o
+.PHONY : shm_server.o
+
+# target to build an object file
+shm_server.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/shm_server.c.o
+.PHONY : shm_server.c.o
+
+shm_server.i: shm_server.c.i
+.PHONY : shm_server.i
+
+# target to preprocess a source file
+shm_server.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/shm_server.c.i
+.PHONY : shm_server.c.i
+
+shm_server.s: shm_server.c.s
+.PHONY : shm_server.s
+
+# target to generate assembly for a file
+shm_server.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/shm_server.c.s
+.PHONY : shm_server.c.s
 
 shm_test.o: shm_test.c.o
 .PHONY : shm_test.o
@@ -154,6 +358,30 @@ shm_test.c.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/shm_test.c.s
 .PHONY : shm_test.c.s
 
+shm_test2.o: shm_test2.c.o
+.PHONY : shm_test2.o
+
+# target to build an object file
+shm_test2.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/shm_test2.c.o
+.PHONY : shm_test2.c.o
+
+shm_test2.i: shm_test2.c.i
+.PHONY : shm_test2.i
+
+# target to preprocess a source file
+shm_test2.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/shm_test2.c.i
+.PHONY : shm_test2.c.i
+
+shm_test2.s: shm_test2.c.s
+.PHONY : shm_test2.s
+
+# target to generate assembly for a file
+shm_test2.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/shm_test2.c.s
+.PHONY : shm_test2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +390,34 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... pipe"
+	@echo "... shm_client"
+	@echo "... shm_semaphore"
+	@echo "... shm_semaphore2"
+	@echo "... shm_server"
 	@echo "... shm_test"
+	@echo "... shm_test2"
+	@echo "... pipe.o"
+	@echo "... pipe.i"
+	@echo "... pipe.s"
+	@echo "... shm_client.o"
+	@echo "... shm_client.i"
+	@echo "... shm_client.s"
+	@echo "... shm_semaphore.o"
+	@echo "... shm_semaphore.i"
+	@echo "... shm_semaphore.s"
+	@echo "... shm_semaphore2.o"
+	@echo "... shm_semaphore2.i"
+	@echo "... shm_semaphore2.s"
+	@echo "... shm_server.o"
+	@echo "... shm_server.i"
+	@echo "... shm_server.s"
 	@echo "... shm_test.o"
 	@echo "... shm_test.i"
 	@echo "... shm_test.s"
+	@echo "... shm_test2.o"
+	@echo "... shm_test2.i"
+	@echo "... shm_test2.s"
 .PHONY : help
 
 

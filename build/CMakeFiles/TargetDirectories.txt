@@ -108,6 +108,12 @@
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/ex9_forward.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/smartpoint/CMakeFiles/rebuild_cache.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/pipe.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/shm_client.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/shm_semaphore.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/shm_semaphore2.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/shm_server.dir
 /home/bangme/bangme/bangme/build/network/CMakeFiles/shm_test.dir
+/home/bangme/bangme/bangme/build/network/CMakeFiles/shm_test2.dir
 /home/bangme/bangme/bangme/build/network/CMakeFiles/edit_cache.dir
 /home/bangme/bangme/bangme/build/network/CMakeFiles/rebuild_cache.dir

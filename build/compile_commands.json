@@ -476,7 +476,37 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe.dir/pipe.c.o -c /home/bangme/bangme/bangme/network/pipe.c",
+  "file": "/home/bangme/bangme/bangme/network/pipe.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_client.dir/shm_client.c.o -c /home/bangme/bangme/bangme/network/shm_client.c",
+  "file": "/home/bangme/bangme/bangme/network/shm_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o -c /home/bangme/bangme/bangme/network/shm_semaphore.c",
+  "file": "/home/bangme/bangme/bangme/network/shm_semaphore.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o -c /home/bangme/bangme/bangme/network/shm_semaphore2.c",
+  "file": "/home/bangme/bangme/bangme/network/shm_semaphore2.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_server.dir/shm_server.c.o -c /home/bangme/bangme/bangme/network/shm_server.c",
+  "file": "/home/bangme/bangme/bangme/network/shm_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
   "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test.dir/shm_test.c.o -c /home/bangme/bangme/bangme/network/shm_test.c",
   "file": "/home/bangme/bangme/bangme/network/shm_test.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/bangme/bangme/bangme/network/shm_test2.c",
+  "file": "/home/bangme/bangme/bangme/network/shm_test2.c"
 }
 ]
