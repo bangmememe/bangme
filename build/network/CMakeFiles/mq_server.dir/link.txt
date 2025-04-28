@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/mq_server.dir/mq_server.c.o -o mq_server 

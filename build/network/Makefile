@@ -117,6 +117,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+network/CMakeFiles/mq_client.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/mq_client.dir/rule
+.PHONY : network/CMakeFiles/mq_client.dir/rule
+
+# Convenience name for target.
+mq_client: network/CMakeFiles/mq_client.dir/rule
+.PHONY : mq_client
+
+# fast build rule for target.
+mq_client/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/build
+.PHONY : mq_client/fast
+
+# Convenience name for target.
+network/CMakeFiles/mq_server.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/mq_server.dir/rule
+.PHONY : network/CMakeFiles/mq_server.dir/rule
+
+# Convenience name for target.
+mq_server: network/CMakeFiles/mq_server.dir/rule
+.PHONY : mq_server
+
+# fast build rule for target.
+mq_server/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/build
+.PHONY : mq_server/fast
+
+# Convenience name for target.
 network/CMakeFiles/pipe.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe.dir/rule
 .PHONY : network/CMakeFiles/pipe.dir/rule
@@ -129,6 +157,34 @@ pipe: network/CMakeFiles/pipe.dir/rule
 pipe/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/build
 .PHONY : pipe/fast
+
+# Convenience name for target.
+network/CMakeFiles/pipe_client.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe_client.dir/rule
+.PHONY : network/CMakeFiles/pipe_client.dir/rule
+
+# Convenience name for target.
+pipe_client: network/CMakeFiles/pipe_client.dir/rule
+.PHONY : pipe_client
+
+# fast build rule for target.
+pipe_client/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/build
+.PHONY : pipe_client/fast
+
+# Convenience name for target.
+network/CMakeFiles/pipe_server.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe_server.dir/rule
+.PHONY : network/CMakeFiles/pipe_server.dir/rule
+
+# Convenience name for target.
+pipe_server: network/CMakeFiles/pipe_server.dir/rule
+.PHONY : pipe_server
+
+# fast build rule for target.
+pipe_server/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/build
+.PHONY : pipe_server/fast
 
 # Convenience name for target.
 network/CMakeFiles/shm_client.dir/rule:
@@ -214,6 +270,54 @@ shm_test2/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/build
 .PHONY : shm_test2/fast
 
+mq_client.o: mq_client.c.o
+.PHONY : mq_client.o
+
+# target to build an object file
+mq_client.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/mq_client.c.o
+.PHONY : mq_client.c.o
+
+mq_client.i: mq_client.c.i
+.PHONY : mq_client.i
+
+# target to preprocess a source file
+mq_client.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/mq_client.c.i
+.PHONY : mq_client.c.i
+
+mq_client.s: mq_client.c.s
+.PHONY : mq_client.s
+
+# target to generate assembly for a file
+mq_client.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/mq_client.c.s
+.PHONY : mq_client.c.s
+
+mq_server.o: mq_server.c.o
+.PHONY : mq_server.o
+
+# target to build an object file
+mq_server.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/mq_server.c.o
+.PHONY : mq_server.c.o
+
+mq_server.i: mq_server.c.i
+.PHONY : mq_server.i
+
+# target to preprocess a source file
+mq_server.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/mq_server.c.i
+.PHONY : mq_server.c.i
+
+mq_server.s: mq_server.c.s
+.PHONY : mq_server.s
+
+# target to generate assembly for a file
+mq_server.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/mq_server.c.s
+.PHONY : mq_server.c.s
+
 pipe.o: pipe.c.o
 .PHONY : pipe.o
 
@@ -237,6 +341,54 @@ pipe.s: pipe.c.s
 pipe.c.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/pipe.c.s
 .PHONY : pipe.c.s
+
+pipe_client.o: pipe_client.c.o
+.PHONY : pipe_client.o
+
+# target to build an object file
+pipe_client.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/pipe_client.c.o
+.PHONY : pipe_client.c.o
+
+pipe_client.i: pipe_client.c.i
+.PHONY : pipe_client.i
+
+# target to preprocess a source file
+pipe_client.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/pipe_client.c.i
+.PHONY : pipe_client.c.i
+
+pipe_client.s: pipe_client.c.s
+.PHONY : pipe_client.s
+
+# target to generate assembly for a file
+pipe_client.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/pipe_client.c.s
+.PHONY : pipe_client.c.s
+
+pipe_server.o: pipe_server.c.o
+.PHONY : pipe_server.o
+
+# target to build an object file
+pipe_server.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/pipe_server.c.o
+.PHONY : pipe_server.c.o
+
+pipe_server.i: pipe_server.c.i
+.PHONY : pipe_server.i
+
+# target to preprocess a source file
+pipe_server.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/pipe_server.c.i
+.PHONY : pipe_server.c.i
+
+pipe_server.s: pipe_server.c.s
+.PHONY : pipe_server.s
+
+# target to generate assembly for a file
+pipe_server.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/pipe_server.c.s
+.PHONY : pipe_server.c.s
 
 shm_client.o: shm_client.c.o
 .PHONY : shm_client.o
@@ -390,16 +542,32 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... mq_client"
+	@echo "... mq_server"
 	@echo "... pipe"
+	@echo "... pipe_client"
+	@echo "... pipe_server"
 	@echo "... shm_client"
 	@echo "... shm_semaphore"
 	@echo "... shm_semaphore2"
 	@echo "... shm_server"
 	@echo "... shm_test"
 	@echo "... shm_test2"
+	@echo "... mq_client.o"
+	@echo "... mq_client.i"
+	@echo "... mq_client.s"
+	@echo "... mq_server.o"
+	@echo "... mq_server.i"
+	@echo "... mq_server.s"
 	@echo "... pipe.o"
 	@echo "... pipe.i"
 	@echo "... pipe.s"
+	@echo "... pipe_client.o"
+	@echo "... pipe_client.i"
+	@echo "... pipe_client.s"
+	@echo "... pipe_server.o"
+	@echo "... pipe_server.i"
+	@echo "... pipe_server.s"
 	@echo "... shm_client.o"
 	@echo "... shm_client.i"
 	@echo "... shm_client.s"

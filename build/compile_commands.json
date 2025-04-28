@@ -476,8 +476,28 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_client.dir/mq_client.c.o -c /home/bangme/bangme/bangme/network/mq_client.c",
+  "file": "/home/bangme/bangme/bangme/network/mq_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_server.dir/mq_server.c.o -c /home/bangme/bangme/bangme/network/mq_server.c",
+  "file": "/home/bangme/bangme/bangme/network/mq_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
   "command": "/usr/bin/cc   -g -o CMakeFiles/pipe.dir/pipe.c.o -c /home/bangme/bangme/bangme/network/pipe.c",
   "file": "/home/bangme/bangme/bangme/network/pipe.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/bangme/bangme/bangme/network/pipe_client.c",
+  "file": "/home/bangme/bangme/bangme/network/pipe_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/bangme/bangme/bangme/network/pipe_server.c",
+  "file": "/home/bangme/bangme/bangme/network/pipe_server.c"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/network",

@@ -49,9 +49,9 @@
 						64,
 						65,
 						66,
-						68,
-						83,
-						92
+						70,
+						87,
+						96
 					]
 				},
 				{
@@ -99,19 +99,19 @@
 						59,
 						61,
 						62,
-						70,
-						71,
-						73,
 						74,
-						76,
-						84,
-						87,
+						75,
+						77,
+						78,
+						80,
 						88,
-						89,
-						90,
 						91,
+						92,
 						93,
-						94
+						94,
+						95,
+						97,
+						98
 					]
 				},
 				{
@@ -156,7 +156,7 @@
 					"source" : "a3/myRandom",
 					"targetIndexes" : 
 					[
-						67
+						69
 					]
 				},
 				{
@@ -171,7 +171,7 @@
 					"source" : "a3/string",
 					"targetIndexes" : 
 					[
-						85
+						89
 					]
 				},
 				{
@@ -186,7 +186,7 @@
 					"source" : "project",
 					"targetIndexes" : 
 					[
-						72
+						76
 					]
 				},
 				{
@@ -222,8 +222,8 @@
 						49,
 						50,
 						52,
-						75,
-						86
+						79,
+						90
 					]
 				},
 				{
@@ -268,13 +268,17 @@
 					"source" : "network",
 					"targetIndexes" : 
 					[
-						69,
-						77,
-						78,
-						79,
-						80,
+						67,
+						68,
+						71,
+						72,
+						73,
 						81,
-						82
+						82,
+						83,
+						84,
+						85,
+						86
 					]
 				}
 			],
@@ -320,9 +324,9 @@
 						64,
 						65,
 						66,
-						68,
-						83,
-						92
+						70,
+						87,
+						96
 					]
 				},
 				{
@@ -364,19 +368,19 @@
 						59,
 						61,
 						62,
-						70,
-						71,
-						73,
 						74,
-						76,
-						84,
-						87,
+						75,
+						77,
+						78,
+						80,
 						88,
-						89,
-						90,
 						91,
+						92,
 						93,
-						94
+						94,
+						95,
+						97,
+						98
 					]
 				},
 				{
@@ -412,7 +416,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						67
+						69
 					]
 				},
 				{
@@ -424,7 +428,7 @@
 					"parentIndex" : 3,
 					"targetIndexes" : 
 					[
-						85
+						89
 					]
 				},
 				{
@@ -436,7 +440,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						72
+						76
 					]
 				},
 				{
@@ -469,8 +473,8 @@
 						49,
 						50,
 						52,
-						75,
-						86
+						79,
+						90
 					]
 				},
 				{
@@ -509,13 +513,17 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						69,
-						77,
-						78,
-						79,
-						80,
+						67,
+						68,
+						71,
+						72,
+						73,
 						81,
-						82
+						82,
+						83,
+						84,
+						85,
+						86
 					]
 				}
 			],
@@ -991,6 +999,20 @@
 					"projectIndex" : 1
 				},
 				{
+					"directoryIndex" : 11,
+					"id" : "mq_client::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-mq_client-Debug-9cbcc9a93b19ca65f878.json",
+					"name" : "mq_client",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "mq_server::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-mq_server-Debug-310edc601a2905acc563.json",
+					"name" : "mq_server",
+					"projectIndex" : 11
+				},
+				{
 					"directoryIndex" : 6,
 					"id" : "myRandom::@ecb227bafdeb95cbe780",
 					"jsonFile" : "target-myRandom-Debug-8596b12d4e1befaaa281.json",
@@ -1009,6 +1031,20 @@
 					"id" : "pipe::@39732e8ab9fc593479e7",
 					"jsonFile" : "target-pipe-Debug-d6859c960718d1ed96ef.json",
 					"name" : "pipe",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "pipe_client::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-pipe_client-Debug-046e23e5f2df238a58d4.json",
+					"name" : "pipe_client",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "pipe_server::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-pipe_server-Debug-3a9e377daac06d841e94.json",
+					"name" : "pipe_server",
 					"projectIndex" : 11
 				},
 				{

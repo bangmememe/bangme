@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/pipe_sever.dir/pipe_sever.c.o -o pipe_sever 

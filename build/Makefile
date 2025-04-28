@@ -1261,6 +1261,32 @@ ex9_forward/fast:
 .PHONY : ex9_forward/fast
 
 #=============================================================================
+# Target rules for targets named mq_client
+
+# Build rule for target.
+mq_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mq_client
+.PHONY : mq_client
+
+# fast build rule for target.
+mq_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/build
+.PHONY : mq_client/fast
+
+#=============================================================================
+# Target rules for targets named mq_server
+
+# Build rule for target.
+mq_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mq_server
+.PHONY : mq_server
+
+# fast build rule for target.
+mq_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/build
+.PHONY : mq_server/fast
+
+#=============================================================================
 # Target rules for targets named pipe
 
 # Build rule for target.
@@ -1272,6 +1298,32 @@ pipe: cmake_check_build_system
 pipe/fast:
 	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/build
 .PHONY : pipe/fast
+
+#=============================================================================
+# Target rules for targets named pipe_client
+
+# Build rule for target.
+pipe_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_client
+.PHONY : pipe_client
+
+# fast build rule for target.
+pipe_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/build
+.PHONY : pipe_client/fast
+
+#=============================================================================
+# Target rules for targets named pipe_server
+
+# Build rule for target.
+pipe_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server
+.PHONY : pipe_server
+
+# fast build rule for target.
+pipe_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/build
+.PHONY : pipe_server/fast
 
 #=============================================================================
 # Target rules for targets named shm_client
@@ -1426,9 +1478,13 @@ help:
 	@echo "... infinit"
 	@echo "... limit"
 	@echo "... literal"
+	@echo "... mq_client"
+	@echo "... mq_server"
 	@echo "... myRandom"
 	@echo "... oddeven"
 	@echo "... pipe"
+	@echo "... pipe_client"
+	@echo "... pipe_server"
 	@echo "... pointer2"
 	@echo "... pointerConcept"
 	@echo "... project"
