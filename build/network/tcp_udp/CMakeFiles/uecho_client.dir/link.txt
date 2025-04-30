@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/uecho_client.dir/uecho_client.c.o -o uecho_client 

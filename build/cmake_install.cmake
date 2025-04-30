@@ -50,7 +50,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/bangme/bangme/bangme/build/project/cmake_install.cmake")
   include("/home/bangme/bangme/bangme/build/stl/cmake_install.cmake")
   include("/home/bangme/bangme/bangme/build/smartpoint/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/network/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/network/ipc/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/network/tcp_udp/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/network/util/cmake_install.cmake")
 
 endif()
 

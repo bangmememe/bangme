@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/inet_addr.dir/inet_addr.c.o -o inet_addr 

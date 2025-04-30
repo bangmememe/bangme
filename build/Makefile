@@ -1261,45 +1261,6 @@ ex9_forward/fast:
 .PHONY : ex9_forward/fast
 
 #=============================================================================
-# Target rules for targets named endian_conv
-
-# Build rule for target.
-endian_conv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endian_conv
-.PHONY : endian_conv
-
-# fast build rule for target.
-endian_conv/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/build
-.PHONY : endian_conv/fast
-
-#=============================================================================
-# Target rules for targets named hello_clinet
-
-# Build rule for target.
-hello_clinet: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_clinet
-.PHONY : hello_clinet
-
-# fast build rule for target.
-hello_clinet/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/build
-.PHONY : hello_clinet/fast
-
-#=============================================================================
-# Target rules for targets named hello_server
-
-# Build rule for target.
-hello_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_server
-.PHONY : hello_server
-
-# fast build rule for target.
-hello_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/build
-.PHONY : hello_server/fast
-
-#=============================================================================
 # Target rules for targets named mq_client
 
 # Build rule for target.
@@ -1309,7 +1270,7 @@ mq_client: cmake_check_build_system
 
 # fast build rule for target.
 mq_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_client.dir/build.make network/ipc/CMakeFiles/mq_client.dir/build
 .PHONY : mq_client/fast
 
 #=============================================================================
@@ -1322,7 +1283,7 @@ mq_server: cmake_check_build_system
 
 # fast build rule for target.
 mq_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_server.dir/build.make network/ipc/CMakeFiles/mq_server.dir/build
 .PHONY : mq_server/fast
 
 #=============================================================================
@@ -1335,7 +1296,7 @@ pipe: cmake_check_build_system
 
 # fast build rule for target.
 pipe/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe.dir/build.make network/ipc/CMakeFiles/pipe.dir/build
 .PHONY : pipe/fast
 
 #=============================================================================
@@ -1348,7 +1309,7 @@ pipe_client: cmake_check_build_system
 
 # fast build rule for target.
 pipe_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_client.dir/build.make network/ipc/CMakeFiles/pipe_client.dir/build
 .PHONY : pipe_client/fast
 
 #=============================================================================
@@ -1361,7 +1322,7 @@ pipe_server: cmake_check_build_system
 
 # fast build rule for target.
 pipe_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server.dir/build.make network/ipc/CMakeFiles/pipe_server.dir/build
 .PHONY : pipe_server/fast
 
 #=============================================================================
@@ -1374,7 +1335,7 @@ shm_client: cmake_check_build_system
 
 # fast build rule for target.
 shm_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_client.dir/build.make network/ipc/CMakeFiles/shm_client.dir/build
 .PHONY : shm_client/fast
 
 #=============================================================================
@@ -1387,7 +1348,7 @@ shm_semaphore: cmake_check_build_system
 
 # fast build rule for target.
 shm_semaphore/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore.dir/build.make network/ipc/CMakeFiles/shm_semaphore.dir/build
 .PHONY : shm_semaphore/fast
 
 #=============================================================================
@@ -1400,7 +1361,7 @@ shm_semaphore2: cmake_check_build_system
 
 # fast build rule for target.
 shm_semaphore2/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore2.dir/build.make network/ipc/CMakeFiles/shm_semaphore2.dir/build
 .PHONY : shm_semaphore2/fast
 
 #=============================================================================
@@ -1413,7 +1374,7 @@ shm_server: cmake_check_build_system
 
 # fast build rule for target.
 shm_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_server.dir/build.make network/ipc/CMakeFiles/shm_server.dir/build
 .PHONY : shm_server/fast
 
 #=============================================================================
@@ -1426,7 +1387,7 @@ shm_test: cmake_check_build_system
 
 # fast build rule for target.
 shm_test/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test.dir/build.make network/ipc/CMakeFiles/shm_test.dir/build
 .PHONY : shm_test/fast
 
 #=============================================================================
@@ -1439,8 +1400,203 @@ shm_test2: cmake_check_build_system
 
 # fast build rule for target.
 shm_test2/fast:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/build
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/build
 .PHONY : shm_test2/fast
+
+#=============================================================================
+# Target rules for targets named bound_host0
+
+# Build rule for target.
+bound_host0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bound_host0
+.PHONY : bound_host0
+
+# fast build rule for target.
+bound_host0/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host0.dir/build.make network/tcp_udp/CMakeFiles/bound_host0.dir/build
+.PHONY : bound_host0/fast
+
+#=============================================================================
+# Target rules for targets named bound_host1
+
+# Build rule for target.
+bound_host1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bound_host1
+.PHONY : bound_host1
+
+# fast build rule for target.
+bound_host1/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host1.dir/build.make network/tcp_udp/CMakeFiles/bound_host1.dir/build
+.PHONY : bound_host1/fast
+
+#=============================================================================
+# Target rules for targets named echo_client
+
+# Build rule for target.
+echo_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_client
+.PHONY : echo_client
+
+# fast build rule for target.
+echo_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_client.dir/build.make network/tcp_udp/CMakeFiles/echo_client.dir/build
+.PHONY : echo_client/fast
+
+#=============================================================================
+# Target rules for targets named echo_server
+
+# Build rule for target.
+echo_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_server
+.PHONY : echo_server
+
+# fast build rule for target.
+echo_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_server.dir/build.make network/tcp_udp/CMakeFiles/echo_server.dir/build
+.PHONY : echo_server/fast
+
+#=============================================================================
+# Target rules for targets named file_client
+
+# Build rule for target.
+file_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_client
+.PHONY : file_client
+
+# fast build rule for target.
+file_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_client.dir/build.make network/tcp_udp/CMakeFiles/file_client.dir/build
+.PHONY : file_client/fast
+
+#=============================================================================
+# Target rules for targets named file_server
+
+# Build rule for target.
+file_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_server
+.PHONY : file_server
+
+# fast build rule for target.
+file_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_server.dir/build.make network/tcp_udp/CMakeFiles/file_server.dir/build
+.PHONY : file_server/fast
+
+#=============================================================================
+# Target rules for targets named hello_clinet
+
+# Build rule for target.
+hello_clinet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_clinet
+.PHONY : hello_clinet
+
+# fast build rule for target.
+hello_clinet/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_clinet.dir/build.make network/tcp_udp/CMakeFiles/hello_clinet.dir/build
+.PHONY : hello_clinet/fast
+
+#=============================================================================
+# Target rules for targets named hello_server
+
+# Build rule for target.
+hello_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_server
+.PHONY : hello_server
+
+# fast build rule for target.
+hello_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_server.dir/build.make network/tcp_udp/CMakeFiles/hello_server.dir/build
+.PHONY : hello_server/fast
+
+#=============================================================================
+# Target rules for targets named info
+
+# Build rule for target.
+info: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 info
+.PHONY : info
+
+# fast build rule for target.
+info/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/info.dir/build.make network/tcp_udp/CMakeFiles/info.dir/build
+.PHONY : info/fast
+
+#=============================================================================
+# Target rules for targets named op_client
+
+# Build rule for target.
+op_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 op_client
+.PHONY : op_client
+
+# fast build rule for target.
+op_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_client.dir/build.make network/tcp_udp/CMakeFiles/op_client.dir/build
+.PHONY : op_client/fast
+
+#=============================================================================
+# Target rules for targets named op_server
+
+# Build rule for target.
+op_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 op_server
+.PHONY : op_server
+
+# fast build rule for target.
+op_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_server.dir/build.make network/tcp_udp/CMakeFiles/op_server.dir/build
+.PHONY : op_server/fast
+
+#=============================================================================
+# Target rules for targets named uecho_client
+
+# Build rule for target.
+uecho_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uecho_client
+.PHONY : uecho_client
+
+# fast build rule for target.
+uecho_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_client.dir/build.make network/tcp_udp/CMakeFiles/uecho_client.dir/build
+.PHONY : uecho_client/fast
+
+#=============================================================================
+# Target rules for targets named uecho_server
+
+# Build rule for target.
+uecho_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uecho_server
+.PHONY : uecho_server
+
+# fast build rule for target.
+uecho_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_server.dir/build.make network/tcp_udp/CMakeFiles/uecho_server.dir/build
+.PHONY : uecho_server/fast
+
+#=============================================================================
+# Target rules for targets named endian_conv
+
+# Build rule for target.
+endian_conv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endian_conv
+.PHONY : endian_conv
+
+# fast build rule for target.
+endian_conv/fast:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/endian_conv.dir/build.make network/util/CMakeFiles/endian_conv.dir/build
+.PHONY : endian_conv/fast
+
+#=============================================================================
+# Target rules for targets named inet_addr
+
+# Build rule for target.
+inet_addr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inet_addr
+.PHONY : inet_addr
+
+# fast build rule for target.
+inet_addr/fast:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/inet_addr.dir/build.make network/util/CMakeFiles/inet_addr.dir/build
+.PHONY : inet_addr/fast
 
 # Help Target
 help:
@@ -1455,6 +1611,8 @@ help:
 	@echo "... arrayAssignement"
 	@echo "... arrayCompare"
 	@echo "... arrayPointer"
+	@echo "... bound_host0"
+	@echo "... bound_host1"
 	@echo "... bubble"
 	@echo "... celsius2fahr"
 	@echo "... charAdress"
@@ -1465,6 +1623,8 @@ help:
 	@echo "... data_process"
 	@echo "... date"
 	@echo "... dynamicAllocation"
+	@echo "... echo_client"
+	@echo "... echo_server"
 	@echo "... endian"
 	@echo "... endian_conv"
 	@echo "... enumExample"
@@ -1508,6 +1668,8 @@ help:
 	@echo "... fflushEx"
 	@echo "... fileDescription"
 	@echo "... filePointer"
+	@echo "... file_client"
+	@echo "... file_server"
 	@echo "... fourBit"
 	@echo "... fourBit2"
 	@echo "... functionPointer"
@@ -1517,13 +1679,17 @@ help:
 	@echo "... hello_clinet"
 	@echo "... hello_server"
 	@echo "... increment"
+	@echo "... inet_addr"
 	@echo "... infinit"
+	@echo "... info"
 	@echo "... limit"
 	@echo "... literal"
 	@echo "... mq_client"
 	@echo "... mq_server"
 	@echo "... myRandom"
 	@echo "... oddeven"
+	@echo "... op_client"
+	@echo "... op_server"
 	@echo "... pipe"
 	@echo "... pipe_client"
 	@echo "... pipe_server"
@@ -1550,6 +1716,8 @@ help:
 	@echo "... swap"
 	@echo "... swapFunction"
 	@echo "... triangle"
+	@echo "... uecho_client"
+	@echo "... uecho_server"
 	@echo "... unionExample"
 	@echo "... voidPointer"
 .PHONY : help

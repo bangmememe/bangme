@@ -8,5 +8,7 @@ add_subdirectory(a3)
 add_subdirectory(project)
 add_subdirectory(stl)
 add_subdirectory(smartpoint)
-add_subdirectory(network)
+add_subdirectory(network/ipc)
+add_subdirectory(network/tcp_udp)
+add_subdirectory(network/util)
 

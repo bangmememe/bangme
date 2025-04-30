@@ -269,13 +269,22 @@ myRandom_IS_TOP_LEVEL:STATIC=OFF
 myRandom_SOURCE_DIR:STATIC=/home/bangme/bangme/bangme/a3/myRandom
 
 //Value Computed by CMake
-network_BINARY_DIR:STATIC=/home/bangme/bangme/bangme/build/network
+network_BINARY_DIR:STATIC=/home/bangme/bangme/bangme/build/network/util
 
 //Value Computed by CMake
 network_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-network_SOURCE_DIR:STATIC=/home/bangme/bangme/bangme/network
+network_SOURCE_DIR:STATIC=/home/bangme/bangme/bangme/network/util
+
+//Value Computed by CMake
+network_tcp_udp_BINARY_DIR:STATIC=/home/bangme/bangme/bangme/build/network/tcp_udp
+
+//Value Computed by CMake
+network_tcp_udp_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+network_tcp_udp_SOURCE_DIR:STATIC=/home/bangme/bangme/bangme/network/tcp_udp
 
 //Value Computed by CMake
 project_BINARY_DIR:STATIC=/home/bangme/bangme/bangme/build/project
@@ -407,7 +416,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

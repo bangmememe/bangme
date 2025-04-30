@@ -69,7 +69,9 @@ all: a3/all
 all: project/all
 all: stl/all
 all: smartpoint/all
-all: network/all
+all: network/ipc/all
+all: network/tcp_udp/all
+all: network/util/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,7 +81,9 @@ preinstall: a3/preinstall
 preinstall: project/preinstall
 preinstall: stl/preinstall
 preinstall: smartpoint/preinstall
-preinstall: network/preinstall
+preinstall: network/ipc/preinstall
+preinstall: network/tcp_udp/preinstall
+preinstall: network/util/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -89,7 +93,9 @@ clean: a3/clean
 clean: project/clean
 clean: stl/clean
 clean: smartpoint/clean
-clean: network/clean
+clean: network/ipc/clean
+clean: network/tcp_udp/clean
+clean: network/util/clean
 .PHONY : clean
 
 #=============================================================================
@@ -293,45 +299,95 @@ a3/string/clean: a3/string/CMakeFiles/string.dir/clean
 .PHONY : a3/string/clean
 
 #=============================================================================
-# Directory level rules for directory network
+# Directory level rules for directory network/ipc
 
 # Recursive "all" directory target.
-network/all: network/CMakeFiles/endian_conv.dir/all
-network/all: network/CMakeFiles/hello_clinet.dir/all
-network/all: network/CMakeFiles/hello_server.dir/all
-network/all: network/CMakeFiles/mq_client.dir/all
-network/all: network/CMakeFiles/mq_server.dir/all
-network/all: network/CMakeFiles/pipe.dir/all
-network/all: network/CMakeFiles/pipe_client.dir/all
-network/all: network/CMakeFiles/pipe_server.dir/all
-network/all: network/CMakeFiles/shm_client.dir/all
-network/all: network/CMakeFiles/shm_semaphore.dir/all
-network/all: network/CMakeFiles/shm_semaphore2.dir/all
-network/all: network/CMakeFiles/shm_server.dir/all
-network/all: network/CMakeFiles/shm_test.dir/all
-network/all: network/CMakeFiles/shm_test2.dir/all
-.PHONY : network/all
+network/ipc/all: network/ipc/CMakeFiles/mq_client.dir/all
+network/ipc/all: network/ipc/CMakeFiles/mq_server.dir/all
+network/ipc/all: network/ipc/CMakeFiles/pipe.dir/all
+network/ipc/all: network/ipc/CMakeFiles/pipe_client.dir/all
+network/ipc/all: network/ipc/CMakeFiles/pipe_server.dir/all
+network/ipc/all: network/ipc/CMakeFiles/shm_client.dir/all
+network/ipc/all: network/ipc/CMakeFiles/shm_semaphore.dir/all
+network/ipc/all: network/ipc/CMakeFiles/shm_semaphore2.dir/all
+network/ipc/all: network/ipc/CMakeFiles/shm_server.dir/all
+network/ipc/all: network/ipc/CMakeFiles/shm_test.dir/all
+network/ipc/all: network/ipc/CMakeFiles/shm_test2.dir/all
+.PHONY : network/ipc/all
 
 # Recursive "preinstall" directory target.
-network/preinstall:
-.PHONY : network/preinstall
+network/ipc/preinstall:
+.PHONY : network/ipc/preinstall
 
 # Recursive "clean" directory target.
-network/clean: network/CMakeFiles/endian_conv.dir/clean
-network/clean: network/CMakeFiles/hello_clinet.dir/clean
-network/clean: network/CMakeFiles/hello_server.dir/clean
-network/clean: network/CMakeFiles/mq_client.dir/clean
-network/clean: network/CMakeFiles/mq_server.dir/clean
-network/clean: network/CMakeFiles/pipe.dir/clean
-network/clean: network/CMakeFiles/pipe_client.dir/clean
-network/clean: network/CMakeFiles/pipe_server.dir/clean
-network/clean: network/CMakeFiles/shm_client.dir/clean
-network/clean: network/CMakeFiles/shm_semaphore.dir/clean
-network/clean: network/CMakeFiles/shm_semaphore2.dir/clean
-network/clean: network/CMakeFiles/shm_server.dir/clean
-network/clean: network/CMakeFiles/shm_test.dir/clean
-network/clean: network/CMakeFiles/shm_test2.dir/clean
-.PHONY : network/clean
+network/ipc/clean: network/ipc/CMakeFiles/mq_client.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/mq_server.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/pipe.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/pipe_client.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/pipe_server.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/shm_client.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/shm_semaphore.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/shm_semaphore2.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/shm_server.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/shm_test.dir/clean
+network/ipc/clean: network/ipc/CMakeFiles/shm_test2.dir/clean
+.PHONY : network/ipc/clean
+
+#=============================================================================
+# Directory level rules for directory network/tcp_udp
+
+# Recursive "all" directory target.
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/bound_host0.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/bound_host1.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/echo_client.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/echo_server.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/file_client.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/file_server.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/hello_clinet.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/hello_server.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/info.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/op_client.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/op_server.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/uecho_client.dir/all
+network/tcp_udp/all: network/tcp_udp/CMakeFiles/uecho_server.dir/all
+.PHONY : network/tcp_udp/all
+
+# Recursive "preinstall" directory target.
+network/tcp_udp/preinstall:
+.PHONY : network/tcp_udp/preinstall
+
+# Recursive "clean" directory target.
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/bound_host0.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/bound_host1.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/echo_client.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/echo_server.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/file_client.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/file_server.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/hello_clinet.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/hello_server.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/info.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/op_client.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/op_server.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/uecho_client.dir/clean
+network/tcp_udp/clean: network/tcp_udp/CMakeFiles/uecho_server.dir/clean
+.PHONY : network/tcp_udp/clean
+
+#=============================================================================
+# Directory level rules for directory network/util
+
+# Recursive "all" directory target.
+network/util/all: network/util/CMakeFiles/endian_conv.dir/all
+network/util/all: network/util/CMakeFiles/inet_addr.dir/all
+.PHONY : network/util/all
+
+# Recursive "preinstall" directory target.
+network/util/preinstall:
+.PHONY : network/util/preinstall
+
+# Recursive "clean" directory target.
+network/util/clean: network/util/CMakeFiles/endian_conv.dir/clean
+network/util/clean: network/util/CMakeFiles/inet_addr.dir/clean
+.PHONY : network/util/clean
 
 #=============================================================================
 # Directory level rules for directory project
@@ -485,7 +541,7 @@ a1/CMakeFiles/arithmetics.dir/clean:
 a1/CMakeFiles/celsius2fahr.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=7 "Built target celsius2fahr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=8 "Built target celsius2fahr"
 .PHONY : a1/CMakeFiles/celsius2fahr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -537,7 +593,7 @@ a1/CMakeFiles/charNumber.dir/clean:
 a1/CMakeFiles/compare.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=10 "Built target compare"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=11 "Built target compare"
 .PHONY : a1/CMakeFiles/compare.dir/all
 
 # Build rule for subdir invocation for target.
@@ -563,7 +619,7 @@ a1/CMakeFiles/compare.dir/clean:
 a1/CMakeFiles/compare2.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=11 "Built target compare2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=12 "Built target compare2"
 .PHONY : a1/CMakeFiles/compare2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -589,7 +645,7 @@ a1/CMakeFiles/compare2.dir/clean:
 a1/CMakeFiles/fahr2celsius.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=53 "Built target fahr2celsius"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=51 "Built target fahr2celsius"
 .PHONY : a1/CMakeFiles/fahr2celsius.dir/all
 
 # Build rule for subdir invocation for target.
@@ -615,7 +671,7 @@ a1/CMakeFiles/fahr2celsius.dir/clean:
 a1/CMakeFiles/fourBit.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=57 "Built target fourBit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=56 "Built target fourBit"
 .PHONY : a1/CMakeFiles/fourBit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -641,7 +697,7 @@ a1/CMakeFiles/fourBit.dir/clean:
 a1/CMakeFiles/fourBit2.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=58 "Built target fourBit2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=57 "Built target fourBit2"
 .PHONY : a1/CMakeFiles/fourBit2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -667,7 +723,7 @@ a1/CMakeFiles/fourBit2.dir/clean:
 a1/CMakeFiles/genderRatio.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=60 "Built target genderRatio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=59 "Built target genderRatio"
 .PHONY : a1/CMakeFiles/genderRatio.dir/all
 
 # Build rule for subdir invocation for target.
@@ -693,7 +749,7 @@ a1/CMakeFiles/genderRatio.dir/clean:
 a1/CMakeFiles/increment.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=64 "Built target increment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=63 "Built target increment"
 .PHONY : a1/CMakeFiles/increment.dir/all
 
 # Build rule for subdir invocation for target.
@@ -797,7 +853,7 @@ a1/CMakeFiles/literal.dir/clean:
 a1/CMakeFiles/oddeven.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=72 "Built target oddeven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=71 "Built target oddeven"
 .PHONY : a1/CMakeFiles/oddeven.dir/all
 
 # Build rule for subdir invocation for target.
@@ -823,7 +879,7 @@ a1/CMakeFiles/oddeven.dir/clean:
 a1/CMakeFiles/sizeof.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=89 "Built target sizeof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=88 "Built target sizeof"
 .PHONY : a1/CMakeFiles/sizeof.dir/all
 
 # Build rule for subdir invocation for target.
@@ -849,7 +905,7 @@ a1/CMakeFiles/sizeof.dir/clean:
 a1/CMakeFiles/triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=98 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=96 "Built target triangle"
 .PHONY : a1/CMakeFiles/triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -875,12 +931,12 @@ a1/CMakeFiles/triangle.dir/clean:
 a3/CMakeFiles/arrayAssignement.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=3 "Built target arrayAssignement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target arrayAssignement"
 .PHONY : a3/CMakeFiles/arrayAssignement.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/arrayAssignement.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/arrayAssignement.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/arrayAssignement.dir/rule
@@ -901,7 +957,7 @@ a3/CMakeFiles/arrayAssignement.dir/clean:
 a3/CMakeFiles/arrayCompare.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=4 "Built target arrayCompare"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=3 "Built target arrayCompare"
 .PHONY : a3/CMakeFiles/arrayCompare.dir/all
 
 # Build rule for subdir invocation for target.
@@ -927,7 +983,7 @@ a3/CMakeFiles/arrayCompare.dir/clean:
 a3/CMakeFiles/arrayPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=5 "Built target arrayPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=4 "Built target arrayPointer"
 .PHONY : a3/CMakeFiles/arrayPointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -953,7 +1009,7 @@ a3/CMakeFiles/arrayPointer.dir/clean:
 a3/CMakeFiles/bubble.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=6 "Built target bubble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=7 "Built target bubble"
 .PHONY : a3/CMakeFiles/bubble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -979,12 +1035,12 @@ a3/CMakeFiles/bubble.dir/clean:
 a3/CMakeFiles/charAdress.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=8 "Built target charAdress"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target charAdress"
 .PHONY : a3/CMakeFiles/charAdress.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/charAdress.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/charAdress.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/charAdress.dir/rule
@@ -1005,12 +1061,12 @@ a3/CMakeFiles/charAdress.dir/clean:
 a3/CMakeFiles/charPointerOperation.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target charPointerOperation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=10 "Built target charPointerOperation"
 .PHONY : a3/CMakeFiles/charPointerOperation.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/charPointerOperation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/charPointerOperation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/charPointerOperation.dir/rule
@@ -1057,7 +1113,7 @@ a3/CMakeFiles/dynamicAllocation.dir/clean:
 a3/CMakeFiles/endian.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=16 "Built target endian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=18 "Built target endian"
 .PHONY : a3/CMakeFiles/endian.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1083,7 +1139,7 @@ a3/CMakeFiles/endian.dir/clean:
 a3/CMakeFiles/enumExample.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=18 "Built target enumExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=20 "Built target enumExample"
 .PHONY : a3/CMakeFiles/enumExample.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1109,7 +1165,7 @@ a3/CMakeFiles/enumExample.dir/clean:
 a3/CMakeFiles/fflushEx.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=54 "Built target fflushEx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=52 "Built target fflushEx"
 .PHONY : a3/CMakeFiles/fflushEx.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1135,7 +1191,7 @@ a3/CMakeFiles/fflushEx.dir/clean:
 a3/CMakeFiles/fileDescription.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=55 "Built target fileDescription"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=53 "Built target fileDescription"
 .PHONY : a3/CMakeFiles/fileDescription.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1161,7 +1217,7 @@ a3/CMakeFiles/fileDescription.dir/clean:
 a3/CMakeFiles/filePointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=56 "Built target filePointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=54 "Built target filePointer"
 .PHONY : a3/CMakeFiles/filePointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1187,7 +1243,7 @@ a3/CMakeFiles/filePointer.dir/clean:
 a3/CMakeFiles/functionPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=59 "Built target functionPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=58 "Built target functionPointer"
 .PHONY : a3/CMakeFiles/functionPointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1213,7 +1269,7 @@ a3/CMakeFiles/functionPointer.dir/clean:
 a3/CMakeFiles/getSeries.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=61 "Built target getSeries"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=60 "Built target getSeries"
 .PHONY : a3/CMakeFiles/getSeries.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1239,12 +1295,12 @@ a3/CMakeFiles/getSeries.dir/clean:
 a3/CMakeFiles/helloStr.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=62 "Built target helloStr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target helloStr"
 .PHONY : a3/CMakeFiles/helloStr.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/helloStr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/helloStr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/helloStr.dir/rule
@@ -1265,7 +1321,7 @@ a3/CMakeFiles/helloStr.dir/clean:
 a3/CMakeFiles/pointer2.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=75 "Built target pointer2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=76 "Built target pointer2"
 .PHONY : a3/CMakeFiles/pointer2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1291,7 +1347,7 @@ a3/CMakeFiles/pointer2.dir/clean:
 a3/CMakeFiles/pointerConcept.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=76 "Built target pointerConcept"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=77 "Built target pointerConcept"
 .PHONY : a3/CMakeFiles/pointerConcept.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1395,7 +1451,7 @@ a3/CMakeFiles/selection.dir/clean:
 a3/CMakeFiles/strcatExample.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=90 "Built target strcatExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=89 "Built target strcatExample"
 .PHONY : a3/CMakeFiles/strcatExample.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1421,7 +1477,7 @@ a3/CMakeFiles/strcatExample.dir/clean:
 a3/CMakeFiles/sumArrayFunction.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=93 "Built target sumArrayFunction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=92 "Built target sumArrayFunction"
 .PHONY : a3/CMakeFiles/sumArrayFunction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1447,7 +1503,7 @@ a3/CMakeFiles/sumArrayFunction.dir/clean:
 a3/CMakeFiles/sumMatrixFunction.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=94 "Built target sumMatrixFunction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=93 "Built target sumMatrixFunction"
 .PHONY : a3/CMakeFiles/sumMatrixFunction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1473,7 +1529,7 @@ a3/CMakeFiles/sumMatrixFunction.dir/clean:
 a3/CMakeFiles/sumMatrixFunction2.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=95 "Built target sumMatrixFunction2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=94 "Built target sumMatrixFunction2"
 .PHONY : a3/CMakeFiles/sumMatrixFunction2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1499,12 +1555,12 @@ a3/CMakeFiles/sumMatrixFunction2.dir/clean:
 a3/CMakeFiles/swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=96 "Built target swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target swap"
 .PHONY : a3/CMakeFiles/swap.dir/all
 
 # Build rule for subdir invocation for target.
 a3/CMakeFiles/swap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/CMakeFiles/swap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/CMakeFiles/swap.dir/rule
@@ -1525,7 +1581,7 @@ a3/CMakeFiles/swap.dir/clean:
 a3/CMakeFiles/swapFunction.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=97 "Built target swapFunction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=95 "Built target swapFunction"
 .PHONY : a3/CMakeFiles/swapFunction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1655,12 +1711,12 @@ a3/date/CMakeFiles/date.dir/clean:
 a3/myRandom/CMakeFiles/myRandom.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=70,71 "Built target myRandom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=70 "Built target myRandom"
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/all
 
 # Build rule for subdir invocation for target.
 a3/myRandom/CMakeFiles/myRandom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a3/myRandom/CMakeFiles/myRandom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : a3/myRandom/CMakeFiles/myRandom.dir/rule
@@ -1681,7 +1737,7 @@ a3/myRandom/CMakeFiles/myRandom.dir/clean:
 a3/string/CMakeFiles/string.dir/all:
 	$(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/depend
 	$(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=91 "Built target string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=90 "Built target string"
 .PHONY : a3/string/CMakeFiles/string.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1707,12 +1763,12 @@ a3/string/CMakeFiles/string.dir/clean:
 project/CMakeFiles/project.dir/all:
 	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/depend
 	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=77,78 "Built target project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=78 "Built target project"
 .PHONY : project/CMakeFiles/project.dir/all
 
 # Build rule for subdir invocation for target.
 project/CMakeFiles/project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project/CMakeFiles/project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : project/CMakeFiles/project.dir/rule
@@ -1733,12 +1789,12 @@ project/CMakeFiles/project.dir/clean:
 stl/CMakeFiles/ex10_forClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=19 "Built target ex10_forClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex10_forClass"
 .PHONY : stl/CMakeFiles/ex10_forClass.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex10_forClass.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex10_forClass.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex10_forClass.dir/rule
@@ -1759,7 +1815,7 @@ stl/CMakeFiles/ex10_forClass.dir/clean:
 stl/CMakeFiles/ex11_Nullptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=21 "Built target ex11_Nullptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=22 "Built target ex11_Nullptr"
 .PHONY : stl/CMakeFiles/ex11_Nullptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1785,7 +1841,7 @@ stl/CMakeFiles/ex11_Nullptr.dir/clean:
 stl/CMakeFiles/ex12_constexprestion.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=23 "Built target ex12_constexprestion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=24 "Built target ex12_constexprestion"
 .PHONY : stl/CMakeFiles/ex12_constexprestion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1811,12 +1867,12 @@ stl/CMakeFiles/ex12_constexprestion.dir/clean:
 stl/CMakeFiles/ex13_array.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=25 "Built target ex13_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex13_array"
 .PHONY : stl/CMakeFiles/ex13_array.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex13_array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex13_array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex13_array.dir/rule
@@ -1837,12 +1893,12 @@ stl/CMakeFiles/ex13_array.dir/clean:
 stl/CMakeFiles/ex14_priority_queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex14_priority_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=28 "Built target ex14_priority_queue"
 .PHONY : stl/CMakeFiles/ex14_priority_queue.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex14_priority_queue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex14_priority_queue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex14_priority_queue.dir/rule
@@ -1863,7 +1919,7 @@ stl/CMakeFiles/ex14_priority_queue.dir/clean:
 stl/CMakeFiles/ex15_unordered_map.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=29 "Built target ex15_unordered_map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=30 "Built target ex15_unordered_map"
 .PHONY : stl/CMakeFiles/ex15_unordered_map.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1889,12 +1945,12 @@ stl/CMakeFiles/ex15_unordered_map.dir/clean:
 stl/CMakeFiles/ex16_transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=31 "Built target ex16_transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex16_transform"
 .PHONY : stl/CMakeFiles/ex16_transform.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex16_transform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex16_transform.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex16_transform.dir/rule
@@ -2019,12 +2075,12 @@ stl/CMakeFiles/ex1_vector.dir/clean:
 stl/CMakeFiles/ex2_string_vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=38 "Built target ex2_string_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex2_string_vector"
 .PHONY : stl/CMakeFiles/ex2_string_vector.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex2_string_vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex2_string_vector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex2_string_vector.dir/rule
@@ -2045,7 +2101,7 @@ stl/CMakeFiles/ex2_string_vector.dir/clean:
 stl/CMakeFiles/ex3_longest.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=40 "Built target ex3_longest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=39 "Built target ex3_longest"
 .PHONY : stl/CMakeFiles/ex3_longest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2071,7 +2127,7 @@ stl/CMakeFiles/ex3_longest.dir/clean:
 stl/CMakeFiles/ex4_string.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=42 "Built target ex4_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=41 "Built target ex4_string"
 .PHONY : stl/CMakeFiles/ex4_string.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2097,12 +2153,12 @@ stl/CMakeFiles/ex4_string.dir/clean:
 stl/CMakeFiles/ex5_string_find.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=44 "Built target ex5_string_find"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex5_string_find"
 .PHONY : stl/CMakeFiles/ex5_string_find.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex5_string_find.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex5_string_find.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex5_string_find.dir/rule
@@ -2123,7 +2179,7 @@ stl/CMakeFiles/ex5_string_find.dir/clean:
 stl/CMakeFiles/ex6_iterator.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=45 "Built target ex6_iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=43 "Built target ex6_iterator"
 .PHONY : stl/CMakeFiles/ex6_iterator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2149,7 +2205,7 @@ stl/CMakeFiles/ex6_iterator.dir/clean:
 stl/CMakeFiles/ex7_map.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=46 "Built target ex7_map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=45 "Built target ex7_map"
 .PHONY : stl/CMakeFiles/ex7_map.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2175,7 +2231,7 @@ stl/CMakeFiles/ex7_map.dir/clean:
 stl/CMakeFiles/ex8_vector_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=49 "Built target ex8_vector_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=48 "Built target ex8_vector_list"
 .PHONY : stl/CMakeFiles/ex8_vector_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2201,12 +2257,12 @@ stl/CMakeFiles/ex8_vector_list.dir/clean:
 stl/CMakeFiles/ex8_vector_list2.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=50 "Built target ex8_vector_list2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex8_vector_list2"
 .PHONY : stl/CMakeFiles/ex8_vector_list2.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/ex8_vector_list2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/ex8_vector_list2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/ex8_vector_list2.dir/rule
@@ -2227,7 +2283,7 @@ stl/CMakeFiles/ex8_vector_list2.dir/clean:
 stl/CMakeFiles/ex9_lambda.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=52 "Built target ex9_lambda"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=50 "Built target ex9_lambda"
 .PHONY : stl/CMakeFiles/ex9_lambda.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2253,7 +2309,7 @@ stl/CMakeFiles/ex9_lambda.dir/clean:
 stl/CMakeFiles/student_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=92 "Built target student_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=91 "Built target student_example"
 .PHONY : stl/CMakeFiles/student_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2279,12 +2335,12 @@ stl/CMakeFiles/student_example.dir/clean:
 stl/CMakeFiles/data_process.dir/all:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/depend
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=12,13 "Built target data_process"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=13 "Built target data_process"
 .PHONY : stl/CMakeFiles/data_process.dir/all
 
 # Build rule for subdir invocation for target.
 stl/CMakeFiles/data_process.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl/CMakeFiles/data_process.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : stl/CMakeFiles/data_process.dir/rule
@@ -2331,7 +2387,7 @@ stl/CMakeFiles/range_example.dir/clean:
 smartpoint/CMakeFiles/ex10_moveVector.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=20 "Built target ex10_moveVector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=21 "Built target ex10_moveVector"
 .PHONY : smartpoint/CMakeFiles/ex10_moveVector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2357,7 +2413,7 @@ smartpoint/CMakeFiles/ex10_moveVector.dir/clean:
 smartpoint/CMakeFiles/ex11_moveClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=22 "Built target ex11_moveClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=23 "Built target ex11_moveClass"
 .PHONY : smartpoint/CMakeFiles/ex11_moveClass.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2383,7 +2439,7 @@ smartpoint/CMakeFiles/ex11_moveClass.dir/clean:
 smartpoint/CMakeFiles/ex12_vriantOptional.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=24 "Built target ex12_vriantOptional"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=25 "Built target ex12_vriantOptional"
 .PHONY : smartpoint/CMakeFiles/ex12_vriantOptional.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2461,7 +2517,7 @@ smartpoint/CMakeFiles/ex14_anyncFuture.dir/clean:
 smartpoint/CMakeFiles/ex15_multyThreadTask.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=28 "Built target ex15_multyThreadTask"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=29 "Built target ex15_multyThreadTask"
 .PHONY : smartpoint/CMakeFiles/ex15_multyThreadTask.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2487,7 +2543,7 @@ smartpoint/CMakeFiles/ex15_multyThreadTask.dir/clean:
 smartpoint/CMakeFiles/ex16_fianlModernExample.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=30 "Built target ex16_fianlModernExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=31 "Built target ex16_fianlModernExample"
 .PHONY : smartpoint/CMakeFiles/ex16_fianlModernExample.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2565,7 +2621,7 @@ smartpoint/CMakeFiles/ex2_moveOperator.dir/clean:
 smartpoint/CMakeFiles/ex3_deleter.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=39 "Built target ex3_deleter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=38 "Built target ex3_deleter"
 .PHONY : smartpoint/CMakeFiles/ex3_deleter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2591,7 +2647,7 @@ smartpoint/CMakeFiles/ex3_deleter.dir/clean:
 smartpoint/CMakeFiles/ex4_shared_ptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=41 "Built target ex4_shared_ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=40 "Built target ex4_shared_ptr"
 .PHONY : smartpoint/CMakeFiles/ex4_shared_ptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2617,7 +2673,7 @@ smartpoint/CMakeFiles/ex4_shared_ptr.dir/clean:
 smartpoint/CMakeFiles/ex5_memoryleak.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=43 "Built target ex5_memoryleak"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=42 "Built target ex5_memoryleak"
 .PHONY : smartpoint/CMakeFiles/ex5_memoryleak.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2643,12 +2699,12 @@ smartpoint/CMakeFiles/ex5_memoryleak.dir/clean:
 smartpoint/CMakeFiles/ex6_weakedPtr.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target ex6_weakedPtr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=44 "Built target ex6_weakedPtr"
 .PHONY : smartpoint/CMakeFiles/ex6_weakedPtr.dir/all
 
 # Build rule for subdir invocation for target.
 smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartpoint/CMakeFiles/ex6_weakedPtr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
 .PHONY : smartpoint/CMakeFiles/ex6_weakedPtr.dir/rule
@@ -2669,7 +2725,7 @@ smartpoint/CMakeFiles/ex6_weakedPtr.dir/clean:
 smartpoint/CMakeFiles/ex7_vectorSmart.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=47 "Built target ex7_vectorSmart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=46 "Built target ex7_vectorSmart"
 .PHONY : smartpoint/CMakeFiles/ex7_vectorSmart.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2695,7 +2751,7 @@ smartpoint/CMakeFiles/ex7_vectorSmart.dir/clean:
 smartpoint/CMakeFiles/ex8_treeSmart.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=48 "Built target ex8_treeSmart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=47 "Built target ex8_treeSmart"
 .PHONY : smartpoint/CMakeFiles/ex8_treeSmart.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2721,7 +2777,7 @@ smartpoint/CMakeFiles/ex8_treeSmart.dir/clean:
 smartpoint/CMakeFiles/ex9_forward.dir/all:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/depend
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=51 "Built target ex9_forward"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=49 "Built target ex9_forward"
 .PHONY : smartpoint/CMakeFiles/ex9_forward.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2741,368 +2797,680 @@ smartpoint/CMakeFiles/ex9_forward.dir/clean:
 .PHONY : smartpoint/CMakeFiles/ex9_forward.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/endian_conv.dir
+# Target rules for target network/ipc/CMakeFiles/mq_client.dir
 
 # All Build rule for target.
-network/CMakeFiles/endian_conv.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=17 "Built target endian_conv"
-.PHONY : network/CMakeFiles/endian_conv.dir/all
-
-# Build rule for subdir invocation for target.
-network/CMakeFiles/endian_conv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/endian_conv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/endian_conv.dir/rule
-
-# Convenience name for target.
-endian_conv: network/CMakeFiles/endian_conv.dir/rule
-.PHONY : endian_conv
-
-# clean rule for target.
-network/CMakeFiles/endian_conv.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/endian_conv.dir/build.make network/CMakeFiles/endian_conv.dir/clean
-.PHONY : network/CMakeFiles/endian_conv.dir/clean
-
-#=============================================================================
-# Target rules for target network/CMakeFiles/hello_clinet.dir
-
-# All Build rule for target.
-network/CMakeFiles/hello_clinet.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=63 "Built target hello_clinet"
-.PHONY : network/CMakeFiles/hello_clinet.dir/all
-
-# Build rule for subdir invocation for target.
-network/CMakeFiles/hello_clinet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/hello_clinet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/hello_clinet.dir/rule
-
-# Convenience name for target.
-hello_clinet: network/CMakeFiles/hello_clinet.dir/rule
-.PHONY : hello_clinet
-
-# clean rule for target.
-network/CMakeFiles/hello_clinet.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_clinet.dir/build.make network/CMakeFiles/hello_clinet.dir/clean
-.PHONY : network/CMakeFiles/hello_clinet.dir/clean
-
-#=============================================================================
-# Target rules for target network/CMakeFiles/hello_server.dir
-
-# All Build rule for target.
-network/CMakeFiles/hello_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target hello_server"
-.PHONY : network/CMakeFiles/hello_server.dir/all
-
-# Build rule for subdir invocation for target.
-network/CMakeFiles/hello_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/hello_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/hello_server.dir/rule
-
-# Convenience name for target.
-hello_server: network/CMakeFiles/hello_server.dir/rule
-.PHONY : hello_server
-
-# clean rule for target.
-network/CMakeFiles/hello_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/clean
-.PHONY : network/CMakeFiles/hello_server.dir/clean
-
-#=============================================================================
-# Target rules for target network/CMakeFiles/mq_client.dir
-
-# All Build rule for target.
-network/CMakeFiles/mq_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/build
+network/ipc/CMakeFiles/mq_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_client.dir/build.make network/ipc/CMakeFiles/mq_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_client.dir/build.make network/ipc/CMakeFiles/mq_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=68 "Built target mq_client"
-.PHONY : network/CMakeFiles/mq_client.dir/all
+.PHONY : network/ipc/CMakeFiles/mq_client.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/mq_client.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/mq_client.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/mq_client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/mq_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/mq_client.dir/rule
+.PHONY : network/ipc/CMakeFiles/mq_client.dir/rule
 
 # Convenience name for target.
-mq_client: network/CMakeFiles/mq_client.dir/rule
+mq_client: network/ipc/CMakeFiles/mq_client.dir/rule
 .PHONY : mq_client
 
 # clean rule for target.
-network/CMakeFiles/mq_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/clean
-.PHONY : network/CMakeFiles/mq_client.dir/clean
+network/ipc/CMakeFiles/mq_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_client.dir/build.make network/ipc/CMakeFiles/mq_client.dir/clean
+.PHONY : network/ipc/CMakeFiles/mq_client.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/mq_server.dir
+# Target rules for target network/ipc/CMakeFiles/mq_server.dir
 
 # All Build rule for target.
-network/CMakeFiles/mq_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/build
+network/ipc/CMakeFiles/mq_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_server.dir/build.make network/ipc/CMakeFiles/mq_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_server.dir/build.make network/ipc/CMakeFiles/mq_server.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=69 "Built target mq_server"
-.PHONY : network/CMakeFiles/mq_server.dir/all
+.PHONY : network/ipc/CMakeFiles/mq_server.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/mq_server.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/mq_server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/mq_server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/mq_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/mq_server.dir/rule
+.PHONY : network/ipc/CMakeFiles/mq_server.dir/rule
 
 # Convenience name for target.
-mq_server: network/CMakeFiles/mq_server.dir/rule
+mq_server: network/ipc/CMakeFiles/mq_server.dir/rule
 .PHONY : mq_server
 
 # clean rule for target.
-network/CMakeFiles/mq_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/clean
-.PHONY : network/CMakeFiles/mq_server.dir/clean
+network/ipc/CMakeFiles/mq_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_server.dir/build.make network/ipc/CMakeFiles/mq_server.dir/clean
+.PHONY : network/ipc/CMakeFiles/mq_server.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/pipe.dir
+# Target rules for target network/ipc/CMakeFiles/pipe.dir
 
 # All Build rule for target.
-network/CMakeFiles/pipe.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target pipe"
-.PHONY : network/CMakeFiles/pipe.dir/all
+network/ipc/CMakeFiles/pipe.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe.dir/build.make network/ipc/CMakeFiles/pipe.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe.dir/build.make network/ipc/CMakeFiles/pipe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=74 "Built target pipe"
+.PHONY : network/ipc/CMakeFiles/pipe.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/pipe.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/pipe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/pipe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/pipe.dir/rule
+.PHONY : network/ipc/CMakeFiles/pipe.dir/rule
 
 # Convenience name for target.
-pipe: network/CMakeFiles/pipe.dir/rule
+pipe: network/ipc/CMakeFiles/pipe.dir/rule
 .PHONY : pipe
 
 # clean rule for target.
-network/CMakeFiles/pipe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe.dir/build.make network/CMakeFiles/pipe.dir/clean
-.PHONY : network/CMakeFiles/pipe.dir/clean
+network/ipc/CMakeFiles/pipe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe.dir/build.make network/ipc/CMakeFiles/pipe.dir/clean
+.PHONY : network/ipc/CMakeFiles/pipe.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/pipe_client.dir
+# Target rules for target network/ipc/CMakeFiles/pipe_client.dir
 
 # All Build rule for target.
-network/CMakeFiles/pipe_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=73 "Built target pipe_client"
-.PHONY : network/CMakeFiles/pipe_client.dir/all
+network/ipc/CMakeFiles/pipe_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_client.dir/build.make network/ipc/CMakeFiles/pipe_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_client.dir/build.make network/ipc/CMakeFiles/pipe_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target pipe_client"
+.PHONY : network/ipc/CMakeFiles/pipe_client.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/pipe_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe_client.dir/all
+network/ipc/CMakeFiles/pipe_client.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/pipe_client.dir/rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/pipe_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/ipc/CMakeFiles/pipe_client.dir/rule
 
 # Convenience name for target.
-pipe_client: network/CMakeFiles/pipe_client.dir/rule
+pipe_client: network/ipc/CMakeFiles/pipe_client.dir/rule
 .PHONY : pipe_client
 
 # clean rule for target.
-network/CMakeFiles/pipe_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_client.dir/build.make network/CMakeFiles/pipe_client.dir/clean
-.PHONY : network/CMakeFiles/pipe_client.dir/clean
+network/ipc/CMakeFiles/pipe_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_client.dir/build.make network/ipc/CMakeFiles/pipe_client.dir/clean
+.PHONY : network/ipc/CMakeFiles/pipe_client.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/pipe_server.dir
+# Target rules for target network/ipc/CMakeFiles/pipe_server.dir
 
 # All Build rule for target.
-network/CMakeFiles/pipe_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=74 "Built target pipe_server"
-.PHONY : network/CMakeFiles/pipe_server.dir/all
+network/ipc/CMakeFiles/pipe_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server.dir/build.make network/ipc/CMakeFiles/pipe_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server.dir/build.make network/ipc/CMakeFiles/pipe_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=75 "Built target pipe_server"
+.PHONY : network/ipc/CMakeFiles/pipe_server.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/pipe_server.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/pipe_server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/pipe_server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/pipe_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/pipe_server.dir/rule
+.PHONY : network/ipc/CMakeFiles/pipe_server.dir/rule
 
 # Convenience name for target.
-pipe_server: network/CMakeFiles/pipe_server.dir/rule
+pipe_server: network/ipc/CMakeFiles/pipe_server.dir/rule
 .PHONY : pipe_server
 
 # clean rule for target.
-network/CMakeFiles/pipe_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/pipe_server.dir/build.make network/CMakeFiles/pipe_server.dir/clean
-.PHONY : network/CMakeFiles/pipe_server.dir/clean
+network/ipc/CMakeFiles/pipe_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server.dir/build.make network/ipc/CMakeFiles/pipe_server.dir/clean
+.PHONY : network/ipc/CMakeFiles/pipe_server.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/shm_client.dir
+# Target rules for target network/ipc/CMakeFiles/shm_client.dir
 
 # All Build rule for target.
-network/CMakeFiles/shm_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/build
+network/ipc/CMakeFiles/shm_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_client.dir/build.make network/ipc/CMakeFiles/shm_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_client.dir/build.make network/ipc/CMakeFiles/shm_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=83 "Built target shm_client"
-.PHONY : network/CMakeFiles/shm_client.dir/all
+.PHONY : network/ipc/CMakeFiles/shm_client.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/shm_client.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/shm_client.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/shm_client.dir/rule
+.PHONY : network/ipc/CMakeFiles/shm_client.dir/rule
 
 # Convenience name for target.
-shm_client: network/CMakeFiles/shm_client.dir/rule
+shm_client: network/ipc/CMakeFiles/shm_client.dir/rule
 .PHONY : shm_client
 
 # clean rule for target.
-network/CMakeFiles/shm_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_client.dir/build.make network/CMakeFiles/shm_client.dir/clean
-.PHONY : network/CMakeFiles/shm_client.dir/clean
+network/ipc/CMakeFiles/shm_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_client.dir/build.make network/ipc/CMakeFiles/shm_client.dir/clean
+.PHONY : network/ipc/CMakeFiles/shm_client.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/shm_semaphore.dir
+# Target rules for target network/ipc/CMakeFiles/shm_semaphore.dir
 
 # All Build rule for target.
-network/CMakeFiles/shm_semaphore.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/build
+network/ipc/CMakeFiles/shm_semaphore.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore.dir/build.make network/ipc/CMakeFiles/shm_semaphore.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore.dir/build.make network/ipc/CMakeFiles/shm_semaphore.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=84 "Built target shm_semaphore"
-.PHONY : network/CMakeFiles/shm_semaphore.dir/all
+.PHONY : network/ipc/CMakeFiles/shm_semaphore.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/shm_semaphore.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/shm_semaphore.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_semaphore.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_semaphore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/shm_semaphore.dir/rule
+.PHONY : network/ipc/CMakeFiles/shm_semaphore.dir/rule
 
 # Convenience name for target.
-shm_semaphore: network/CMakeFiles/shm_semaphore.dir/rule
+shm_semaphore: network/ipc/CMakeFiles/shm_semaphore.dir/rule
 .PHONY : shm_semaphore
 
 # clean rule for target.
-network/CMakeFiles/shm_semaphore.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore.dir/build.make network/CMakeFiles/shm_semaphore.dir/clean
-.PHONY : network/CMakeFiles/shm_semaphore.dir/clean
+network/ipc/CMakeFiles/shm_semaphore.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore.dir/build.make network/ipc/CMakeFiles/shm_semaphore.dir/clean
+.PHONY : network/ipc/CMakeFiles/shm_semaphore.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/shm_semaphore2.dir
+# Target rules for target network/ipc/CMakeFiles/shm_semaphore2.dir
 
 # All Build rule for target.
-network/CMakeFiles/shm_semaphore2.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/build
+network/ipc/CMakeFiles/shm_semaphore2.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore2.dir/build.make network/ipc/CMakeFiles/shm_semaphore2.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore2.dir/build.make network/ipc/CMakeFiles/shm_semaphore2.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=85 "Built target shm_semaphore2"
-.PHONY : network/CMakeFiles/shm_semaphore2.dir/all
+.PHONY : network/ipc/CMakeFiles/shm_semaphore2.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/shm_semaphore2.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/shm_semaphore2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_semaphore2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_semaphore2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/shm_semaphore2.dir/rule
+.PHONY : network/ipc/CMakeFiles/shm_semaphore2.dir/rule
 
 # Convenience name for target.
-shm_semaphore2: network/CMakeFiles/shm_semaphore2.dir/rule
+shm_semaphore2: network/ipc/CMakeFiles/shm_semaphore2.dir/rule
 .PHONY : shm_semaphore2
 
 # clean rule for target.
-network/CMakeFiles/shm_semaphore2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_semaphore2.dir/build.make network/CMakeFiles/shm_semaphore2.dir/clean
-.PHONY : network/CMakeFiles/shm_semaphore2.dir/clean
+network/ipc/CMakeFiles/shm_semaphore2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore2.dir/build.make network/ipc/CMakeFiles/shm_semaphore2.dir/clean
+.PHONY : network/ipc/CMakeFiles/shm_semaphore2.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/shm_server.dir
+# Target rules for target network/ipc/CMakeFiles/shm_server.dir
 
 # All Build rule for target.
-network/CMakeFiles/shm_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=86 "Built target shm_server"
-.PHONY : network/CMakeFiles/shm_server.dir/all
+network/ipc/CMakeFiles/shm_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_server.dir/build.make network/ipc/CMakeFiles/shm_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_server.dir/build.make network/ipc/CMakeFiles/shm_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target shm_server"
+.PHONY : network/ipc/CMakeFiles/shm_server.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/shm_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_server.dir/all
+network/ipc/CMakeFiles/shm_server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/shm_server.dir/rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/ipc/CMakeFiles/shm_server.dir/rule
 
 # Convenience name for target.
-shm_server: network/CMakeFiles/shm_server.dir/rule
+shm_server: network/ipc/CMakeFiles/shm_server.dir/rule
 .PHONY : shm_server
 
 # clean rule for target.
-network/CMakeFiles/shm_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_server.dir/build.make network/CMakeFiles/shm_server.dir/clean
-.PHONY : network/CMakeFiles/shm_server.dir/clean
+network/ipc/CMakeFiles/shm_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_server.dir/build.make network/ipc/CMakeFiles/shm_server.dir/clean
+.PHONY : network/ipc/CMakeFiles/shm_server.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/shm_test.dir
+# Target rules for target network/ipc/CMakeFiles/shm_test.dir
 
 # All Build rule for target.
-network/CMakeFiles/shm_test.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=87 "Built target shm_test"
-.PHONY : network/CMakeFiles/shm_test.dir/all
+network/ipc/CMakeFiles/shm_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test.dir/build.make network/ipc/CMakeFiles/shm_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test.dir/build.make network/ipc/CMakeFiles/shm_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=86 "Built target shm_test"
+.PHONY : network/ipc/CMakeFiles/shm_test.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/shm_test.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/shm_test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/shm_test.dir/rule
+.PHONY : network/ipc/CMakeFiles/shm_test.dir/rule
 
 # Convenience name for target.
-shm_test: network/CMakeFiles/shm_test.dir/rule
+shm_test: network/ipc/CMakeFiles/shm_test.dir/rule
 .PHONY : shm_test
 
 # clean rule for target.
-network/CMakeFiles/shm_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/clean
-.PHONY : network/CMakeFiles/shm_test.dir/clean
+network/ipc/CMakeFiles/shm_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test.dir/build.make network/ipc/CMakeFiles/shm_test.dir/clean
+.PHONY : network/ipc/CMakeFiles/shm_test.dir/clean
 
 #=============================================================================
-# Target rules for target network/CMakeFiles/shm_test2.dir
+# Target rules for target network/ipc/CMakeFiles/shm_test2.dir
 
 # All Build rule for target.
-network/CMakeFiles/shm_test2.dir/all:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/depend
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=88 "Built target shm_test2"
-.PHONY : network/CMakeFiles/shm_test2.dir/all
+network/ipc/CMakeFiles/shm_test2.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=87 "Built target shm_test2"
+.PHONY : network/ipc/CMakeFiles/shm_test2.dir/all
 
 # Build rule for subdir invocation for target.
-network/CMakeFiles/shm_test2.dir/rule: cmake_check_build_system
+network/ipc/CMakeFiles/shm_test2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/CMakeFiles/shm_test2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_test2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : network/CMakeFiles/shm_test2.dir/rule
+.PHONY : network/ipc/CMakeFiles/shm_test2.dir/rule
 
 # Convenience name for target.
-shm_test2: network/CMakeFiles/shm_test2.dir/rule
+shm_test2: network/ipc/CMakeFiles/shm_test2.dir/rule
 .PHONY : shm_test2
 
 # clean rule for target.
-network/CMakeFiles/shm_test2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test2.dir/build.make network/CMakeFiles/shm_test2.dir/clean
-.PHONY : network/CMakeFiles/shm_test2.dir/clean
+network/ipc/CMakeFiles/shm_test2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/clean
+.PHONY : network/ipc/CMakeFiles/shm_test2.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/bound_host0.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/bound_host0.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host0.dir/build.make network/tcp_udp/CMakeFiles/bound_host0.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host0.dir/build.make network/tcp_udp/CMakeFiles/bound_host0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=5 "Built target bound_host0"
+.PHONY : network/tcp_udp/CMakeFiles/bound_host0.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/bound_host0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/bound_host0.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/bound_host0.dir/rule
+
+# Convenience name for target.
+bound_host0: network/tcp_udp/CMakeFiles/bound_host0.dir/rule
+.PHONY : bound_host0
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/bound_host0.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host0.dir/build.make network/tcp_udp/CMakeFiles/bound_host0.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/bound_host0.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/bound_host1.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/bound_host1.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host1.dir/build.make network/tcp_udp/CMakeFiles/bound_host1.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host1.dir/build.make network/tcp_udp/CMakeFiles/bound_host1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=6 "Built target bound_host1"
+.PHONY : network/tcp_udp/CMakeFiles/bound_host1.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/bound_host1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/bound_host1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/bound_host1.dir/rule
+
+# Convenience name for target.
+bound_host1: network/tcp_udp/CMakeFiles/bound_host1.dir/rule
+.PHONY : bound_host1
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/bound_host1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host1.dir/build.make network/tcp_udp/CMakeFiles/bound_host1.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/bound_host1.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/echo_client.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/echo_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_client.dir/build.make network/tcp_udp/CMakeFiles/echo_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_client.dir/build.make network/tcp_udp/CMakeFiles/echo_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=16 "Built target echo_client"
+.PHONY : network/tcp_udp/CMakeFiles/echo_client.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/echo_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/echo_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/echo_client.dir/rule
+
+# Convenience name for target.
+echo_client: network/tcp_udp/CMakeFiles/echo_client.dir/rule
+.PHONY : echo_client
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/echo_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_client.dir/build.make network/tcp_udp/CMakeFiles/echo_client.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/echo_client.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/echo_server.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/echo_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_server.dir/build.make network/tcp_udp/CMakeFiles/echo_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_server.dir/build.make network/tcp_udp/CMakeFiles/echo_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=17 "Built target echo_server"
+.PHONY : network/tcp_udp/CMakeFiles/echo_server.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/echo_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/echo_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/echo_server.dir/rule
+
+# Convenience name for target.
+echo_server: network/tcp_udp/CMakeFiles/echo_server.dir/rule
+.PHONY : echo_server
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/echo_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_server.dir/build.make network/tcp_udp/CMakeFiles/echo_server.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/echo_server.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/file_client.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/file_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_client.dir/build.make network/tcp_udp/CMakeFiles/file_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_client.dir/build.make network/tcp_udp/CMakeFiles/file_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target file_client"
+.PHONY : network/tcp_udp/CMakeFiles/file_client.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/file_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/file_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/file_client.dir/rule
+
+# Convenience name for target.
+file_client: network/tcp_udp/CMakeFiles/file_client.dir/rule
+.PHONY : file_client
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/file_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_client.dir/build.make network/tcp_udp/CMakeFiles/file_client.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/file_client.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/file_server.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/file_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_server.dir/build.make network/tcp_udp/CMakeFiles/file_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_server.dir/build.make network/tcp_udp/CMakeFiles/file_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=55 "Built target file_server"
+.PHONY : network/tcp_udp/CMakeFiles/file_server.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/file_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/file_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/file_server.dir/rule
+
+# Convenience name for target.
+file_server: network/tcp_udp/CMakeFiles/file_server.dir/rule
+.PHONY : file_server
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/file_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_server.dir/build.make network/tcp_udp/CMakeFiles/file_server.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/file_server.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/hello_clinet.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/hello_clinet.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_clinet.dir/build.make network/tcp_udp/CMakeFiles/hello_clinet.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_clinet.dir/build.make network/tcp_udp/CMakeFiles/hello_clinet.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=61 "Built target hello_clinet"
+.PHONY : network/tcp_udp/CMakeFiles/hello_clinet.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/hello_clinet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/hello_clinet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/hello_clinet.dir/rule
+
+# Convenience name for target.
+hello_clinet: network/tcp_udp/CMakeFiles/hello_clinet.dir/rule
+.PHONY : hello_clinet
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/hello_clinet.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_clinet.dir/build.make network/tcp_udp/CMakeFiles/hello_clinet.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/hello_clinet.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/hello_server.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/hello_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_server.dir/build.make network/tcp_udp/CMakeFiles/hello_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_server.dir/build.make network/tcp_udp/CMakeFiles/hello_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=62 "Built target hello_server"
+.PHONY : network/tcp_udp/CMakeFiles/hello_server.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/hello_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/hello_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/hello_server.dir/rule
+
+# Convenience name for target.
+hello_server: network/tcp_udp/CMakeFiles/hello_server.dir/rule
+.PHONY : hello_server
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/hello_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_server.dir/build.make network/tcp_udp/CMakeFiles/hello_server.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/hello_server.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/info.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/info.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/info.dir/build.make network/tcp_udp/CMakeFiles/info.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/info.dir/build.make network/tcp_udp/CMakeFiles/info.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num= "Built target info"
+.PHONY : network/tcp_udp/CMakeFiles/info.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/info.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/info.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/info.dir/rule
+
+# Convenience name for target.
+info: network/tcp_udp/CMakeFiles/info.dir/rule
+.PHONY : info
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/info.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/info.dir/build.make network/tcp_udp/CMakeFiles/info.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/info.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/op_client.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/op_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_client.dir/build.make network/tcp_udp/CMakeFiles/op_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_client.dir/build.make network/tcp_udp/CMakeFiles/op_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=72 "Built target op_client"
+.PHONY : network/tcp_udp/CMakeFiles/op_client.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/op_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/op_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/op_client.dir/rule
+
+# Convenience name for target.
+op_client: network/tcp_udp/CMakeFiles/op_client.dir/rule
+.PHONY : op_client
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/op_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_client.dir/build.make network/tcp_udp/CMakeFiles/op_client.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/op_client.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/op_server.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/op_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_server.dir/build.make network/tcp_udp/CMakeFiles/op_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_server.dir/build.make network/tcp_udp/CMakeFiles/op_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=73 "Built target op_server"
+.PHONY : network/tcp_udp/CMakeFiles/op_server.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/op_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/op_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/op_server.dir/rule
+
+# Convenience name for target.
+op_server: network/tcp_udp/CMakeFiles/op_server.dir/rule
+.PHONY : op_server
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/op_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_server.dir/build.make network/tcp_udp/CMakeFiles/op_server.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/op_server.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/uecho_client.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/uecho_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_client.dir/build.make network/tcp_udp/CMakeFiles/uecho_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_client.dir/build.make network/tcp_udp/CMakeFiles/uecho_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=97 "Built target uecho_client"
+.PHONY : network/tcp_udp/CMakeFiles/uecho_client.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/uecho_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/uecho_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/uecho_client.dir/rule
+
+# Convenience name for target.
+uecho_client: network/tcp_udp/CMakeFiles/uecho_client.dir/rule
+.PHONY : uecho_client
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/uecho_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_client.dir/build.make network/tcp_udp/CMakeFiles/uecho_client.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/uecho_client.dir/clean
+
+#=============================================================================
+# Target rules for target network/tcp_udp/CMakeFiles/uecho_server.dir
+
+# All Build rule for target.
+network/tcp_udp/CMakeFiles/uecho_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_server.dir/build.make network/tcp_udp/CMakeFiles/uecho_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_server.dir/build.make network/tcp_udp/CMakeFiles/uecho_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=98 "Built target uecho_server"
+.PHONY : network/tcp_udp/CMakeFiles/uecho_server.dir/all
+
+# Build rule for subdir invocation for target.
+network/tcp_udp/CMakeFiles/uecho_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/tcp_udp/CMakeFiles/uecho_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/tcp_udp/CMakeFiles/uecho_server.dir/rule
+
+# Convenience name for target.
+uecho_server: network/tcp_udp/CMakeFiles/uecho_server.dir/rule
+.PHONY : uecho_server
+
+# clean rule for target.
+network/tcp_udp/CMakeFiles/uecho_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_server.dir/build.make network/tcp_udp/CMakeFiles/uecho_server.dir/clean
+.PHONY : network/tcp_udp/CMakeFiles/uecho_server.dir/clean
+
+#=============================================================================
+# Target rules for target network/util/CMakeFiles/endian_conv.dir
+
+# All Build rule for target.
+network/util/CMakeFiles/endian_conv.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/endian_conv.dir/build.make network/util/CMakeFiles/endian_conv.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/endian_conv.dir/build.make network/util/CMakeFiles/endian_conv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=19 "Built target endian_conv"
+.PHONY : network/util/CMakeFiles/endian_conv.dir/all
+
+# Build rule for subdir invocation for target.
+network/util/CMakeFiles/endian_conv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/util/CMakeFiles/endian_conv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/util/CMakeFiles/endian_conv.dir/rule
+
+# Convenience name for target.
+endian_conv: network/util/CMakeFiles/endian_conv.dir/rule
+.PHONY : endian_conv
+
+# clean rule for target.
+network/util/CMakeFiles/endian_conv.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/endian_conv.dir/build.make network/util/CMakeFiles/endian_conv.dir/clean
+.PHONY : network/util/CMakeFiles/endian_conv.dir/clean
+
+#=============================================================================
+# Target rules for target network/util/CMakeFiles/inet_addr.dir
+
+# All Build rule for target.
+network/util/CMakeFiles/inet_addr.dir/all:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/inet_addr.dir/build.make network/util/CMakeFiles/inet_addr.dir/depend
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/inet_addr.dir/build.make network/util/CMakeFiles/inet_addr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=64 "Built target inet_addr"
+.PHONY : network/util/CMakeFiles/inet_addr.dir/all
+
+# Build rule for subdir invocation for target.
+network/util/CMakeFiles/inet_addr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/util/CMakeFiles/inet_addr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : network/util/CMakeFiles/inet_addr.dir/rule
+
+# Convenience name for target.
+inet_addr: network/util/CMakeFiles/inet_addr.dir/rule
+.PHONY : inet_addr
+
+# clean rule for target.
+network/util/CMakeFiles/inet_addr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/inet_addr.dir/build.make network/util/CMakeFiles/inet_addr.dir/clean
+.PHONY : network/util/CMakeFiles/inet_addr.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -475,73 +475,133 @@
   "file": "/home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/endian_conv.dir/endian_conv.c.o -c /home/bangme/bangme/bangme/network/endian_conv.c",
-  "file": "/home/bangme/bangme/bangme/network/endian_conv.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_client.dir/mq_client.c.o -c /home/bangme/bangme/bangme/network/ipc/mq_client.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/mq_client.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_clinet.dir/hello_clinet.c.o -c /home/bangme/bangme/bangme/network/hello_clinet.c",
-  "file": "/home/bangme/bangme/bangme/network/hello_clinet.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_server.dir/mq_server.c.o -c /home/bangme/bangme/bangme/network/ipc/mq_server.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/mq_server.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_server.dir/hello_server.c.o -c /home/bangme/bangme/bangme/network/hello_server.c",
-  "file": "/home/bangme/bangme/bangme/network/hello_server.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe.dir/pipe.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/pipe.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_client.dir/mq_client.c.o -c /home/bangme/bangme/bangme/network/mq_client.c",
-  "file": "/home/bangme/bangme/bangme/network/mq_client.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_client.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_client.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_server.dir/mq_server.c.o -c /home/bangme/bangme/bangme/network/mq_server.c",
-  "file": "/home/bangme/bangme/bangme/network/mq_server.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe.dir/pipe.c.o -c /home/bangme/bangme/bangme/network/pipe.c",
-  "file": "/home/bangme/bangme/bangme/network/pipe.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_client.dir/shm_client.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_client.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/shm_client.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/bangme/bangme/bangme/network/pipe_client.c",
-  "file": "/home/bangme/bangme/bangme/network/pipe_client.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_semaphore.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/shm_semaphore.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/bangme/bangme/bangme/network/pipe_server.c",
-  "file": "/home/bangme/bangme/bangme/network/pipe_server.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_semaphore2.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/shm_semaphore2.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_client.dir/shm_client.c.o -c /home/bangme/bangme/bangme/network/shm_client.c",
-  "file": "/home/bangme/bangme/bangme/network/shm_client.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_server.dir/shm_server.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_server.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/shm_server.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o -c /home/bangme/bangme/bangme/network/shm_semaphore.c",
-  "file": "/home/bangme/bangme/bangme/network/shm_semaphore.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test.dir/shm_test.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_test.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/shm_test.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o -c /home/bangme/bangme/bangme/network/shm_semaphore2.c",
-  "file": "/home/bangme/bangme/bangme/network/shm_semaphore2.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_test2.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/shm_test2.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_server.dir/shm_server.c.o -c /home/bangme/bangme/bangme/network/shm_server.c",
-  "file": "/home/bangme/bangme/bangme/network/shm_server.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/bound_host0.dir/bound_host0.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/bound_host0.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/bound_host0.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test.dir/shm_test.c.o -c /home/bangme/bangme/bangme/network/shm_test.c",
-  "file": "/home/bangme/bangme/bangme/network/shm_test.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/bound_host1.dir/bound_host1.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/bound_host1.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/bound_host1.c"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/network",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/bangme/bangme/bangme/network/shm_test2.c",
-  "file": "/home/bangme/bangme/bangme/network/shm_test2.c"
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_client.dir/echo_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/echo_client.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/echo_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_server.dir/echo_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/echo_server.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/echo_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/file_client.dir/file_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/file_client.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/file_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/file_server.dir/file_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/file_server.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/file_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_clinet.dir/hello_clinet.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/hello_clinet.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/hello_clinet.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_server.dir/hello_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/hello_server.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/hello_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/info.dir/info.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/info.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/info.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/op_client.dir/op_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/op_client.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/op_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/op_server.dir/op_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/op_server.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/op_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/uecho_client.dir/uecho_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/uecho_client.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/uecho_client.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/uecho_server.dir/uecho_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/uecho_server.c",
+  "file": "/home/bangme/bangme/bangme/network/tcp_udp/uecho_server.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/util",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/endian_conv.dir/endian_conv.c.o -c /home/bangme/bangme/bangme/network/util/endian_conv.c",
+  "file": "/home/bangme/bangme/bangme/network/util/endian_conv.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/util",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/inet_addr.dir/inet_addr.c.o -c /home/bangme/bangme/bangme/network/util/inet_addr.c",
+  "file": "/home/bangme/bangme/bangme/network/util/inet_addr.c"
 }
 ]
