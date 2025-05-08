@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/news_sender.dir/news_sender.c.o -o news_sender 

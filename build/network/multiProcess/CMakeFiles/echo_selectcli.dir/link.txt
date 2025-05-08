@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/echo_selectcli.dir/echo_selectcli.c.o -o echo_selectcli 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/chat_serv.dir/chat_serv.c.o -o chat_serv 

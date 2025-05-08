@@ -1326,6 +1326,45 @@ pipe_server/fast:
 .PHONY : pipe_server/fast
 
 #=============================================================================
+# Target rules for targets named pipe_server_epoll
+
+# Build rule for target.
+pipe_server_epoll: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server_epoll
+.PHONY : pipe_server_epoll
+
+# fast build rule for target.
+pipe_server_epoll/fast:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_epoll.dir/build.make network/ipc/CMakeFiles/pipe_server_epoll.dir/build
+.PHONY : pipe_server_epoll/fast
+
+#=============================================================================
+# Target rules for targets named pipe_server_select
+
+# Build rule for target.
+pipe_server_select: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server_select
+.PHONY : pipe_server_select
+
+# fast build rule for target.
+pipe_server_select/fast:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select.dir/build.make network/ipc/CMakeFiles/pipe_server_select.dir/build
+.PHONY : pipe_server_select/fast
+
+#=============================================================================
+# Target rules for targets named pipe_server_select2
+
+# Build rule for target.
+pipe_server_select2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server_select2
+.PHONY : pipe_server_select2
+
+# fast build rule for target.
+pipe_server_select2/fast:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select2.dir/build.make network/ipc/CMakeFiles/pipe_server_select2.dir/build
+.PHONY : pipe_server_select2/fast
+
+#=============================================================================
 # Target rules for targets named shm_client
 
 # Build rule for target.
@@ -1402,6 +1441,32 @@ shm_test2: cmake_check_build_system
 shm_test2/fast:
 	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/build
 .PHONY : shm_test2/fast
+
+#=============================================================================
+# Target rules for targets named sigaction
+
+# Build rule for target.
+sigaction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sigaction
+.PHONY : sigaction
+
+# fast build rule for target.
+sigaction/fast:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/sigaction.dir/build.make network/ipc/CMakeFiles/sigaction.dir/build
+.PHONY : sigaction/fast
+
+#=============================================================================
+# Target rules for targets named signal
+
+# Build rule for target.
+signal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 signal
+.PHONY : signal
+
+# fast build rule for target.
+signal/fast:
+	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/signal.dir/build.make network/ipc/CMakeFiles/signal.dir/build
+.PHONY : signal/fast
 
 #=============================================================================
 # Target rules for targets named bound_host0
@@ -1598,6 +1663,253 @@ inet_addr/fast:
 	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/inet_addr.dir/build.make network/util/CMakeFiles/inet_addr.dir/build
 .PHONY : inet_addr/fast
 
+#=============================================================================
+# Target rules for targets named pthread_test
+
+# Build rule for target.
+pthread_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test
+.PHONY : pthread_test
+
+# fast build rule for target.
+pthread_test/fast:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test.dir/build.make network/util/CMakeFiles/pthread_test.dir/build
+.PHONY : pthread_test/fast
+
+#=============================================================================
+# Target rules for targets named pthread_test2
+
+# Build rule for target.
+pthread_test2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test2
+.PHONY : pthread_test2
+
+# fast build rule for target.
+pthread_test2/fast:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test2.dir/build.make network/util/CMakeFiles/pthread_test2.dir/build
+.PHONY : pthread_test2/fast
+
+#=============================================================================
+# Target rules for targets named pthread_test3
+
+# Build rule for target.
+pthread_test3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test3
+.PHONY : pthread_test3
+
+# fast build rule for target.
+pthread_test3/fast:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test3.dir/build.make network/util/CMakeFiles/pthread_test3.dir/build
+.PHONY : pthread_test3/fast
+
+#=============================================================================
+# Target rules for targets named pthread_test4
+
+# Build rule for target.
+pthread_test4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test4
+.PHONY : pthread_test4
+
+# fast build rule for target.
+pthread_test4/fast:
+	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test4.dir/build.make network/util/CMakeFiles/pthread_test4.dir/build
+.PHONY : pthread_test4/fast
+
+#=============================================================================
+# Target rules for targets named chat_serv
+
+# Build rule for target.
+chat_serv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_serv
+.PHONY : chat_serv
+
+# fast build rule for target.
+chat_serv/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/chat_serv.dir/build.make network/multiProcess/CMakeFiles/chat_serv.dir/build
+.PHONY : chat_serv/fast
+
+#=============================================================================
+# Target rules for targets named echo_epollcli
+
+# Build rule for target.
+echo_epollcli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_epollcli
+.PHONY : echo_epollcli
+
+# fast build rule for target.
+echo_epollcli/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_epollcli.dir/build.make network/multiProcess/CMakeFiles/echo_epollcli.dir/build
+.PHONY : echo_epollcli/fast
+
+#=============================================================================
+# Target rules for targets named echo_epollserv
+
+# Build rule for target.
+echo_epollserv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_epollserv
+.PHONY : echo_epollserv
+
+# fast build rule for target.
+echo_epollserv/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_epollserv.dir/build.make network/multiProcess/CMakeFiles/echo_epollserv.dir/build
+.PHONY : echo_epollserv/fast
+
+#=============================================================================
+# Target rules for targets named echo_mpclient
+
+# Build rule for target.
+echo_mpclient: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_mpclient
+.PHONY : echo_mpclient
+
+# fast build rule for target.
+echo_mpclient/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_mpclient.dir/build.make network/multiProcess/CMakeFiles/echo_mpclient.dir/build
+.PHONY : echo_mpclient/fast
+
+#=============================================================================
+# Target rules for targets named echo_mpserver
+
+# Build rule for target.
+echo_mpserver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_mpserver
+.PHONY : echo_mpserver
+
+# fast build rule for target.
+echo_mpserver/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_mpserver.dir/build.make network/multiProcess/CMakeFiles/echo_mpserver.dir/build
+.PHONY : echo_mpserver/fast
+
+#=============================================================================
+# Target rules for targets named echo_selectcli
+
+# Build rule for target.
+echo_selectcli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_selectcli
+.PHONY : echo_selectcli
+
+# fast build rule for target.
+echo_selectcli/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_selectcli.dir/build.make network/multiProcess/CMakeFiles/echo_selectcli.dir/build
+.PHONY : echo_selectcli/fast
+
+#=============================================================================
+# Target rules for targets named echo_selectsrv
+
+# Build rule for target.
+echo_selectsrv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_selectsrv
+.PHONY : echo_selectsrv
+
+# fast build rule for target.
+echo_selectsrv/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_selectsrv.dir/build.make network/multiProcess/CMakeFiles/echo_selectsrv.dir/build
+.PHONY : echo_selectsrv/fast
+
+#=============================================================================
+# Target rules for targets named news_receiver
+
+# Build rule for target.
+news_receiver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_receiver
+.PHONY : news_receiver
+
+# fast build rule for target.
+news_receiver/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_receiver.dir/build.make network/multiProcess/CMakeFiles/news_receiver.dir/build
+.PHONY : news_receiver/fast
+
+#=============================================================================
+# Target rules for targets named news_receiver_brd
+
+# Build rule for target.
+news_receiver_brd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_receiver_brd
+.PHONY : news_receiver_brd
+
+# fast build rule for target.
+news_receiver_brd/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_receiver_brd.dir/build.make network/multiProcess/CMakeFiles/news_receiver_brd.dir/build
+.PHONY : news_receiver_brd/fast
+
+#=============================================================================
+# Target rules for targets named news_sender
+
+# Build rule for target.
+news_sender: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_sender
+.PHONY : news_sender
+
+# fast build rule for target.
+news_sender/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_sender.dir/build.make network/multiProcess/CMakeFiles/news_sender.dir/build
+.PHONY : news_sender/fast
+
+#=============================================================================
+# Target rules for targets named news_sender_brd
+
+# Build rule for target.
+news_sender_brd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_sender_brd
+.PHONY : news_sender_brd
+
+# fast build rule for target.
+news_sender_brd/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_sender_brd.dir/build.make network/multiProcess/CMakeFiles/news_sender_brd.dir/build
+.PHONY : news_sender_brd/fast
+
+#=============================================================================
+# Target rules for targets named remove_zombie
+
+# Build rule for target.
+remove_zombie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 remove_zombie
+.PHONY : remove_zombie
+
+# fast build rule for target.
+remove_zombie/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/remove_zombie.dir/build.make network/multiProcess/CMakeFiles/remove_zombie.dir/build
+.PHONY : remove_zombie/fast
+
+#=============================================================================
+# Target rules for targets named wait
+
+# Build rule for target.
+wait: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wait
+.PHONY : wait
+
+# fast build rule for target.
+wait/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/wait.dir/build.make network/multiProcess/CMakeFiles/wait.dir/build
+.PHONY : wait/fast
+
+#=============================================================================
+# Target rules for targets named waitpid
+
+# Build rule for target.
+waitpid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waitpid
+.PHONY : waitpid
+
+# fast build rule for target.
+waitpid/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/waitpid.dir/build.make network/multiProcess/CMakeFiles/waitpid.dir/build
+.PHONY : waitpid/fast
+
+#=============================================================================
+# Target rules for targets named zombie
+
+# Build rule for target.
+zombie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zombie
+.PHONY : zombie
+
+# fast build rule for target.
+zombie/fast:
+	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/zombie.dir/build.make network/multiProcess/CMakeFiles/zombie.dir/build
+.PHONY : zombie/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1618,12 +1930,19 @@ help:
 	@echo "... charAdress"
 	@echo "... charNumber"
 	@echo "... charPointerOperation"
+	@echo "... chat_serv"
 	@echo "... compare"
 	@echo "... compare2"
 	@echo "... data_process"
 	@echo "... date"
 	@echo "... dynamicAllocation"
 	@echo "... echo_client"
+	@echo "... echo_epollcli"
+	@echo "... echo_epollserv"
+	@echo "... echo_mpclient"
+	@echo "... echo_mpserver"
+	@echo "... echo_selectcli"
+	@echo "... echo_selectsrv"
 	@echo "... echo_server"
 	@echo "... endian"
 	@echo "... endian_conv"
@@ -1687,18 +2006,30 @@ help:
 	@echo "... mq_client"
 	@echo "... mq_server"
 	@echo "... myRandom"
+	@echo "... news_receiver"
+	@echo "... news_receiver_brd"
+	@echo "... news_sender"
+	@echo "... news_sender_brd"
 	@echo "... oddeven"
 	@echo "... op_client"
 	@echo "... op_server"
 	@echo "... pipe"
 	@echo "... pipe_client"
 	@echo "... pipe_server"
+	@echo "... pipe_server_epoll"
+	@echo "... pipe_server_select"
+	@echo "... pipe_server_select2"
 	@echo "... pointer2"
 	@echo "... pointerConcept"
 	@echo "... project"
+	@echo "... pthread_test"
+	@echo "... pthread_test2"
+	@echo "... pthread_test3"
+	@echo "... pthread_test4"
 	@echo "... putSeries"
 	@echo "... qsort"
 	@echo "... range_example"
+	@echo "... remove_zombie"
 	@echo "... selection"
 	@echo "... shm_client"
 	@echo "... shm_semaphore"
@@ -1706,6 +2037,8 @@ help:
 	@echo "... shm_server"
 	@echo "... shm_test"
 	@echo "... shm_test2"
+	@echo "... sigaction"
+	@echo "... signal"
 	@echo "... sizeof"
 	@echo "... strcatExample"
 	@echo "... string"
@@ -1720,6 +2053,9 @@ help:
 	@echo "... uecho_server"
 	@echo "... unionExample"
 	@echo "... voidPointer"
+	@echo "... wait"
+	@echo "... waitpid"
+	@echo "... zombie"
 .PHONY : help
 
 

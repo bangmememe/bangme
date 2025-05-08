@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/pthread_test4.dir/pthread_test4.c.o -o pthread_test4 

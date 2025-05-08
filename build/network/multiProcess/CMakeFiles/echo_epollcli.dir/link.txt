@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/echo_epollcli.dir/echo_epollcli.c.o -o echo_epollcli 

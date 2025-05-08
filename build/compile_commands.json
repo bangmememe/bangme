@@ -501,6 +501,21 @@
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server_epoll.dir/pipe_server_epoll.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server_epoll.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server_epoll.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server_select.dir/pipe_server_select.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server_select.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server_select.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server_select2.dir/pipe_server_select2.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server_select2.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server_select2.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
   "command": "/usr/bin/cc   -g -o CMakeFiles/shm_client.dir/shm_client.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_client.c",
   "file": "/home/bangme/bangme/bangme/network/ipc/shm_client.c"
 },
@@ -528,6 +543,16 @@
   "directory": "/home/bangme/bangme/bangme/build/network/ipc",
   "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_test2.c",
   "file": "/home/bangme/bangme/bangme/network/ipc/shm_test2.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/sigaction.dir/sigaction.c.o -c /home/bangme/bangme/bangme/network/ipc/sigaction.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/sigaction.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/signal.dir/signal.c.o -c /home/bangme/bangme/bangme/network/ipc/signal.c",
+  "file": "/home/bangme/bangme/bangme/network/ipc/signal.c"
 },
 {
   "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
@@ -603,5 +628,100 @@
   "directory": "/home/bangme/bangme/bangme/build/network/util",
   "command": "/usr/bin/cc   -g -o CMakeFiles/inet_addr.dir/inet_addr.c.o -c /home/bangme/bangme/bangme/network/util/inet_addr.c",
   "file": "/home/bangme/bangme/bangme/network/util/inet_addr.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/util",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test.dir/pthread_test.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test.c",
+  "file": "/home/bangme/bangme/bangme/network/util/pthread_test.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/util",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test2.dir/pthread_test2.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test2.c",
+  "file": "/home/bangme/bangme/bangme/network/util/pthread_test2.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/util",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test3.dir/pthread_test3.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test3.c",
+  "file": "/home/bangme/bangme/bangme/network/util/pthread_test3.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/util",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test4.dir/pthread_test4.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test4.c",
+  "file": "/home/bangme/bangme/bangme/network/util/pthread_test4.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/chat_serv.dir/chat_serv.c.o -c /home/bangme/bangme/bangme/network/multiProcess/chat_serv.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/chat_serv.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_epollcli.dir/echo_epollcli.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_epollcli.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_epollcli.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_epollserv.dir/echo_epollserv.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_epollserv.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_epollserv.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_mpclient.dir/echo_mpclient.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_mpclient.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_mpclient.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_mpserver.dir/echo_mpserver.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_mpserver.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_mpserver.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_selectcli.dir/echo_selectcli.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_selectcli.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_selectcli.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_selectsrv.dir/echo_selectsrv.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_selectsrv.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_selectsrv.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/news_receiver.dir/news_receiver.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_receiver.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_receiver.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/news_receiver_brd.dir/news_receiver_brd.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_receiver_brd.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_receiver_brd.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/news_sender.dir/news_sender.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_sender.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_sender.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/news_sender_brd.dir/news_sender_brd.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_sender_brd.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_sender_brd.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/remove_zombie.dir/remove_zombie.c.o -c /home/bangme/bangme/bangme/network/multiProcess/remove_zombie.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/remove_zombie.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/wait.dir/wait.c.o -c /home/bangme/bangme/bangme/network/multiProcess/wait.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/wait.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/waitpid.dir/waitpid.c.o -c /home/bangme/bangme/bangme/network/multiProcess/waitpid.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/waitpid.c"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/zombie.dir/zombie.c.o -c /home/bangme/bangme/bangme/network/multiProcess/zombie.c",
+  "file": "/home/bangme/bangme/bangme/network/multiProcess/zombie.c"
 }
 ]

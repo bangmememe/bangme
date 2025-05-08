@@ -187,6 +187,48 @@ pipe_server/fast:
 .PHONY : pipe_server/fast
 
 # Convenience name for target.
+network/ipc/CMakeFiles/pipe_server_epoll.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/pipe_server_epoll.dir/rule
+.PHONY : network/ipc/CMakeFiles/pipe_server_epoll.dir/rule
+
+# Convenience name for target.
+pipe_server_epoll: network/ipc/CMakeFiles/pipe_server_epoll.dir/rule
+.PHONY : pipe_server_epoll
+
+# fast build rule for target.
+pipe_server_epoll/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_epoll.dir/build.make network/ipc/CMakeFiles/pipe_server_epoll.dir/build
+.PHONY : pipe_server_epoll/fast
+
+# Convenience name for target.
+network/ipc/CMakeFiles/pipe_server_select.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/pipe_server_select.dir/rule
+.PHONY : network/ipc/CMakeFiles/pipe_server_select.dir/rule
+
+# Convenience name for target.
+pipe_server_select: network/ipc/CMakeFiles/pipe_server_select.dir/rule
+.PHONY : pipe_server_select
+
+# fast build rule for target.
+pipe_server_select/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select.dir/build.make network/ipc/CMakeFiles/pipe_server_select.dir/build
+.PHONY : pipe_server_select/fast
+
+# Convenience name for target.
+network/ipc/CMakeFiles/pipe_server_select2.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/pipe_server_select2.dir/rule
+.PHONY : network/ipc/CMakeFiles/pipe_server_select2.dir/rule
+
+# Convenience name for target.
+pipe_server_select2: network/ipc/CMakeFiles/pipe_server_select2.dir/rule
+.PHONY : pipe_server_select2
+
+# fast build rule for target.
+pipe_server_select2/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select2.dir/build.make network/ipc/CMakeFiles/pipe_server_select2.dir/build
+.PHONY : pipe_server_select2/fast
+
+# Convenience name for target.
 network/ipc/CMakeFiles/shm_client.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/shm_client.dir/rule
 .PHONY : network/ipc/CMakeFiles/shm_client.dir/rule
@@ -269,6 +311,34 @@ shm_test2: network/ipc/CMakeFiles/shm_test2.dir/rule
 shm_test2/fast:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/build
 .PHONY : shm_test2/fast
+
+# Convenience name for target.
+network/ipc/CMakeFiles/sigaction.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/sigaction.dir/rule
+.PHONY : network/ipc/CMakeFiles/sigaction.dir/rule
+
+# Convenience name for target.
+sigaction: network/ipc/CMakeFiles/sigaction.dir/rule
+.PHONY : sigaction
+
+# fast build rule for target.
+sigaction/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/sigaction.dir/build.make network/ipc/CMakeFiles/sigaction.dir/build
+.PHONY : sigaction/fast
+
+# Convenience name for target.
+network/ipc/CMakeFiles/signal.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network/ipc/CMakeFiles/signal.dir/rule
+.PHONY : network/ipc/CMakeFiles/signal.dir/rule
+
+# Convenience name for target.
+signal: network/ipc/CMakeFiles/signal.dir/rule
+.PHONY : signal
+
+# fast build rule for target.
+signal/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/signal.dir/build.make network/ipc/CMakeFiles/signal.dir/build
+.PHONY : signal/fast
 
 mq_client.o: mq_client.c.o
 .PHONY : mq_client.o
@@ -389,6 +459,78 @@ pipe_server.s: pipe_server.c.s
 pipe_server.c.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server.dir/build.make network/ipc/CMakeFiles/pipe_server.dir/pipe_server.c.s
 .PHONY : pipe_server.c.s
+
+pipe_server_epoll.o: pipe_server_epoll.c.o
+.PHONY : pipe_server_epoll.o
+
+# target to build an object file
+pipe_server_epoll.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_epoll.dir/build.make network/ipc/CMakeFiles/pipe_server_epoll.dir/pipe_server_epoll.c.o
+.PHONY : pipe_server_epoll.c.o
+
+pipe_server_epoll.i: pipe_server_epoll.c.i
+.PHONY : pipe_server_epoll.i
+
+# target to preprocess a source file
+pipe_server_epoll.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_epoll.dir/build.make network/ipc/CMakeFiles/pipe_server_epoll.dir/pipe_server_epoll.c.i
+.PHONY : pipe_server_epoll.c.i
+
+pipe_server_epoll.s: pipe_server_epoll.c.s
+.PHONY : pipe_server_epoll.s
+
+# target to generate assembly for a file
+pipe_server_epoll.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_epoll.dir/build.make network/ipc/CMakeFiles/pipe_server_epoll.dir/pipe_server_epoll.c.s
+.PHONY : pipe_server_epoll.c.s
+
+pipe_server_select.o: pipe_server_select.c.o
+.PHONY : pipe_server_select.o
+
+# target to build an object file
+pipe_server_select.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select.dir/build.make network/ipc/CMakeFiles/pipe_server_select.dir/pipe_server_select.c.o
+.PHONY : pipe_server_select.c.o
+
+pipe_server_select.i: pipe_server_select.c.i
+.PHONY : pipe_server_select.i
+
+# target to preprocess a source file
+pipe_server_select.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select.dir/build.make network/ipc/CMakeFiles/pipe_server_select.dir/pipe_server_select.c.i
+.PHONY : pipe_server_select.c.i
+
+pipe_server_select.s: pipe_server_select.c.s
+.PHONY : pipe_server_select.s
+
+# target to generate assembly for a file
+pipe_server_select.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select.dir/build.make network/ipc/CMakeFiles/pipe_server_select.dir/pipe_server_select.c.s
+.PHONY : pipe_server_select.c.s
+
+pipe_server_select2.o: pipe_server_select2.c.o
+.PHONY : pipe_server_select2.o
+
+# target to build an object file
+pipe_server_select2.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select2.dir/build.make network/ipc/CMakeFiles/pipe_server_select2.dir/pipe_server_select2.c.o
+.PHONY : pipe_server_select2.c.o
+
+pipe_server_select2.i: pipe_server_select2.c.i
+.PHONY : pipe_server_select2.i
+
+# target to preprocess a source file
+pipe_server_select2.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select2.dir/build.make network/ipc/CMakeFiles/pipe_server_select2.dir/pipe_server_select2.c.i
+.PHONY : pipe_server_select2.c.i
+
+pipe_server_select2.s: pipe_server_select2.c.s
+.PHONY : pipe_server_select2.s
+
+# target to generate assembly for a file
+pipe_server_select2.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select2.dir/build.make network/ipc/CMakeFiles/pipe_server_select2.dir/pipe_server_select2.c.s
+.PHONY : pipe_server_select2.c.s
 
 shm_client.o: shm_client.c.o
 .PHONY : shm_client.o
@@ -534,6 +676,54 @@ shm_test2.c.s:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/shm_test2.c.s
 .PHONY : shm_test2.c.s
 
+sigaction.o: sigaction.c.o
+.PHONY : sigaction.o
+
+# target to build an object file
+sigaction.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/sigaction.dir/build.make network/ipc/CMakeFiles/sigaction.dir/sigaction.c.o
+.PHONY : sigaction.c.o
+
+sigaction.i: sigaction.c.i
+.PHONY : sigaction.i
+
+# target to preprocess a source file
+sigaction.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/sigaction.dir/build.make network/ipc/CMakeFiles/sigaction.dir/sigaction.c.i
+.PHONY : sigaction.c.i
+
+sigaction.s: sigaction.c.s
+.PHONY : sigaction.s
+
+# target to generate assembly for a file
+sigaction.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/sigaction.dir/build.make network/ipc/CMakeFiles/sigaction.dir/sigaction.c.s
+.PHONY : sigaction.c.s
+
+signal.o: signal.c.o
+.PHONY : signal.o
+
+# target to build an object file
+signal.c.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/signal.dir/build.make network/ipc/CMakeFiles/signal.dir/signal.c.o
+.PHONY : signal.c.o
+
+signal.i: signal.c.i
+.PHONY : signal.i
+
+# target to preprocess a source file
+signal.c.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/signal.dir/build.make network/ipc/CMakeFiles/signal.dir/signal.c.i
+.PHONY : signal.c.i
+
+signal.s: signal.c.s
+.PHONY : signal.s
+
+# target to generate assembly for a file
+signal.c.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/signal.dir/build.make network/ipc/CMakeFiles/signal.dir/signal.c.s
+.PHONY : signal.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -547,12 +737,17 @@ help:
 	@echo "... pipe"
 	@echo "... pipe_client"
 	@echo "... pipe_server"
+	@echo "... pipe_server_epoll"
+	@echo "... pipe_server_select"
+	@echo "... pipe_server_select2"
 	@echo "... shm_client"
 	@echo "... shm_semaphore"
 	@echo "... shm_semaphore2"
 	@echo "... shm_server"
 	@echo "... shm_test"
 	@echo "... shm_test2"
+	@echo "... sigaction"
+	@echo "... signal"
 	@echo "... mq_client.o"
 	@echo "... mq_client.i"
 	@echo "... mq_client.s"
@@ -568,6 +763,15 @@ help:
 	@echo "... pipe_server.o"
 	@echo "... pipe_server.i"
 	@echo "... pipe_server.s"
+	@echo "... pipe_server_epoll.o"
+	@echo "... pipe_server_epoll.i"
+	@echo "... pipe_server_epoll.s"
+	@echo "... pipe_server_select.o"
+	@echo "... pipe_server_select.i"
+	@echo "... pipe_server_select.s"
+	@echo "... pipe_server_select2.o"
+	@echo "... pipe_server_select2.i"
+	@echo "... pipe_server_select2.s"
 	@echo "... shm_client.o"
 	@echo "... shm_client.i"
 	@echo "... shm_client.s"
@@ -586,6 +790,12 @@ help:
 	@echo "... shm_test2.o"
 	@echo "... shm_test2.i"
 	@echo "... shm_test2.s"
+	@echo "... sigaction.o"
+	@echo "... sigaction.i"
+	@echo "... sigaction.s"
+	@echo "... signal.o"
+	@echo "... signal.i"
+	@echo "... signal.s"
 .PHONY : help
 
 

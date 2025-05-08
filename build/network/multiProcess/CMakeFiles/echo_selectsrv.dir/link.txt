@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/echo_selectsrv.dir/echo_selectsrv.c.o -o echo_selectsrv 

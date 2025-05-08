@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/echo_epollserv.dir/echo_epollserv.c.o -o echo_epollserv 

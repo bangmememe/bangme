@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/news_receiver.dir/news_receiver.c.o -o news_receiver 
