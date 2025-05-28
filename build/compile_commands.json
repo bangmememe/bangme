@@ -1,727 +1,102 @@
 [
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/arithmetics.dir/arithmetics.c.o -c /home/bangme/bangme/bangme/a1/arithmetics.c",
-  "file": "/home/bangme/bangme/bangme/a1/arithmetics.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/01_helloworld.dir/01_helloworld.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/01_helloworld.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/01_helloworld.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/celsius2fahr.dir/celsius2fahr.c.o -c /home/bangme/bangme/bangme/a1/celsius2fahr.c",
-  "file": "/home/bangme/bangme/bangme/a1/celsius2fahr.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/02_basicOp.dir/02_basicOp.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/02_basicOp.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/02_basicOp.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/charNumber.dir/charNumber.c.o -c /home/bangme/bangme/bangme/a1/charNumber.c",
-  "file": "/home/bangme/bangme/bangme/a1/charNumber.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/03_matOp.dir/03_matOp.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/03_matOp.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/03_matOp.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/compare.dir/compare.c.o -c /home/bangme/bangme/bangme/a1/compare.c",
-  "file": "/home/bangme/bangme/bangme/a1/compare.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/04_inputArray.dir/04_inputArray.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/04_inputArray.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/04_inputArray.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/compare2.dir/compare2.c.o -c /home/bangme/bangme/bangme/a1/compare2.c",
-  "file": "/home/bangme/bangme/bangme/a1/compare2.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/05_matOp2.dir/05_matOp2.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/05_matOp2.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/05_matOp2.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -c /home/bangme/bangme/bangme/a1/fahr2celsius.c",
-  "file": "/home/bangme/bangme/bangme/a1/fahr2celsius.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/06_matOp3.dir/06_matOp3.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/06_matOp3.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/06_matOp3.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/fourBit.dir/fourBit.c.o -c /home/bangme/bangme/bangme/a1/fourBit.c",
-  "file": "/home/bangme/bangme/bangme/a1/fourBit.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/07_vectorScalar.dir/07_vectorScalar.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/07_vectorScalar.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/07_vectorScalar.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/fourBit2.dir/fourBit2.c.o -c /home/bangme/bangme/bangme/a1/fourBit2.c",
-  "file": "/home/bangme/bangme/bangme/a1/fourBit2.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/08_video.dir/08_video.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/08_video.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/08_video.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/genderRatio.dir/genderRatio.c.o -c /home/bangme/bangme/bangme/a1/genderRatio.c",
-  "file": "/home/bangme/bangme/bangme/a1/genderRatio.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/09_videoSave.dir/09_videoSave.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/09_videoSave.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part1/09_videoSave.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/increment.dir/increment.c.o -c /home/bangme/bangme/bangme/a1/increment.c",
-  "file": "/home/bangme/bangme/bangme/a1/increment.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/10_drawing.dir/10_drawing.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/10_drawing.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/10_drawing.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/infinit.dir/infinit.c.o -c /home/bangme/bangme/bangme/a1/infinit.c",
-  "file": "/home/bangme/bangme/bangme/a1/infinit.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/11_font.dir/11_font.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/11_font.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/11_font.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/limit.dir/limit.c.o -c /home/bangme/bangme/bangme/a1/limit.c",
-  "file": "/home/bangme/bangme/bangme/a1/limit.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/12_freetypeFont.dir/12_freetypeFont.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/12_freetypeFont.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/12_freetypeFont.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/literal.dir/literal.c.o -c /home/bangme/bangme/bangme/a1/literal.c",
-  "file": "/home/bangme/bangme/bangme/a1/literal.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/13_keyboard.dir/13_keyboard.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/13_keyboard.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/13_keyboard.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/oddeven.dir/oddeven.c.o -c /home/bangme/bangme/bangme/a1/oddeven.c",
-  "file": "/home/bangme/bangme/bangme/a1/oddeven.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/14_mouse.dir/14_mouse.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/14_mouse.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/14_mouse.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/sizeof.dir/sizeof.c.o -c /home/bangme/bangme/bangme/a1/sizeof.c",
-  "file": "/home/bangme/bangme/bangme/a1/sizeof.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/15_trackbar.dir/15_trackbar.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/15_trackbar.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/15_trackbar.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a1",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/triangle.dir/triangle.c.o -c /home/bangme/bangme/bangme/a1/triangle.c",
-  "file": "/home/bangme/bangme/bangme/a1/triangle.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/16_filestorage.dir/16_filestorage.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/16_filestorage.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/16_filestorage.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/arrayAssignement.dir/arrayAssignement.c.o -c /home/bangme/bangme/bangme/a3/arrayAssignement.c",
-  "file": "/home/bangme/bangme/bangme/a3/arrayAssignement.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/16_filestorage.dir/array.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/array.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/array.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/arrayCompare.dir/arrayCompare.c.o -c /home/bangme/bangme/bangme/a3/arrayCompare.c",
-  "file": "/home/bangme/bangme/bangme/a3/arrayCompare.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/17_filestorage2.dir/17_filestorage2.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/17_filestorage2.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/17_filestorage2.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/arrayPointer.dir/arrayPointer.c.o -c /home/bangme/bangme/bangme/a3/arrayPointer.c",
-  "file": "/home/bangme/bangme/bangme/a3/arrayPointer.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/18_camTest.dir/18_camTest.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/18_camTest.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/18_camTest.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/bubble.dir/bubble.c.o -c /home/bangme/bangme/bangme/a3/bubble.c",
-  "file": "/home/bangme/bangme/bangme/a3/bubble.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/charAdress.dir/charAdress.c.o -c /home/bangme/bangme/bangme/a3/charAdress.c",
-  "file": "/home/bangme/bangme/bangme/a3/charAdress.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/charPointerOperation.dir/charPointerOperation.c.o -c /home/bangme/bangme/bangme/a3/charPointerOperation.c",
-  "file": "/home/bangme/bangme/bangme/a3/charPointerOperation.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o -c /home/bangme/bangme/bangme/a3/dynamicAllocation.c",
-  "file": "/home/bangme/bangme/bangme/a3/dynamicAllocation.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/endian.dir/endian.c.o -c /home/bangme/bangme/bangme/a3/endian.c",
-  "file": "/home/bangme/bangme/bangme/a3/endian.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/enumExample.dir/enumExample.c.o -c /home/bangme/bangme/bangme/a3/enumExample.c",
-  "file": "/home/bangme/bangme/bangme/a3/enumExample.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/fflushEx.dir/fflushEx.c.o -c /home/bangme/bangme/bangme/a3/fflushEx.c",
-  "file": "/home/bangme/bangme/bangme/a3/fflushEx.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/fileDescription.dir/fileDescription.c.o -c /home/bangme/bangme/bangme/a3/fileDescription.c",
-  "file": "/home/bangme/bangme/bangme/a3/fileDescription.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/filePointer.dir/filePointer.c.o -c /home/bangme/bangme/bangme/a3/filePointer.c",
-  "file": "/home/bangme/bangme/bangme/a3/filePointer.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/functionPointer.dir/functionPointer.c.o -c /home/bangme/bangme/bangme/a3/functionPointer.c",
-  "file": "/home/bangme/bangme/bangme/a3/functionPointer.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/getSeries.dir/getSeries.c.o -c /home/bangme/bangme/bangme/a3/getSeries.c",
-  "file": "/home/bangme/bangme/bangme/a3/getSeries.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/helloStr.dir/helloStr.c.o -c /home/bangme/bangme/bangme/a3/helloStr.c",
-  "file": "/home/bangme/bangme/bangme/a3/helloStr.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pointer2.dir/pointer2.c.o -c /home/bangme/bangme/bangme/a3/pointer2.c",
-  "file": "/home/bangme/bangme/bangme/a3/pointer2.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pointerConcept.dir/pointerConcept.c.o -c /home/bangme/bangme/bangme/a3/pointerConcept.c",
-  "file": "/home/bangme/bangme/bangme/a3/pointerConcept.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/putSeries.dir/putSeries.c.o -c /home/bangme/bangme/bangme/a3/putSeries.c",
-  "file": "/home/bangme/bangme/bangme/a3/putSeries.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/qsort.dir/qsort.c.o -c /home/bangme/bangme/bangme/a3/qsort.c",
-  "file": "/home/bangme/bangme/bangme/a3/qsort.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/selection.dir/selection.c.o -c /home/bangme/bangme/bangme/a3/selection.c",
-  "file": "/home/bangme/bangme/bangme/a3/selection.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/strcatExample.dir/strcatExample.c.o -c /home/bangme/bangme/bangme/a3/strcatExample.c",
-  "file": "/home/bangme/bangme/bangme/a3/strcatExample.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o -c /home/bangme/bangme/bangme/a3/sumArrayFunction.c",
-  "file": "/home/bangme/bangme/bangme/a3/sumArrayFunction.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.o -c /home/bangme/bangme/bangme/a3/sumMatrixFunction.c",
-  "file": "/home/bangme/bangme/bangme/a3/sumMatrixFunction.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.o -c /home/bangme/bangme/bangme/a3/sumMatrixFunction2.c",
-  "file": "/home/bangme/bangme/bangme/a3/sumMatrixFunction2.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/swap.dir/swap.c.o -c /home/bangme/bangme/bangme/a3/swap.c",
-  "file": "/home/bangme/bangme/bangme/a3/swap.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/swapFunction.dir/swapFunction.c.o -c /home/bangme/bangme/bangme/a3/swapFunction.c",
-  "file": "/home/bangme/bangme/bangme/a3/swapFunction.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/unionExample.dir/unionExample.c.o -c /home/bangme/bangme/bangme/a3/unionExample.c",
-  "file": "/home/bangme/bangme/bangme/a3/unionExample.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/voidPointer.dir/voidPointer.c.o -c /home/bangme/bangme/bangme/a3/voidPointer.c",
-  "file": "/home/bangme/bangme/bangme/a3/voidPointer.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/CarSerial",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/CarSeiral.dir/main.c.o -c /home/bangme/bangme/bangme/a3/CarSerial/main.c",
-  "file": "/home/bangme/bangme/bangme/a3/CarSerial/main.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/CarSerial",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/CarSeiral.dir/serial.c.o -c /home/bangme/bangme/bangme/a3/CarSerial/serial.c",
-  "file": "/home/bangme/bangme/bangme/a3/CarSerial/serial.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/date",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/date.dir/main.c.o -c /home/bangme/bangme/bangme/a3/date/main.c",
-  "file": "/home/bangme/bangme/bangme/a3/date/main.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/date",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/date.dir/date.c.o -c /home/bangme/bangme/bangme/a3/date/date.c",
-  "file": "/home/bangme/bangme/bangme/a3/date/date.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/myRandom",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/myRandom.dir/main.c.o -c /home/bangme/bangme/bangme/a3/myRandom/main.c",
-  "file": "/home/bangme/bangme/bangme/a3/myRandom/main.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/myRandom",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/bangme/bangme/bangme/a3/myRandom/myRandom.c",
-  "file": "/home/bangme/bangme/bangme/a3/myRandom/myRandom.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/string",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/string.dir/main.c.o -c /home/bangme/bangme/bangme/a3/string/main.c",
-  "file": "/home/bangme/bangme/bangme/a3/string/main.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/a3/string",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/string.dir/string.c.o -c /home/bangme/bangme/bangme/a3/string/string.c",
-  "file": "/home/bangme/bangme/bangme/a3/string/string.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/project",
-  "command": "/usr/bin/cc  -I/usr/include/mysql -I/home/bangme/bangme/bangme/project/include -g -o CMakeFiles/project.dir/src/database.c.o -c /home/bangme/bangme/bangme/project/src/database.c",
-  "file": "/home/bangme/bangme/bangme/project/src/database.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/project",
-  "command": "/usr/bin/cc  -I/usr/include/mysql -I/home/bangme/bangme/bangme/project/include -g -o CMakeFiles/project.dir/src/main.c.o -c /home/bangme/bangme/bangme/project/src/main.c",
-  "file": "/home/bangme/bangme/bangme/project/src/main.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.o -c /home/bangme/bangme/bangme/stl/ex10_forClass.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex10_forClass.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex11_Nullptr.dir/ex11_Nullptr.cpp.o -c /home/bangme/bangme/bangme/stl/ex11_Nullptr.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex11_Nullptr.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.o -c /home/bangme/bangme/bangme/stl/ex12_constexprestion.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex12_constexprestion.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex13_array.dir/ex13_array.cpp.o -c /home/bangme/bangme/bangme/stl/ex13_array.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex13_array.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex14_priority_queue.dir/ex14_priority_queue.cpp.o -c /home/bangme/bangme/bangme/stl/ex14_priority_queue.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex14_priority_queue.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex15_unordered_map.dir/ex15_unordered_map.cpp.o -c /home/bangme/bangme/bangme/stl/ex15_unordered_map.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex15_unordered_map.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex16_transform.dir/ex16_transform.cpp.o -c /home/bangme/bangme/bangme/stl/ex16_transform.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex16_transform.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex17_sort_fstream.dir/ex17_sort_fstream.cpp.o -c /home/bangme/bangme/bangme/stl/ex17_sort_fstream.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex17_sort_fstream.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.o -c /home/bangme/bangme/bangme/stl/ex17_sort_fstream2.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex17_sort_fstream2.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex18_excution.dir/ex18_excution.cpp.o -c /home/bangme/bangme/bangme/stl/ex18_excution.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex18_excution.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/bangme/bangme/bangme/stl/ex1_vector.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex1_vector.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex2_string_vector.dir/ex2_string_vector.cpp.o -c /home/bangme/bangme/bangme/stl/ex2_string_vector.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex2_string_vector.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex3_longest.dir/ex3_longest.cpp.o -c /home/bangme/bangme/bangme/stl/ex3_longest.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex3_longest.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex4_string.dir/ex4_string.cpp.o -c /home/bangme/bangme/bangme/stl/ex4_string.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex4_string.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.o -c /home/bangme/bangme/bangme/stl/ex5_string_find.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex5_string_find.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.o -c /home/bangme/bangme/bangme/stl/ex6_iterator.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex6_iterator.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex7_map.dir/ex7_map.cpp.o -c /home/bangme/bangme/bangme/stl/ex7_map.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex7_map.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex8_vector_list.dir/ex8_vector_list.cpp.o -c /home/bangme/bangme/bangme/stl/ex8_vector_list.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex8_vector_list.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex8_vector_list2.dir/ex8_vector_list2.cpp.o -c /home/bangme/bangme/bangme/stl/ex8_vector_list2.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex8_vector_list2.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.o -c /home/bangme/bangme/bangme/stl/ex9_lambda.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/ex9_lambda.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/student_example.dir/student_example.cpp.o -c /home/bangme/bangme/bangme/stl/student_example.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/student_example.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/data_process.dir/data_process/data_process.cpp.o -c /home/bangme/bangme/bangme/stl/data_process/data_process.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/data_process/data_process.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/data_process.dir/data_process/main.cpp.o -c /home/bangme/bangme/bangme/stl/data_process/main.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/data_process/main.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/range_example.dir/range_example/main.cpp.o -c /home/bangme/bangme/bangme/stl/range_example/main.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/range_example/main.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/stl",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/range_example.dir/range_example/processor.cpp.o -c /home/bangme/bangme/bangme/stl/range_example/processor.cpp",
-  "file": "/home/bangme/bangme/bangme/stl/range_example/processor.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex10_moveVector.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex11_moveClass.dir/ex11_moveClass.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex11_moveClass.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex11_moveClass.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex12_vriantOptional.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex12_vriantOptional.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex13_thread.dir/ex13_thread.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex13_thread.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex13_thread.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex14_anyncFuture.dir/ex14_anyncFuture.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex14_anyncFuture.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex14_anyncFuture.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex15_multyThreadTask.dir/ex15_multyThreadTask.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex15_multyThreadTask.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex15_multyThreadTask.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex16_fianlModernExample.dir/ex16_fianlModernExample.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex16_fianlModernExample.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex16_fianlModernExample.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex1_unique_point.dir/ex1_unique_point.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex1_unique_point.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex2_moveOperator.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex3_deleter.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex4_shared_ptr.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex5_memoryleak.dir/ex5_memoryleak.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex5_memoryleak.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex6_weakedPtr.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex7_vectorSmart.dir/ex7_vectorSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex7_vectorSmart.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex8_treeSmart.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/smartpoint",
-  "command": "/usr/bin/c++   -g -std=gnu++23 -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp",
-  "file": "/home/bangme/bangme/bangme/smartpoint/ex9_forward.cpp"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_client.dir/mq_client.c.o -c /home/bangme/bangme/bangme/network/ipc/mq_client.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/mq_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/mq_server.dir/mq_server.c.o -c /home/bangme/bangme/bangme/network/ipc/mq_server.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/mq_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe.dir/pipe.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/pipe.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_client.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server_epoll.dir/pipe_server_epoll.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server_epoll.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server_epoll.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server_select.dir/pipe_server_select.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server_select.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server_select.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pipe_server_select2.dir/pipe_server_select2.c.o -c /home/bangme/bangme/bangme/network/ipc/pipe_server_select2.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/pipe_server_select2.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_client.dir/shm_client.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_client.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/shm_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_semaphore.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/shm_semaphore.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_semaphore2.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/shm_semaphore2.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_server.dir/shm_server.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_server.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/shm_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test.dir/shm_test.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_test.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/shm_test.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/bangme/bangme/bangme/network/ipc/shm_test2.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/shm_test2.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/sigaction.dir/sigaction.c.o -c /home/bangme/bangme/bangme/network/ipc/sigaction.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/sigaction.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/ipc",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/signal.dir/signal.c.o -c /home/bangme/bangme/bangme/network/ipc/signal.c",
-  "file": "/home/bangme/bangme/bangme/network/ipc/signal.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/bound_host0.dir/bound_host0.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/bound_host0.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/bound_host0.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/bound_host1.dir/bound_host1.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/bound_host1.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/bound_host1.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_client.dir/echo_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/echo_client.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/echo_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_server.dir/echo_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/echo_server.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/echo_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/file_client.dir/file_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/file_client.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/file_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/file_server.dir/file_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/file_server.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/file_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_clinet.dir/hello_clinet.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/hello_clinet.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/hello_clinet.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/hello_server.dir/hello_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/hello_server.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/hello_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/info.dir/info.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/info.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/info.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/op_client.dir/op_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/op_client.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/op_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/op_server.dir/op_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/op_server.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/op_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/uecho_client.dir/uecho_client.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/uecho_client.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/uecho_client.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/tcp_udp",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/uecho_server.dir/uecho_server.c.o -c /home/bangme/bangme/bangme/network/tcp_udp/uecho_server.c",
-  "file": "/home/bangme/bangme/bangme/network/tcp_udp/uecho_server.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/util",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/endian_conv.dir/endian_conv.c.o -c /home/bangme/bangme/bangme/network/util/endian_conv.c",
-  "file": "/home/bangme/bangme/bangme/network/util/endian_conv.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/util",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/inet_addr.dir/inet_addr.c.o -c /home/bangme/bangme/bangme/network/util/inet_addr.c",
-  "file": "/home/bangme/bangme/bangme/network/util/inet_addr.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/util",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test.dir/pthread_test.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test.c",
-  "file": "/home/bangme/bangme/bangme/network/util/pthread_test.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/util",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test2.dir/pthread_test2.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test2.c",
-  "file": "/home/bangme/bangme/bangme/network/util/pthread_test2.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/util",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test3.dir/pthread_test3.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test3.c",
-  "file": "/home/bangme/bangme/bangme/network/util/pthread_test3.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/util",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/pthread_test4.dir/pthread_test4.c.o -c /home/bangme/bangme/bangme/network/util/pthread_test4.c",
-  "file": "/home/bangme/bangme/bangme/network/util/pthread_test4.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/chat_serv.dir/chat_serv.c.o -c /home/bangme/bangme/bangme/network/multiProcess/chat_serv.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/chat_serv.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_epollcli.dir/echo_epollcli.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_epollcli.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_epollcli.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_epollserv.dir/echo_epollserv.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_epollserv.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_epollserv.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_mpclient.dir/echo_mpclient.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_mpclient.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_mpclient.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_mpserver.dir/echo_mpserver.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_mpserver.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_mpserver.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_selectcli.dir/echo_selectcli.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_selectcli.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_selectcli.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/echo_selectsrv.dir/echo_selectsrv.c.o -c /home/bangme/bangme/bangme/network/multiProcess/echo_selectsrv.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/echo_selectsrv.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/news_receiver.dir/news_receiver.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_receiver.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_receiver.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/news_receiver_brd.dir/news_receiver_brd.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_receiver_brd.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_receiver_brd.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/news_sender.dir/news_sender.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_sender.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_sender.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/news_sender_brd.dir/news_sender_brd.c.o -c /home/bangme/bangme/bangme/network/multiProcess/news_sender_brd.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/news_sender_brd.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/remove_zombie.dir/remove_zombie.c.o -c /home/bangme/bangme/bangme/network/multiProcess/remove_zombie.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/remove_zombie.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/wait.dir/wait.c.o -c /home/bangme/bangme/bangme/network/multiProcess/wait.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/wait.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/waitpid.dir/waitpid.c.o -c /home/bangme/bangme/bangme/network/multiProcess/waitpid.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/waitpid.c"
-},
-{
-  "directory": "/home/bangme/bangme/bangme/build/network/multiProcess",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/zombie.dir/zombie.c.o -c /home/bangme/bangme/bangme/network/multiProcess/zombie.c",
-  "file": "/home/bangme/bangme/bangme/network/multiProcess/zombie.c"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/19_draw_rect_mouse.dir/19_draw_rect_mouse.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/19_draw_rect_mouse.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part2/19_draw_rect_mouse.cpp"
 }
 ]

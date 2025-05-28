@@ -44,16 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/bangme/bangme/bangme/build/a1/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/a2/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/a3/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/project/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/stl/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/smartpoint/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/network/ipc/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/network/tcp_udp/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/network/util/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/network/multiProcess/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/opencv/part1/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/opencv/part2/cmake_install.cmake")
 
 endif()
 

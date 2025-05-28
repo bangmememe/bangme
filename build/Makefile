@@ -117,1798 +117,251 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named arithmetics
+# Target rules for targets named 01_helloworld
 
 # Build rule for target.
-arithmetics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arithmetics
-.PHONY : arithmetics
+01_helloworld: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_helloworld
+.PHONY : 01_helloworld
 
 # fast build rule for target.
-arithmetics/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/arithmetics.dir/build.make a1/CMakeFiles/arithmetics.dir/build
-.PHONY : arithmetics/fast
+01_helloworld/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/01_helloworld.dir/build.make opencv/part1/CMakeFiles/01_helloworld.dir/build
+.PHONY : 01_helloworld/fast
 
 #=============================================================================
-# Target rules for targets named celsius2fahr
+# Target rules for targets named 02_basicOp
 
 # Build rule for target.
-celsius2fahr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 celsius2fahr
-.PHONY : celsius2fahr
+02_basicOp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_basicOp
+.PHONY : 02_basicOp
 
 # fast build rule for target.
-celsius2fahr/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/celsius2fahr.dir/build.make a1/CMakeFiles/celsius2fahr.dir/build
-.PHONY : celsius2fahr/fast
+02_basicOp/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/02_basicOp.dir/build.make opencv/part1/CMakeFiles/02_basicOp.dir/build
+.PHONY : 02_basicOp/fast
 
 #=============================================================================
-# Target rules for targets named charNumber
+# Target rules for targets named 03_matOp
 
 # Build rule for target.
-charNumber: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charNumber
-.PHONY : charNumber
+03_matOp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_matOp
+.PHONY : 03_matOp
 
 # fast build rule for target.
-charNumber/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/charNumber.dir/build.make a1/CMakeFiles/charNumber.dir/build
-.PHONY : charNumber/fast
+03_matOp/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/03_matOp.dir/build.make opencv/part1/CMakeFiles/03_matOp.dir/build
+.PHONY : 03_matOp/fast
 
 #=============================================================================
-# Target rules for targets named compare
+# Target rules for targets named 04_inputArray
 
 # Build rule for target.
-compare: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compare
-.PHONY : compare
+04_inputArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_inputArray
+.PHONY : 04_inputArray
 
 # fast build rule for target.
-compare/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare.dir/build.make a1/CMakeFiles/compare.dir/build
-.PHONY : compare/fast
+04_inputArray/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/04_inputArray.dir/build.make opencv/part1/CMakeFiles/04_inputArray.dir/build
+.PHONY : 04_inputArray/fast
 
 #=============================================================================
-# Target rules for targets named compare2
+# Target rules for targets named 05_matOp2
 
 # Build rule for target.
-compare2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compare2
-.PHONY : compare2
+05_matOp2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_matOp2
+.PHONY : 05_matOp2
 
 # fast build rule for target.
-compare2/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/compare2.dir/build.make a1/CMakeFiles/compare2.dir/build
-.PHONY : compare2/fast
+05_matOp2/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/05_matOp2.dir/build.make opencv/part1/CMakeFiles/05_matOp2.dir/build
+.PHONY : 05_matOp2/fast
 
 #=============================================================================
-# Target rules for targets named fahr2celsius
+# Target rules for targets named 06_matOp3
 
 # Build rule for target.
-fahr2celsius: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fahr2celsius
-.PHONY : fahr2celsius
+06_matOp3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_matOp3
+.PHONY : 06_matOp3
 
 # fast build rule for target.
-fahr2celsius/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fahr2celsius.dir/build.make a1/CMakeFiles/fahr2celsius.dir/build
-.PHONY : fahr2celsius/fast
+06_matOp3/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/06_matOp3.dir/build.make opencv/part1/CMakeFiles/06_matOp3.dir/build
+.PHONY : 06_matOp3/fast
 
 #=============================================================================
-# Target rules for targets named fourBit
+# Target rules for targets named 07_vectorScalar
 
 # Build rule for target.
-fourBit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fourBit
-.PHONY : fourBit
+07_vectorScalar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_vectorScalar
+.PHONY : 07_vectorScalar
 
 # fast build rule for target.
-fourBit/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit.dir/build.make a1/CMakeFiles/fourBit.dir/build
-.PHONY : fourBit/fast
+07_vectorScalar/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/07_vectorScalar.dir/build.make opencv/part1/CMakeFiles/07_vectorScalar.dir/build
+.PHONY : 07_vectorScalar/fast
 
 #=============================================================================
-# Target rules for targets named fourBit2
+# Target rules for targets named 08_video
 
 # Build rule for target.
-fourBit2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fourBit2
-.PHONY : fourBit2
+08_video: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_video
+.PHONY : 08_video
 
 # fast build rule for target.
-fourBit2/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/fourBit2.dir/build.make a1/CMakeFiles/fourBit2.dir/build
-.PHONY : fourBit2/fast
+08_video/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/08_video.dir/build.make opencv/part1/CMakeFiles/08_video.dir/build
+.PHONY : 08_video/fast
 
 #=============================================================================
-# Target rules for targets named genderRatio
+# Target rules for targets named 09_videoSave
 
 # Build rule for target.
-genderRatio: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 genderRatio
-.PHONY : genderRatio
+09_videoSave: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_videoSave
+.PHONY : 09_videoSave
 
 # fast build rule for target.
-genderRatio/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/genderRatio.dir/build.make a1/CMakeFiles/genderRatio.dir/build
-.PHONY : genderRatio/fast
+09_videoSave/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/09_videoSave.dir/build.make opencv/part1/CMakeFiles/09_videoSave.dir/build
+.PHONY : 09_videoSave/fast
 
 #=============================================================================
-# Target rules for targets named increment
+# Target rules for targets named 10_drawing
 
 # Build rule for target.
-increment: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 increment
-.PHONY : increment
+10_drawing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_drawing
+.PHONY : 10_drawing
 
 # fast build rule for target.
-increment/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/increment.dir/build.make a1/CMakeFiles/increment.dir/build
-.PHONY : increment/fast
+10_drawing/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/10_drawing.dir/build.make opencv/part2/CMakeFiles/10_drawing.dir/build
+.PHONY : 10_drawing/fast
 
 #=============================================================================
-# Target rules for targets named infinit
+# Target rules for targets named 11_font
 
 # Build rule for target.
-infinit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 infinit
-.PHONY : infinit
+11_font: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_font
+.PHONY : 11_font
 
 # fast build rule for target.
-infinit/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/infinit.dir/build.make a1/CMakeFiles/infinit.dir/build
-.PHONY : infinit/fast
+11_font/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/11_font.dir/build.make opencv/part2/CMakeFiles/11_font.dir/build
+.PHONY : 11_font/fast
 
 #=============================================================================
-# Target rules for targets named limit
+# Target rules for targets named 12_freetypeFont
 
 # Build rule for target.
-limit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 limit
-.PHONY : limit
+12_freetypeFont: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_freetypeFont
+.PHONY : 12_freetypeFont
 
 # fast build rule for target.
-limit/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/limit.dir/build.make a1/CMakeFiles/limit.dir/build
-.PHONY : limit/fast
+12_freetypeFont/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/12_freetypeFont.dir/build.make opencv/part2/CMakeFiles/12_freetypeFont.dir/build
+.PHONY : 12_freetypeFont/fast
 
 #=============================================================================
-# Target rules for targets named literal
+# Target rules for targets named 13_keyboard
 
 # Build rule for target.
-literal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 literal
-.PHONY : literal
+13_keyboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_keyboard
+.PHONY : 13_keyboard
 
 # fast build rule for target.
-literal/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/literal.dir/build.make a1/CMakeFiles/literal.dir/build
-.PHONY : literal/fast
+13_keyboard/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/13_keyboard.dir/build.make opencv/part2/CMakeFiles/13_keyboard.dir/build
+.PHONY : 13_keyboard/fast
 
 #=============================================================================
-# Target rules for targets named oddeven
+# Target rules for targets named 14_mouse
 
 # Build rule for target.
-oddeven: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oddeven
-.PHONY : oddeven
+14_mouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_mouse
+.PHONY : 14_mouse
 
 # fast build rule for target.
-oddeven/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/oddeven.dir/build.make a1/CMakeFiles/oddeven.dir/build
-.PHONY : oddeven/fast
+14_mouse/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/14_mouse.dir/build.make opencv/part2/CMakeFiles/14_mouse.dir/build
+.PHONY : 14_mouse/fast
 
 #=============================================================================
-# Target rules for targets named sizeof
+# Target rules for targets named 15_trackbar
 
 # Build rule for target.
-sizeof: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeof
-.PHONY : sizeof
+15_trackbar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_trackbar
+.PHONY : 15_trackbar
 
 # fast build rule for target.
-sizeof/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/sizeof.dir/build.make a1/CMakeFiles/sizeof.dir/build
-.PHONY : sizeof/fast
+15_trackbar/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/15_trackbar.dir/build.make opencv/part2/CMakeFiles/15_trackbar.dir/build
+.PHONY : 15_trackbar/fast
 
 #=============================================================================
-# Target rules for targets named triangle
+# Target rules for targets named 16_filestorage
 
 # Build rule for target.
-triangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangle
-.PHONY : triangle
+16_filestorage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 16_filestorage
+.PHONY : 16_filestorage
 
 # fast build rule for target.
-triangle/fast:
-	$(MAKE) $(MAKESILENT) -f a1/CMakeFiles/triangle.dir/build.make a1/CMakeFiles/triangle.dir/build
-.PHONY : triangle/fast
+16_filestorage/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/16_filestorage.dir/build.make opencv/part2/CMakeFiles/16_filestorage.dir/build
+.PHONY : 16_filestorage/fast
 
 #=============================================================================
-# Target rules for targets named arrayAssignement
+# Target rules for targets named 17_filestorage2
 
 # Build rule for target.
-arrayAssignement: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayAssignement
-.PHONY : arrayAssignement
+17_filestorage2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 17_filestorage2
+.PHONY : 17_filestorage2
 
 # fast build rule for target.
-arrayAssignement/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayAssignement.dir/build.make a3/CMakeFiles/arrayAssignement.dir/build
-.PHONY : arrayAssignement/fast
+17_filestorage2/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/17_filestorage2.dir/build.make opencv/part2/CMakeFiles/17_filestorage2.dir/build
+.PHONY : 17_filestorage2/fast
 
 #=============================================================================
-# Target rules for targets named arrayCompare
+# Target rules for targets named 18_camTest
 
 # Build rule for target.
-arrayCompare: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayCompare
-.PHONY : arrayCompare
+18_camTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18_camTest
+.PHONY : 18_camTest
 
 # fast build rule for target.
-arrayCompare/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayCompare.dir/build.make a3/CMakeFiles/arrayCompare.dir/build
-.PHONY : arrayCompare/fast
+18_camTest/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/18_camTest.dir/build.make opencv/part2/CMakeFiles/18_camTest.dir/build
+.PHONY : 18_camTest/fast
 
 #=============================================================================
-# Target rules for targets named arrayPointer
+# Target rules for targets named 19_draw_rect_mouse
 
 # Build rule for target.
-arrayPointer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayPointer
-.PHONY : arrayPointer
+19_draw_rect_mouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19_draw_rect_mouse
+.PHONY : 19_draw_rect_mouse
 
 # fast build rule for target.
-arrayPointer/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/arrayPointer.dir/build.make a3/CMakeFiles/arrayPointer.dir/build
-.PHONY : arrayPointer/fast
-
-#=============================================================================
-# Target rules for targets named bubble
-
-# Build rule for target.
-bubble: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubble
-.PHONY : bubble
-
-# fast build rule for target.
-bubble/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/bubble.dir/build.make a3/CMakeFiles/bubble.dir/build
-.PHONY : bubble/fast
-
-#=============================================================================
-# Target rules for targets named charAdress
-
-# Build rule for target.
-charAdress: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charAdress
-.PHONY : charAdress
-
-# fast build rule for target.
-charAdress/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charAdress.dir/build.make a3/CMakeFiles/charAdress.dir/build
-.PHONY : charAdress/fast
-
-#=============================================================================
-# Target rules for targets named charPointerOperation
-
-# Build rule for target.
-charPointerOperation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charPointerOperation
-.PHONY : charPointerOperation
-
-# fast build rule for target.
-charPointerOperation/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/charPointerOperation.dir/build.make a3/CMakeFiles/charPointerOperation.dir/build
-.PHONY : charPointerOperation/fast
-
-#=============================================================================
-# Target rules for targets named dynamicAllocation
-
-# Build rule for target.
-dynamicAllocation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dynamicAllocation
-.PHONY : dynamicAllocation
-
-# fast build rule for target.
-dynamicAllocation/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/dynamicAllocation.dir/build.make a3/CMakeFiles/dynamicAllocation.dir/build
-.PHONY : dynamicAllocation/fast
-
-#=============================================================================
-# Target rules for targets named endian
-
-# Build rule for target.
-endian: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endian
-.PHONY : endian
-
-# fast build rule for target.
-endian/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/endian.dir/build.make a3/CMakeFiles/endian.dir/build
-.PHONY : endian/fast
-
-#=============================================================================
-# Target rules for targets named enumExample
-
-# Build rule for target.
-enumExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enumExample
-.PHONY : enumExample
-
-# fast build rule for target.
-enumExample/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/enumExample.dir/build.make a3/CMakeFiles/enumExample.dir/build
-.PHONY : enumExample/fast
-
-#=============================================================================
-# Target rules for targets named fflushEx
-
-# Build rule for target.
-fflushEx: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fflushEx
-.PHONY : fflushEx
-
-# fast build rule for target.
-fflushEx/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fflushEx.dir/build.make a3/CMakeFiles/fflushEx.dir/build
-.PHONY : fflushEx/fast
-
-#=============================================================================
-# Target rules for targets named fileDescription
-
-# Build rule for target.
-fileDescription: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fileDescription
-.PHONY : fileDescription
-
-# fast build rule for target.
-fileDescription/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/fileDescription.dir/build.make a3/CMakeFiles/fileDescription.dir/build
-.PHONY : fileDescription/fast
-
-#=============================================================================
-# Target rules for targets named filePointer
-
-# Build rule for target.
-filePointer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 filePointer
-.PHONY : filePointer
-
-# fast build rule for target.
-filePointer/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/filePointer.dir/build.make a3/CMakeFiles/filePointer.dir/build
-.PHONY : filePointer/fast
-
-#=============================================================================
-# Target rules for targets named functionPointer
-
-# Build rule for target.
-functionPointer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functionPointer
-.PHONY : functionPointer
-
-# fast build rule for target.
-functionPointer/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/functionPointer.dir/build.make a3/CMakeFiles/functionPointer.dir/build
-.PHONY : functionPointer/fast
-
-#=============================================================================
-# Target rules for targets named getSeries
-
-# Build rule for target.
-getSeries: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 getSeries
-.PHONY : getSeries
-
-# fast build rule for target.
-getSeries/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/getSeries.dir/build.make a3/CMakeFiles/getSeries.dir/build
-.PHONY : getSeries/fast
-
-#=============================================================================
-# Target rules for targets named helloStr
-
-# Build rule for target.
-helloStr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloStr
-.PHONY : helloStr
-
-# fast build rule for target.
-helloStr/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/helloStr.dir/build.make a3/CMakeFiles/helloStr.dir/build
-.PHONY : helloStr/fast
-
-#=============================================================================
-# Target rules for targets named pointer2
-
-# Build rule for target.
-pointer2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointer2
-.PHONY : pointer2
-
-# fast build rule for target.
-pointer2/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointer2.dir/build.make a3/CMakeFiles/pointer2.dir/build
-.PHONY : pointer2/fast
-
-#=============================================================================
-# Target rules for targets named pointerConcept
-
-# Build rule for target.
-pointerConcept: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointerConcept
-.PHONY : pointerConcept
-
-# fast build rule for target.
-pointerConcept/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/pointerConcept.dir/build.make a3/CMakeFiles/pointerConcept.dir/build
-.PHONY : pointerConcept/fast
-
-#=============================================================================
-# Target rules for targets named putSeries
-
-# Build rule for target.
-putSeries: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 putSeries
-.PHONY : putSeries
-
-# fast build rule for target.
-putSeries/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/putSeries.dir/build.make a3/CMakeFiles/putSeries.dir/build
-.PHONY : putSeries/fast
-
-#=============================================================================
-# Target rules for targets named qsort
-
-# Build rule for target.
-qsort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qsort
-.PHONY : qsort
-
-# fast build rule for target.
-qsort/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/qsort.dir/build.make a3/CMakeFiles/qsort.dir/build
-.PHONY : qsort/fast
-
-#=============================================================================
-# Target rules for targets named selection
-
-# Build rule for target.
-selection: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 selection
-.PHONY : selection
-
-# fast build rule for target.
-selection/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/selection.dir/build.make a3/CMakeFiles/selection.dir/build
-.PHONY : selection/fast
-
-#=============================================================================
-# Target rules for targets named strcatExample
-
-# Build rule for target.
-strcatExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strcatExample
-.PHONY : strcatExample
-
-# fast build rule for target.
-strcatExample/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/strcatExample.dir/build.make a3/CMakeFiles/strcatExample.dir/build
-.PHONY : strcatExample/fast
-
-#=============================================================================
-# Target rules for targets named sumArrayFunction
-
-# Build rule for target.
-sumArrayFunction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumArrayFunction
-.PHONY : sumArrayFunction
-
-# fast build rule for target.
-sumArrayFunction/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumArrayFunction.dir/build.make a3/CMakeFiles/sumArrayFunction.dir/build
-.PHONY : sumArrayFunction/fast
-
-#=============================================================================
-# Target rules for targets named sumMatrixFunction
-
-# Build rule for target.
-sumMatrixFunction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumMatrixFunction
-.PHONY : sumMatrixFunction
-
-# fast build rule for target.
-sumMatrixFunction/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction.dir/build.make a3/CMakeFiles/sumMatrixFunction.dir/build
-.PHONY : sumMatrixFunction/fast
-
-#=============================================================================
-# Target rules for targets named sumMatrixFunction2
-
-# Build rule for target.
-sumMatrixFunction2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumMatrixFunction2
-.PHONY : sumMatrixFunction2
-
-# fast build rule for target.
-sumMatrixFunction2/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/sumMatrixFunction2.dir/build.make a3/CMakeFiles/sumMatrixFunction2.dir/build
-.PHONY : sumMatrixFunction2/fast
-
-#=============================================================================
-# Target rules for targets named swap
-
-# Build rule for target.
-swap: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 swap
-.PHONY : swap
-
-# fast build rule for target.
-swap/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swap.dir/build.make a3/CMakeFiles/swap.dir/build
-.PHONY : swap/fast
-
-#=============================================================================
-# Target rules for targets named swapFunction
-
-# Build rule for target.
-swapFunction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 swapFunction
-.PHONY : swapFunction
-
-# fast build rule for target.
-swapFunction/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/swapFunction.dir/build.make a3/CMakeFiles/swapFunction.dir/build
-.PHONY : swapFunction/fast
-
-#=============================================================================
-# Target rules for targets named unionExample
-
-# Build rule for target.
-unionExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionExample
-.PHONY : unionExample
-
-# fast build rule for target.
-unionExample/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/unionExample.dir/build.make a3/CMakeFiles/unionExample.dir/build
-.PHONY : unionExample/fast
-
-#=============================================================================
-# Target rules for targets named voidPointer
-
-# Build rule for target.
-voidPointer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 voidPointer
-.PHONY : voidPointer
-
-# fast build rule for target.
-voidPointer/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CMakeFiles/voidPointer.dir/build.make a3/CMakeFiles/voidPointer.dir/build
-.PHONY : voidPointer/fast
-
-#=============================================================================
-# Target rules for targets named CarSeiral
-
-# Build rule for target.
-CarSeiral: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CarSeiral
-.PHONY : CarSeiral
-
-# fast build rule for target.
-CarSeiral/fast:
-	$(MAKE) $(MAKESILENT) -f a3/CarSerial/CMakeFiles/CarSeiral.dir/build.make a3/CarSerial/CMakeFiles/CarSeiral.dir/build
-.PHONY : CarSeiral/fast
-
-#=============================================================================
-# Target rules for targets named date
-
-# Build rule for target.
-date: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
-.PHONY : date
-
-# fast build rule for target.
-date/fast:
-	$(MAKE) $(MAKESILENT) -f a3/date/CMakeFiles/date.dir/build.make a3/date/CMakeFiles/date.dir/build
-.PHONY : date/fast
-
-#=============================================================================
-# Target rules for targets named myRandom
-
-# Build rule for target.
-myRandom: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRandom
-.PHONY : myRandom
-
-# fast build rule for target.
-myRandom/fast:
-	$(MAKE) $(MAKESILENT) -f a3/myRandom/CMakeFiles/myRandom.dir/build.make a3/myRandom/CMakeFiles/myRandom.dir/build
-.PHONY : myRandom/fast
-
-#=============================================================================
-# Target rules for targets named string
-
-# Build rule for target.
-string: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string
-.PHONY : string
-
-# fast build rule for target.
-string/fast:
-	$(MAKE) $(MAKESILENT) -f a3/string/CMakeFiles/string.dir/build.make a3/string/CMakeFiles/string.dir/build
-.PHONY : string/fast
-
-#=============================================================================
-# Target rules for targets named project
-
-# Build rule for target.
-project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project
-.PHONY : project
-
-# fast build rule for target.
-project/fast:
-	$(MAKE) $(MAKESILENT) -f project/CMakeFiles/project.dir/build.make project/CMakeFiles/project.dir/build
-.PHONY : project/fast
-
-#=============================================================================
-# Target rules for targets named ex10_forClass
-
-# Build rule for target.
-ex10_forClass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_forClass
-.PHONY : ex10_forClass
-
-# fast build rule for target.
-ex10_forClass/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex10_forClass.dir/build.make stl/CMakeFiles/ex10_forClass.dir/build
-.PHONY : ex10_forClass/fast
-
-#=============================================================================
-# Target rules for targets named ex11_Nullptr
-
-# Build rule for target.
-ex11_Nullptr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_Nullptr
-.PHONY : ex11_Nullptr
-
-# fast build rule for target.
-ex11_Nullptr/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex11_Nullptr.dir/build.make stl/CMakeFiles/ex11_Nullptr.dir/build
-.PHONY : ex11_Nullptr/fast
-
-#=============================================================================
-# Target rules for targets named ex12_constexprestion
-
-# Build rule for target.
-ex12_constexprestion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_constexprestion
-.PHONY : ex12_constexprestion
-
-# fast build rule for target.
-ex12_constexprestion/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex12_constexprestion.dir/build.make stl/CMakeFiles/ex12_constexprestion.dir/build
-.PHONY : ex12_constexprestion/fast
-
-#=============================================================================
-# Target rules for targets named ex13_array
-
-# Build rule for target.
-ex13_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex13_array
-.PHONY : ex13_array
-
-# fast build rule for target.
-ex13_array/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/build
-.PHONY : ex13_array/fast
-
-#=============================================================================
-# Target rules for targets named ex14_priority_queue
-
-# Build rule for target.
-ex14_priority_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_priority_queue
-.PHONY : ex14_priority_queue
-
-# fast build rule for target.
-ex14_priority_queue/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex14_priority_queue.dir/build.make stl/CMakeFiles/ex14_priority_queue.dir/build
-.PHONY : ex14_priority_queue/fast
-
-#=============================================================================
-# Target rules for targets named ex15_unordered_map
-
-# Build rule for target.
-ex15_unordered_map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex15_unordered_map
-.PHONY : ex15_unordered_map
-
-# fast build rule for target.
-ex15_unordered_map/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex15_unordered_map.dir/build.make stl/CMakeFiles/ex15_unordered_map.dir/build
-.PHONY : ex15_unordered_map/fast
-
-#=============================================================================
-# Target rules for targets named ex16_transform
-
-# Build rule for target.
-ex16_transform: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex16_transform
-.PHONY : ex16_transform
-
-# fast build rule for target.
-ex16_transform/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex16_transform.dir/build.make stl/CMakeFiles/ex16_transform.dir/build
-.PHONY : ex16_transform/fast
-
-#=============================================================================
-# Target rules for targets named ex17_sort_fstream
-
-# Build rule for target.
-ex17_sort_fstream: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex17_sort_fstream
-.PHONY : ex17_sort_fstream
-
-# fast build rule for target.
-ex17_sort_fstream/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream.dir/build.make stl/CMakeFiles/ex17_sort_fstream.dir/build
-.PHONY : ex17_sort_fstream/fast
-
-#=============================================================================
-# Target rules for targets named ex17_sort_fstream2
-
-# Build rule for target.
-ex17_sort_fstream2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex17_sort_fstream2
-.PHONY : ex17_sort_fstream2
-
-# fast build rule for target.
-ex17_sort_fstream2/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/build
-.PHONY : ex17_sort_fstream2/fast
-
-#=============================================================================
-# Target rules for targets named ex18_excution
-
-# Build rule for target.
-ex18_excution: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex18_excution
-.PHONY : ex18_excution
-
-# fast build rule for target.
-ex18_excution/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/build
-.PHONY : ex18_excution/fast
-
-#=============================================================================
-# Target rules for targets named ex1_vector
-
-# Build rule for target.
-ex1_vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_vector
-.PHONY : ex1_vector
-
-# fast build rule for target.
-ex1_vector/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex1_vector.dir/build.make stl/CMakeFiles/ex1_vector.dir/build
-.PHONY : ex1_vector/fast
-
-#=============================================================================
-# Target rules for targets named ex2_string_vector
-
-# Build rule for target.
-ex2_string_vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_string_vector
-.PHONY : ex2_string_vector
-
-# fast build rule for target.
-ex2_string_vector/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
-.PHONY : ex2_string_vector/fast
-
-#=============================================================================
-# Target rules for targets named ex3_longest
-
-# Build rule for target.
-ex3_longest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_longest
-.PHONY : ex3_longest
-
-# fast build rule for target.
-ex3_longest/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/build
-.PHONY : ex3_longest/fast
-
-#=============================================================================
-# Target rules for targets named ex4_string
-
-# Build rule for target.
-ex4_string: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_string
-.PHONY : ex4_string
-
-# fast build rule for target.
-ex4_string/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/build
-.PHONY : ex4_string/fast
-
-#=============================================================================
-# Target rules for targets named ex5_string_find
-
-# Build rule for target.
-ex5_string_find: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_string_find
-.PHONY : ex5_string_find
-
-# fast build rule for target.
-ex5_string_find/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
-.PHONY : ex5_string_find/fast
-
-#=============================================================================
-# Target rules for targets named ex6_iterator
-
-# Build rule for target.
-ex6_iterator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_iterator
-.PHONY : ex6_iterator
-
-# fast build rule for target.
-ex6_iterator/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
-.PHONY : ex6_iterator/fast
-
-#=============================================================================
-# Target rules for targets named ex7_map
-
-# Build rule for target.
-ex7_map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex7_map
-.PHONY : ex7_map
-
-# fast build rule for target.
-ex7_map/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
-.PHONY : ex7_map/fast
-
-#=============================================================================
-# Target rules for targets named ex8_vector_list
-
-# Build rule for target.
-ex8_vector_list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_vector_list
-.PHONY : ex8_vector_list
-
-# fast build rule for target.
-ex8_vector_list/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list.dir/build.make stl/CMakeFiles/ex8_vector_list.dir/build
-.PHONY : ex8_vector_list/fast
-
-#=============================================================================
-# Target rules for targets named ex8_vector_list2
-
-# Build rule for target.
-ex8_vector_list2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_vector_list2
-.PHONY : ex8_vector_list2
-
-# fast build rule for target.
-ex8_vector_list2/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/build
-.PHONY : ex8_vector_list2/fast
-
-#=============================================================================
-# Target rules for targets named ex9_lambda
-
-# Build rule for target.
-ex9_lambda: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_lambda
-.PHONY : ex9_lambda
-
-# fast build rule for target.
-ex9_lambda/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
-.PHONY : ex9_lambda/fast
-
-#=============================================================================
-# Target rules for targets named student_example
-
-# Build rule for target.
-student_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 student_example
-.PHONY : student_example
-
-# fast build rule for target.
-student_example/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/build
-.PHONY : student_example/fast
-
-#=============================================================================
-# Target rules for targets named data_process
-
-# Build rule for target.
-data_process: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_process
-.PHONY : data_process
-
-# fast build rule for target.
-data_process/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
-.PHONY : data_process/fast
-
-#=============================================================================
-# Target rules for targets named range_example
-
-# Build rule for target.
-range_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 range_example
-.PHONY : range_example
-
-# fast build rule for target.
-range_example/fast:
-	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
-.PHONY : range_example/fast
-
-#=============================================================================
-# Target rules for targets named ex10_moveVector
-
-# Build rule for target.
-ex10_moveVector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_moveVector
-.PHONY : ex10_moveVector
-
-# fast build rule for target.
-ex10_moveVector/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex10_moveVector.dir/build.make smartpoint/CMakeFiles/ex10_moveVector.dir/build
-.PHONY : ex10_moveVector/fast
-
-#=============================================================================
-# Target rules for targets named ex11_moveClass
-
-# Build rule for target.
-ex11_moveClass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_moveClass
-.PHONY : ex11_moveClass
-
-# fast build rule for target.
-ex11_moveClass/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex11_moveClass.dir/build.make smartpoint/CMakeFiles/ex11_moveClass.dir/build
-.PHONY : ex11_moveClass/fast
-
-#=============================================================================
-# Target rules for targets named ex12_vriantOptional
-
-# Build rule for target.
-ex12_vriantOptional: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_vriantOptional
-.PHONY : ex12_vriantOptional
-
-# fast build rule for target.
-ex12_vriantOptional/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex12_vriantOptional.dir/build.make smartpoint/CMakeFiles/ex12_vriantOptional.dir/build
-.PHONY : ex12_vriantOptional/fast
-
-#=============================================================================
-# Target rules for targets named ex13_thread
-
-# Build rule for target.
-ex13_thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex13_thread
-.PHONY : ex13_thread
-
-# fast build rule for target.
-ex13_thread/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/build
-.PHONY : ex13_thread/fast
-
-#=============================================================================
-# Target rules for targets named ex14_anyncFuture
-
-# Build rule for target.
-ex14_anyncFuture: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_anyncFuture
-.PHONY : ex14_anyncFuture
-
-# fast build rule for target.
-ex14_anyncFuture/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/build
-.PHONY : ex14_anyncFuture/fast
-
-#=============================================================================
-# Target rules for targets named ex15_multyThreadTask
-
-# Build rule for target.
-ex15_multyThreadTask: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex15_multyThreadTask
-.PHONY : ex15_multyThreadTask
-
-# fast build rule for target.
-ex15_multyThreadTask/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multyThreadTask.dir/build
-.PHONY : ex15_multyThreadTask/fast
-
-#=============================================================================
-# Target rules for targets named ex16_fianlModernExample
-
-# Build rule for target.
-ex16_fianlModernExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex16_fianlModernExample
-.PHONY : ex16_fianlModernExample
-
-# fast build rule for target.
-ex16_fianlModernExample/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build.make smartpoint/CMakeFiles/ex16_fianlModernExample.dir/build
-.PHONY : ex16_fianlModernExample/fast
-
-#=============================================================================
-# Target rules for targets named ex1_unique_point
-
-# Build rule for target.
-ex1_unique_point: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_unique_point
-.PHONY : ex1_unique_point
-
-# fast build rule for target.
-ex1_unique_point/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex1_unique_point.dir/build.make smartpoint/CMakeFiles/ex1_unique_point.dir/build
-.PHONY : ex1_unique_point/fast
-
-#=============================================================================
-# Target rules for targets named ex2_moveOperator
-
-# Build rule for target.
-ex2_moveOperator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_moveOperator
-.PHONY : ex2_moveOperator
-
-# fast build rule for target.
-ex2_moveOperator/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/build
-.PHONY : ex2_moveOperator/fast
-
-#=============================================================================
-# Target rules for targets named ex3_deleter
-
-# Build rule for target.
-ex3_deleter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_deleter
-.PHONY : ex3_deleter
-
-# fast build rule for target.
-ex3_deleter/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
-.PHONY : ex3_deleter/fast
-
-#=============================================================================
-# Target rules for targets named ex4_shared_ptr
-
-# Build rule for target.
-ex4_shared_ptr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_shared_ptr
-.PHONY : ex4_shared_ptr
-
-# fast build rule for target.
-ex4_shared_ptr/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
-.PHONY : ex4_shared_ptr/fast
-
-#=============================================================================
-# Target rules for targets named ex5_memoryleak
-
-# Build rule for target.
-ex5_memoryleak: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_memoryleak
-.PHONY : ex5_memoryleak
-
-# fast build rule for target.
-ex5_memoryleak/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryleak.dir/build.make smartpoint/CMakeFiles/ex5_memoryleak.dir/build
-.PHONY : ex5_memoryleak/fast
-
-#=============================================================================
-# Target rules for targets named ex6_weakedPtr
-
-# Build rule for target.
-ex6_weakedPtr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_weakedPtr
-.PHONY : ex6_weakedPtr
-
-# fast build rule for target.
-ex6_weakedPtr/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
-.PHONY : ex6_weakedPtr/fast
-
-#=============================================================================
-# Target rules for targets named ex7_vectorSmart
-
-# Build rule for target.
-ex7_vectorSmart: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex7_vectorSmart
-.PHONY : ex7_vectorSmart
-
-# fast build rule for target.
-ex7_vectorSmart/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/build
-.PHONY : ex7_vectorSmart/fast
-
-#=============================================================================
-# Target rules for targets named ex8_treeSmart
-
-# Build rule for target.
-ex8_treeSmart: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_treeSmart
-.PHONY : ex8_treeSmart
-
-# fast build rule for target.
-ex8_treeSmart/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/build
-.PHONY : ex8_treeSmart/fast
-
-#=============================================================================
-# Target rules for targets named ex9_forward
-
-# Build rule for target.
-ex9_forward: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_forward
-.PHONY : ex9_forward
-
-# fast build rule for target.
-ex9_forward/fast:
-	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/build
-.PHONY : ex9_forward/fast
-
-#=============================================================================
-# Target rules for targets named mq_client
-
-# Build rule for target.
-mq_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mq_client
-.PHONY : mq_client
-
-# fast build rule for target.
-mq_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_client.dir/build.make network/ipc/CMakeFiles/mq_client.dir/build
-.PHONY : mq_client/fast
-
-#=============================================================================
-# Target rules for targets named mq_server
-
-# Build rule for target.
-mq_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mq_server
-.PHONY : mq_server
-
-# fast build rule for target.
-mq_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/mq_server.dir/build.make network/ipc/CMakeFiles/mq_server.dir/build
-.PHONY : mq_server/fast
-
-#=============================================================================
-# Target rules for targets named pipe
-
-# Build rule for target.
-pipe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe
-.PHONY : pipe
-
-# fast build rule for target.
-pipe/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe.dir/build.make network/ipc/CMakeFiles/pipe.dir/build
-.PHONY : pipe/fast
-
-#=============================================================================
-# Target rules for targets named pipe_client
-
-# Build rule for target.
-pipe_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_client
-.PHONY : pipe_client
-
-# fast build rule for target.
-pipe_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_client.dir/build.make network/ipc/CMakeFiles/pipe_client.dir/build
-.PHONY : pipe_client/fast
-
-#=============================================================================
-# Target rules for targets named pipe_server
-
-# Build rule for target.
-pipe_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server
-.PHONY : pipe_server
-
-# fast build rule for target.
-pipe_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server.dir/build.make network/ipc/CMakeFiles/pipe_server.dir/build
-.PHONY : pipe_server/fast
-
-#=============================================================================
-# Target rules for targets named pipe_server_epoll
-
-# Build rule for target.
-pipe_server_epoll: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server_epoll
-.PHONY : pipe_server_epoll
-
-# fast build rule for target.
-pipe_server_epoll/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_epoll.dir/build.make network/ipc/CMakeFiles/pipe_server_epoll.dir/build
-.PHONY : pipe_server_epoll/fast
-
-#=============================================================================
-# Target rules for targets named pipe_server_select
-
-# Build rule for target.
-pipe_server_select: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server_select
-.PHONY : pipe_server_select
-
-# fast build rule for target.
-pipe_server_select/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select.dir/build.make network/ipc/CMakeFiles/pipe_server_select.dir/build
-.PHONY : pipe_server_select/fast
-
-#=============================================================================
-# Target rules for targets named pipe_server_select2
-
-# Build rule for target.
-pipe_server_select2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pipe_server_select2
-.PHONY : pipe_server_select2
-
-# fast build rule for target.
-pipe_server_select2/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/pipe_server_select2.dir/build.make network/ipc/CMakeFiles/pipe_server_select2.dir/build
-.PHONY : pipe_server_select2/fast
-
-#=============================================================================
-# Target rules for targets named shm_client
-
-# Build rule for target.
-shm_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_client
-.PHONY : shm_client
-
-# fast build rule for target.
-shm_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_client.dir/build.make network/ipc/CMakeFiles/shm_client.dir/build
-.PHONY : shm_client/fast
-
-#=============================================================================
-# Target rules for targets named shm_semaphore
-
-# Build rule for target.
-shm_semaphore: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_semaphore
-.PHONY : shm_semaphore
-
-# fast build rule for target.
-shm_semaphore/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore.dir/build.make network/ipc/CMakeFiles/shm_semaphore.dir/build
-.PHONY : shm_semaphore/fast
-
-#=============================================================================
-# Target rules for targets named shm_semaphore2
-
-# Build rule for target.
-shm_semaphore2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_semaphore2
-.PHONY : shm_semaphore2
-
-# fast build rule for target.
-shm_semaphore2/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_semaphore2.dir/build.make network/ipc/CMakeFiles/shm_semaphore2.dir/build
-.PHONY : shm_semaphore2/fast
-
-#=============================================================================
-# Target rules for targets named shm_server
-
-# Build rule for target.
-shm_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_server
-.PHONY : shm_server
-
-# fast build rule for target.
-shm_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_server.dir/build.make network/ipc/CMakeFiles/shm_server.dir/build
-.PHONY : shm_server/fast
-
-#=============================================================================
-# Target rules for targets named shm_test
-
-# Build rule for target.
-shm_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_test
-.PHONY : shm_test
-
-# fast build rule for target.
-shm_test/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test.dir/build.make network/ipc/CMakeFiles/shm_test.dir/build
-.PHONY : shm_test/fast
-
-#=============================================================================
-# Target rules for targets named shm_test2
-
-# Build rule for target.
-shm_test2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_test2
-.PHONY : shm_test2
-
-# fast build rule for target.
-shm_test2/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/shm_test2.dir/build.make network/ipc/CMakeFiles/shm_test2.dir/build
-.PHONY : shm_test2/fast
-
-#=============================================================================
-# Target rules for targets named sigaction
-
-# Build rule for target.
-sigaction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sigaction
-.PHONY : sigaction
-
-# fast build rule for target.
-sigaction/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/sigaction.dir/build.make network/ipc/CMakeFiles/sigaction.dir/build
-.PHONY : sigaction/fast
-
-#=============================================================================
-# Target rules for targets named signal
-
-# Build rule for target.
-signal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 signal
-.PHONY : signal
-
-# fast build rule for target.
-signal/fast:
-	$(MAKE) $(MAKESILENT) -f network/ipc/CMakeFiles/signal.dir/build.make network/ipc/CMakeFiles/signal.dir/build
-.PHONY : signal/fast
-
-#=============================================================================
-# Target rules for targets named bound_host0
-
-# Build rule for target.
-bound_host0: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bound_host0
-.PHONY : bound_host0
-
-# fast build rule for target.
-bound_host0/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host0.dir/build.make network/tcp_udp/CMakeFiles/bound_host0.dir/build
-.PHONY : bound_host0/fast
-
-#=============================================================================
-# Target rules for targets named bound_host1
-
-# Build rule for target.
-bound_host1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bound_host1
-.PHONY : bound_host1
-
-# fast build rule for target.
-bound_host1/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/bound_host1.dir/build.make network/tcp_udp/CMakeFiles/bound_host1.dir/build
-.PHONY : bound_host1/fast
-
-#=============================================================================
-# Target rules for targets named echo_client
-
-# Build rule for target.
-echo_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_client
-.PHONY : echo_client
-
-# fast build rule for target.
-echo_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_client.dir/build.make network/tcp_udp/CMakeFiles/echo_client.dir/build
-.PHONY : echo_client/fast
-
-#=============================================================================
-# Target rules for targets named echo_server
-
-# Build rule for target.
-echo_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_server
-.PHONY : echo_server
-
-# fast build rule for target.
-echo_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/echo_server.dir/build.make network/tcp_udp/CMakeFiles/echo_server.dir/build
-.PHONY : echo_server/fast
-
-#=============================================================================
-# Target rules for targets named file_client
-
-# Build rule for target.
-file_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_client
-.PHONY : file_client
-
-# fast build rule for target.
-file_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_client.dir/build.make network/tcp_udp/CMakeFiles/file_client.dir/build
-.PHONY : file_client/fast
-
-#=============================================================================
-# Target rules for targets named file_server
-
-# Build rule for target.
-file_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_server
-.PHONY : file_server
-
-# fast build rule for target.
-file_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/file_server.dir/build.make network/tcp_udp/CMakeFiles/file_server.dir/build
-.PHONY : file_server/fast
-
-#=============================================================================
-# Target rules for targets named hello_clinet
-
-# Build rule for target.
-hello_clinet: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_clinet
-.PHONY : hello_clinet
-
-# fast build rule for target.
-hello_clinet/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_clinet.dir/build.make network/tcp_udp/CMakeFiles/hello_clinet.dir/build
-.PHONY : hello_clinet/fast
-
-#=============================================================================
-# Target rules for targets named hello_server
-
-# Build rule for target.
-hello_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_server
-.PHONY : hello_server
-
-# fast build rule for target.
-hello_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/hello_server.dir/build.make network/tcp_udp/CMakeFiles/hello_server.dir/build
-.PHONY : hello_server/fast
-
-#=============================================================================
-# Target rules for targets named info
-
-# Build rule for target.
-info: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 info
-.PHONY : info
-
-# fast build rule for target.
-info/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/info.dir/build.make network/tcp_udp/CMakeFiles/info.dir/build
-.PHONY : info/fast
-
-#=============================================================================
-# Target rules for targets named op_client
-
-# Build rule for target.
-op_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 op_client
-.PHONY : op_client
-
-# fast build rule for target.
-op_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_client.dir/build.make network/tcp_udp/CMakeFiles/op_client.dir/build
-.PHONY : op_client/fast
-
-#=============================================================================
-# Target rules for targets named op_server
-
-# Build rule for target.
-op_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 op_server
-.PHONY : op_server
-
-# fast build rule for target.
-op_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/op_server.dir/build.make network/tcp_udp/CMakeFiles/op_server.dir/build
-.PHONY : op_server/fast
-
-#=============================================================================
-# Target rules for targets named uecho_client
-
-# Build rule for target.
-uecho_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uecho_client
-.PHONY : uecho_client
-
-# fast build rule for target.
-uecho_client/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_client.dir/build.make network/tcp_udp/CMakeFiles/uecho_client.dir/build
-.PHONY : uecho_client/fast
-
-#=============================================================================
-# Target rules for targets named uecho_server
-
-# Build rule for target.
-uecho_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uecho_server
-.PHONY : uecho_server
-
-# fast build rule for target.
-uecho_server/fast:
-	$(MAKE) $(MAKESILENT) -f network/tcp_udp/CMakeFiles/uecho_server.dir/build.make network/tcp_udp/CMakeFiles/uecho_server.dir/build
-.PHONY : uecho_server/fast
-
-#=============================================================================
-# Target rules for targets named endian_conv
-
-# Build rule for target.
-endian_conv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 endian_conv
-.PHONY : endian_conv
-
-# fast build rule for target.
-endian_conv/fast:
-	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/endian_conv.dir/build.make network/util/CMakeFiles/endian_conv.dir/build
-.PHONY : endian_conv/fast
-
-#=============================================================================
-# Target rules for targets named inet_addr
-
-# Build rule for target.
-inet_addr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inet_addr
-.PHONY : inet_addr
-
-# fast build rule for target.
-inet_addr/fast:
-	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/inet_addr.dir/build.make network/util/CMakeFiles/inet_addr.dir/build
-.PHONY : inet_addr/fast
-
-#=============================================================================
-# Target rules for targets named pthread_test
-
-# Build rule for target.
-pthread_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test
-.PHONY : pthread_test
-
-# fast build rule for target.
-pthread_test/fast:
-	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test.dir/build.make network/util/CMakeFiles/pthread_test.dir/build
-.PHONY : pthread_test/fast
-
-#=============================================================================
-# Target rules for targets named pthread_test2
-
-# Build rule for target.
-pthread_test2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test2
-.PHONY : pthread_test2
-
-# fast build rule for target.
-pthread_test2/fast:
-	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test2.dir/build.make network/util/CMakeFiles/pthread_test2.dir/build
-.PHONY : pthread_test2/fast
-
-#=============================================================================
-# Target rules for targets named pthread_test3
-
-# Build rule for target.
-pthread_test3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test3
-.PHONY : pthread_test3
-
-# fast build rule for target.
-pthread_test3/fast:
-	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test3.dir/build.make network/util/CMakeFiles/pthread_test3.dir/build
-.PHONY : pthread_test3/fast
-
-#=============================================================================
-# Target rules for targets named pthread_test4
-
-# Build rule for target.
-pthread_test4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pthread_test4
-.PHONY : pthread_test4
-
-# fast build rule for target.
-pthread_test4/fast:
-	$(MAKE) $(MAKESILENT) -f network/util/CMakeFiles/pthread_test4.dir/build.make network/util/CMakeFiles/pthread_test4.dir/build
-.PHONY : pthread_test4/fast
-
-#=============================================================================
-# Target rules for targets named chat_serv
-
-# Build rule for target.
-chat_serv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_serv
-.PHONY : chat_serv
-
-# fast build rule for target.
-chat_serv/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/chat_serv.dir/build.make network/multiProcess/CMakeFiles/chat_serv.dir/build
-.PHONY : chat_serv/fast
-
-#=============================================================================
-# Target rules for targets named echo_epollcli
-
-# Build rule for target.
-echo_epollcli: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_epollcli
-.PHONY : echo_epollcli
-
-# fast build rule for target.
-echo_epollcli/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_epollcli.dir/build.make network/multiProcess/CMakeFiles/echo_epollcli.dir/build
-.PHONY : echo_epollcli/fast
-
-#=============================================================================
-# Target rules for targets named echo_epollserv
-
-# Build rule for target.
-echo_epollserv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_epollserv
-.PHONY : echo_epollserv
-
-# fast build rule for target.
-echo_epollserv/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_epollserv.dir/build.make network/multiProcess/CMakeFiles/echo_epollserv.dir/build
-.PHONY : echo_epollserv/fast
-
-#=============================================================================
-# Target rules for targets named echo_mpclient
-
-# Build rule for target.
-echo_mpclient: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_mpclient
-.PHONY : echo_mpclient
-
-# fast build rule for target.
-echo_mpclient/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_mpclient.dir/build.make network/multiProcess/CMakeFiles/echo_mpclient.dir/build
-.PHONY : echo_mpclient/fast
-
-#=============================================================================
-# Target rules for targets named echo_mpserver
-
-# Build rule for target.
-echo_mpserver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_mpserver
-.PHONY : echo_mpserver
-
-# fast build rule for target.
-echo_mpserver/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_mpserver.dir/build.make network/multiProcess/CMakeFiles/echo_mpserver.dir/build
-.PHONY : echo_mpserver/fast
-
-#=============================================================================
-# Target rules for targets named echo_selectcli
-
-# Build rule for target.
-echo_selectcli: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_selectcli
-.PHONY : echo_selectcli
-
-# fast build rule for target.
-echo_selectcli/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_selectcli.dir/build.make network/multiProcess/CMakeFiles/echo_selectcli.dir/build
-.PHONY : echo_selectcli/fast
-
-#=============================================================================
-# Target rules for targets named echo_selectsrv
-
-# Build rule for target.
-echo_selectsrv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo_selectsrv
-.PHONY : echo_selectsrv
-
-# fast build rule for target.
-echo_selectsrv/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/echo_selectsrv.dir/build.make network/multiProcess/CMakeFiles/echo_selectsrv.dir/build
-.PHONY : echo_selectsrv/fast
-
-#=============================================================================
-# Target rules for targets named news_receiver
-
-# Build rule for target.
-news_receiver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_receiver
-.PHONY : news_receiver
-
-# fast build rule for target.
-news_receiver/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_receiver.dir/build.make network/multiProcess/CMakeFiles/news_receiver.dir/build
-.PHONY : news_receiver/fast
-
-#=============================================================================
-# Target rules for targets named news_receiver_brd
-
-# Build rule for target.
-news_receiver_brd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_receiver_brd
-.PHONY : news_receiver_brd
-
-# fast build rule for target.
-news_receiver_brd/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_receiver_brd.dir/build.make network/multiProcess/CMakeFiles/news_receiver_brd.dir/build
-.PHONY : news_receiver_brd/fast
-
-#=============================================================================
-# Target rules for targets named news_sender
-
-# Build rule for target.
-news_sender: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_sender
-.PHONY : news_sender
-
-# fast build rule for target.
-news_sender/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_sender.dir/build.make network/multiProcess/CMakeFiles/news_sender.dir/build
-.PHONY : news_sender/fast
-
-#=============================================================================
-# Target rules for targets named news_sender_brd
-
-# Build rule for target.
-news_sender_brd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 news_sender_brd
-.PHONY : news_sender_brd
-
-# fast build rule for target.
-news_sender_brd/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/news_sender_brd.dir/build.make network/multiProcess/CMakeFiles/news_sender_brd.dir/build
-.PHONY : news_sender_brd/fast
-
-#=============================================================================
-# Target rules for targets named remove_zombie
-
-# Build rule for target.
-remove_zombie: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 remove_zombie
-.PHONY : remove_zombie
-
-# fast build rule for target.
-remove_zombie/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/remove_zombie.dir/build.make network/multiProcess/CMakeFiles/remove_zombie.dir/build
-.PHONY : remove_zombie/fast
-
-#=============================================================================
-# Target rules for targets named wait
-
-# Build rule for target.
-wait: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wait
-.PHONY : wait
-
-# fast build rule for target.
-wait/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/wait.dir/build.make network/multiProcess/CMakeFiles/wait.dir/build
-.PHONY : wait/fast
-
-#=============================================================================
-# Target rules for targets named waitpid
-
-# Build rule for target.
-waitpid: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waitpid
-.PHONY : waitpid
-
-# fast build rule for target.
-waitpid/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/waitpid.dir/build.make network/multiProcess/CMakeFiles/waitpid.dir/build
-.PHONY : waitpid/fast
-
-#=============================================================================
-# Target rules for targets named zombie
-
-# Build rule for target.
-zombie: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zombie
-.PHONY : zombie
-
-# fast build rule for target.
-zombie/fast:
-	$(MAKE) $(MAKESILENT) -f network/multiProcess/CMakeFiles/zombie.dir/build.make network/multiProcess/CMakeFiles/zombie.dir/build
-.PHONY : zombie/fast
+19_draw_rect_mouse/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build
+.PHONY : 19_draw_rect_mouse/fast
 
 # Help Target
 help:
@@ -1918,144 +371,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CarSeiral"
-	@echo "... arithmetics"
-	@echo "... arrayAssignement"
-	@echo "... arrayCompare"
-	@echo "... arrayPointer"
-	@echo "... bound_host0"
-	@echo "... bound_host1"
-	@echo "... bubble"
-	@echo "... celsius2fahr"
-	@echo "... charAdress"
-	@echo "... charNumber"
-	@echo "... charPointerOperation"
-	@echo "... chat_serv"
-	@echo "... compare"
-	@echo "... compare2"
-	@echo "... data_process"
-	@echo "... date"
-	@echo "... dynamicAllocation"
-	@echo "... echo_client"
-	@echo "... echo_epollcli"
-	@echo "... echo_epollserv"
-	@echo "... echo_mpclient"
-	@echo "... echo_mpserver"
-	@echo "... echo_selectcli"
-	@echo "... echo_selectsrv"
-	@echo "... echo_server"
-	@echo "... endian"
-	@echo "... endian_conv"
-	@echo "... enumExample"
-	@echo "... ex10_forClass"
-	@echo "... ex10_moveVector"
-	@echo "... ex11_Nullptr"
-	@echo "... ex11_moveClass"
-	@echo "... ex12_constexprestion"
-	@echo "... ex12_vriantOptional"
-	@echo "... ex13_array"
-	@echo "... ex13_thread"
-	@echo "... ex14_anyncFuture"
-	@echo "... ex14_priority_queue"
-	@echo "... ex15_multyThreadTask"
-	@echo "... ex15_unordered_map"
-	@echo "... ex16_fianlModernExample"
-	@echo "... ex16_transform"
-	@echo "... ex17_sort_fstream"
-	@echo "... ex17_sort_fstream2"
-	@echo "... ex18_excution"
-	@echo "... ex1_unique_point"
-	@echo "... ex1_vector"
-	@echo "... ex2_moveOperator"
-	@echo "... ex2_string_vector"
-	@echo "... ex3_deleter"
-	@echo "... ex3_longest"
-	@echo "... ex4_shared_ptr"
-	@echo "... ex4_string"
-	@echo "... ex5_memoryleak"
-	@echo "... ex5_string_find"
-	@echo "... ex6_iterator"
-	@echo "... ex6_weakedPtr"
-	@echo "... ex7_map"
-	@echo "... ex7_vectorSmart"
-	@echo "... ex8_treeSmart"
-	@echo "... ex8_vector_list"
-	@echo "... ex8_vector_list2"
-	@echo "... ex9_forward"
-	@echo "... ex9_lambda"
-	@echo "... fahr2celsius"
-	@echo "... fflushEx"
-	@echo "... fileDescription"
-	@echo "... filePointer"
-	@echo "... file_client"
-	@echo "... file_server"
-	@echo "... fourBit"
-	@echo "... fourBit2"
-	@echo "... functionPointer"
-	@echo "... genderRatio"
-	@echo "... getSeries"
-	@echo "... helloStr"
-	@echo "... hello_clinet"
-	@echo "... hello_server"
-	@echo "... increment"
-	@echo "... inet_addr"
-	@echo "... infinit"
-	@echo "... info"
-	@echo "... limit"
-	@echo "... literal"
-	@echo "... mq_client"
-	@echo "... mq_server"
-	@echo "... myRandom"
-	@echo "... news_receiver"
-	@echo "... news_receiver_brd"
-	@echo "... news_sender"
-	@echo "... news_sender_brd"
-	@echo "... oddeven"
-	@echo "... op_client"
-	@echo "... op_server"
-	@echo "... pipe"
-	@echo "... pipe_client"
-	@echo "... pipe_server"
-	@echo "... pipe_server_epoll"
-	@echo "... pipe_server_select"
-	@echo "... pipe_server_select2"
-	@echo "... pointer2"
-	@echo "... pointerConcept"
-	@echo "... project"
-	@echo "... pthread_test"
-	@echo "... pthread_test2"
-	@echo "... pthread_test3"
-	@echo "... pthread_test4"
-	@echo "... putSeries"
-	@echo "... qsort"
-	@echo "... range_example"
-	@echo "... remove_zombie"
-	@echo "... selection"
-	@echo "... shm_client"
-	@echo "... shm_semaphore"
-	@echo "... shm_semaphore2"
-	@echo "... shm_server"
-	@echo "... shm_test"
-	@echo "... shm_test2"
-	@echo "... sigaction"
-	@echo "... signal"
-	@echo "... sizeof"
-	@echo "... strcatExample"
-	@echo "... string"
-	@echo "... student_example"
-	@echo "... sumArrayFunction"
-	@echo "... sumMatrixFunction"
-	@echo "... sumMatrixFunction2"
-	@echo "... swap"
-	@echo "... swapFunction"
-	@echo "... triangle"
-	@echo "... uecho_client"
-	@echo "... uecho_server"
-	@echo "... unionExample"
-	@echo "... voidPointer"
-	@echo "... wait"
-	@echo "... waitpid"
-	@echo "... zombie"
+	@echo "... 01_helloworld"
+	@echo "... 02_basicOp"
+	@echo "... 03_matOp"
+	@echo "... 04_inputArray"
+	@echo "... 05_matOp2"
+	@echo "... 06_matOp3"
+	@echo "... 07_vectorScalar"
+	@echo "... 08_video"
+	@echo "... 09_videoSave"
+	@echo "... 10_drawing"
+	@echo "... 11_font"
+	@echo "... 12_freetypeFont"
+	@echo "... 13_keyboard"
+	@echo "... 14_mouse"
+	@echo "... 15_trackbar"
+	@echo "... 16_filestorage"
+	@echo "... 17_filestorage2"
+	@echo "... 18_camTest"
+	@echo "... 19_draw_rect_mouse"
 .PHONY : help
 
 
