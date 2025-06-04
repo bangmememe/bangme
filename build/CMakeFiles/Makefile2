@@ -63,577 +63,633 @@ CMAKE_BINARY_DIR = /home/bangme/bangme/bangme/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: opencv/part1/all
-all: opencv/part2/all
+all: opencv/part4/all
+all: opencv/part5/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: opencv/part1/preinstall
-preinstall: opencv/part2/preinstall
+preinstall: opencv/part4/preinstall
+preinstall: opencv/part5/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: opencv/part1/clean
-clean: opencv/part2/clean
+clean: opencv/part4/clean
+clean: opencv/part5/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory opencv/part1
+# Directory level rules for directory opencv/part4
 
 # Recursive "all" directory target.
-opencv/part1/all: opencv/part1/CMakeFiles/01_helloworld.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/02_basicOp.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/03_matOp.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/04_inputArray.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/05_matOp2.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/06_matOp3.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/07_vectorScalar.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/08_video.dir/all
-opencv/part1/all: opencv/part1/CMakeFiles/09_videoSave.dir/all
-.PHONY : opencv/part1/all
+opencv/part4/all: opencv/part4/CMakeFiles/29_affine.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/30_perspective.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/31_sobel.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/32_canny.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/33_hougline.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/34_hougCircle.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/35_color_split.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/36_inrange.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/37_threshold.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/38_morphology.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/39_labeling.dir/all
+opencv/part4/all: opencv/part4/CMakeFiles/40_.dir/all
+.PHONY : opencv/part4/all
 
 # Recursive "preinstall" directory target.
-opencv/part1/preinstall:
-.PHONY : opencv/part1/preinstall
+opencv/part4/preinstall:
+.PHONY : opencv/part4/preinstall
 
 # Recursive "clean" directory target.
-opencv/part1/clean: opencv/part1/CMakeFiles/01_helloworld.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/02_basicOp.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/03_matOp.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/04_inputArray.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/05_matOp2.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/06_matOp3.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/07_vectorScalar.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/08_video.dir/clean
-opencv/part1/clean: opencv/part1/CMakeFiles/09_videoSave.dir/clean
-.PHONY : opencv/part1/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/29_affine.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/30_perspective.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/31_sobel.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/32_canny.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/33_hougline.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/34_hougCircle.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/35_color_split.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/36_inrange.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/37_threshold.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/38_morphology.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/39_labeling.dir/clean
+opencv/part4/clean: opencv/part4/CMakeFiles/40_.dir/clean
+.PHONY : opencv/part4/clean
 
 #=============================================================================
-# Directory level rules for directory opencv/part2
+# Directory level rules for directory opencv/part5
 
 # Recursive "all" directory target.
-opencv/part2/all: opencv/part2/CMakeFiles/10_drawing.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/11_font.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/12_freetypeFont.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/13_keyboard.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/14_mouse.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/15_trackbar.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/16_filestorage.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/17_filestorage2.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/18_camTest.dir/all
-opencv/part2/all: opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/all
-.PHONY : opencv/part2/all
+opencv/part5/all: opencv/part5/CMakeFiles/41_cascade_face.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/42_cascade_cam.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/43_hog.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/44_hog_compute.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/45_qrcode.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/46_aruco.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/47_harriscorner.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/48_fast_cam.dir/all
+opencv/part5/all: opencv/part5/CMakeFiles/49_matching.dir/all
+.PHONY : opencv/part5/all
 
 # Recursive "preinstall" directory target.
-opencv/part2/preinstall:
-.PHONY : opencv/part2/preinstall
+opencv/part5/preinstall:
+.PHONY : opencv/part5/preinstall
 
 # Recursive "clean" directory target.
-opencv/part2/clean: opencv/part2/CMakeFiles/10_drawing.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/11_font.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/12_freetypeFont.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/13_keyboard.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/14_mouse.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/15_trackbar.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/16_filestorage.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/17_filestorage2.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/18_camTest.dir/clean
-opencv/part2/clean: opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/clean
-.PHONY : opencv/part2/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/41_cascade_face.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/42_cascade_cam.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/43_hog.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/44_hog_compute.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/45_qrcode.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/46_aruco.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/47_harriscorner.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/48_fast_cam.dir/clean
+opencv/part5/clean: opencv/part5/CMakeFiles/49_matching.dir/clean
+.PHONY : opencv/part5/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/01_helloworld.dir
+# Target rules for target opencv/part4/CMakeFiles/29_affine.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/01_helloworld.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/01_helloworld.dir/build.make opencv/part1/CMakeFiles/01_helloworld.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/01_helloworld.dir/build.make opencv/part1/CMakeFiles/01_helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=1,2 "Built target 01_helloworld"
-.PHONY : opencv/part1/CMakeFiles/01_helloworld.dir/all
+opencv/part4/CMakeFiles/29_affine.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/29_affine.dir/build.make opencv/part4/CMakeFiles/29_affine.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/29_affine.dir/build.make opencv/part4/CMakeFiles/29_affine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=1,2 "Built target 29_affine"
+.PHONY : opencv/part4/CMakeFiles/29_affine.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/01_helloworld.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/29_affine.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/01_helloworld.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/29_affine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/01_helloworld.dir/rule
+.PHONY : opencv/part4/CMakeFiles/29_affine.dir/rule
 
 # Convenience name for target.
-01_helloworld: opencv/part1/CMakeFiles/01_helloworld.dir/rule
-.PHONY : 01_helloworld
+29_affine: opencv/part4/CMakeFiles/29_affine.dir/rule
+.PHONY : 29_affine
 
 # clean rule for target.
-opencv/part1/CMakeFiles/01_helloworld.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/01_helloworld.dir/build.make opencv/part1/CMakeFiles/01_helloworld.dir/clean
-.PHONY : opencv/part1/CMakeFiles/01_helloworld.dir/clean
+opencv/part4/CMakeFiles/29_affine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/29_affine.dir/build.make opencv/part4/CMakeFiles/29_affine.dir/clean
+.PHONY : opencv/part4/CMakeFiles/29_affine.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/02_basicOp.dir
+# Target rules for target opencv/part4/CMakeFiles/30_perspective.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/02_basicOp.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/02_basicOp.dir/build.make opencv/part1/CMakeFiles/02_basicOp.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/02_basicOp.dir/build.make opencv/part1/CMakeFiles/02_basicOp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=3,4 "Built target 02_basicOp"
-.PHONY : opencv/part1/CMakeFiles/02_basicOp.dir/all
+opencv/part4/CMakeFiles/30_perspective.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/30_perspective.dir/build.make opencv/part4/CMakeFiles/30_perspective.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/30_perspective.dir/build.make opencv/part4/CMakeFiles/30_perspective.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=3,4 "Built target 30_perspective"
+.PHONY : opencv/part4/CMakeFiles/30_perspective.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/02_basicOp.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/30_perspective.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/02_basicOp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/30_perspective.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/02_basicOp.dir/rule
+.PHONY : opencv/part4/CMakeFiles/30_perspective.dir/rule
 
 # Convenience name for target.
-02_basicOp: opencv/part1/CMakeFiles/02_basicOp.dir/rule
-.PHONY : 02_basicOp
+30_perspective: opencv/part4/CMakeFiles/30_perspective.dir/rule
+.PHONY : 30_perspective
 
 # clean rule for target.
-opencv/part1/CMakeFiles/02_basicOp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/02_basicOp.dir/build.make opencv/part1/CMakeFiles/02_basicOp.dir/clean
-.PHONY : opencv/part1/CMakeFiles/02_basicOp.dir/clean
+opencv/part4/CMakeFiles/30_perspective.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/30_perspective.dir/build.make opencv/part4/CMakeFiles/30_perspective.dir/clean
+.PHONY : opencv/part4/CMakeFiles/30_perspective.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/03_matOp.dir
+# Target rules for target opencv/part4/CMakeFiles/31_sobel.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/03_matOp.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/03_matOp.dir/build.make opencv/part1/CMakeFiles/03_matOp.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/03_matOp.dir/build.make opencv/part1/CMakeFiles/03_matOp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=5,6 "Built target 03_matOp"
-.PHONY : opencv/part1/CMakeFiles/03_matOp.dir/all
+opencv/part4/CMakeFiles/31_sobel.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/31_sobel.dir/build.make opencv/part4/CMakeFiles/31_sobel.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/31_sobel.dir/build.make opencv/part4/CMakeFiles/31_sobel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=5,6 "Built target 31_sobel"
+.PHONY : opencv/part4/CMakeFiles/31_sobel.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/03_matOp.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/31_sobel.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/03_matOp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/31_sobel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/03_matOp.dir/rule
+.PHONY : opencv/part4/CMakeFiles/31_sobel.dir/rule
 
 # Convenience name for target.
-03_matOp: opencv/part1/CMakeFiles/03_matOp.dir/rule
-.PHONY : 03_matOp
+31_sobel: opencv/part4/CMakeFiles/31_sobel.dir/rule
+.PHONY : 31_sobel
 
 # clean rule for target.
-opencv/part1/CMakeFiles/03_matOp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/03_matOp.dir/build.make opencv/part1/CMakeFiles/03_matOp.dir/clean
-.PHONY : opencv/part1/CMakeFiles/03_matOp.dir/clean
+opencv/part4/CMakeFiles/31_sobel.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/31_sobel.dir/build.make opencv/part4/CMakeFiles/31_sobel.dir/clean
+.PHONY : opencv/part4/CMakeFiles/31_sobel.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/04_inputArray.dir
+# Target rules for target opencv/part4/CMakeFiles/32_canny.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/04_inputArray.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/04_inputArray.dir/build.make opencv/part1/CMakeFiles/04_inputArray.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/04_inputArray.dir/build.make opencv/part1/CMakeFiles/04_inputArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=7,8 "Built target 04_inputArray"
-.PHONY : opencv/part1/CMakeFiles/04_inputArray.dir/all
+opencv/part4/CMakeFiles/32_canny.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/32_canny.dir/build.make opencv/part4/CMakeFiles/32_canny.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/32_canny.dir/build.make opencv/part4/CMakeFiles/32_canny.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=7,8 "Built target 32_canny"
+.PHONY : opencv/part4/CMakeFiles/32_canny.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/04_inputArray.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/32_canny.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/04_inputArray.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/32_canny.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/04_inputArray.dir/rule
+.PHONY : opencv/part4/CMakeFiles/32_canny.dir/rule
 
 # Convenience name for target.
-04_inputArray: opencv/part1/CMakeFiles/04_inputArray.dir/rule
-.PHONY : 04_inputArray
+32_canny: opencv/part4/CMakeFiles/32_canny.dir/rule
+.PHONY : 32_canny
 
 # clean rule for target.
-opencv/part1/CMakeFiles/04_inputArray.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/04_inputArray.dir/build.make opencv/part1/CMakeFiles/04_inputArray.dir/clean
-.PHONY : opencv/part1/CMakeFiles/04_inputArray.dir/clean
+opencv/part4/CMakeFiles/32_canny.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/32_canny.dir/build.make opencv/part4/CMakeFiles/32_canny.dir/clean
+.PHONY : opencv/part4/CMakeFiles/32_canny.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/05_matOp2.dir
+# Target rules for target opencv/part4/CMakeFiles/33_hougline.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/05_matOp2.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/05_matOp2.dir/build.make opencv/part1/CMakeFiles/05_matOp2.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/05_matOp2.dir/build.make opencv/part1/CMakeFiles/05_matOp2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=9,10 "Built target 05_matOp2"
-.PHONY : opencv/part1/CMakeFiles/05_matOp2.dir/all
+opencv/part4/CMakeFiles/33_hougline.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/33_hougline.dir/build.make opencv/part4/CMakeFiles/33_hougline.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/33_hougline.dir/build.make opencv/part4/CMakeFiles/33_hougline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=9,10 "Built target 33_hougline"
+.PHONY : opencv/part4/CMakeFiles/33_hougline.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/05_matOp2.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/33_hougline.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/05_matOp2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/33_hougline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/05_matOp2.dir/rule
+.PHONY : opencv/part4/CMakeFiles/33_hougline.dir/rule
 
 # Convenience name for target.
-05_matOp2: opencv/part1/CMakeFiles/05_matOp2.dir/rule
-.PHONY : 05_matOp2
+33_hougline: opencv/part4/CMakeFiles/33_hougline.dir/rule
+.PHONY : 33_hougline
 
 # clean rule for target.
-opencv/part1/CMakeFiles/05_matOp2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/05_matOp2.dir/build.make opencv/part1/CMakeFiles/05_matOp2.dir/clean
-.PHONY : opencv/part1/CMakeFiles/05_matOp2.dir/clean
+opencv/part4/CMakeFiles/33_hougline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/33_hougline.dir/build.make opencv/part4/CMakeFiles/33_hougline.dir/clean
+.PHONY : opencv/part4/CMakeFiles/33_hougline.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/06_matOp3.dir
+# Target rules for target opencv/part4/CMakeFiles/34_hougCircle.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/06_matOp3.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/06_matOp3.dir/build.make opencv/part1/CMakeFiles/06_matOp3.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/06_matOp3.dir/build.make opencv/part1/CMakeFiles/06_matOp3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=11,12 "Built target 06_matOp3"
-.PHONY : opencv/part1/CMakeFiles/06_matOp3.dir/all
+opencv/part4/CMakeFiles/34_hougCircle.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/34_hougCircle.dir/build.make opencv/part4/CMakeFiles/34_hougCircle.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/34_hougCircle.dir/build.make opencv/part4/CMakeFiles/34_hougCircle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=11,12 "Built target 34_hougCircle"
+.PHONY : opencv/part4/CMakeFiles/34_hougCircle.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/06_matOp3.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/34_hougCircle.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/06_matOp3.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/34_hougCircle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/06_matOp3.dir/rule
+.PHONY : opencv/part4/CMakeFiles/34_hougCircle.dir/rule
 
 # Convenience name for target.
-06_matOp3: opencv/part1/CMakeFiles/06_matOp3.dir/rule
-.PHONY : 06_matOp3
+34_hougCircle: opencv/part4/CMakeFiles/34_hougCircle.dir/rule
+.PHONY : 34_hougCircle
 
 # clean rule for target.
-opencv/part1/CMakeFiles/06_matOp3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/06_matOp3.dir/build.make opencv/part1/CMakeFiles/06_matOp3.dir/clean
-.PHONY : opencv/part1/CMakeFiles/06_matOp3.dir/clean
+opencv/part4/CMakeFiles/34_hougCircle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/34_hougCircle.dir/build.make opencv/part4/CMakeFiles/34_hougCircle.dir/clean
+.PHONY : opencv/part4/CMakeFiles/34_hougCircle.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/07_vectorScalar.dir
+# Target rules for target opencv/part4/CMakeFiles/35_color_split.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/07_vectorScalar.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/07_vectorScalar.dir/build.make opencv/part1/CMakeFiles/07_vectorScalar.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/07_vectorScalar.dir/build.make opencv/part1/CMakeFiles/07_vectorScalar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=13,14 "Built target 07_vectorScalar"
-.PHONY : opencv/part1/CMakeFiles/07_vectorScalar.dir/all
+opencv/part4/CMakeFiles/35_color_split.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/35_color_split.dir/build.make opencv/part4/CMakeFiles/35_color_split.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/35_color_split.dir/build.make opencv/part4/CMakeFiles/35_color_split.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=13,14 "Built target 35_color_split"
+.PHONY : opencv/part4/CMakeFiles/35_color_split.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/07_vectorScalar.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/35_color_split.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/07_vectorScalar.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/35_color_split.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/07_vectorScalar.dir/rule
+.PHONY : opencv/part4/CMakeFiles/35_color_split.dir/rule
 
 # Convenience name for target.
-07_vectorScalar: opencv/part1/CMakeFiles/07_vectorScalar.dir/rule
-.PHONY : 07_vectorScalar
+35_color_split: opencv/part4/CMakeFiles/35_color_split.dir/rule
+.PHONY : 35_color_split
 
 # clean rule for target.
-opencv/part1/CMakeFiles/07_vectorScalar.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/07_vectorScalar.dir/build.make opencv/part1/CMakeFiles/07_vectorScalar.dir/clean
-.PHONY : opencv/part1/CMakeFiles/07_vectorScalar.dir/clean
+opencv/part4/CMakeFiles/35_color_split.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/35_color_split.dir/build.make opencv/part4/CMakeFiles/35_color_split.dir/clean
+.PHONY : opencv/part4/CMakeFiles/35_color_split.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/08_video.dir
+# Target rules for target opencv/part4/CMakeFiles/36_inrange.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/08_video.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/08_video.dir/build.make opencv/part1/CMakeFiles/08_video.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/08_video.dir/build.make opencv/part1/CMakeFiles/08_video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=15,16 "Built target 08_video"
-.PHONY : opencv/part1/CMakeFiles/08_video.dir/all
+opencv/part4/CMakeFiles/36_inrange.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/36_inrange.dir/build.make opencv/part4/CMakeFiles/36_inrange.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/36_inrange.dir/build.make opencv/part4/CMakeFiles/36_inrange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=15,16 "Built target 36_inrange"
+.PHONY : opencv/part4/CMakeFiles/36_inrange.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/08_video.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/36_inrange.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/08_video.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/36_inrange.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/08_video.dir/rule
+.PHONY : opencv/part4/CMakeFiles/36_inrange.dir/rule
 
 # Convenience name for target.
-08_video: opencv/part1/CMakeFiles/08_video.dir/rule
-.PHONY : 08_video
+36_inrange: opencv/part4/CMakeFiles/36_inrange.dir/rule
+.PHONY : 36_inrange
 
 # clean rule for target.
-opencv/part1/CMakeFiles/08_video.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/08_video.dir/build.make opencv/part1/CMakeFiles/08_video.dir/clean
-.PHONY : opencv/part1/CMakeFiles/08_video.dir/clean
+opencv/part4/CMakeFiles/36_inrange.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/36_inrange.dir/build.make opencv/part4/CMakeFiles/36_inrange.dir/clean
+.PHONY : opencv/part4/CMakeFiles/36_inrange.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part1/CMakeFiles/09_videoSave.dir
+# Target rules for target opencv/part4/CMakeFiles/37_threshold.dir
 
 # All Build rule for target.
-opencv/part1/CMakeFiles/09_videoSave.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/09_videoSave.dir/build.make opencv/part1/CMakeFiles/09_videoSave.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/09_videoSave.dir/build.make opencv/part1/CMakeFiles/09_videoSave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=17,18 "Built target 09_videoSave"
-.PHONY : opencv/part1/CMakeFiles/09_videoSave.dir/all
+opencv/part4/CMakeFiles/37_threshold.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/37_threshold.dir/build.make opencv/part4/CMakeFiles/37_threshold.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/37_threshold.dir/build.make opencv/part4/CMakeFiles/37_threshold.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=17,18 "Built target 37_threshold"
+.PHONY : opencv/part4/CMakeFiles/37_threshold.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part1/CMakeFiles/09_videoSave.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/37_threshold.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part1/CMakeFiles/09_videoSave.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/37_threshold.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part1/CMakeFiles/09_videoSave.dir/rule
+.PHONY : opencv/part4/CMakeFiles/37_threshold.dir/rule
 
 # Convenience name for target.
-09_videoSave: opencv/part1/CMakeFiles/09_videoSave.dir/rule
-.PHONY : 09_videoSave
+37_threshold: opencv/part4/CMakeFiles/37_threshold.dir/rule
+.PHONY : 37_threshold
 
 # clean rule for target.
-opencv/part1/CMakeFiles/09_videoSave.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/09_videoSave.dir/build.make opencv/part1/CMakeFiles/09_videoSave.dir/clean
-.PHONY : opencv/part1/CMakeFiles/09_videoSave.dir/clean
+opencv/part4/CMakeFiles/37_threshold.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/37_threshold.dir/build.make opencv/part4/CMakeFiles/37_threshold.dir/clean
+.PHONY : opencv/part4/CMakeFiles/37_threshold.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/10_drawing.dir
+# Target rules for target opencv/part4/CMakeFiles/38_morphology.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/10_drawing.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/10_drawing.dir/build.make opencv/part2/CMakeFiles/10_drawing.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/10_drawing.dir/build.make opencv/part2/CMakeFiles/10_drawing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=19,20 "Built target 10_drawing"
-.PHONY : opencv/part2/CMakeFiles/10_drawing.dir/all
+opencv/part4/CMakeFiles/38_morphology.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/38_morphology.dir/build.make opencv/part4/CMakeFiles/38_morphology.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/38_morphology.dir/build.make opencv/part4/CMakeFiles/38_morphology.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=19,20 "Built target 38_morphology"
+.PHONY : opencv/part4/CMakeFiles/38_morphology.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/10_drawing.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/38_morphology.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/10_drawing.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/38_morphology.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/10_drawing.dir/rule
+.PHONY : opencv/part4/CMakeFiles/38_morphology.dir/rule
 
 # Convenience name for target.
-10_drawing: opencv/part2/CMakeFiles/10_drawing.dir/rule
-.PHONY : 10_drawing
+38_morphology: opencv/part4/CMakeFiles/38_morphology.dir/rule
+.PHONY : 38_morphology
 
 # clean rule for target.
-opencv/part2/CMakeFiles/10_drawing.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/10_drawing.dir/build.make opencv/part2/CMakeFiles/10_drawing.dir/clean
-.PHONY : opencv/part2/CMakeFiles/10_drawing.dir/clean
+opencv/part4/CMakeFiles/38_morphology.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/38_morphology.dir/build.make opencv/part4/CMakeFiles/38_morphology.dir/clean
+.PHONY : opencv/part4/CMakeFiles/38_morphology.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/11_font.dir
+# Target rules for target opencv/part4/CMakeFiles/39_labeling.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/11_font.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/11_font.dir/build.make opencv/part2/CMakeFiles/11_font.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/11_font.dir/build.make opencv/part2/CMakeFiles/11_font.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=21,22 "Built target 11_font"
-.PHONY : opencv/part2/CMakeFiles/11_font.dir/all
+opencv/part4/CMakeFiles/39_labeling.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/39_labeling.dir/build.make opencv/part4/CMakeFiles/39_labeling.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/39_labeling.dir/build.make opencv/part4/CMakeFiles/39_labeling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=21,22 "Built target 39_labeling"
+.PHONY : opencv/part4/CMakeFiles/39_labeling.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/11_font.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/39_labeling.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/11_font.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/39_labeling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/11_font.dir/rule
+.PHONY : opencv/part4/CMakeFiles/39_labeling.dir/rule
 
 # Convenience name for target.
-11_font: opencv/part2/CMakeFiles/11_font.dir/rule
-.PHONY : 11_font
+39_labeling: opencv/part4/CMakeFiles/39_labeling.dir/rule
+.PHONY : 39_labeling
 
 # clean rule for target.
-opencv/part2/CMakeFiles/11_font.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/11_font.dir/build.make opencv/part2/CMakeFiles/11_font.dir/clean
-.PHONY : opencv/part2/CMakeFiles/11_font.dir/clean
+opencv/part4/CMakeFiles/39_labeling.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/39_labeling.dir/build.make opencv/part4/CMakeFiles/39_labeling.dir/clean
+.PHONY : opencv/part4/CMakeFiles/39_labeling.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/12_freetypeFont.dir
+# Target rules for target opencv/part4/CMakeFiles/40_.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/12_freetypeFont.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/12_freetypeFont.dir/build.make opencv/part2/CMakeFiles/12_freetypeFont.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/12_freetypeFont.dir/build.make opencv/part2/CMakeFiles/12_freetypeFont.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=23,24 "Built target 12_freetypeFont"
-.PHONY : opencv/part2/CMakeFiles/12_freetypeFont.dir/all
+opencv/part4/CMakeFiles/40_.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/40_.dir/build.make opencv/part4/CMakeFiles/40_.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/40_.dir/build.make opencv/part4/CMakeFiles/40_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=23,24 "Built target 40_"
+.PHONY : opencv/part4/CMakeFiles/40_.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/12_freetypeFont.dir/rule: cmake_check_build_system
+opencv/part4/CMakeFiles/40_.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/12_freetypeFont.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part4/CMakeFiles/40_.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/12_freetypeFont.dir/rule
+.PHONY : opencv/part4/CMakeFiles/40_.dir/rule
 
 # Convenience name for target.
-12_freetypeFont: opencv/part2/CMakeFiles/12_freetypeFont.dir/rule
-.PHONY : 12_freetypeFont
+40_: opencv/part4/CMakeFiles/40_.dir/rule
+.PHONY : 40_
 
 # clean rule for target.
-opencv/part2/CMakeFiles/12_freetypeFont.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/12_freetypeFont.dir/build.make opencv/part2/CMakeFiles/12_freetypeFont.dir/clean
-.PHONY : opencv/part2/CMakeFiles/12_freetypeFont.dir/clean
+opencv/part4/CMakeFiles/40_.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/40_.dir/build.make opencv/part4/CMakeFiles/40_.dir/clean
+.PHONY : opencv/part4/CMakeFiles/40_.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/13_keyboard.dir
+# Target rules for target opencv/part5/CMakeFiles/41_cascade_face.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/13_keyboard.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/13_keyboard.dir/build.make opencv/part2/CMakeFiles/13_keyboard.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/13_keyboard.dir/build.make opencv/part2/CMakeFiles/13_keyboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=25,26 "Built target 13_keyboard"
-.PHONY : opencv/part2/CMakeFiles/13_keyboard.dir/all
+opencv/part5/CMakeFiles/41_cascade_face.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/41_cascade_face.dir/build.make opencv/part5/CMakeFiles/41_cascade_face.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/41_cascade_face.dir/build.make opencv/part5/CMakeFiles/41_cascade_face.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=25,26 "Built target 41_cascade_face"
+.PHONY : opencv/part5/CMakeFiles/41_cascade_face.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/13_keyboard.dir/rule: cmake_check_build_system
+opencv/part5/CMakeFiles/41_cascade_face.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/13_keyboard.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/41_cascade_face.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/13_keyboard.dir/rule
+.PHONY : opencv/part5/CMakeFiles/41_cascade_face.dir/rule
 
 # Convenience name for target.
-13_keyboard: opencv/part2/CMakeFiles/13_keyboard.dir/rule
-.PHONY : 13_keyboard
+41_cascade_face: opencv/part5/CMakeFiles/41_cascade_face.dir/rule
+.PHONY : 41_cascade_face
 
 # clean rule for target.
-opencv/part2/CMakeFiles/13_keyboard.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/13_keyboard.dir/build.make opencv/part2/CMakeFiles/13_keyboard.dir/clean
-.PHONY : opencv/part2/CMakeFiles/13_keyboard.dir/clean
+opencv/part5/CMakeFiles/41_cascade_face.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/41_cascade_face.dir/build.make opencv/part5/CMakeFiles/41_cascade_face.dir/clean
+.PHONY : opencv/part5/CMakeFiles/41_cascade_face.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/14_mouse.dir
+# Target rules for target opencv/part5/CMakeFiles/42_cascade_cam.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/14_mouse.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/14_mouse.dir/build.make opencv/part2/CMakeFiles/14_mouse.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/14_mouse.dir/build.make opencv/part2/CMakeFiles/14_mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=27,28 "Built target 14_mouse"
-.PHONY : opencv/part2/CMakeFiles/14_mouse.dir/all
+opencv/part5/CMakeFiles/42_cascade_cam.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/42_cascade_cam.dir/build.make opencv/part5/CMakeFiles/42_cascade_cam.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/42_cascade_cam.dir/build.make opencv/part5/CMakeFiles/42_cascade_cam.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=27,28 "Built target 42_cascade_cam"
+.PHONY : opencv/part5/CMakeFiles/42_cascade_cam.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/14_mouse.dir/rule: cmake_check_build_system
+opencv/part5/CMakeFiles/42_cascade_cam.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/14_mouse.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/42_cascade_cam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/14_mouse.dir/rule
+.PHONY : opencv/part5/CMakeFiles/42_cascade_cam.dir/rule
 
 # Convenience name for target.
-14_mouse: opencv/part2/CMakeFiles/14_mouse.dir/rule
-.PHONY : 14_mouse
+42_cascade_cam: opencv/part5/CMakeFiles/42_cascade_cam.dir/rule
+.PHONY : 42_cascade_cam
 
 # clean rule for target.
-opencv/part2/CMakeFiles/14_mouse.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/14_mouse.dir/build.make opencv/part2/CMakeFiles/14_mouse.dir/clean
-.PHONY : opencv/part2/CMakeFiles/14_mouse.dir/clean
+opencv/part5/CMakeFiles/42_cascade_cam.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/42_cascade_cam.dir/build.make opencv/part5/CMakeFiles/42_cascade_cam.dir/clean
+.PHONY : opencv/part5/CMakeFiles/42_cascade_cam.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/15_trackbar.dir
+# Target rules for target opencv/part5/CMakeFiles/43_hog.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/15_trackbar.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/15_trackbar.dir/build.make opencv/part2/CMakeFiles/15_trackbar.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/15_trackbar.dir/build.make opencv/part2/CMakeFiles/15_trackbar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=29,30 "Built target 15_trackbar"
-.PHONY : opencv/part2/CMakeFiles/15_trackbar.dir/all
+opencv/part5/CMakeFiles/43_hog.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/43_hog.dir/build.make opencv/part5/CMakeFiles/43_hog.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/43_hog.dir/build.make opencv/part5/CMakeFiles/43_hog.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=29,30 "Built target 43_hog"
+.PHONY : opencv/part5/CMakeFiles/43_hog.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/15_trackbar.dir/rule: cmake_check_build_system
+opencv/part5/CMakeFiles/43_hog.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/15_trackbar.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/43_hog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/15_trackbar.dir/rule
+.PHONY : opencv/part5/CMakeFiles/43_hog.dir/rule
 
 # Convenience name for target.
-15_trackbar: opencv/part2/CMakeFiles/15_trackbar.dir/rule
-.PHONY : 15_trackbar
+43_hog: opencv/part5/CMakeFiles/43_hog.dir/rule
+.PHONY : 43_hog
 
 # clean rule for target.
-opencv/part2/CMakeFiles/15_trackbar.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/15_trackbar.dir/build.make opencv/part2/CMakeFiles/15_trackbar.dir/clean
-.PHONY : opencv/part2/CMakeFiles/15_trackbar.dir/clean
+opencv/part5/CMakeFiles/43_hog.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/43_hog.dir/build.make opencv/part5/CMakeFiles/43_hog.dir/clean
+.PHONY : opencv/part5/CMakeFiles/43_hog.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/16_filestorage.dir
+# Target rules for target opencv/part5/CMakeFiles/44_hog_compute.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/16_filestorage.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/16_filestorage.dir/build.make opencv/part2/CMakeFiles/16_filestorage.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/16_filestorage.dir/build.make opencv/part2/CMakeFiles/16_filestorage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=31,32,33 "Built target 16_filestorage"
-.PHONY : opencv/part2/CMakeFiles/16_filestorage.dir/all
+opencv/part5/CMakeFiles/44_hog_compute.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/44_hog_compute.dir/build.make opencv/part5/CMakeFiles/44_hog_compute.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/44_hog_compute.dir/build.make opencv/part5/CMakeFiles/44_hog_compute.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=31,32 "Built target 44_hog_compute"
+.PHONY : opencv/part5/CMakeFiles/44_hog_compute.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/16_filestorage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/16_filestorage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/16_filestorage.dir/rule
-
-# Convenience name for target.
-16_filestorage: opencv/part2/CMakeFiles/16_filestorage.dir/rule
-.PHONY : 16_filestorage
-
-# clean rule for target.
-opencv/part2/CMakeFiles/16_filestorage.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/16_filestorage.dir/build.make opencv/part2/CMakeFiles/16_filestorage.dir/clean
-.PHONY : opencv/part2/CMakeFiles/16_filestorage.dir/clean
-
-#=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/17_filestorage2.dir
-
-# All Build rule for target.
-opencv/part2/CMakeFiles/17_filestorage2.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/17_filestorage2.dir/build.make opencv/part2/CMakeFiles/17_filestorage2.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/17_filestorage2.dir/build.make opencv/part2/CMakeFiles/17_filestorage2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=34,35 "Built target 17_filestorage2"
-.PHONY : opencv/part2/CMakeFiles/17_filestorage2.dir/all
-
-# Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/17_filestorage2.dir/rule: cmake_check_build_system
+opencv/part5/CMakeFiles/44_hog_compute.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/17_filestorage2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/44_hog_compute.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/17_filestorage2.dir/rule
+.PHONY : opencv/part5/CMakeFiles/44_hog_compute.dir/rule
 
 # Convenience name for target.
-17_filestorage2: opencv/part2/CMakeFiles/17_filestorage2.dir/rule
-.PHONY : 17_filestorage2
+44_hog_compute: opencv/part5/CMakeFiles/44_hog_compute.dir/rule
+.PHONY : 44_hog_compute
 
 # clean rule for target.
-opencv/part2/CMakeFiles/17_filestorage2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/17_filestorage2.dir/build.make opencv/part2/CMakeFiles/17_filestorage2.dir/clean
-.PHONY : opencv/part2/CMakeFiles/17_filestorage2.dir/clean
+opencv/part5/CMakeFiles/44_hog_compute.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/44_hog_compute.dir/build.make opencv/part5/CMakeFiles/44_hog_compute.dir/clean
+.PHONY : opencv/part5/CMakeFiles/44_hog_compute.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/18_camTest.dir
+# Target rules for target opencv/part5/CMakeFiles/45_qrcode.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/18_camTest.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/18_camTest.dir/build.make opencv/part2/CMakeFiles/18_camTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/18_camTest.dir/build.make opencv/part2/CMakeFiles/18_camTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=36,37 "Built target 18_camTest"
-.PHONY : opencv/part2/CMakeFiles/18_camTest.dir/all
+opencv/part5/CMakeFiles/45_qrcode.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/45_qrcode.dir/build.make opencv/part5/CMakeFiles/45_qrcode.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/45_qrcode.dir/build.make opencv/part5/CMakeFiles/45_qrcode.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=33,34 "Built target 45_qrcode"
+.PHONY : opencv/part5/CMakeFiles/45_qrcode.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/18_camTest.dir/rule: cmake_check_build_system
+opencv/part5/CMakeFiles/45_qrcode.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/18_camTest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/45_qrcode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/18_camTest.dir/rule
+.PHONY : opencv/part5/CMakeFiles/45_qrcode.dir/rule
 
 # Convenience name for target.
-18_camTest: opencv/part2/CMakeFiles/18_camTest.dir/rule
-.PHONY : 18_camTest
+45_qrcode: opencv/part5/CMakeFiles/45_qrcode.dir/rule
+.PHONY : 45_qrcode
 
 # clean rule for target.
-opencv/part2/CMakeFiles/18_camTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/18_camTest.dir/build.make opencv/part2/CMakeFiles/18_camTest.dir/clean
-.PHONY : opencv/part2/CMakeFiles/18_camTest.dir/clean
+opencv/part5/CMakeFiles/45_qrcode.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/45_qrcode.dir/build.make opencv/part5/CMakeFiles/45_qrcode.dir/clean
+.PHONY : opencv/part5/CMakeFiles/45_qrcode.dir/clean
 
 #=============================================================================
-# Target rules for target opencv/part2/CMakeFiles/19_draw_rect_mouse.dir
+# Target rules for target opencv/part5/CMakeFiles/46_aruco.dir
 
 # All Build rule for target.
-opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/all:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/depend
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=38,39 "Built target 19_draw_rect_mouse"
-.PHONY : opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/all
+opencv/part5/CMakeFiles/46_aruco.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/46_aruco.dir/build.make opencv/part5/CMakeFiles/46_aruco.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/46_aruco.dir/build.make opencv/part5/CMakeFiles/46_aruco.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=35,36 "Built target 46_aruco"
+.PHONY : opencv/part5/CMakeFiles/46_aruco.dir/all
 
 # Build rule for subdir invocation for target.
-opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/rule: cmake_check_build_system
+opencv/part5/CMakeFiles/46_aruco.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/46_aruco.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
-.PHONY : opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/rule
+.PHONY : opencv/part5/CMakeFiles/46_aruco.dir/rule
 
 # Convenience name for target.
-19_draw_rect_mouse: opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/rule
-.PHONY : 19_draw_rect_mouse
+46_aruco: opencv/part5/CMakeFiles/46_aruco.dir/rule
+.PHONY : 46_aruco
 
 # clean rule for target.
-opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/clean:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/clean
-.PHONY : opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/clean
+opencv/part5/CMakeFiles/46_aruco.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/46_aruco.dir/build.make opencv/part5/CMakeFiles/46_aruco.dir/clean
+.PHONY : opencv/part5/CMakeFiles/46_aruco.dir/clean
+
+#=============================================================================
+# Target rules for target opencv/part5/CMakeFiles/47_harriscorner.dir
+
+# All Build rule for target.
+opencv/part5/CMakeFiles/47_harriscorner.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/47_harriscorner.dir/build.make opencv/part5/CMakeFiles/47_harriscorner.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/47_harriscorner.dir/build.make opencv/part5/CMakeFiles/47_harriscorner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=37,38 "Built target 47_harriscorner"
+.PHONY : opencv/part5/CMakeFiles/47_harriscorner.dir/all
+
+# Build rule for subdir invocation for target.
+opencv/part5/CMakeFiles/47_harriscorner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/47_harriscorner.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : opencv/part5/CMakeFiles/47_harriscorner.dir/rule
+
+# Convenience name for target.
+47_harriscorner: opencv/part5/CMakeFiles/47_harriscorner.dir/rule
+.PHONY : 47_harriscorner
+
+# clean rule for target.
+opencv/part5/CMakeFiles/47_harriscorner.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/47_harriscorner.dir/build.make opencv/part5/CMakeFiles/47_harriscorner.dir/clean
+.PHONY : opencv/part5/CMakeFiles/47_harriscorner.dir/clean
+
+#=============================================================================
+# Target rules for target opencv/part5/CMakeFiles/48_fast_cam.dir
+
+# All Build rule for target.
+opencv/part5/CMakeFiles/48_fast_cam.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/48_fast_cam.dir/build.make opencv/part5/CMakeFiles/48_fast_cam.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/48_fast_cam.dir/build.make opencv/part5/CMakeFiles/48_fast_cam.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=39,40 "Built target 48_fast_cam"
+.PHONY : opencv/part5/CMakeFiles/48_fast_cam.dir/all
+
+# Build rule for subdir invocation for target.
+opencv/part5/CMakeFiles/48_fast_cam.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/48_fast_cam.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : opencv/part5/CMakeFiles/48_fast_cam.dir/rule
+
+# Convenience name for target.
+48_fast_cam: opencv/part5/CMakeFiles/48_fast_cam.dir/rule
+.PHONY : 48_fast_cam
+
+# clean rule for target.
+opencv/part5/CMakeFiles/48_fast_cam.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/48_fast_cam.dir/build.make opencv/part5/CMakeFiles/48_fast_cam.dir/clean
+.PHONY : opencv/part5/CMakeFiles/48_fast_cam.dir/clean
+
+#=============================================================================
+# Target rules for target opencv/part5/CMakeFiles/49_matching.dir
+
+# All Build rule for target.
+opencv/part5/CMakeFiles/49_matching.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/49_matching.dir/build.make opencv/part5/CMakeFiles/49_matching.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/49_matching.dir/build.make opencv/part5/CMakeFiles/49_matching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bangme/bangme/bangme/build/CMakeFiles --progress-num=41,42 "Built target 49_matching"
+.PHONY : opencv/part5/CMakeFiles/49_matching.dir/all
+
+# Build rule for subdir invocation for target.
+opencv/part5/CMakeFiles/49_matching.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part5/CMakeFiles/49_matching.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bangme/bangme/bangme/build/CMakeFiles 0
+.PHONY : opencv/part5/CMakeFiles/49_matching.dir/rule
+
+# Convenience name for target.
+49_matching: opencv/part5/CMakeFiles/49_matching.dir/rule
+.PHONY : 49_matching
+
+# clean rule for target.
+opencv/part5/CMakeFiles/49_matching.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/49_matching.dir/build.make opencv/part5/CMakeFiles/49_matching.dir/clean
+.PHONY : opencv/part5/CMakeFiles/49_matching.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

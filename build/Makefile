@@ -117,251 +117,277 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 01_helloworld
+# Target rules for targets named 29_affine
 
 # Build rule for target.
-01_helloworld: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_helloworld
-.PHONY : 01_helloworld
+29_affine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 29_affine
+.PHONY : 29_affine
 
 # fast build rule for target.
-01_helloworld/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/01_helloworld.dir/build.make opencv/part1/CMakeFiles/01_helloworld.dir/build
-.PHONY : 01_helloworld/fast
+29_affine/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/29_affine.dir/build.make opencv/part4/CMakeFiles/29_affine.dir/build
+.PHONY : 29_affine/fast
 
 #=============================================================================
-# Target rules for targets named 02_basicOp
+# Target rules for targets named 30_perspective
 
 # Build rule for target.
-02_basicOp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_basicOp
-.PHONY : 02_basicOp
+30_perspective: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 30_perspective
+.PHONY : 30_perspective
 
 # fast build rule for target.
-02_basicOp/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/02_basicOp.dir/build.make opencv/part1/CMakeFiles/02_basicOp.dir/build
-.PHONY : 02_basicOp/fast
+30_perspective/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/30_perspective.dir/build.make opencv/part4/CMakeFiles/30_perspective.dir/build
+.PHONY : 30_perspective/fast
 
 #=============================================================================
-# Target rules for targets named 03_matOp
+# Target rules for targets named 31_sobel
 
 # Build rule for target.
-03_matOp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_matOp
-.PHONY : 03_matOp
+31_sobel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31_sobel
+.PHONY : 31_sobel
 
 # fast build rule for target.
-03_matOp/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/03_matOp.dir/build.make opencv/part1/CMakeFiles/03_matOp.dir/build
-.PHONY : 03_matOp/fast
+31_sobel/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/31_sobel.dir/build.make opencv/part4/CMakeFiles/31_sobel.dir/build
+.PHONY : 31_sobel/fast
 
 #=============================================================================
-# Target rules for targets named 04_inputArray
+# Target rules for targets named 32_canny
 
 # Build rule for target.
-04_inputArray: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_inputArray
-.PHONY : 04_inputArray
+32_canny: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32_canny
+.PHONY : 32_canny
 
 # fast build rule for target.
-04_inputArray/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/04_inputArray.dir/build.make opencv/part1/CMakeFiles/04_inputArray.dir/build
-.PHONY : 04_inputArray/fast
+32_canny/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/32_canny.dir/build.make opencv/part4/CMakeFiles/32_canny.dir/build
+.PHONY : 32_canny/fast
 
 #=============================================================================
-# Target rules for targets named 05_matOp2
+# Target rules for targets named 33_hougline
 
 # Build rule for target.
-05_matOp2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_matOp2
-.PHONY : 05_matOp2
+33_hougline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33_hougline
+.PHONY : 33_hougline
 
 # fast build rule for target.
-05_matOp2/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/05_matOp2.dir/build.make opencv/part1/CMakeFiles/05_matOp2.dir/build
-.PHONY : 05_matOp2/fast
+33_hougline/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/33_hougline.dir/build.make opencv/part4/CMakeFiles/33_hougline.dir/build
+.PHONY : 33_hougline/fast
 
 #=============================================================================
-# Target rules for targets named 06_matOp3
+# Target rules for targets named 34_hougCircle
 
 # Build rule for target.
-06_matOp3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_matOp3
-.PHONY : 06_matOp3
+34_hougCircle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 34_hougCircle
+.PHONY : 34_hougCircle
 
 # fast build rule for target.
-06_matOp3/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/06_matOp3.dir/build.make opencv/part1/CMakeFiles/06_matOp3.dir/build
-.PHONY : 06_matOp3/fast
+34_hougCircle/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/34_hougCircle.dir/build.make opencv/part4/CMakeFiles/34_hougCircle.dir/build
+.PHONY : 34_hougCircle/fast
 
 #=============================================================================
-# Target rules for targets named 07_vectorScalar
+# Target rules for targets named 35_color_split
 
 # Build rule for target.
-07_vectorScalar: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_vectorScalar
-.PHONY : 07_vectorScalar
+35_color_split: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 35_color_split
+.PHONY : 35_color_split
 
 # fast build rule for target.
-07_vectorScalar/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/07_vectorScalar.dir/build.make opencv/part1/CMakeFiles/07_vectorScalar.dir/build
-.PHONY : 07_vectorScalar/fast
+35_color_split/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/35_color_split.dir/build.make opencv/part4/CMakeFiles/35_color_split.dir/build
+.PHONY : 35_color_split/fast
 
 #=============================================================================
-# Target rules for targets named 08_video
+# Target rules for targets named 36_inrange
 
 # Build rule for target.
-08_video: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_video
-.PHONY : 08_video
+36_inrange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 36_inrange
+.PHONY : 36_inrange
 
 # fast build rule for target.
-08_video/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/08_video.dir/build.make opencv/part1/CMakeFiles/08_video.dir/build
-.PHONY : 08_video/fast
+36_inrange/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/36_inrange.dir/build.make opencv/part4/CMakeFiles/36_inrange.dir/build
+.PHONY : 36_inrange/fast
 
 #=============================================================================
-# Target rules for targets named 09_videoSave
+# Target rules for targets named 37_threshold
 
 # Build rule for target.
-09_videoSave: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_videoSave
-.PHONY : 09_videoSave
+37_threshold: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 37_threshold
+.PHONY : 37_threshold
 
 # fast build rule for target.
-09_videoSave/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part1/CMakeFiles/09_videoSave.dir/build.make opencv/part1/CMakeFiles/09_videoSave.dir/build
-.PHONY : 09_videoSave/fast
+37_threshold/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/37_threshold.dir/build.make opencv/part4/CMakeFiles/37_threshold.dir/build
+.PHONY : 37_threshold/fast
 
 #=============================================================================
-# Target rules for targets named 10_drawing
+# Target rules for targets named 38_morphology
 
 # Build rule for target.
-10_drawing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_drawing
-.PHONY : 10_drawing
+38_morphology: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 38_morphology
+.PHONY : 38_morphology
 
 # fast build rule for target.
-10_drawing/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/10_drawing.dir/build.make opencv/part2/CMakeFiles/10_drawing.dir/build
-.PHONY : 10_drawing/fast
+38_morphology/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/38_morphology.dir/build.make opencv/part4/CMakeFiles/38_morphology.dir/build
+.PHONY : 38_morphology/fast
 
 #=============================================================================
-# Target rules for targets named 11_font
+# Target rules for targets named 39_labeling
 
 # Build rule for target.
-11_font: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_font
-.PHONY : 11_font
+39_labeling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 39_labeling
+.PHONY : 39_labeling
 
 # fast build rule for target.
-11_font/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/11_font.dir/build.make opencv/part2/CMakeFiles/11_font.dir/build
-.PHONY : 11_font/fast
+39_labeling/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/39_labeling.dir/build.make opencv/part4/CMakeFiles/39_labeling.dir/build
+.PHONY : 39_labeling/fast
 
 #=============================================================================
-# Target rules for targets named 12_freetypeFont
+# Target rules for targets named 40_
 
 # Build rule for target.
-12_freetypeFont: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_freetypeFont
-.PHONY : 12_freetypeFont
+40_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 40_
+.PHONY : 40_
 
 # fast build rule for target.
-12_freetypeFont/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/12_freetypeFont.dir/build.make opencv/part2/CMakeFiles/12_freetypeFont.dir/build
-.PHONY : 12_freetypeFont/fast
+40_/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part4/CMakeFiles/40_.dir/build.make opencv/part4/CMakeFiles/40_.dir/build
+.PHONY : 40_/fast
 
 #=============================================================================
-# Target rules for targets named 13_keyboard
+# Target rules for targets named 41_cascade_face
 
 # Build rule for target.
-13_keyboard: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_keyboard
-.PHONY : 13_keyboard
+41_cascade_face: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 41_cascade_face
+.PHONY : 41_cascade_face
 
 # fast build rule for target.
-13_keyboard/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/13_keyboard.dir/build.make opencv/part2/CMakeFiles/13_keyboard.dir/build
-.PHONY : 13_keyboard/fast
+41_cascade_face/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/41_cascade_face.dir/build.make opencv/part5/CMakeFiles/41_cascade_face.dir/build
+.PHONY : 41_cascade_face/fast
 
 #=============================================================================
-# Target rules for targets named 14_mouse
+# Target rules for targets named 42_cascade_cam
 
 # Build rule for target.
-14_mouse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_mouse
-.PHONY : 14_mouse
+42_cascade_cam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 42_cascade_cam
+.PHONY : 42_cascade_cam
 
 # fast build rule for target.
-14_mouse/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/14_mouse.dir/build.make opencv/part2/CMakeFiles/14_mouse.dir/build
-.PHONY : 14_mouse/fast
+42_cascade_cam/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/42_cascade_cam.dir/build.make opencv/part5/CMakeFiles/42_cascade_cam.dir/build
+.PHONY : 42_cascade_cam/fast
 
 #=============================================================================
-# Target rules for targets named 15_trackbar
+# Target rules for targets named 43_hog
 
 # Build rule for target.
-15_trackbar: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_trackbar
-.PHONY : 15_trackbar
+43_hog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 43_hog
+.PHONY : 43_hog
 
 # fast build rule for target.
-15_trackbar/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/15_trackbar.dir/build.make opencv/part2/CMakeFiles/15_trackbar.dir/build
-.PHONY : 15_trackbar/fast
+43_hog/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/43_hog.dir/build.make opencv/part5/CMakeFiles/43_hog.dir/build
+.PHONY : 43_hog/fast
 
 #=============================================================================
-# Target rules for targets named 16_filestorage
+# Target rules for targets named 44_hog_compute
 
 # Build rule for target.
-16_filestorage: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 16_filestorage
-.PHONY : 16_filestorage
+44_hog_compute: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 44_hog_compute
+.PHONY : 44_hog_compute
 
 # fast build rule for target.
-16_filestorage/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/16_filestorage.dir/build.make opencv/part2/CMakeFiles/16_filestorage.dir/build
-.PHONY : 16_filestorage/fast
+44_hog_compute/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/44_hog_compute.dir/build.make opencv/part5/CMakeFiles/44_hog_compute.dir/build
+.PHONY : 44_hog_compute/fast
 
 #=============================================================================
-# Target rules for targets named 17_filestorage2
+# Target rules for targets named 45_qrcode
 
 # Build rule for target.
-17_filestorage2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 17_filestorage2
-.PHONY : 17_filestorage2
+45_qrcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 45_qrcode
+.PHONY : 45_qrcode
 
 # fast build rule for target.
-17_filestorage2/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/17_filestorage2.dir/build.make opencv/part2/CMakeFiles/17_filestorage2.dir/build
-.PHONY : 17_filestorage2/fast
+45_qrcode/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/45_qrcode.dir/build.make opencv/part5/CMakeFiles/45_qrcode.dir/build
+.PHONY : 45_qrcode/fast
 
 #=============================================================================
-# Target rules for targets named 18_camTest
+# Target rules for targets named 46_aruco
 
 # Build rule for target.
-18_camTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18_camTest
-.PHONY : 18_camTest
+46_aruco: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 46_aruco
+.PHONY : 46_aruco
 
 # fast build rule for target.
-18_camTest/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/18_camTest.dir/build.make opencv/part2/CMakeFiles/18_camTest.dir/build
-.PHONY : 18_camTest/fast
+46_aruco/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/46_aruco.dir/build.make opencv/part5/CMakeFiles/46_aruco.dir/build
+.PHONY : 46_aruco/fast
 
 #=============================================================================
-# Target rules for targets named 19_draw_rect_mouse
+# Target rules for targets named 47_harriscorner
 
 # Build rule for target.
-19_draw_rect_mouse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19_draw_rect_mouse
-.PHONY : 19_draw_rect_mouse
+47_harriscorner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 47_harriscorner
+.PHONY : 47_harriscorner
 
 # fast build rule for target.
-19_draw_rect_mouse/fast:
-	$(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build
-.PHONY : 19_draw_rect_mouse/fast
+47_harriscorner/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/47_harriscorner.dir/build.make opencv/part5/CMakeFiles/47_harriscorner.dir/build
+.PHONY : 47_harriscorner/fast
+
+#=============================================================================
+# Target rules for targets named 48_fast_cam
+
+# Build rule for target.
+48_fast_cam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 48_fast_cam
+.PHONY : 48_fast_cam
+
+# fast build rule for target.
+48_fast_cam/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/48_fast_cam.dir/build.make opencv/part5/CMakeFiles/48_fast_cam.dir/build
+.PHONY : 48_fast_cam/fast
+
+#=============================================================================
+# Target rules for targets named 49_matching
+
+# Build rule for target.
+49_matching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 49_matching
+.PHONY : 49_matching
+
+# fast build rule for target.
+49_matching/fast:
+	$(MAKE) $(MAKESILENT) -f opencv/part5/CMakeFiles/49_matching.dir/build.make opencv/part5/CMakeFiles/49_matching.dir/build
+.PHONY : 49_matching/fast
 
 # Help Target
 help:
@@ -371,25 +397,27 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 01_helloworld"
-	@echo "... 02_basicOp"
-	@echo "... 03_matOp"
-	@echo "... 04_inputArray"
-	@echo "... 05_matOp2"
-	@echo "... 06_matOp3"
-	@echo "... 07_vectorScalar"
-	@echo "... 08_video"
-	@echo "... 09_videoSave"
-	@echo "... 10_drawing"
-	@echo "... 11_font"
-	@echo "... 12_freetypeFont"
-	@echo "... 13_keyboard"
-	@echo "... 14_mouse"
-	@echo "... 15_trackbar"
-	@echo "... 16_filestorage"
-	@echo "... 17_filestorage2"
-	@echo "... 18_camTest"
-	@echo "... 19_draw_rect_mouse"
+	@echo "... 29_affine"
+	@echo "... 30_perspective"
+	@echo "... 31_sobel"
+	@echo "... 32_canny"
+	@echo "... 33_hougline"
+	@echo "... 34_hougCircle"
+	@echo "... 35_color_split"
+	@echo "... 36_inrange"
+	@echo "... 37_threshold"
+	@echo "... 38_morphology"
+	@echo "... 39_labeling"
+	@echo "... 40_"
+	@echo "... 41_cascade_face"
+	@echo "... 42_cascade_cam"
+	@echo "... 43_hog"
+	@echo "... 44_hog_compute"
+	@echo "... 45_qrcode"
+	@echo "... 46_aruco"
+	@echo "... 47_harriscorner"
+	@echo "... 48_fast_cam"
+	@echo "... 49_matching"
 .PHONY : help
 
 

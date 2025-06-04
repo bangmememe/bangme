@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/bangme/bangme/bangme/build/opencv/part1/cmake_install.cmake")
-  include("/home/bangme/bangme/bangme/build/opencv/part2/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/opencv/part4/cmake_install.cmake")
+  include("/home/bangme/bangme/bangme/build/opencv/part5/cmake_install.cmake")
 
 endif()
 

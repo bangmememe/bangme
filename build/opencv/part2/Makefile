@@ -256,6 +256,34 @@ opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build
 .PHONY : 19_draw_rect_mouse/fast
 
+# Convenience name for target.
+opencv/part2/CMakeFiles/20_mask.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/20_mask.dir/rule
+.PHONY : opencv/part2/CMakeFiles/20_mask.dir/rule
+
+# Convenience name for target.
+20_mask: opencv/part2/CMakeFiles/20_mask.dir/rule
+.PHONY : 20_mask
+
+# fast build rule for target.
+20_mask/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/20_mask.dir/build.make opencv/part2/CMakeFiles/20_mask.dir/build
+.PHONY : 20_mask/fast
+
+# Convenience name for target.
+opencv/part2/CMakeFiles/21_tickmeter.dir/rule:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv/part2/CMakeFiles/21_tickmeter.dir/rule
+.PHONY : opencv/part2/CMakeFiles/21_tickmeter.dir/rule
+
+# Convenience name for target.
+21_tickmeter: opencv/part2/CMakeFiles/21_tickmeter.dir/rule
+.PHONY : 21_tickmeter
+
+# fast build rule for target.
+21_tickmeter/fast:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/21_tickmeter.dir/build.make opencv/part2/CMakeFiles/21_tickmeter.dir/build
+.PHONY : 21_tickmeter/fast
+
 10_drawing.o: 10_drawing.cpp.o
 .PHONY : 10_drawing.o
 
@@ -496,6 +524,54 @@ opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/rule:
 	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/build.make opencv/part2/CMakeFiles/19_draw_rect_mouse.dir/19_draw_rect_mouse.cpp.s
 .PHONY : 19_draw_rect_mouse.cpp.s
 
+20_mask.o: 20_mask.cpp.o
+.PHONY : 20_mask.o
+
+# target to build an object file
+20_mask.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/20_mask.dir/build.make opencv/part2/CMakeFiles/20_mask.dir/20_mask.cpp.o
+.PHONY : 20_mask.cpp.o
+
+20_mask.i: 20_mask.cpp.i
+.PHONY : 20_mask.i
+
+# target to preprocess a source file
+20_mask.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/20_mask.dir/build.make opencv/part2/CMakeFiles/20_mask.dir/20_mask.cpp.i
+.PHONY : 20_mask.cpp.i
+
+20_mask.s: 20_mask.cpp.s
+.PHONY : 20_mask.s
+
+# target to generate assembly for a file
+20_mask.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/20_mask.dir/build.make opencv/part2/CMakeFiles/20_mask.dir/20_mask.cpp.s
+.PHONY : 20_mask.cpp.s
+
+21_tickmeter.o: 21_tickmeter.cpp.o
+.PHONY : 21_tickmeter.o
+
+# target to build an object file
+21_tickmeter.cpp.o:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/21_tickmeter.dir/build.make opencv/part2/CMakeFiles/21_tickmeter.dir/21_tickmeter.cpp.o
+.PHONY : 21_tickmeter.cpp.o
+
+21_tickmeter.i: 21_tickmeter.cpp.i
+.PHONY : 21_tickmeter.i
+
+# target to preprocess a source file
+21_tickmeter.cpp.i:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/21_tickmeter.dir/build.make opencv/part2/CMakeFiles/21_tickmeter.dir/21_tickmeter.cpp.i
+.PHONY : 21_tickmeter.cpp.i
+
+21_tickmeter.s: 21_tickmeter.cpp.s
+.PHONY : 21_tickmeter.s
+
+# target to generate assembly for a file
+21_tickmeter.cpp.s:
+	cd /home/bangme/bangme/bangme/build && $(MAKE) $(MAKESILENT) -f opencv/part2/CMakeFiles/21_tickmeter.dir/build.make opencv/part2/CMakeFiles/21_tickmeter.dir/21_tickmeter.cpp.s
+.PHONY : 21_tickmeter.cpp.s
+
 array.o: array.cpp.o
 .PHONY : array.o
 
@@ -538,6 +614,8 @@ help:
 	@echo "... 17_filestorage2"
 	@echo "... 18_camTest"
 	@echo "... 19_draw_rect_mouse"
+	@echo "... 20_mask"
+	@echo "... 21_tickmeter"
 	@echo "... 10_drawing.o"
 	@echo "... 10_drawing.i"
 	@echo "... 10_drawing.s"
@@ -568,6 +646,12 @@ help:
 	@echo "... 19_draw_rect_mouse.o"
 	@echo "... 19_draw_rect_mouse.i"
 	@echo "... 19_draw_rect_mouse.s"
+	@echo "... 20_mask.o"
+	@echo "... 20_mask.i"
+	@echo "... 20_mask.s"
+	@echo "... 21_tickmeter.o"
+	@echo "... 21_tickmeter.i"
+	@echo "... 21_tickmeter.s"
 	@echo "... array.o"
 	@echo "... array.i"
 	@echo "... array.s"

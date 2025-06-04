@@ -1,0 +1,294 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "opencv/part4",
+					"jsonFile" : "directory-opencv.part4-Debug-919f059c99e5a40e8085.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "opencv/part4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "opencv/part5",
+					"jsonFile" : "directory-opencv.part5-Debug-3b822fc8ba79cf9e1bd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "opencv/part5",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MainProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OpenCV_part4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "OpenCV_part5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "29_affine::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-29_affine-Debug-c28e4095c7a006a303c7.json",
+					"name" : "29_affine",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "30_perspective::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-30_perspective-Debug-ccf679068751c5ac3ef1.json",
+					"name" : "30_perspective",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "31_sobel::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-31_sobel-Debug-6b717dc4737a75ff5bd0.json",
+					"name" : "31_sobel",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "32_canny::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-32_canny-Debug-ef18c9f0f1097ead1aa3.json",
+					"name" : "32_canny",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "33_hougline::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-33_hougline-Debug-e906e236cbe6661d6307.json",
+					"name" : "33_hougline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "34_hougCircle::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-34_hougCircle-Debug-ca5f5624ec4be9adb96f.json",
+					"name" : "34_hougCircle",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "35_color_split::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-35_color_split-Debug-ba326f51c3fbf16c7dcb.json",
+					"name" : "35_color_split",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "36_inrange::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-36_inrange-Debug-79973f531ce8087ef774.json",
+					"name" : "36_inrange",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "37_threshold::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-37_threshold-Debug-56a7900b5f9276775cd5.json",
+					"name" : "37_threshold",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "38_morphology::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-38_morphology-Debug-bad8c38edb88787eb177.json",
+					"name" : "38_morphology",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "39_labeling::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-39_labeling-Debug-cbfbfd637d9fd8fc1a78.json",
+					"name" : "39_labeling",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "40_::@2330b36b9a925f7e643b",
+					"jsonFile" : "target-40_-Debug-e9e232741e9259569929.json",
+					"name" : "40_",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "41_cascade_face::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-41_cascade_face-Debug-e2bb7216586ad337712e.json",
+					"name" : "41_cascade_face",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "42_cascade_cam::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-42_cascade_cam-Debug-4136a3d25bcf31251007.json",
+					"name" : "42_cascade_cam",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "43_hog::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-43_hog-Debug-5d90d3b8ed1b9629f100.json",
+					"name" : "43_hog",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "44_hog_compute::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-44_hog_compute-Debug-b080ee958919c8491ad0.json",
+					"name" : "44_hog_compute",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "45_qrcode::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-45_qrcode-Debug-58810479ae7e016ce249.json",
+					"name" : "45_qrcode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "46_aruco::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-46_aruco-Debug-0bef51331f2c14b8a6d2.json",
+					"name" : "46_aruco",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "47_harriscorner::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-47_harriscorner-Debug-2ee99b1023618e3b5f13.json",
+					"name" : "47_harriscorner",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "48_fast_cam::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-48_fast_cam-Debug-4dcffd8e11755c4623f1.json",
+					"name" : "48_fast_cam",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "49_matching::@d7cabcfa57482d75a13a",
+					"jsonFile" : "target-49_matching-Debug-e00720b7f36cf1e6b077.json",
+					"name" : "49_matching",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bangme/bangme/bangme/build",
+		"source" : "/home/bangme/bangme/bangme"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,102 +1,107 @@
 [
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/01_helloworld.dir/01_helloworld.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/01_helloworld.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/01_helloworld.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/29_affine.dir/29_affine.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/29_affine.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/29_affine.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/02_basicOp.dir/02_basicOp.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/02_basicOp.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/02_basicOp.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/30_perspective.dir/30_perspective.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/30_perspective.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/30_perspective.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/03_matOp.dir/03_matOp.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/03_matOp.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/03_matOp.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/31_sobel.dir/31_sobel.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/31_sobel.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/31_sobel.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/04_inputArray.dir/04_inputArray.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/04_inputArray.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/04_inputArray.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/32_canny.dir/32_canny.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/32_canny.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/32_canny.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/05_matOp2.dir/05_matOp2.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/05_matOp2.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/05_matOp2.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/33_hougline.dir/33_hougline.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/33_hougline.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/33_hougline.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/06_matOp3.dir/06_matOp3.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/06_matOp3.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/06_matOp3.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/34_hougCircle.dir/34_hougCircle.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/34_hougCircle.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/34_hougCircle.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/07_vectorScalar.dir/07_vectorScalar.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/07_vectorScalar.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/07_vectorScalar.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/35_color_split.dir/35_color_split.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/35_color_split.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/35_color_split.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/08_video.dir/08_video.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/08_video.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/08_video.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/36_inrange.dir/36_inrange.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/36_inrange.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/36_inrange.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part1",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/09_videoSave.dir/09_videoSave.cpp.o -c /home/bangme/bangme/bangme/opencv/part1/09_videoSave.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part1/09_videoSave.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/37_threshold.dir/37_threshold.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/37_threshold.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/37_threshold.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/10_drawing.dir/10_drawing.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/10_drawing.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/10_drawing.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/38_morphology.dir/38_morphology.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/38_morphology.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/38_morphology.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/11_font.dir/11_font.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/11_font.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/11_font.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/39_labeling.dir/39_labeling.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/39_labeling.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/39_labeling.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/12_freetypeFont.dir/12_freetypeFont.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/12_freetypeFont.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/12_freetypeFont.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part4",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/40_.dir/40_.cpp.o -c /home/bangme/bangme/bangme/opencv/part4/40_.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part4/40_.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/13_keyboard.dir/13_keyboard.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/13_keyboard.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/13_keyboard.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/41_cascade_face.dir/41_cascade_face.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/41_cascade_face.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/41_cascade_face.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/14_mouse.dir/14_mouse.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/14_mouse.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/14_mouse.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/42_cascade_cam.dir/42_cascade_cam.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/42_cascade_cam.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/42_cascade_cam.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/15_trackbar.dir/15_trackbar.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/15_trackbar.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/15_trackbar.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/43_hog.dir/43_hog.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/43_hog.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/43_hog.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/16_filestorage.dir/16_filestorage.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/16_filestorage.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/16_filestorage.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/44_hog_compute.dir/44_hog_compute.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/44_hog_compute.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/44_hog_compute.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/16_filestorage.dir/array.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/array.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/array.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/45_qrcode.dir/45_qrcode.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/45_qrcode.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/45_qrcode.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/17_filestorage2.dir/17_filestorage2.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/17_filestorage2.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/17_filestorage2.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/46_aruco.dir/46_aruco.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/46_aruco.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/46_aruco.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/18_camTest.dir/18_camTest.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/18_camTest.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/18_camTest.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/47_harriscorner.dir/47_harriscorner.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/47_harriscorner.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/47_harriscorner.cpp"
 },
 {
-  "directory": "/home/bangme/bangme/bangme/build/opencv/part2",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/19_draw_rect_mouse.dir/19_draw_rect_mouse.cpp.o -c /home/bangme/bangme/bangme/opencv/part2/19_draw_rect_mouse.cpp",
-  "file": "/home/bangme/bangme/bangme/opencv/part2/19_draw_rect_mouse.cpp"
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/48_fast_cam.dir/48_fast_cam.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/48_fast_cam.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/48_fast_cam.cpp"
+},
+{
+  "directory": "/home/bangme/bangme/bangme/build/opencv/part5",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -o CMakeFiles/49_matching.dir/49_matching.cpp.o -c /home/bangme/bangme/bangme/opencv/part5/49_matching.cpp",
+  "file": "/home/bangme/bangme/bangme/opencv/part5/49_matching.cpp"
 }
 ]
